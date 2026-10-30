@@ -1,0 +1,10 @@
+{
+  "physical_components_before": 430,
+  "physical_components_after": 430,
+  "component_values_and_footprints_identical": true,
+  "physical_pin_connectivity_identical": true,
+  "removed_connections": [],
+  "added_connections": [],
+  "changed_components": [],
+  "pass": true
+}

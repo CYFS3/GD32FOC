@@ -1,0 +1,1566 @@
+[
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_IA",
+    "old_end": [
+      72.39,
+      220.98
+    ],
+    "new_end": [
+      68.58,
+      220.98
+    ],
+    "uuid": "363c3d02-826f-468e-9aa2-9c7db5470cec"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_MA",
+    "old_end": [
+      554.99,
+      276.86
+    ],
+    "new_end": [
+      548.2336,
+      276.86
+    ],
+    "uuid": "f0320911-2dd6-45c4-9e08-3fb3efb5e0ff"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_MB",
+    "old_end": [
+      554.99,
+      279.4
+    ],
+    "new_end": [
+      548.3606,
+      279.4
+    ],
+    "uuid": "fefc151b-a8df-4050-94b9-d0f9a79ff724"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_MC",
+    "old_end": [
+      554.99,
+      281.94
+    ],
+    "new_end": [
+      548.3606,
+      281.94
+    ],
+    "uuid": "14205f40-d124-401c-89b0-bd6f8215af0e"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_HALL_A",
+    "old_end": [
+      245.11,
+      304.8
+    ],
+    "new_end": [
+      236.22,
+      304.8
+    ],
+    "uuid": "6f07ceb5-05a3-4dbb-b80f-ca92b3686ed3"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "remove redundant same-conductor label",
+    "label": "M1_MC",
+    "at": [
+      374.65,
+      222.25
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_MC",
+    "old_end": [
+      379.73,
+      222.25
+    ],
+    "new_end": [
+      361.95,
+      222.25
+    ],
+    "uuid": "dbf1b905-106a-4cbd-afda-f45c710e6f8a"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "remove redundant same-conductor label",
+    "label": "M1_MB",
+    "at": [
+      374.65,
+      210.82
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_MB",
+    "old_end": [
+      379.73,
+      210.82
+    ],
+    "new_end": [
+      361.95,
+      210.82
+    ],
+    "uuid": "c349e8d5-0a5b-4826-a158-0ad7ac9a3192"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M1_VA",
+    "old_at": [
+      15.24,
+      287.02,
+      0.0
+    ],
+    "new_at": [
+      13.97,
+      287.02,
+      180
+    ],
+    "preserved_wire": [
+      [
+        24.13,
+        287.02
+      ],
+      [
+        13.97,
+        287.02
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "CN37",
+        "1",
+        24.13,
+        287.02
+      ],
+      [
+        "junction",
+        "",
+        24.13,
+        287.02
+      ],
+      [
+        "wire",
+        [
+          24.13,
+          289.56
+        ],
+        [
+          24.13,
+          287.02
+        ]
+      ],
+      [
+        "wire",
+        [
+          24.13,
+          287.02
+        ],
+        [
+          24.13,
+          281.94
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_HALL_A",
+    "old_end": [
+      323.85,
+      283.21
+    ],
+    "new_end": [
+      314.96,
+      283.21
+    ],
+    "uuid": "e9941e97-479b-4614-b9e1-771f0b47400b"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_HALL_B",
+    "old_end": [
+      245.11,
+      307.34
+    ],
+    "new_end": [
+      236.22,
+      307.34
+    ],
+    "uuid": "db6c37ca-842f-43eb-a531-74d5622d2f50"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M1_VB",
+    "old_at": [
+      40.64,
+      287.02,
+      0.0
+    ],
+    "new_at": [
+      39.37,
+      287.02,
+      180
+    ],
+    "preserved_wire": [
+      [
+        39.37,
+        287.02
+      ],
+      [
+        49.53,
+        287.02
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "CN38",
+        "1",
+        49.53,
+        287.02
+      ],
+      [
+        "junction",
+        "",
+        49.53,
+        287.02
+      ],
+      [
+        "wire",
+        [
+          49.53,
+          287.02
+        ],
+        [
+          49.53,
+          289.56
+        ]
+      ],
+      [
+        "wire",
+        [
+          49.53,
+          281.94
+        ],
+        [
+          49.53,
+          287.02
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_MC",
+    "old_end": [
+      570.23,
+      198.12
+    ],
+    "new_end": [
+      568.96,
+      198.12
+    ],
+    "uuid": "f8732243-9367-460c-b194-ec9b34dac1b8"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M1_VB3",
+    "old_at": [
+      344.17,
+      222.25,
+      0.0
+    ],
+    "new_at": [
+      341.63,
+      222.25,
+      180
+    ],
+    "preserved_wire": [
+      [
+        341.63,
+        222.25
+      ],
+      [
+        349.25,
+        222.25
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "C132",
+        "1",
+        349.25,
+        222.25
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_HALL_C",
+    "old_end": [
+      323.85,
+      288.29
+    ],
+    "new_end": [
+      314.96,
+      288.29
+    ],
+    "uuid": "419e5964-384b-4901-b270-22643bfc9241"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_IB",
+    "old_end": [
+      148.59,
+      220.98
+    ],
+    "new_end": [
+      144.78,
+      220.98
+    ],
+    "uuid": "2a46a9bc-0637-41fd-8680-96ce64d54264"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "remove redundant same-conductor label",
+    "label": "M1_MA",
+    "at": [
+      374.65,
+      199.39
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_MA",
+    "old_end": [
+      379.73,
+      199.39
+    ],
+    "new_end": [
+      361.95,
+      199.39
+    ],
+    "uuid": "92805d09-481b-4453-8365-60854ea2f7e6"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_MA",
+    "old_end": [
+      463.55,
+      198.12
+    ],
+    "new_end": [
+      462.28,
+      198.12
+    ],
+    "uuid": "b99e7024-7b22-4f6a-bfbd-ee12da79ed80"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M1_VBUS",
+    "old_at": [
+      92.71,
+      287.02,
+      0.0
+    ],
+    "new_at": [
+      91.44,
+      287.02,
+      180
+    ],
+    "preserved_wire": [
+      [
+        101.6,
+        287.02
+      ],
+      [
+        91.44,
+        287.02
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "CN40",
+        "1",
+        101.6,
+        287.02
+      ],
+      [
+        "junction",
+        "",
+        101.6,
+        287.02
+      ],
+      [
+        "wire",
+        [
+          101.6,
+          289.56
+        ],
+        [
+          101.6,
+          287.02
+        ]
+      ],
+      [
+        "wire",
+        [
+          101.6,
+          287.02
+        ],
+        [
+          101.6,
+          281.94
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M1_VB1",
+    "old_at": [
+      345.44,
+      199.39,
+      0.0
+    ],
+    "new_at": [
+      341.63,
+      199.39,
+      180
+    ],
+    "preserved_wire": [
+      [
+        341.63,
+        199.39
+      ],
+      [
+        349.25,
+        199.39
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "C130",
+        "1",
+        349.25,
+        199.39
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_MB",
+    "old_end": [
+      516.89,
+      198.12
+    ],
+    "new_end": [
+      515.62,
+      198.12
+    ],
+    "uuid": "91943340-c6d6-4339-ac6e-d1630a7451d9"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_HALL_B",
+    "old_end": [
+      323.85,
+      285.75
+    ],
+    "new_end": [
+      314.96,
+      285.75
+    ],
+    "uuid": "baf7c926-8450-4d9a-bace-ca64fafef66c"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_IBUS",
+    "old_end": [
+      72.39,
+      172.72
+    ],
+    "new_end": [
+      68.58,
+      172.72
+    ],
+    "uuid": "19d577c7-7083-41ab-acc2-6827a71af7b3"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_HALL_C",
+    "old_end": [
+      245.11,
+      309.88
+    ],
+    "new_end": [
+      236.22,
+      309.88
+    ],
+    "uuid": "32f2e9ab-ad8a-460b-b6e8-d54a50d512aa"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M1_IC",
+    "old_end": [
+      149.86,
+      172.72
+    ],
+    "new_end": [
+      143.51,
+      172.72
+    ],
+    "uuid": "eda37ae9-034e-479f-b921-fd75b85c1496"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M1_VB2",
+    "old_at": [
+      344.17,
+      210.82,
+      0.0
+    ],
+    "new_at": [
+      341.63,
+      210.82,
+      180
+    ],
+    "preserved_wire": [
+      [
+        341.63,
+        210.82
+      ],
+      [
+        349.25,
+        210.82
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "C131",
+        "1",
+        349.25,
+        210.82
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M1_VC",
+    "old_at": [
+      66.04,
+      287.02,
+      0.0
+    ],
+    "new_at": [
+      64.77,
+      287.02,
+      180
+    ],
+    "preserved_wire": [
+      [
+        74.93,
+        287.02
+      ],
+      [
+        64.77,
+        287.02
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "CN39",
+        "1",
+        74.93,
+        287.02
+      ],
+      [
+        "junction",
+        "",
+        74.93,
+        287.02
+      ],
+      [
+        "wire",
+        [
+          74.93,
+          287.02
+        ],
+        [
+          74.93,
+          281.94
+        ]
+      ],
+      [
+        "wire",
+        [
+          74.93,
+          289.56
+        ],
+        [
+          74.93,
+          287.02
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M1_COM",
+    "old_at": [
+      124.46,
+      283.21,
+      0.0
+    ],
+    "new_at": [
+      123.19,
+      283.21,
+      180
+    ],
+    "preserved_wire": [
+      [
+        129.54,
+        283.21
+      ],
+      [
+        123.19,
+        283.21
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "R130",
+        "1",
+        129.54,
+        283.21
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_MC",
+    "old_end": [
+      570.23,
+      198.12
+    ],
+    "new_end": [
+      568.96,
+      198.12
+    ],
+    "uuid": "c52eb479-c310-45f0-bdbd-19c7d177beae"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M2_VB2",
+    "old_at": [
+      344.17,
+      210.82,
+      0.0
+    ],
+    "new_at": [
+      341.63,
+      210.82,
+      180
+    ],
+    "preserved_wire": [
+      [
+        341.63,
+        210.82
+      ],
+      [
+        349.25,
+        210.82
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "C1131",
+        "1",
+        349.25,
+        210.82
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "remove redundant same-conductor label",
+    "label": "M2_MC",
+    "at": [
+      374.65,
+      222.25
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_MC",
+    "old_end": [
+      379.73,
+      222.25
+    ],
+    "new_end": [
+      361.95,
+      222.25
+    ],
+    "uuid": "c7190a78-6061-4f87-914a-a5a78bd45e52"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_IC",
+    "old_end": [
+      149.86,
+      172.72
+    ],
+    "new_end": [
+      143.51,
+      172.72
+    ],
+    "uuid": "10c0ecc2-1b80-4482-bcb5-5b8d24a6ef3b"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_IB",
+    "old_end": [
+      148.59,
+      220.98
+    ],
+    "new_end": [
+      144.78,
+      220.98
+    ],
+    "uuid": "68e307b4-0b48-4c89-8f26-1e00744efa52"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "remove redundant same-conductor label",
+    "label": "M2_MB",
+    "at": [
+      374.65,
+      210.82
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_MB",
+    "old_end": [
+      379.73,
+      210.82
+    ],
+    "new_end": [
+      361.95,
+      210.82
+    ],
+    "uuid": "ea33efb2-598e-43a9-af94-efd6096db871"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M2_VA",
+    "old_at": [
+      15.24,
+      287.02,
+      0.0
+    ],
+    "new_at": [
+      13.97,
+      287.02,
+      180
+    ],
+    "preserved_wire": [
+      [
+        24.13,
+        287.02
+      ],
+      [
+        13.97,
+        287.02
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "CN1037",
+        "1",
+        24.13,
+        287.02
+      ],
+      [
+        "junction",
+        "",
+        24.13,
+        287.02
+      ],
+      [
+        "wire",
+        [
+          24.13,
+          289.56
+        ],
+        [
+          24.13,
+          287.02
+        ]
+      ],
+      [
+        "wire",
+        [
+          24.13,
+          287.02
+        ],
+        [
+          24.13,
+          281.94
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_MC",
+    "old_end": [
+      554.99,
+      281.94
+    ],
+    "new_end": [
+      548.3606,
+      281.94
+    ],
+    "uuid": "358a6bb6-e1b1-484e-811e-a8326d2419ea"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M2_COM",
+    "old_at": [
+      124.46,
+      283.21,
+      0.0
+    ],
+    "new_at": [
+      123.19,
+      283.21,
+      180
+    ],
+    "preserved_wire": [
+      [
+        129.54,
+        283.21
+      ],
+      [
+        123.19,
+        283.21
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "R1130",
+        "1",
+        129.54,
+        283.21
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_MB",
+    "old_end": [
+      516.89,
+      198.12
+    ],
+    "new_end": [
+      515.62,
+      198.12
+    ],
+    "uuid": "0a82a52b-25cf-4a45-acc8-ccecb47a0f70"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M2_VBUS",
+    "old_at": [
+      92.71,
+      287.02,
+      0.0
+    ],
+    "new_at": [
+      91.44,
+      287.02,
+      180
+    ],
+    "preserved_wire": [
+      [
+        101.6,
+        287.02
+      ],
+      [
+        91.44,
+        287.02
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "CN1040",
+        "1",
+        101.6,
+        287.02
+      ],
+      [
+        "junction",
+        "",
+        101.6,
+        287.02
+      ],
+      [
+        "wire",
+        [
+          101.6,
+          289.56
+        ],
+        [
+          101.6,
+          287.02
+        ]
+      ],
+      [
+        "wire",
+        [
+          101.6,
+          287.02
+        ],
+        [
+          101.6,
+          281.94
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_HALL_C",
+    "old_end": [
+      323.85,
+      288.29
+    ],
+    "new_end": [
+      314.96,
+      288.29
+    ],
+    "uuid": "20d4a8ba-064b-4f6d-9a11-7247c769c8d5"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M2_VC",
+    "old_at": [
+      66.04,
+      287.02,
+      0.0
+    ],
+    "new_at": [
+      64.77,
+      287.02,
+      180
+    ],
+    "preserved_wire": [
+      [
+        74.93,
+        287.02
+      ],
+      [
+        64.77,
+        287.02
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "CN1039",
+        "1",
+        74.93,
+        287.02
+      ],
+      [
+        "junction",
+        "",
+        74.93,
+        287.02
+      ],
+      [
+        "wire",
+        [
+          74.93,
+          289.56
+        ],
+        [
+          74.93,
+          287.02
+        ]
+      ],
+      [
+        "wire",
+        [
+          74.93,
+          287.02
+        ],
+        [
+          74.93,
+          281.94
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_IBUS",
+    "old_end": [
+      72.39,
+      172.72
+    ],
+    "new_end": [
+      68.58,
+      172.72
+    ],
+    "uuid": "b946ad70-b239-4e6f-ad55-1b44804dae4e"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_HALL_C",
+    "old_end": [
+      245.11,
+      309.88
+    ],
+    "new_end": [
+      236.22,
+      309.88
+    ],
+    "uuid": "00890747-9de2-4892-8268-69bcc95cdd02"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_MB",
+    "old_end": [
+      554.99,
+      279.4
+    ],
+    "new_end": [
+      548.3606,
+      279.4
+    ],
+    "uuid": "dc794279-1629-4731-9735-b85231a6f776"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_HALL_A",
+    "old_end": [
+      245.11,
+      304.8
+    ],
+    "new_end": [
+      236.22,
+      304.8
+    ],
+    "uuid": "6d32ce6d-a1ad-48ef-bfad-7accce29d763"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M2_VB3",
+    "old_at": [
+      344.17,
+      222.25,
+      0.0
+    ],
+    "new_at": [
+      341.63,
+      222.25,
+      180
+    ],
+    "preserved_wire": [
+      [
+        341.63,
+        222.25
+      ],
+      [
+        349.25,
+        222.25
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "C1132",
+        "1",
+        349.25,
+        222.25
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_IA",
+    "old_end": [
+      72.39,
+      220.98
+    ],
+    "new_end": [
+      68.58,
+      220.98
+    ],
+    "uuid": "5c1203c6-2bd4-4b07-ae76-acdb460a7854"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_HALL_A",
+    "old_end": [
+      323.85,
+      283.21
+    ],
+    "new_end": [
+      314.96,
+      283.21
+    ],
+    "uuid": "769d1b5f-4115-4bed-850d-24de7ce5b430"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_MA",
+    "old_end": [
+      463.55,
+      198.12
+    ],
+    "new_end": [
+      462.28,
+      198.12
+    ],
+    "uuid": "a99cbcec-7800-4ef6-8f77-f3153ca2ac52"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_HALL_B",
+    "old_end": [
+      245.11,
+      307.34
+    ],
+    "new_end": [
+      236.22,
+      307.34
+    ],
+    "uuid": "2af718d1-1309-4046-aedd-2cbfcb6792ef"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "remove redundant same-conductor label",
+    "label": "M2_MA",
+    "at": [
+      374.65,
+      199.39
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_MA",
+    "old_end": [
+      379.73,
+      199.39
+    ],
+    "new_end": [
+      361.95,
+      199.39
+    ],
+    "uuid": "ca86295c-d75f-4f93-85bf-0639f17bd414"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M2_VB1",
+    "old_at": [
+      345.44,
+      199.39,
+      0.0
+    ],
+    "new_at": [
+      341.63,
+      199.39,
+      180
+    ],
+    "preserved_wire": [
+      [
+        341.63,
+        199.39
+      ],
+      [
+        349.25,
+        199.39
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "C1130",
+        "1",
+        349.25,
+        199.39
+      ]
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_HALL_B",
+    "old_end": [
+      323.85,
+      285.75
+    ],
+    "new_end": [
+      314.96,
+      285.75
+    ],
+    "uuid": "a97e4235-05dd-4cae-9a22-2a84be42dc58"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "M2_MA",
+    "old_end": [
+      554.99,
+      276.86
+    ],
+    "new_end": [
+      548.2336,
+      276.86
+    ],
+    "uuid": "4e9c8a69-2ffa-4151-9556-ee45f160c124"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "M2_VB",
+    "old_at": [
+      40.64,
+      287.02,
+      0.0
+    ],
+    "new_at": [
+      39.37,
+      287.02,
+      180
+    ],
+    "preserved_wire": [
+      [
+        39.37,
+        287.02
+      ],
+      [
+        49.53,
+        287.02
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "CN1038",
+        "1",
+        49.53,
+        287.02
+      ],
+      [
+        "junction",
+        "",
+        49.53,
+        287.02
+      ],
+      [
+        "wire",
+        [
+          49.53,
+          287.02
+        ],
+        [
+          49.53,
+          289.56
+        ]
+      ],
+      [
+        "wire",
+        [
+          49.53,
+          281.94
+        ],
+        [
+          49.53,
+          287.02
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "HSLink.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "HSL_LINK_DP",
+    "old_at": [
+      167.08,
+      126.52,
+      0.0
+    ],
+    "new_at": [
+      160.73,
+      126.52,
+      90
+    ],
+    "preserved_wire": [
+      [
+        178.51,
+        126.52
+      ],
+      [
+        128.98,
+        126.52
+      ]
+    ],
+    "blockers": [
+      [
+        "junction",
+        "",
+        178.51,
+        126.52
+      ],
+      [
+        "wire",
+        [
+          178.51,
+          126.52
+        ],
+        [
+          183.59,
+          126.52
+        ]
+      ],
+      [
+        "wire",
+        [
+          178.51,
+          131.6
+        ],
+        [
+          178.51,
+          126.52
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "HSLink.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "HSL_ISP_KEY",
+    "old_end": [
+      318.76,
+      116.36
+    ],
+    "new_end": [
+      313.68,
+      116.36
+    ],
+    "uuid": "4a41b6d6-22cc-4fb6-892c-6de98049723e"
+  },
+  {
+    "file": "HSLink.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "HSL_ISP_KEY",
+    "old_at": [
+      128.98,
+      106.2,
+      0.0
+    ],
+    "new_at": [
+      132.79,
+      106.2,
+      270
+    ],
+    "preserved_wire": [
+      [
+        136.6,
+        106.2
+      ],
+      [
+        128.98,
+        106.2
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "R8055",
+        "1",
+        136.6,
+        106.2
+      ]
+    ]
+  },
+  {
+    "file": "HSLink.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "HSL_ISP_TX",
+    "old_end": [
+      148.03,
+      98.58
+    ],
+    "new_end": [
+      135.33,
+      98.58
+    ],
+    "uuid": "3ffb619a-09b6-4ff8-b3a7-5c55f6f1a86e"
+  },
+  {
+    "file": "HSLink.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "HSL_ISP_RX",
+    "old_end": [
+      148.03,
+      101.12
+    ],
+    "new_end": [
+      135.33,
+      101.12
+    ],
+    "uuid": "f81e177c-d3ff-48fd-ab9c-8028a36be091"
+  },
+  {
+    "file": "HSLink.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "HSL_D_RESETN",
+    "old_end": [
+      112.07,
+      260.0
+    ],
+    "new_end": [
+      106.99,
+      260.0
+    ],
+    "uuid": "79b72055-0ded-4433-b197-8c0f3ffa6cc5"
+  },
+  {
+    "file": "HSLink.kicad_sch",
+    "action": "trim verified dangling tail",
+    "label": "HSL_LINK_DP",
+    "old_end": [
+      321.3,
+      50.32
+    ],
+    "new_end": [
+      316.22,
+      50.32
+    ],
+    "uuid": "d5b8c818-0eaf-4d12-8b5a-a6f6626249d0"
+  },
+  {
+    "file": "power.kicad_sch",
+    "action": "orient label away from functional wire",
+    "label": "FB",
+    "old_at": [
+      58.42,
+      113.03,
+      0.0
+    ],
+    "new_at": [
+      58.42,
+      113.03,
+      180
+    ],
+    "preserved_wire": [
+      [
+        67.31,
+        113.03
+      ],
+      [
+        58.42,
+        113.03
+      ]
+    ],
+    "blockers": [
+      [
+        "pin",
+        "C66",
+        "1",
+        67.31,
+        113.03
+      ],
+      [
+        "junction",
+        "",
+        67.31,
+        113.03
+      ],
+      [
+        "wire",
+        [
+          83.82,
+          113.03
+        ],
+        [
+          67.31,
+          113.03
+        ]
+      ]
+    ]
+  }
+]

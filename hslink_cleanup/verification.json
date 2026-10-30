@@ -1,0 +1,33 @@
+{
+  "pass": true,
+  "checks": {
+    "system_VCC_to_debugger_feed": true,
+    "debugger_after_feed": true,
+    "preserved_core_supply": true,
+    "USB_VBUS_not_system_supply": true,
+    "TPS_removed": true,
+    "USB_power_bridge_removed": true,
+    "all_other_connectivity_preserved": true,
+    "retained_parts_unchanged": true
+  },
+  "removed_parts": [
+    "C8088",
+    "C8089",
+    "C8090",
+    "C8091",
+    "C8092",
+    "C8093",
+    "C8094",
+    "C8095",
+    "L8006",
+    "R8075",
+    "R8076",
+    "R8077",
+    "U8008",
+    "U8009",
+    "U8010"
+  ],
+  "new_parts": [],
+  "unexpected_lost_groups": [],
+  "unexpected_added_groups": []
+}

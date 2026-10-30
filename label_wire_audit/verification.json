@@ -1,0 +1,7 @@
+{
+  "native_all_net_pinsets_identical": true,
+  "nets": 288,
+  "all_physical_pin_coordinates_identical": true,
+  "all_symbols_junctions_libraries_identical": true,
+  "pdf_pages": 6
+}

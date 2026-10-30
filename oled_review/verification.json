@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "OLED_reference_topology_exact": true,
+    "OLED_reference_values_exact": true,
+    "other_circuit_connectivity_unchanged": true,
+    "OLED_SCL_to_PB6": true,
+    "OLED_SDA_to_PB7": true,
+    "released_MCU_pins_unconnected": true,
+    "SPI_display_parts_removed": true
+  },
+  "pass": true,
+  "mapping": {
+    "FPC1": "FPC300",
+    "C56": "C320",
+    "C57": "C321",
+    "C58": "C322",
+    "C59": "C323",
+    "C63": "C324",
+    "C65": "C325",
+    "R27": "R320",
+    "R30": "R321",
+    "R29": "R322",
+    "R31": "R323",
+    "R34": "R324",
+    "D3": "D300"
+  },
+  "components": 523
+}

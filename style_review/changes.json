@@ -1,0 +1,37 @@
+[
+  {
+    "file": "GD32F5_FOC.kicad_sch",
+    "rail_labels_converted": 0,
+    "isolated_signal_leads_removed": 0,
+    "before_sha256": "27294b0c4181e987fc5fe7e87c82867778d447aa5cf0143c81e3b9bdeda778b4",
+    "after_sha256": "27294b0c4181e987fc5fe7e87c82867778d447aa5cf0143c81e3b9bdeda778b4"
+  },
+  {
+    "file": "MCU.kicad_sch",
+    "rail_labels_converted": 45,
+    "isolated_signal_leads_removed": 40,
+    "before_sha256": "7609911d175d96c4b33d09ccca73a89895ba5ec5d334512da08f320ac5b5ee5f",
+    "after_sha256": "3fc85e47d2b858a186f037d151b641d0ff151868af9dc049cea13ca7c7909950"
+  },
+  {
+    "file": "power.kicad_sch",
+    "rail_labels_converted": 4,
+    "isolated_signal_leads_removed": 0,
+    "before_sha256": "875fe931b28e9451ade2df10741c00651255201e234a9db0bba8bf83dd384128",
+    "after_sha256": "362b55239a91ef56d7799d020baa6ac21c64c9663725e84d42570c476b126f08"
+  },
+  {
+    "file": "FOC_M1.kicad_sch",
+    "rail_labels_converted": 19,
+    "isolated_signal_leads_removed": 0,
+    "before_sha256": "2eb80b0f31aa66d6a67360d3c1c05d8e4dae760bd073e331360317225829f016",
+    "after_sha256": "cec51bde7afc6c89196d955e7f544beee825d6aa5e00be533d92bc74cbefede3"
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "rail_labels_converted": 19,
+    "isolated_signal_leads_removed": 0,
+    "before_sha256": "9cfc8950e2b016d0e8bc5da2ee0f08ce17c2d7fb136f5558bf7b5e83d7199a1e",
+    "after_sha256": "e79bc5737f32d89316f2d9b704a258818c95ab4cae18e7c31f3a1044cbe9f6a1"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "remaining": {
+    "MCU": [],
+    "power": [],
+    "FOC_M1": [],
+    "FOC_M2": [],
+    "HSLink": []
+  },
+  "pass": true
+}

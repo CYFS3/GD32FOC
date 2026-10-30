@@ -1,0 +1,643 @@
+
+=== PDF PAGE 1 ===
+        GigaDevice Semiconductor Inc.
+
+             GD32F50x     芯片使用限制
+
+
+
+
+
+
+
+                      勘误手册
+                        1.1版本
+
+                    （2025 年 11月）
+
+
+
+=== PDF PAGE 2 ===
+                                                                                                GD32F50x                 芯片使用限制
+                                                                   目录
+
+
+目录 .................................................................................................................................. 2
+图索引 .............................................................................................................................. 3
+表索引 .............................................................................................................................. 4
+1.       前言 ......................................................................................................................... 5
+  1.1.       芯片版本定义 ................................................................................................................. 5
+  1.2.       芯片使用限制总览 .......................................................................................................... 5
+2.       芯片使用限制描述 ................................................................................................... 7
+  2.1.       I2C ................................................................................................................................. 7
+     2.1.1.        I2C  作从机配置为              10  位地址模式时，如果外部主机发送完一帧数据后未正常发送                                                        STOP      信号，
+                   会导致       I2C   从机后续无法匹配到从机地址 ................................................................................ 7
+
+  2.2.       CAN .............................................................................................................................. 7
+     2.2.1.        在   TFO    置   1 条件下，同时使能邮箱                       0/1/2  进行发送后，在中止发送邮箱                             2  时，发送邮箱             1  也会
+                   被中止 ...................................................................................................................................... 7
+     2.2.2.        当   TFO    置   0 且发送邮箱            1  或   2 的标识符配置为                0x1FFFFFFF          时，会导致发送邮箱                    1 或   2  中的
+                   数据无法发送出去 .................................................................................................................... 8
+
+  2.3.       Core .............................................................................................................................. 8
+     2.3.1.        访问权限错误优先于未对齐的设备内存错误 ............................................................................ 8
+3.       版本历史 ............................................................................................................... 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                   2
+
+
+=== PDF PAGE 3 ===
+                                                                                  GD32F50x             芯片使用限制
+                                                       图索引
+
+
+    图   1-1. GD32F50x      的芯片修订版本 ........................................................................................................ 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                              3
+
+
+=== PDF PAGE 4 ===
+                                                                                                      GD32F50x                  芯片使用限制
+                                                                    表索引
+
+
+      表   1-1.   适用产品 ..................................................................................................................................... 5
+      表   1-2.   芯片使用限制 .............................................................................................................................. 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                             4
+
+
+=== PDF PAGE 5 ===
+                                               GD32F50x    芯片使用限制
+
+1.       前言
+
+
+         该文档适用于    GD32F50x产品，具体参考表    1-1. 适用产品。该文档提供了在使用       GD32 MCU
+         过程中需要注意的技术细节，以及相关问题的解决方案。
+
+         表 1-1. 适用产品
+                  类型                  产品系列
+                  MCU              GD32F503xx系列
+                                   GD32F505xx系列
+
+1.1.     芯片版本定义
+
+
+         可通过芯片丝印上的标记来确定当前芯片的版本。丝印上第               3行的第  1个编码表示芯片当前版
+         本，如图   1-1. GD32F50x的芯片修订版本所示。
+
+         图 1-1. GD32F50x的芯片修订版本
+
+
+
+
+                                    Revision Code
+
+
+
+
+
+
+
+1.2.     芯片使用限制总览
+
+
+         GD32F50x芯片使用限制参考表      1-2. 芯片使用限制。关于芯片使用限制的更多详细信息请参
+         考第  2章。
+
+         表 1-2. 芯片使用限制
+            模块                      使用限制                        解决方案
+                                                                修订版本  A
+                  I2C作从机配置为   10位地址模式时，如果外部主机发送完一帧数据
+            I2C   后未正常发送   STOP信号，会导致   I2C从机后续无法匹配到从机地            Y
+                  址
+                  在 TFO置 1条件下，同时使能邮箱    0/1/2进行发送后，在中止发送           Y
+            CAN   邮箱  2时，发送邮箱   1也会被中止
+                  当 TFO置 0且发送邮箱   1或2 的标识符配置为   0x1FFFFFFF时，       Y
+                  会导致发送邮箱    1或 2中的数据无法发送出去
+            Core  访问权限错误优先于未对齐的设备内存错误                              N
+
+         注意：
+                                                                        5
+
+
+=== PDF PAGE 6 ===
+                                              GD32F50x    芯片使用限制
+
+         Y = 存在使用限制且存在解决方案
+         N = 存在使用限制但不存在解决方案
+         '--' = 使用限制已修复
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                      6
+
+
+=== PDF PAGE 7 ===
+                                         GD32F50x  芯片使用限制
+
+2.      芯片使用限制描述
+
+
+2.1.    I2C
+
+
+2.1.1.  I2C作从机配置为     10位地址模式时，如果外部主机发送完一帧数据后未正常
+
+        发送  STOP信号，会导致     I2C从机后续无法匹配到从机地址
+
+        描述与影响
+
+        I2C作从机配置为10位地址模式时，如果外部主机发送完一帧数据后未正常发送          STOP信号，
+        而是接着发送  START信号启动第二帧数据的发送，会导致      I2C从机将主机发送的从机地址第
+        二字节（10 位地址中的低   8位地址）识别为数据且地址匹配标志（ADDSEND）不会置位。例
+        如，当从机处于地址轮询状态时，会导致从机一直等待地址匹配而无法跳出循环；当从机处于
+        中断或 DMA 模式时，同样由于无法匹配从机地址而无发进行后续的数据处理。
+
+        解决方案
+
+        当 I2C作从机使用 10位地址模式时，外部    I2C主机在每一帧发送结束后，要发对应的     STOP
+        信号。
+
+2.2.    CAN
+
+
+2.2.1.  在 TFO 置 1条件下，同时使能邮箱       0/1/2进行发送后，在中止发送邮箱       2 时，
+
+        发送邮箱   1也会被中止
+
+        描述与影响
+
+        在 TFO置 1条件下，同时使能邮箱    0/1/2进行发送后，在中止邮箱  2发送时，邮箱   1也会被
+        中止，即发送邮箱   1中的数据没有被发送出去。
+
+        解决方案
+
+        使用以下解决方案之一：
+
+        1) 在中止发送邮箱   2之前，先认确发送邮箱   1 是否在 pending状态。
+        2) 在中止发送邮箱   2之后，重新配置发送邮箱    1/2并发送。
+
+
+
+
+
+
+
+
+
+
+
+                                                              7
+
+
+=== PDF PAGE 8 ===
+                                             GD32F50x   芯片使用限制
+
+2.2.2.   当 TFO 置 0 且发送邮箱    1 或 2 的标识符配置为      0x1FFFFFFF 时，会导致发送
+
+         邮箱  1或  2中的数据无法发送出去
+
+         描述与影响
+
+         当 TFO置 0且发送邮箱   1 或 2的标识符配置为    0x1FFFFFFF时，会导致发送邮箱    1或 2中
+         的数据无法发送出去。例如      TFO置 0时，配置发送邮箱     1的 ID为0x1FFFFFFF，则发送邮箱
+         1中的数据无法发出。
+
+         解决方案
+
+         使用以下解决方案之一：
+
+         1) 当标识符为   0x1FFFFFF时，使用发送邮箱    0进行数据帧发送。
+         2) 使用先来先发送（FIFO）的顺序发送，即        TFO =1。
+
+2.3.     Core
+
+
+         关于  Cortex-M33的限制，请参考“Cortex-M33 AT623  and  Cortex-M33  with  FPU AT624
+         Software Developer Errata Notice“。该文档可在ARM官方网站下载。
+
+2.3.1.   访问权限错误优先于未对齐的设备内存错误
+
+         该限制对应于Arm编号1080541，详见“Cortex-M33 AT623 and Cortex-M33 with FPU AT624
+         Software Developer Errata Notice”。
+
+         描述及影响
+
+         引发未对齐设备内存访问的加载或存储操作会导致UNALIGNED UsageFault异常。然而，如
+         果由于MPU访问权限（由MPU_RBAR.AP指定）导致该区域不可访问，则触发的MemManage
+         故障将优先于UsageFault。
+
+         此勘误影响所有启用MPU的Cortex-M33     处理器配置。
+
+         故障发生条件如下：
+
+         MPU 已启用且：
+         ⚫  加载/存储访问发生在与指令中指定的数据类型未对齐的地址上。
+         ⚫  内存访问仅命中一个区域。
+         ⚫  区域属性（在   MAIR 寄存器中指定）将该位置标记为设备内存。
+         ⚫  区域访问权限阻止访问（即禁止非特权或写入操作）。
+
+         此限制的影响为，由于内存属性，访问权限违反引发的MemManage错误将优先于
+         UNALIGNED UsageFault异常。
+
+         解决方案
+
+         无规避方案。然而，由于此行为在        Armv7-M中是被允许的，因此预计现有软件不会依赖该行
+
+                                                                     8
+
+
+=== PDF PAGE 9 ===
+                                                   GD32F50x     芯片使用限制
+
+          为。（CM33  属于  Armv8-M）。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                              9
+
+
+=== PDF PAGE 10 ===
+                                               GD32F50x    芯片使用限制
+
+3.       版本历史
+
+
+         表  3-1. 版本历史
+              版本号.                    说明                       日期
+               1.0                  首次发布                   2025年8月 8日
+                       1. 添加  CAN 限制，参考在    TFO 置 1条件
+                          下，同时使能邮箱     0/1/2进行发送后，在
+                          中止发送邮箱    2时，发送邮箱    1也会被中
+               1.1        止                                2025年11月 5日
+                       2. 添加  CAN 限制，参考当   TFO 置 0且发送
+                          邮箱1  或2 的标识符配置为    0x1FFFFFFF
+                          时，会导致发送邮箱1      或 2中的数据无法
+                          发送出去
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                        10
+
+
+=== PDF PAGE 11 ===
+                                                                                                      GD32F50x                  芯片使用限制
+
+
+
+                                                            Important              Notice
+
+
+       This  document  is  the  property  of  GigaDevice  Semiconductor  Inc.  and  its  subsidiaries  (the  "Company").  This
+document, including any product of the Company described in this document (the “Product”), is owned by the Company
+according to the laws of the           People’s Republic of China and other applicable laws. The Company reserves all rights
+under  such  laws  and  no  Intellectual  Property  Rights  are  transferred  (either  wholly  or  partially)  or  licensed  by  the
+Company (either expressly or impliedly) herein. The n                    ames and brands of third party referred thereto (if any) are the
+property of their respective owner and referred to for identification purposes only.
+       To the maximum extent permitted by applicable law,                    the Company makes no representations or                   warranties of any
+kind, express or implied, with regard to the merchantability and the fitness for a particular purpose of the Product, nor
+does the Company assume any liability arising out of the application or use of any Product. Any information provided                                        in
+this document  is  provided  only  for  reference  purposes.  It is  the sole  responsibility  of  the  user  of  this document  to
+determine whether the Product is suitable and fit for its applications and products planned, and properly design, program,
+and test the functionality and safety of its applications and products planned using the Product.                            The Product is designed,
+developed, and/or manufactured for ordinary business, industrial, personal, and/or household applications only, and the
+Product is not designed o        r intended for use in (i) safety critical applications such as weapons systems, nuclear facilities,
+atomic  energy  controller,  combustion  controller,  aeronautic  or  aerospace  applications,  traffic  signal  instruments,
+pollution control or hazardous substance                management; (ii) life       -support systems, other medical equipment or systems
+(including life support equipment and surgical implants); (iii) automotive applications or environments, including but not
+limited  to  applications  for  active  and  passive  safety  of  au            tomobiles  (regardless  of  front  market  or  aftermarket),  for
+example,  EPS,  braking,  ADAS  (camera/fusion),  EMS,  TCU,  BMS,  BSG,  TPMS,  Airbag,  Suspension,  DMS,  ICMS,
+Domain,  ESC,  DCDC,  e-clutch,  advanced-lighting,  etc..  Automobile  herein  means  a  vehicle  propell                                  ed  by  a  self-
+contained  motor,  engine  or  the  like,  such  as,  without  limitation,  cars,  trucks,  motorcycles,  electric  cars,  and  other
+transportation devices; and/or (iv) other uses where the failure of the device or the Product can reasonably be expected
+to  result  in  personal  injury,  death,  or  severe  property  or  environmental  damage  (collectively  "Unintended  Uses")                               .
+Customers shall take any and all actions to ensure the Product meets the applicable laws and regulations. The Company
+is not liable for, in whole       or in part, and customers shall hereby release the Company as well as its suppliers and/or
+distributors from, any claim, damage, or other liability arising from or related to all Unintended Uses of the Product.
+Customers shall indemnify and hold the Compan                      y, and its officers, employees, subsidiaries, affiliates as well as its
+suppliers and/or distributors harmless from and against all claims, costs, damages, and other liabilities, including claims
+for personal injury or death, arising from or related to any Unintended Uses of the Product.
+      Information in this document is provided solely in connection with the Product. The Company reserves the right to
+make changes, corrections, modifications or improvements to this document and the Product described herein at any
+time without notice. The Company shall have no responsibility whatsoever for conflicts or incompatibilities arising from
+future changes to them. Information in this document supersedes and replaces information previously supplied in any
+prior versions of this document.
+
+
+                                         © 2025 GigaDevice Semiconductor Inc. – All rights reserved
+
+
+                                                                                                                                                           11

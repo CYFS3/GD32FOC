@@ -1,3 +1,10 @@
-(fp_lib_table
-	(version 7)
+(fp_lib_table (version 7)
+(lib (name "ProDoc_Board1v1_2026-10-26-import-fps") (type "KiCad") (uri "${KIPRJMOD}/ProDoc_Board1v1_2026-10-26-import-fps.pretty") (options "") (descr "Reference P2 footprint library"))
+(lib (name "ProDoc_Boa-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/ProDoc_Board1v1_2026-10-26-import-fps.pretty") (options "") (descr "Reference P2 footprint library"))
+
+(lib (name "ProDoc_IPB-TINY_2026-10-26-import-fps") (type "KiCad") (uri "${KIPRJMOD}/ProDoc_IPB-TINY_2026-10-26-import-fps.pretty") (options "") (descr "HPM debugger reference"))
+
+(lib (name "ProDoc_IPB-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/ProDoc_IPB-TINY_2026-10-26-import-fps.pretty") (options "") (descr "HPM imported footprint alias"))
+
+(lib (name "Interface") (type "KiCad") (uri "${KIPRJMOD}/Interface.pretty") (options "") (descr "Verified standard footprints for LCD and buttons"))
 )

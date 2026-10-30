@@ -1,0 +1,92 @@
+{
+  "pages": {
+    "GD32F5_FOC.kicad_sch": {
+      "removed_count": 0,
+      "duplicates": []
+    },
+    "MCU.kicad_sch": {
+      "removed_count": 0,
+      "duplicates": []
+    },
+    "power.kicad_sch": {
+      "removed_count": 0,
+      "duplicates": []
+    },
+    "FOC_M1.kicad_sch": {
+      "removed_count": 3,
+      "duplicates": [
+        {
+          "at": [
+            "257.81",
+            "199.39"
+          ],
+          "value": "12V",
+          "keep": "#PWR9057",
+          "remove": "#PWR0029",
+          "removed_lib": "ProDoc_Boa-easyedapro:Power-VCC_1"
+        },
+        {
+          "at": [
+            "292.1",
+            "190.5"
+          ],
+          "value": "GND",
+          "keep": "#PWR9043",
+          "remove": "#PWR0054",
+          "removed_lib": "ProDoc_Boa-easyedapro:Ground-GND_1"
+        },
+        {
+          "at": [
+            "257.81",
+            "219.71"
+          ],
+          "value": "GND",
+          "keep": "#PWR9054",
+          "remove": "#PWR0044",
+          "removed_lib": "ProDoc_Boa-easyedapro:Ground-GND_1"
+        }
+      ]
+    },
+    "FOC_M2.kicad_sch": {
+      "removed_count": 3,
+      "duplicates": [
+        {
+          "at": [
+            "257.81",
+            "199.39"
+          ],
+          "value": "12V",
+          "keep": "#PWR9071",
+          "remove": "#PWR1029",
+          "removed_lib": "ProDoc_Boa-easyedapro:Power-VCC_1"
+        },
+        {
+          "at": [
+            "257.81",
+            "219.71"
+          ],
+          "value": "GND",
+          "keep": "#PWR9075",
+          "remove": "#PWR1044",
+          "removed_lib": "ProDoc_Boa-easyedapro:Ground-GND_1"
+        },
+        {
+          "at": [
+            "292.1",
+            "190.5"
+          ],
+          "value": "GND",
+          "keep": "#PWR9073",
+          "remove": "#PWR1054",
+          "removed_lib": "ProDoc_Boa-easyedapro:Ground-GND_1"
+        }
+      ]
+    },
+    "HSLink.kicad_sch": {
+      "removed_count": 0,
+      "duplicates": []
+    }
+  },
+  "different_names_same_anchor": [],
+  "total_removed": 6
+}

@@ -1,0 +1,74 @@
+{
+  "3": {
+    "gpio": "PE4",
+    "net": "LCD_RST_N",
+    "position": [
+      116.84,
+      132.08
+    ]
+  },
+  "4": {
+    "gpio": "PE5",
+    "net": "LCD_BL_GPIO",
+    "position": [
+      116.84,
+      134.62
+    ]
+  },
+  "32": {
+    "gpio": "PA7",
+    "net": "LCD_MOSI",
+    "position": [
+      55.88,
+      48.26
+    ]
+  },
+  "83": {
+    "gpio": "PD2",
+    "net": "BTN_1_N",
+    "position": [
+      116.84,
+      81.28
+    ]
+  },
+  "84": {
+    "gpio": "PD3",
+    "net": "BTN_2_N",
+    "position": [
+      116.84,
+      83.82
+    ]
+  },
+  "85": {
+    "gpio": "PD4",
+    "net": "BTN_3_N",
+    "position": [
+      116.84,
+      86.36
+    ]
+  },
+  "89": {
+    "gpio": "PB3",
+    "net": "LCD_SCK",
+    "position": [
+      55.88,
+      83.82
+    ]
+  },
+  "92": {
+    "gpio": "PB6",
+    "net": "LCD_CS_N",
+    "position": [
+      55.88,
+      91.44
+    ]
+  },
+  "93": {
+    "gpio": "PB7",
+    "net": "LCD_DC",
+    "position": [
+      55.88,
+      93.98
+    ]
+  }
+}

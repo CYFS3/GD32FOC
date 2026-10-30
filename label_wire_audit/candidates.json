@@ -1,0 +1,32 @@
+[
+  {
+    "file": "FOC_M1.kicad_sch",
+    "labels": 80,
+    "candidates": []
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "labels": 80,
+    "candidates": []
+  },
+  {
+    "file": "GD32F5_FOC.kicad_sch",
+    "labels": 0,
+    "candidates": []
+  },
+  {
+    "file": "HSLink.kicad_sch",
+    "labels": 48,
+    "candidates": []
+  },
+  {
+    "file": "MCU.kicad_sch",
+    "labels": 53,
+    "candidates": []
+  },
+  {
+    "file": "power.kicad_sch",
+    "labels": 1,
+    "candidates": []
+  }
+]

@@ -1,0 +1,293 @@
+{
+  "components": 430,
+  "nets": 236,
+  "duplicate_refs": [],
+  "unannotated": [],
+  "checks": [
+    {
+      "pin": "67",
+      "expected": "M1_HIN1",
+      "actual": "M1_HIN1",
+      "pass": true
+    },
+    {
+      "pin": "68",
+      "expected": "M1_HIN2",
+      "actual": "M1_HIN2",
+      "pass": true
+    },
+    {
+      "pin": "69",
+      "expected": "M1_HIN3",
+      "actual": "M1_HIN3",
+      "pass": true
+    },
+    {
+      "pin": "52",
+      "expected": "M1_LIN1",
+      "actual": "M1_LIN1",
+      "pass": true
+    },
+    {
+      "pin": "53",
+      "expected": "M1_LIN2",
+      "actual": "M1_LIN2",
+      "pass": true
+    },
+    {
+      "pin": "54",
+      "expected": "M1_LIN3",
+      "actual": "M1_LIN3",
+      "pass": true
+    },
+    {
+      "pin": "63",
+      "expected": "M2_HIN1",
+      "actual": "M2_HIN1",
+      "pass": true
+    },
+    {
+      "pin": "64",
+      "expected": "M2_HIN2",
+      "actual": "M2_HIN2",
+      "pass": true
+    },
+    {
+      "pin": "65",
+      "expected": "M2_HIN3",
+      "actual": "M2_HIN3",
+      "pass": true
+    },
+    {
+      "pin": "15",
+      "expected": "M2_LIN1",
+      "actual": "M2_LIN1",
+      "pass": true
+    },
+    {
+      "pin": "16",
+      "expected": "M2_LIN2",
+      "actual": "M2_LIN2",
+      "pass": true
+    },
+    {
+      "pin": "17",
+      "expected": "M2_LIN3",
+      "actual": "M2_LIN3",
+      "pass": true
+    },
+    {
+      "pin": "23",
+      "expected": "M1_IA",
+      "actual": "M1_IA",
+      "pass": true
+    },
+    {
+      "pin": "24",
+      "expected": "M1_IB",
+      "actual": "M1_IB",
+      "pass": true
+    },
+    {
+      "pin": "25",
+      "expected": "M1_IC",
+      "actual": "M1_IC",
+      "pass": true
+    },
+    {
+      "pin": "26",
+      "expected": "M2_IA",
+      "actual": "M2_IA",
+      "pass": true
+    },
+    {
+      "pin": "29",
+      "expected": "M2_IB",
+      "actual": "M2_IB",
+      "pass": true
+    },
+    {
+      "pin": "30",
+      "expected": "M2_IC",
+      "actual": "M2_IC",
+      "pass": true
+    },
+    {
+      "pin": "18",
+      "expected": "M1_IBUS",
+      "actual": "M1_IBUS",
+      "pass": true
+    },
+    {
+      "pin": "34",
+      "expected": "M2_IBUS",
+      "actual": "M2_IBUS",
+      "pass": true
+    },
+    {
+      "pin": "38",
+      "expected": "M1_NTC",
+      "actual": "M1_NTC",
+      "pass": true
+    },
+    {
+      "pin": "39",
+      "expected": "M2_NTC",
+      "actual": "M2_NTC",
+      "pass": true
+    },
+    {
+      "pin": "90",
+      "expected": "M1_HALL_A",
+      "actual": "M1_HALL_A",
+      "pass": true
+    },
+    {
+      "pin": "91",
+      "expected": "M1_HALL_B",
+      "actual": "M1_HALL_B",
+      "pass": true
+    },
+    {
+      "pin": "35",
+      "expected": "M1_HALL_C",
+      "actual": "M1_HALL_C",
+      "pass": true
+    },
+    {
+      "pin": "59",
+      "expected": "M2_HALL_A",
+      "actual": "M2_HALL_A",
+      "pass": true
+    },
+    {
+      "pin": "60",
+      "expected": "M2_HALL_B",
+      "actual": "M2_HALL_B",
+      "pass": true
+    },
+    {
+      "pin": "61",
+      "expected": "M2_HALL_C",
+      "actual": "M2_HALL_C",
+      "pass": true
+    },
+    {
+      "pin": "33",
+      "expected": "M1_VBUS",
+      "actual": "M1_VBUS",
+      "pass": true
+    },
+    {
+      "pin": "78",
+      "expected": "SPI2_SCK",
+      "actual": "SPI2_SCK",
+      "pass": true
+    },
+    {
+      "pin": "79",
+      "expected": "SPI2_MISO",
+      "actual": "SPI2_MISO",
+      "pass": true
+    },
+    {
+      "pin": "80",
+      "expected": "SPI2_MOSI",
+      "actual": "SPI2_MOSI",
+      "pass": true
+    },
+    {
+      "pin": "1",
+      "expected": "M1_SPI1_CS0",
+      "actual": "M1_SPI1_CS0",
+      "pass": true
+    },
+    {
+      "pin": "2",
+      "expected": "M2_SPI1_CS0",
+      "actual": "M2_SPI1_CS0",
+      "pass": true
+    },
+    {
+      "pin": "51",
+      "expected": "M1_BRKIN",
+      "actual": "M1_BRKIN",
+      "pass": true
+    },
+    {
+      "pin": "31",
+      "expected": "M2_BRKIN",
+      "actual": "M2_BRKIN",
+      "pass": true
+    },
+    {
+      "pin": "21",
+      "expected": "MCU_VDDA",
+      "actual": "MCU_VDDA",
+      "pass": true
+    },
+    {
+      "pin": "22",
+      "expected": "MCU_VDDA",
+      "actual": "MCU_VDDA",
+      "pass": true
+    },
+    {
+      "check": "MCU supply filter input",
+      "pass": true
+    },
+    {
+      "check": "MCU supply filter output",
+      "pass": true
+    },
+    {
+      "check": "SPI SCK fanout",
+      "pass": true
+    },
+    {
+      "check": "SPI MISO fanout",
+      "pass": true
+    },
+    {
+      "check": "SPI MOSI fanout",
+      "pass": true
+    },
+    {
+      "check": "M1 brake interface",
+      "pass": true
+    },
+    {
+      "check": "M2 brake interface",
+      "pass": true
+    },
+    {
+      "check": "Brake pullup supply",
+      "pass": true
+    },
+    {
+      "check": "R109 shunt not bypassed",
+      "pass": true
+    },
+    {
+      "check": "R1109 shunt not bypassed",
+      "pass": true
+    },
+    {
+      "check": "Independent bus shunt positive nodes",
+      "pass": true
+    },
+    {
+      "check": "Separate driver phase return 18",
+      "pass": true
+    },
+    {
+      "check": "Separate driver phase return 15",
+      "pass": true
+    },
+    {
+      "check": "Separate driver phase return 12",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

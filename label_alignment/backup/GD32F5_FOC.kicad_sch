@@ -1,0 +1,253 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "df410b35-b24b-4f8c-aaa2-f94e7558172b")
+	(paper "A4")
+	(lib_symbols)
+	(text "Dual independent motor framework\nCommon input supply + GD32F505VxTx controller\nReview protection thresholds and ratings before energizing."
+		(exclude_from_sim no)
+		(at 32 85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "81a76f5c-f1ea-4114-8e74-64de6c3cfce5")
+	)
+	(sheet
+		(at 31.75 30.48)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "023525dc-8b31-4272-8a5f-3c0381bf9655")
+		(property "Sheetname" "MCU"
+			(at 31.75 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 31.75 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GD32F5_FOC"
+				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 30.48)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "49516b4f-d465-4b39-ae52-1de484ecc052")
+		(property "Sheetname" "POWER_SHARED"
+			(at 78.74 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 78.74 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GD32F5_FOC"
+				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125 30.48)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "62514c89-5113-48c1-b940-b634a05af696")
+		(property "Sheetname" "FOC_M1"
+			(at 125 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FOC_M1.kicad_sch"
+			(at 125 68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GD32F5_FOC"
+				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 120.48)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "92cc594b-d885-4848-b864-91d378b546ef")
+		(property "Sheetname" "HSL_DEBUGGER"
+			(at 31.75 119.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HSLink.kicad_sch"
+			(at 31.75 157.895 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GD32F5_FOC"
+				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172 30.48)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a357c705-b3d7-4582-8f88-03f6ea329848")
+		(property "Sheetname" "FOC_M2"
+			(at 172 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FOC_M2.kicad_sch"
+			(at 172 68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GD32F5_FOC"
+				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

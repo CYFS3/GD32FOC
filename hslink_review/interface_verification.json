@@ -1,0 +1,101 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "R8901 probe side",
+      "pass": true
+    },
+    {
+      "name": "R8901 target side",
+      "pass": true
+    },
+    {
+      "name": "R8901 separated pins",
+      "pass": true
+    },
+    {
+      "name": "R8902 probe side",
+      "pass": true
+    },
+    {
+      "name": "R8902 target side",
+      "pass": true
+    },
+    {
+      "name": "R8902 separated pins",
+      "pass": true
+    },
+    {
+      "name": "R8903 probe side",
+      "pass": true
+    },
+    {
+      "name": "R8903 target side",
+      "pass": true
+    },
+    {
+      "name": "R8903 separated pins",
+      "pass": true
+    },
+    {
+      "name": "R8904 probe side",
+      "pass": true
+    },
+    {
+      "name": "R8904 target side",
+      "pass": true
+    },
+    {
+      "name": "R8904 separated pins",
+      "pass": true
+    },
+    {
+      "name": "R8905 probe side",
+      "pass": true
+    },
+    {
+      "name": "R8905 target side",
+      "pass": true
+    },
+    {
+      "name": "R8905 separated pins",
+      "pass": true
+    },
+    {
+      "name": "USB D+ to HPM",
+      "pass": true
+    },
+    {
+      "name": "USB D- to HPM",
+      "pass": true
+    },
+    {
+      "name": "Buck feedback",
+      "pass": true
+    },
+    {
+      "name": "Buck input and enable pullup",
+      "pass": true
+    },
+    {
+      "name": "Passive target voltage header",
+      "pass": true
+    },
+    {
+      "name": "Probe5V separate motor5V",
+      "pass": true
+    },
+    {
+      "name": "USBVBUS separate motor5V",
+      "pass": true
+    },
+    {
+      "name": "Probe3V3 separate targetVCC",
+      "pass": true
+    },
+    {
+      "name": "Shared ground",
+      "pass": true
+    }
+  ]
+}

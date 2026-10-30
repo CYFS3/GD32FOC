@@ -1,0 +1,2100 @@
+[
+  {
+    "page": "MCU",
+    "name": "M2_LIN3",
+    "x": 116.84,
+    "y": 35.56,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC2"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_HIN2",
+    "x": 116.84,
+    "y": 48.26,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC7"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_IBUS",
+    "x": 116.84,
+    "y": 43.18,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC5"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_HALL_C",
+    "x": 116.84,
+    "y": 114.3,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PD14"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_HIN3",
+    "x": 55.88,
+    "y": 58.42,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA10"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_HALL_A",
+    "x": 116.84,
+    "y": 109.22,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PD12"
+  },
+  {
+    "page": "MCU",
+    "name": "HSL_TARGET_UART_RX",
+    "x": 116.84,
+    "y": 91.44,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PD6"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_BRKIN",
+    "x": 55.88,
+    "y": 109.22,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PB12"
+  },
+  {
+    "page": "MCU",
+    "name": "SPI2_MOSI",
+    "x": 116.84,
+    "y": 63.5,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC12"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_LIN2",
+    "x": 116.84,
+    "y": 33.02,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC1"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_LIN2",
+    "x": 55.88,
+    "y": 114.3,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PB14"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_IC",
+    "x": 55.88,
+    "y": 35.56,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA2"
+  },
+  {
+    "page": "MCU",
+    "name": "BOOT1",
+    "x": 55.88,
+    "y": 81.28,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PB2/BOOT1"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_IA",
+    "x": 55.88,
+    "y": 38.1,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA3"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_BRKIN",
+    "x": 55.88,
+    "y": 45.72,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA6"
+  },
+  {
+    "page": "MCU",
+    "name": "SWDIO",
+    "x": 239.92,
+    "y": 107.54,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from J200 Pin_3"
+  },
+  {
+    "page": "MCU",
+    "name": "SWCLK",
+    "x": 239.92,
+    "y": 110.08,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from J200 Pin_4"
+  },
+  {
+    "page": "MCU",
+    "name": "SWDIO",
+    "x": 55.88,
+    "y": 66.04,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA13"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_SPI1_CS0",
+    "x": 116.84,
+    "y": 129.54,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PE3"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_HIN1",
+    "x": 55.88,
+    "y": 53.34,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA8"
+  },
+  {
+    "page": "MCU",
+    "name": "SPI2_MISO",
+    "x": 116.84,
+    "y": 60.96,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC11"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_HIN3",
+    "x": 116.84,
+    "y": 53.34,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC8"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_HIN1",
+    "x": 116.84,
+    "y": 45.72,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC6"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_IBUS",
+    "x": 116.84,
+    "y": 38.1,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC3"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_BRKIN",
+    "x": 294.64,
+    "y": 110.49,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from J201 Pin_4"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_IB",
+    "x": 55.88,
+    "y": 40.64,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA4"
+  },
+  {
+    "page": "MCU",
+    "name": "BOOT0",
+    "x": 55.88,
+    "y": 132.08,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 BOOT0"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_IC",
+    "x": 55.88,
+    "y": 43.18,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA5"
+  },
+  {
+    "page": "MCU",
+    "name": "HSL_TARGET_UART_TX",
+    "x": 116.84,
+    "y": 88.9,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PD5"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_HALL_A",
+    "x": 55.88,
+    "y": 86.36,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PB4"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_HALL_B",
+    "x": 55.88,
+    "y": 88.9,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PB5"
+  },
+  {
+    "page": "MCU",
+    "name": "NRST",
+    "x": 55.88,
+    "y": 137.16,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 NRST"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_VBUS",
+    "x": 116.84,
+    "y": 40.64,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC4"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_SPI1_CS0",
+    "x": 116.84,
+    "y": 127.0,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PE2"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_LIN1",
+    "x": 116.84,
+    "y": 30.48,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PC0"
+  },
+  {
+    "page": "MCU",
+    "name": "SWCLK",
+    "x": 55.88,
+    "y": 68.58,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA14"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_BRKIN",
+    "x": 294.64,
+    "y": 107.95,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from J201 Pin_3"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_HALL_B",
+    "x": 116.84,
+    "y": 111.76,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PD13"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_IB",
+    "x": 55.88,
+    "y": 33.02,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA1"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_LIN1",
+    "x": 55.88,
+    "y": 111.76,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PB13"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_LIN3",
+    "x": 55.88,
+    "y": 116.84,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PB15"
+  },
+  {
+    "page": "MCU",
+    "name": "M2_NTC",
+    "x": 116.84,
+    "y": 144.78,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PE8"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_NTC",
+    "x": 116.84,
+    "y": 139.7,
+    "before_angle": 180.0,
+    "after_angle": 0,
+    "before_justify": [
+      "right"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U1 PE7"
+  },
+  {
+    "page": "MCU",
+    "name": "M1_HIN2",
+    "x": 55.88,
+    "y": 55.88,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left"
+    ],
+    "after_justify": "right",
+    "reason": "outward from U1 PA9"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_IA",
+    "x": 68.58,
+    "y": 220.98,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MA",
+    "x": 548.2336,
+    "y": 276.86,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MB",
+    "x": 548.3606,
+    "y": 279.4,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MC",
+    "x": 548.3606,
+    "y": 281.94,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MA",
+    "x": 306.07,
+    "y": 213.36,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HALL_A",
+    "x": 236.22,
+    "y": 304.8,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MC",
+    "x": 361.95,
+    "y": 222.25,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MB",
+    "x": 361.95,
+    "y": 210.82,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_LIN3",
+    "x": 271.78,
+    "y": 203.2,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VA",
+    "x": 15.24,
+    "y": 287.02,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_LIN2",
+    "x": 271.78,
+    "y": 200.66,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HALL_A",
+    "x": 314.96,
+    "y": 283.21,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HALL_B",
+    "x": 236.22,
+    "y": 307.34,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HIN1",
+    "x": 306.07,
+    "y": 203.2,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_PWM",
+    "x": 255.27,
+    "y": 289.56,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VB",
+    "x": 40.64,
+    "y": 287.02,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VB3",
+    "x": 344.17,
+    "y": 222.25,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HALL_C",
+    "x": 314.96,
+    "y": 288.29,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MC",
+    "x": 271.78,
+    "y": 226.06,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MC",
+    "x": 374.65,
+    "y": 222.25,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_LO2",
+    "x": 271.78,
+    "y": 220.98,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VB2",
+    "x": 306.07,
+    "y": 215.9,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MB",
+    "x": 306.07,
+    "y": 220.98,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_IB",
+    "x": 144.78,
+    "y": 220.98,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HIN2",
+    "x": 306.07,
+    "y": 200.66,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "SPI2_MISO",
+    "x": 347.98,
+    "y": 290.83,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_SPI1_CS0",
+    "x": 347.98,
+    "y": 285.75,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MA",
+    "x": 374.65,
+    "y": 199.39,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HO3",
+    "x": 306.07,
+    "y": 226.06,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VBUS",
+    "x": 92.71,
+    "y": 287.02,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HALL_C",
+    "x": 217.17,
+    "y": 309.88,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VB1",
+    "x": 345.44,
+    "y": 199.39,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HIN3",
+    "x": 306.07,
+    "y": 198.12,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HALL_B",
+    "x": 217.17,
+    "y": 307.34,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HALL_B",
+    "x": 314.96,
+    "y": 285.75,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_IBUS",
+    "x": 68.58,
+    "y": 172.72,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HALL_A",
+    "x": 217.17,
+    "y": 304.8,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HO2",
+    "x": 306.07,
+    "y": 218.44,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "SPI2_MOSI",
+    "x": 347.98,
+    "y": 293.37,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HALL_C",
+    "x": 236.22,
+    "y": 309.88,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_IC",
+    "x": 143.51,
+    "y": 172.72,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VB1",
+    "x": 306.07,
+    "y": 208.28,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MA",
+    "x": 361.95,
+    "y": 199.39,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VB2",
+    "x": 344.17,
+    "y": 210.82,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VC",
+    "x": 66.04,
+    "y": 287.02,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_HO1",
+    "x": 306.07,
+    "y": 210.82,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_LO3",
+    "x": 271.78,
+    "y": 218.44,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "SPI2_SCK",
+    "x": 347.98,
+    "y": 288.29,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_VB3",
+    "x": 306.07,
+    "y": 223.52,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_LO1",
+    "x": 271.78,
+    "y": 223.52,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_NTC",
+    "x": 156.21,
+    "y": 285.75,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_MB",
+    "x": 374.65,
+    "y": 210.82,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_LIN1",
+    "x": 271.78,
+    "y": 198.12,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M1",
+    "name": "M1_COM",
+    "x": 124.46,
+    "y": 283.21,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MB",
+    "x": 306.07,
+    "y": 220.98,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HO3",
+    "x": 306.07,
+    "y": 226.06,
+    "before_angle": 0.0,
+    "after_angle": 0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VB1",
+    "x": 306.07,
+    "y": 208.28,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VB2",
+    "x": 344.17,
+    "y": 210.82,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MC",
+    "x": 374.65,
+    "y": 222.25,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_IC",
+    "x": 143.51,
+    "y": 172.72,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_LIN3",
+    "x": 271.78,
+    "y": 203.2,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "SPI2_MISO",
+    "x": 347.98,
+    "y": 290.83,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_PWM",
+    "x": 255.27,
+    "y": 289.56,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_LO2",
+    "x": 271.78,
+    "y": 220.98,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HALL_A",
+    "x": 217.17,
+    "y": 304.8,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "SPI2_MOSI",
+    "x": 347.98,
+    "y": 293.37,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_IB",
+    "x": 144.78,
+    "y": 220.98,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HALL_C",
+    "x": 217.17,
+    "y": 309.88,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MC",
+    "x": 361.95,
+    "y": 222.25,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HIN2",
+    "x": 306.07,
+    "y": 200.66,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MB",
+    "x": 361.95,
+    "y": 210.82,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "SPI2_SCK",
+    "x": 347.98,
+    "y": 288.29,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MA",
+    "x": 306.07,
+    "y": 213.36,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VA",
+    "x": 15.24,
+    "y": 287.02,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MC",
+    "x": 548.3606,
+    "y": 281.94,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HIN1",
+    "x": 306.07,
+    "y": 203.2,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_COM",
+    "x": 124.46,
+    "y": 283.21,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VBUS",
+    "x": 92.71,
+    "y": 287.02,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HO2",
+    "x": 306.07,
+    "y": 218.44,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_LO3",
+    "x": 271.78,
+    "y": 218.44,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_NTC",
+    "x": 156.21,
+    "y": 285.75,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VB2",
+    "x": 306.07,
+    "y": 215.9,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HALL_C",
+    "x": 314.96,
+    "y": 288.29,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VC",
+    "x": 66.04,
+    "y": 287.02,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HALL_B",
+    "x": 217.17,
+    "y": 307.34,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_LIN1",
+    "x": 271.78,
+    "y": 198.12,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_IBUS",
+    "x": 68.58,
+    "y": 172.72,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HALL_C",
+    "x": 236.22,
+    "y": 309.88,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MB",
+    "x": 548.3606,
+    "y": 279.4,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HALL_A",
+    "x": 236.22,
+    "y": 304.8,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VB3",
+    "x": 344.17,
+    "y": 222.25,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_IA",
+    "x": 68.58,
+    "y": 220.98,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HALL_A",
+    "x": 314.96,
+    "y": 283.21,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_LIN2",
+    "x": 271.78,
+    "y": 200.66,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MC",
+    "x": 271.78,
+    "y": 226.06,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HIN3",
+    "x": 306.07,
+    "y": 198.12,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_LO1",
+    "x": 271.78,
+    "y": 223.52,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HALL_B",
+    "x": 236.22,
+    "y": 307.34,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HO1",
+    "x": 306.07,
+    "y": 210.82,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MA",
+    "x": 361.95,
+    "y": 199.39,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VB1",
+    "x": 345.44,
+    "y": 199.39,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_HALL_B",
+    "x": 314.96,
+    "y": 285.75,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MA",
+    "x": 548.2336,
+    "y": 276.86,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VB",
+    "x": 40.64,
+    "y": 287.02,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_SPI1_CS0",
+    "x": 347.98,
+    "y": 285.75,
+    "before_angle": 0.0,
+    "after_angle": 180,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "right",
+    "reason": "outward from horizontal wire endpoint"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MA",
+    "x": 374.65,
+    "y": 199.39,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_MB",
+    "x": 374.65,
+    "y": 210.82,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "FOC_M2",
+    "name": "M2_VB3",
+    "x": 306.07,
+    "y": 223.52,
+    "before_angle": 0.0,
+    "after_angle": 0.0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "existing direction"
+  },
+  {
+    "page": "power",
+    "name": "FB",
+    "x": 58.42,
+    "y": 113.03,
+    "before_angle": 0.0,
+    "after_angle": 0,
+    "before_justify": [
+      "left",
+      "bottom"
+    ],
+    "after_justify": "left",
+    "reason": "outward from U6 FB"
+  }
+]

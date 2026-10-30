@@ -1,0 +1,10 @@
+{
+  "old_components": 430,
+  "new_components": 503,
+  "existing_parts_unchanged": true,
+  "original_pin_connectivity_preserved": true,
+  "lost_groups": [],
+  "new_groups_of_original_pins": [],
+  "changed_parts": [],
+  "pass": true
+}

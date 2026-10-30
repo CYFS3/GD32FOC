@@ -1,0 +1,4 @@
+(sym_lib_table (version 7)
+(lib (name "MCU") (type "KiCad") (uri "${KIPRJMOD}/MCU.kicad_sym") (options "") (descr ""))
+(lib (name "ProDoc_Boa-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/ProDoc_Boa-easyedapro.kicad_sym") (options "") (descr ""))
+)

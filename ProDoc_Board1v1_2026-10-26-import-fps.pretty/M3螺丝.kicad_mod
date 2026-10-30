@@ -1,0 +1,127 @@
+(footprint "M3螺丝"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c55929f9-717c-4d8b-bc36-a7d90b620cf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5066fd15-81ed-474b-8e67-ebae41f6979f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abdac1e6-e7ed-40ab-9689-b2eda01f9da9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f14901a4-96ed-4e4b-b0cd-1136b6606ea9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.011 -2.5)
+		(end -0.011 2.5)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d71f7019-dec0-4321-9e99-f32fb17dc5ee")
+	)
+	(fp_line
+		(start 2.4945 0)
+		(end -2.5055 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "894f06d8-f3a3-42c7-aa5d-a9fdb15c6209")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d4978d6b-fc90-4ceb-aecc-df68ab72de59")
+	)
+	(fp_poly
+		(pts
+			(xy 1.595068 -0.125535) (xy 1.555792 -0.373513) (xy 1.478207 -0.612293) (xy 1.364224 -0.835998) (xy 1.21665 -1.039117)
+			(xy 1.039117 -1.21665) (xy 0.835998 -1.364224) (xy 0.612293 -1.478207) (xy 0.373513 -1.555792) (xy 0.125535 -1.595068)
+			(xy -0.125535 -1.595068) (xy -0.373513 -1.555792) (xy -0.612293 -1.478207) (xy -0.835998 -1.364224)
+			(xy -1.039117 -1.21665) (xy -1.21665 -1.039117) (xy -1.364224 -0.835998) (xy -1.478207 -0.612293)
+			(xy -1.555792 -0.373513) (xy -1.595068 -0.125535) (xy -1.595068 0.125535) (xy -1.555792 0.373513)
+			(xy -1.478207 0.612293) (xy -1.364224 0.835998) (xy -1.21665 1.039117) (xy -1.039117 1.21665) (xy -0.835998 1.364224)
+			(xy -0.612293 1.478207) (xy -0.373513 1.555792) (xy -0.125535 1.595068) (xy 0.125535 1.595068) (xy 0.373513 1.555792)
+			(xy 0.612293 1.478207) (xy 0.835998 1.364224) (xy 1.039117 1.21665) (xy 1.21665 1.039117) (xy 1.364224 0.835998)
+			(xy 1.478207 0.612293) (xy 1.555792 0.373513) (xy 1.595068 0.125535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "bb115cec-4194-440d-8fe2-2fad164d42e9")
+	)
+	(fp_rect
+		(start -1.845068 -1.845068)
+		(end 1.845068 1.845068)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "afc691ca-f423-47e6-9842-160af13f033c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ddcb1d70-f119-4f2e-9443-0180a9358dc1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -662,7 +662,11 @@
       }
     ],
     "used_designators": "U1-4,R1-8,J1,#PWR1-3,D1-4,C1-5,Q1-3",
-    "variants": []
+    "variants": [
+      {
+        "name": "codex"
+      }
+    ]
   },
   "sheets": [
     [
@@ -675,7 +679,19 @@
     ],
     [
       "49516b4f-d465-4b39-ae52-1de484ecc052",
-      "power"
+      "POWER_SHARED"
+    ],
+    [
+      "62514c89-5113-48c1-b940-b634a05af696",
+      "FOC_M1"
+    ],
+    [
+      "a357c705-b3d7-4582-8f88-03f6ea329848",
+      "FOC_M2"
+    ],
+    [
+      "92cc594b-d885-4848-b864-91d378b546ef",
+      "HSL_DEBUGGER"
     ]
   ],
   "text_variables": {},

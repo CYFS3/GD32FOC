@@ -1,0 +1,302 @@
+{
+  "physical_before": 488,
+  "physical_after": 517,
+  "added_refs": [
+    "C300",
+    "C301",
+    "C302",
+    "C303",
+    "C304",
+    "C9101",
+    "C9102",
+    "C9103",
+    "C9104",
+    "J300",
+    "R310",
+    "R311",
+    "R312",
+    "R313",
+    "R314",
+    "R315",
+    "R316",
+    "R317",
+    "R318",
+    "R319",
+    "R9101",
+    "R9102",
+    "R9103",
+    "R9104",
+    "SW300",
+    "SW301",
+    "SW302",
+    "U9101",
+    "U9102"
+  ],
+  "removed_refs": [],
+  "unrelated_connectivity_unchanged": true,
+  "unexpected_removed_groups": [],
+  "unexpected_added_groups": [],
+  "changed_values_or_footprints": {
+    "R1090": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "10k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R3": [
+      [
+        "0��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0402"
+      ],
+      [
+        "0R",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0402"
+      ]
+    ],
+    "R1089": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "10k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "C84": [
+      [
+        "1nF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ],
+      [
+        "100pF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ]
+    ],
+    "R108": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "1k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "C1084": [
+      [
+        "1nF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ],
+      [
+        "100pF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ]
+    ],
+    "C1083": [
+      [
+        "1nF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ],
+      [
+        "100pF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ]
+    ],
+    "C83": [
+      [
+        "1nF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ],
+      [
+        "100pF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ]
+    ],
+    "R95": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "100R",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R1106": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "1k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R106": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "1k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R97": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "100R",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R89": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "10k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "C1082": [
+      [
+        "1nF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ],
+      [
+        "100pF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ]
+    ],
+    "R88": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "10k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R1108": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "1k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R1107": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "1k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R90": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "10k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R107": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "1k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "C82": [
+      [
+        "1nF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ],
+      [
+        "100pF",
+        "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S"
+      ]
+    ],
+    "R1098": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "100R",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R98": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "100R",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R1095": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "100R",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R1097": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "100R",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ],
+    "R1088": [
+      [
+        "1k��",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ],
+      [
+        "10k",
+        "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S"
+      ]
+    ]
+  },
+  "mcu_new_pins": {
+    "3": "LCD_RST_N",
+    "32": "LCD_MOSI",
+    "4": "LCD_BL_GPIO",
+    "83": "BTN_1_N",
+    "84": "BTN_2_N",
+    "85": "BTN_3_N",
+    "89": "LCD_SCK",
+    "92": "LCD_CS_N",
+    "93": "LCD_DC"
+  }
+}

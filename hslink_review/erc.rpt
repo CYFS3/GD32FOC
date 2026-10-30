@@ -1,0 +1,2193 @@
+ERC report (2026-10-26T16:02:50, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[footprint_link_issues]: 当前配置中不包含封装库 'GD32F505xx'
+    ; warning
+    @(63.50 mm, 27.94 mm): Symbol U1 [GD32F505VxTx (Altium Display 1)]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(155.00 mm, 126.19 mm): Symbol #PWR9012 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(155.00 mm, 133.81 mm): Symbol #PWR9018 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(155.00 mm, 133.81 mm): Symbol C200 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(155.00 mm, 146.19 mm): Symbol #PWR9027 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(155.00 mm, 153.81 mm): Symbol #PWR9020 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(155.00 mm, 153.81 mm): Symbol C205 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(160.00 mm, 171.19 mm): Symbol #PWR9002 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(160.00 mm, 178.81 mm): Symbol R200 Pin 2 [Passive, Line]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0402'
+    ; warning
+    @(170.18 mm, 35.56 mm): Symbol C2 [CL05A106MQ5NUNC]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0402'
+    ; warning
+    @(170.18 mm, 58.42 mm): Symbol C5 [CL05A106MQ5NUNC]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(173.00 mm, 126.19 mm): Symbol #PWR9034 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(173.00 mm, 133.81 mm): Symbol C201 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(173.00 mm, 133.81 mm): Symbol #PWR9015 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(178.00 mm, 146.19 mm): Symbol C206 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(178.00 mm, 146.19 mm): Symbol #PWR9025 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(178.00 mm, 153.81 mm): Symbol #PWR9014 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(185.00 mm, 178.81 mm): Symbol #PWR9008 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(185.00 mm, 178.81 mm): Symbol C209 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(191.00 mm, 126.19 mm): Symbol #PWR9028 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(191.00 mm, 133.81 mm): Symbol #PWR9003 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(191.00 mm, 133.81 mm): Symbol C202 Pin 2 [Passive, Line]
+[lib_symbol_mismatch]: 符号 'LP5907QMFX-3.3Q1' 与来源库 'ProDoc_Boa-easyedapro' 中的符号存在差异
+    ; warning
+    @(191.77 mm, 59.69 mm): Symbol U2 [LP5907QMFX-3.3Q1]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(201.00 mm, 146.19 mm): Symbol #PWR9016 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(201.00 mm, 153.81 mm): Symbol #PWR9001 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(201.00 mm, 153.81 mm): Symbol C207 Pin 2 [Passive, Line]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(204.47 mm, 25.40 mm): Symbol CN2 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(205.74 mm, 48.26 mm): Symbol CN6 [5012]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(209.00 mm, 126.19 mm): Symbol #PWR9036 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(209.00 mm, 126.19 mm): Symbol C203 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(209.00 mm, 133.81 mm): Symbol #PWR9035 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(210.00 mm, 171.19 mm): Symbol R201 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(210.00 mm, 178.81 mm): Symbol #PWR9023 Pin 1 [Power input, Line]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0402'
+    ; warning
+    @(210.82 mm, 35.56 mm): Symbol C3 [CL05A106MQ5NUNC]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0402'
+    ; warning
+    @(210.82 mm, 58.42 mm): Symbol C6 [CL05A106MQ5NUNC]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(217.17 mm, 39.37 mm): Symbol CN3 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'R0402'
+    ; warning
+    @(217.17 mm, 69.85 mm): Symbol R3 [0402WGF1002TCE]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(224.00 mm, 146.19 mm): Symbol #PWR9022 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(224.00 mm, 146.19 mm): Symbol C208 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(224.00 mm, 153.81 mm): Symbol #PWR9033 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(227.00 mm, 126.19 mm): Symbol #PWR9026 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(227.00 mm, 126.19 mm): Symbol C204 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(227.00 mm, 133.81 mm): Symbol #PWR9019 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(235.00 mm, 178.81 mm): Symbol #PWR9004 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(235.00 mm, 178.81 mm): Symbol R202 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(239.92 mm, 102.46 mm): Symbol #PWR9005 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(239.92 mm, 105.00 mm): Symbol #PWR9013 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(239.92 mm, 107.54 mm): Symbol J200 Pin 3 [Pin_3, Passive, Line]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(8.89 mm, 82.55 mm): Symbol C8080 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(8.89 mm, 107.95 mm): Symbol C8082 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(10.16 mm, 34.29 mm): Symbol C8068 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(11.43 mm, 58.42 mm): Symbol C8074 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(13.97 mm, 107.95 mm): Symbol C8083 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(16.51 mm, 34.29 mm): Symbol C8069 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(17.78 mm, 58.42 mm): Symbol C8075 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(19.05 mm, 107.95 mm): Symbol C8084 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(22.86 mm, 34.29 mm): Symbol C8070 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(24.13 mm, 58.42 mm): Symbol C8076 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(25.40 mm, 107.95 mm): Symbol C8085 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(29.21 mm, 34.29 mm): Symbol C8071 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(35.56 mm, 34.29 mm): Symbol C8072 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(39.37 mm, 87.63 mm): Symbol C8081 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(39.37 mm, 114.30 mm): Symbol R8058 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(39.37 mm, 124.46 mm): Symbol C8086 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(39.37 mm, 149.86 mm): Symbol R8063 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(39.37 mm, 152.40 mm): Symbol R8064 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(39.37 mm, 154.94 mm): Symbol R8065 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(39.37 mm, 157.48 mm): Symbol R8066 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(39.37 mm, 160.02 mm): Symbol R8068 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(39.37 mm, 163.83 mm): Symbol R8070 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(40.64 mm, 77.47 mm): Symbol R8054 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(43.18 mm, 53.34 mm): Symbol C8073 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(43.18 mm, 62.23 mm): Symbol C8077 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(43.18 mm, 66.04 mm): Symbol C8078 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(43.18 mm, 69.85 mm): Symbol C8079 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(48.26 mm, 16.51 mm): Symbol C8064 [CapAcitance]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(52.07 mm, 163.83 mm): Horizontal Wire, length 7.62 mm
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(54.61 mm, 16.51 mm): Symbol C8065 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(62.23 mm, 16.51 mm): Symbol C8066 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(68.58 mm, 16.51 mm): Symbol C8067 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(78.74 mm, 171.45 mm): Symbol R8071 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(85.09 mm, 196.85 mm): Symbol R8073 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(88.90 mm, 171.45 mm): Symbol R8072 [电阻]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(100.33 mm, 68.58 mm): Global Label 'HSL_ISP_TX'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(100.33 mm, 71.12 mm): Global Label 'HSL_ISP_RX'
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(105.41 mm, 113.03 mm): Symbol R8059 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(106.68 mm, 73.66 mm): Symbol R8053 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(106.68 mm, 76.20 mm): Symbol R8055 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(111.76 mm, 147.32 mm): Symbol R8061 [电阻]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(113.03 mm, 68.58 mm): Horizontal Wire, length 19.05 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(113.03 mm, 71.12 mm): Horizontal Wire, length 19.05 mm
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(114.30 mm, 147.32 mm): Symbol R8062 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(121.92 mm, 154.94 mm): Symbol R8067 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(121.92 mm, 157.48 mm): Symbol R8069 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(137.16 mm, 91.44 mm): Symbol R8056 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(137.16 mm, 106.68 mm): Symbol R8057 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(153.67 mm, 128.27 mm): Symbol C8087 [CapAcitance]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(153.67 mm, 133.35 mm): Symbol R8060 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(158.75 mm, 68.58 mm): Symbol R8052 [电阻]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(231.14 mm, 86.36 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(241.30 mm, 20.32 mm): Horizontal Wire, length 7.62 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(266.99 mm, 34.29 mm): Horizontal Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(266.99 mm, 34.29 mm): Symbol #PWR11045 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(268.26 mm, 34.29 mm): Symbol L8006 Pin 1 [1, Unspecified, Line]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'L0603'
+    ; warning
+    @(273.34 mm, 34.29 mm): Symbol L8006 [BLM18KG121TN1D]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(278.42 mm, 34.29 mm): Symbol R8075 Pin 2 [2, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(278.42 mm, 34.29 mm): Horizontal Wire, length 10.16 mm
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(278.42 mm, 39.37 mm): Symbol R8075 [电阻]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(278.42 mm, 44.45 mm): Horizontal Wire, length 10.16 mm
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(278.42 mm, 49.53 mm): Symbol R8077 [电阻]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(278.42 mm, 54.61 mm): Symbol R8077 Pin 2 [2, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(278.42 mm, 54.61 mm): Symbol #PWR11046 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(279.92 mm, 100.00 mm): Symbol R8901 Pin 1 [1, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(279.92 mm, 115.24 mm): Symbol R8902 Pin 1 [1, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(279.92 mm, 130.48 mm): Symbol R8903 Pin 1 [1, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(279.92 mm, 145.72 mm): Symbol R8904 Pin 1 [1, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(279.92 mm, 160.96 mm): Symbol R8905 Pin 1 [1, Input, Line]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(285.00 mm, 100.00 mm): Symbol R8901 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(285.00 mm, 115.24 mm): Symbol R8902 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(285.00 mm, 130.48 mm): Symbol R8903 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(285.00 mm, 145.72 mm): Symbol R8904 [电阻]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(285.00 mm, 160.96 mm): Symbol R8905 [电阻]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(288.58 mm, 34.29 mm): Horizontal Wire, length 6.35 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(288.58 mm, 34.29 mm): Symbol #PWR11047 Pin 1 [Power input, Line]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(288.58 mm, 39.37 mm): Symbol C8089 [CapAcitance]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(288.58 mm, 44.45 mm): Vertical Wire, length 19.05 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(288.58 mm, 44.45 mm): Symbol C8089 Pin 1 [1, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(288.58 mm, 63.50 mm): Horizontal Wire, length 80.01 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(294.93 mm, 34.29 mm): Horizontal Wire, length 7.62 mm
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(294.93 mm, 39.37 mm): Symbol C8090 [CapAcitance]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(294.93 mm, 44.45 mm): Symbol C8090 Pin 1 [1, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(294.93 mm, 44.45 mm): Horizontal Wire, length 7.62 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(294.93 mm, 44.45 mm): Symbol #PWR11048 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(302.55 mm, 34.29 mm): Horizontal Wire, length 5.08 mm
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(302.55 mm, 39.37 mm): Symbol C8091 [CapAcitance]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(302.55 mm, 44.45 mm): Horizontal Wire, length 5.08 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(302.55 mm, 44.45 mm): Symbol C8091 Pin 2 [2, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(307.63 mm, 34.29 mm): Horizontal Wire, length 13.97 mm
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(307.63 mm, 39.37 mm): Symbol C8092 [CapAcitance]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(307.63 mm, 44.45 mm): Symbol C8092 Pin 2 [2, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(311.44 mm, 44.45 mm): Symbol C8093 Pin 2 [2, Input, Line]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(311.44 mm, 49.53 mm): Symbol C8093 [CapAcitance]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(311.44 mm, 55.88 mm): Vertical Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(317.79 mm, 44.45 mm): Horizontal Wire, length 6.35 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(317.79 mm, 44.45 mm): Symbol C8094 Pin 2 [2, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(317.79 mm, 44.45 mm): Symbol #PWR11044 Pin 1 [Power input, Line]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(317.79 mm, 49.53 mm): Symbol C8094 [CapAcitance]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(317.79 mm, 55.88 mm): Horizontal Wire, length 6.35 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(317.79 mm, 55.88 mm): Vertical Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(317.79 mm, 55.88 mm): Symbol #PWR11049 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(321.60 mm, 34.29 mm): Symbol U8009 Pin 1 [1, Unspecified, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(324.14 mm, 44.45 mm): Symbol C8095 Pin 2 [2, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(324.14 mm, 44.45 mm): Horizontal Wire, length 6.35 mm
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(324.14 mm, 49.53 mm): Symbol C8095 [CapAcitance]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(324.14 mm, 54.61 mm): Vertical Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(324.14 mm, 55.88 mm): Horizontal Wire, length 5.08 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(324.14 mm, 55.88 mm): Horizontal Wire, length 6.35 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(329.22 mm, 39.37 mm): Horizontal Wire, length 3.81 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(329.22 mm, 55.88 mm): Vertical Wire, length 16.51 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(331.76 mm, 34.29 mm): Horizontal Wire, length 12.70 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(331.76 mm, 41.91 mm): Vertical Wire, length 7.62 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(333.03 mm, 41.91 mm): Horizontal Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(333.03 mm, 44.45 mm): Horizontal Wire, length 8.89 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(344.46 mm, 34.29 mm): Symbol C8088 Pin 1 [1, Input, Line]
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(349.54 mm, 34.29 mm): Symbol C8088 [CapAcitance]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(358.43 mm, 34.29 mm): Horizontal Wire, length 3.81 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(358.43 mm, 39.37 mm): Vertical Wire, length 5.08 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(358.43 mm, 44.45 mm): Symbol U8010 Pin 4 [VFB, Unspecified, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(366.05 mm, 41.91 mm): Horizontal Wire, length 7.62 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(368.59 mm, 44.45 mm): Horizontal Wire, length 10.16 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(368.59 mm, 63.50 mm): Vertical Wire, length 19.05 mm
+[footprint_link_issues]: 在库 'ProDoc_IPB-TINY_2026-10-26-import-fps' 中找不到封装 'R0603'
+    ; warning
+    @(371.13 mm, 41.91 mm): Symbol R8076 [电阻]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(376.21 mm, 41.91 mm): Symbol R8076 Pin 2 [2, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(376.21 mm, 41.91 mm): Horizontal Wire, length 7.62 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(383.83 mm, 41.91 mm): Symbol #PWR11050 Pin 1 [Power input, Line]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(30.48 mm, 105.41 mm): Symbol R47 [R0603_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(30.48 mm, 121.92 mm): Symbol R46 [R0603_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'SO-8_L4.9-W3.9-P1.27-LS6.0-BL-EP'
+    ; warning
+    @(46.99 mm, 110.49 mm): Symbol U6 [LM5164DDAR]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(53.34 mm, 97.79 mm): Symbol C67 [C0603_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(58.42 mm, 69.85 mm): Symbol Q3 [WSD80120DN56_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(62.23 mm, 101.60 mm): Symbol R45 [R0603_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(67.31 mm, 97.79 mm): Symbol L6 [SMNR6045-470MT]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(67.31 mm, 109.22 mm): Symbol C66 [C0603_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(72.39 mm, 55.88 mm): Symbol D23 [ZMM15V]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(72.39 mm, 101.60 mm): Symbol C68 [C0603_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(83.82 mm, 106.68 mm): Symbol R44 [R0603_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(83.82 mm, 119.38 mm): Symbol R43 [R0603_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(92.71 mm, 19.05 mm): Symbol L7 [LED-0603_R_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(95.25 mm, 138.43 mm): Symbol L5 [LED-0603_R_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(99.06 mm, 91.44 mm): Symbol CN4 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(101.60 mm, 55.88 mm): Symbol D4 [ZMM62]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(119.38 mm, 113.03 mm): Symbol C74 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(158.75 mm, 36.83 mm): Symbol D24 [ZMM15V]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(172.72 mm, 30.48 mm): Symbol Q1 [WSD90P06DN56_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(185.42 mm, 95.25 mm): Symbol L8 [LED-0603_R_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(187.96 mm, 21.59 mm): Symbol CN9 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(189.23 mm, 104.14 mm): Symbol L9 [2.2uH]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(190.50 mm, 113.03 mm): Symbol C172 [100nF]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(200.66 mm, 120.65 mm): Symbol R155 [52.3K]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(200.66 mm, 128.27 mm): Symbol R154 [10K]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(222.25 mm, 46.99 mm): Symbol C164 [VKME1001K820MV]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(238.76 mm, 46.99 mm): Symbol C165 [VKME1001K820MV]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(248.92 mm, 104.14 mm): Symbol CN7 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(255.27 mm, 46.99 mm): Symbol C160 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(270.51 mm, 46.99 mm): Symbol C161 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(285.75 mm, 46.99 mm): Symbol C151 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(300.99 mm, 46.99 mm): Symbol C152 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(304.80 mm, 123.19 mm): Symbol CN16 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(316.23 mm, 46.99 mm): Symbol C153 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(331.47 mm, 46.99 mm): Symbol C154 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(344.17 mm, 107.95 mm): Symbol CN13 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(346.71 mm, 46.99 mm): Symbol C155 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(361.95 mm, 46.99 mm): Symbol C156 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(375.92 mm, 46.99 mm): Symbol C157 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(389.89 mm, 46.99 mm): Symbol C158 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(405.13 mm, 46.99 mm): Symbol C159 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(417.83 mm, 46.99 mm): Symbol C163 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(433.07 mm, 46.99 mm): Symbol C162 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(30.48 mm, 287.02 mm): Symbol CN37 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(48.26 mm, 172.72 mm): Symbol U10 [RS6334XQ]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(48.26 mm, 220.98 mm): Symbol U10 [RS6334XQ]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(55.88 mm, 287.02 mm): Symbol CN38 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(67.31 mm, 166.37 mm): Symbol CN14 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(67.31 mm, 214.63 mm): Symbol CN20 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(67.31 mm, 172.72 mm): Horizontal Wire, length 5.08 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(72.39 mm, 220.98 mm): Horizontal Wire, length 5.08 mm
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(81.28 mm, 287.02 mm): Symbol CN39 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(107.95 mm, 287.02 mm): Symbol CN40 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(123.19 mm, 172.72 mm): Symbol U10 [RS6334XQ]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(124.46 mm, 220.98 mm): Symbol U10 [RS6334XQ]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(142.24 mm, 166.37 mm): Symbol CN15 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(143.51 mm, 214.63 mm): Symbol CN21 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(148.59 mm, 220.98 mm): Horizontal Wire, length 5.08 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(149.86 mm, 172.72 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(217.17 mm, 304.80 mm): Horizontal Wire, length 27.94 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(217.17 mm, 307.34 mm): Horizontal Wire, length 27.94 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(217.17 mm, 309.88 mm): Horizontal Wire, length 27.94 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(303.53 mm, 198.12 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(303.53 mm, 200.66 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(303.53 mm, 203.20 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 208.28 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 210.82 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 213.36 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 215.90 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 218.44 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 220.98 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 223.52 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 226.06 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(331.47 mm, 199.39 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(331.47 mm, 210.82 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(331.47 mm, 222.25 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(323.85 mm, 280.67 mm): Horizontal Wire, length 68.58 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(270.51 mm, 283.21 mm): Horizontal Wire, length 53.34 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(288.29 mm, 285.75 mm): Horizontal Wire, length 35.56 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(306.07 mm, 288.29 mm): Horizontal Wire, length 17.78 mm
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(336.55 mm, 199.39 mm): Symbol D8 [B5819WS_C305446]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(336.55 mm, 210.82 mm): Symbol D9 [B5819WS_C305446]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(336.55 mm, 222.25 mm): Symbol D10 [B5819WS_C305446]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(354.33 mm, 199.39 mm): Symbol C130 [CGA0603X5R105K500JT]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(354.33 mm, 210.82 mm): Symbol C131 [CGA0603X5R105K500JT]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(354.33 mm, 222.25 mm): Symbol C132 [CGA0603X5R105K500JT]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(359.41 mm, 199.39 mm): Horizontal Wire, length 20.32 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(359.41 mm, 210.82 mm): Horizontal Wire, length 20.32 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(359.41 mm, 222.25 mm): Horizontal Wire, length 20.32 mm
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(412.75 mm, 278.13 mm): Symbol C96 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(422.91 mm, 278.13 mm): Symbol C97 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(433.07 mm, 278.13 mm): Symbol C98 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(443.23 mm, 278.13 mm): Symbol C99 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(448.31 mm, 158.75 mm): Symbol CN17 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(448.31 mm, 215.90 mm): Symbol CN25 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(453.39 mm, 278.13 mm): Symbol C100 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(457.20 mm, 165.10 mm): Symbol Q5 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(457.20 mm, 222.25 mm): Symbol Q8 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(457.20 mm, 246.38 mm): Symbol R81 [R2512_S]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(461.01 mm, 191.77 mm): Symbol CN22 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(463.55 mm, 198.12 mm): Horizontal Wire, length 2.54 mm
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(463.55 mm, 232.41 mm): Symbol CN28 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(463.55 mm, 278.13 mm): Symbol C101 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(473.71 mm, 278.13 mm): Symbol C102 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(483.87 mm, 278.13 mm): Symbol C103 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(494.03 mm, 278.13 mm): Symbol C104 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(501.65 mm, 158.75 mm): Symbol CN18 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(501.65 mm, 215.90 mm): Symbol CN26 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(502.92 mm, 256.54 mm): Symbol CN35 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(510.54 mm, 165.10 mm): Symbol Q6 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(510.54 mm, 222.25 mm): Symbol Q9 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(510.54 mm, 246.38 mm): Symbol R82 [R2512_S]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(510.54 mm, 271.78 mm): Symbol R109 [R2512_S]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(514.35 mm, 191.77 mm): Symbol CN23 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(516.89 mm, 198.12 mm): Horizontal Wire, length 2.54 mm
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(516.89 mm, 232.41 mm): Symbol CN29 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(518.16 mm, 256.54 mm): Symbol CN36 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(554.99 mm, 158.75 mm): Symbol CN19 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(554.99 mm, 215.90 mm): Symbol CN27 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(547.37 mm, 276.86 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(547.37 mm, 279.40 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(547.37 mm, 281.94 mm): Horizontal Wire, length 7.62 mm
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(563.88 mm, 165.10 mm): Symbol Q7 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(563.88 mm, 222.25 mm): Symbol Q10 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(563.88 mm, 246.38 mm): Symbol R83 [R2512_S]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(567.69 mm, 191.77 mm): Symbol CN24 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(570.23 mm, 198.12 mm): Horizontal Wire, length 2.54 mm
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(570.23 mm, 232.41 mm): Symbol CN30 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(30.48 mm, 287.02 mm): Symbol CN1037 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(48.26 mm, 172.72 mm): Symbol U1010 [RS6334XQ]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(48.26 mm, 220.98 mm): Symbol U1010 [RS6334XQ]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(55.88 mm, 287.02 mm): Symbol CN1038 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(67.31 mm, 166.37 mm): Symbol CN1014 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(67.31 mm, 214.63 mm): Symbol CN1020 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(67.31 mm, 172.72 mm): Horizontal Wire, length 5.08 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(72.39 mm, 220.98 mm): Horizontal Wire, length 5.08 mm
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(81.28 mm, 287.02 mm): Symbol CN1039 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(107.95 mm, 287.02 mm): Symbol CN1040 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(123.19 mm, 172.72 mm): Symbol U1010 [RS6334XQ]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(124.46 mm, 220.98 mm): Symbol U1010 [RS6334XQ]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(142.24 mm, 166.37 mm): Symbol CN1015 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(143.51 mm, 214.63 mm): Symbol CN1021 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(148.59 mm, 220.98 mm): Horizontal Wire, length 5.08 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(149.86 mm, 172.72 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(217.17 mm, 304.80 mm): Horizontal Wire, length 27.94 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(217.17 mm, 307.34 mm): Horizontal Wire, length 27.94 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(217.17 mm, 309.88 mm): Horizontal Wire, length 27.94 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(294.64 mm, 226.06 mm): Horizontal Wire, length 8.89 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(303.53 mm, 198.12 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(303.53 mm, 200.66 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(303.53 mm, 203.20 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 208.28 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 210.82 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 213.36 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 215.90 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 218.44 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 220.98 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(311.15 mm, 223.52 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(331.47 mm, 199.39 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(331.47 mm, 210.82 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(331.47 mm, 222.25 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(323.85 mm, 280.67 mm): Horizontal Wire, length 68.58 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(270.51 mm, 283.21 mm): Horizontal Wire, length 53.34 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(288.29 mm, 285.75 mm): Horizontal Wire, length 35.56 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(306.07 mm, 288.29 mm): Horizontal Wire, length 17.78 mm
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(336.55 mm, 199.39 mm): Symbol D1008 [B5819WS_C305446]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(336.55 mm, 210.82 mm): Symbol D1009 [B5819WS_C305446]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(336.55 mm, 222.25 mm): Symbol D1010 [B5819WS_C305446]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(354.33 mm, 199.39 mm): Symbol C1130 [CGA0603X5R105K500JT]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(354.33 mm, 210.82 mm): Symbol C1131 [CGA0603X5R105K500JT]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 'C0603'
+    ; warning
+    @(354.33 mm, 222.25 mm): Symbol C1132 [CGA0603X5R105K500JT]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(359.41 mm, 199.39 mm): Horizontal Wire, length 20.32 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(359.41 mm, 210.82 mm): Horizontal Wire, length 20.32 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(359.41 mm, 222.25 mm): Horizontal Wire, length 20.32 mm
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(412.75 mm, 278.13 mm): Symbol C1096 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(422.91 mm, 278.13 mm): Symbol C1097 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(433.07 mm, 278.13 mm): Symbol C1098 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(443.23 mm, 278.13 mm): Symbol C1099 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(448.31 mm, 158.75 mm): Symbol CN1017 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(448.31 mm, 215.90 mm): Symbol CN1025 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(453.39 mm, 278.13 mm): Symbol C1100 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(457.20 mm, 165.10 mm): Symbol Q1005 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(457.20 mm, 222.25 mm): Symbol Q1008 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(457.20 mm, 246.38 mm): Symbol R1081 [R2512_S]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(461.01 mm, 191.77 mm): Symbol CN1022 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(463.55 mm, 198.12 mm): Horizontal Wire, length 2.54 mm
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(463.55 mm, 232.41 mm): Symbol CN1028 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(463.55 mm, 278.13 mm): Symbol C1101 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(473.71 mm, 278.13 mm): Symbol C1102 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(483.87 mm, 278.13 mm): Symbol C1103 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(494.03 mm, 278.13 mm): Symbol C1104 [C1206_S_1]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(501.65 mm, 158.75 mm): Symbol CN1018 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(501.65 mm, 215.90 mm): Symbol CN1026 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(502.92 mm, 256.54 mm): Symbol CN1035 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(510.54 mm, 165.10 mm): Symbol Q1006 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(510.54 mm, 222.25 mm): Symbol Q1009 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(510.54 mm, 246.38 mm): Symbol R1082 [R2512_S]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(510.54 mm, 271.78 mm): Symbol R1109 [R2512_S]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(514.35 mm, 191.77 mm): Symbol CN1023 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(516.89 mm, 198.12 mm): Horizontal Wire, length 2.54 mm
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(516.89 mm, 232.41 mm): Symbol CN1029 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(518.16 mm, 256.54 mm): Symbol CN1036 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(554.99 mm, 158.75 mm): Symbol CN1019 [5012]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(554.99 mm, 215.90 mm): Symbol CN1027 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(547.37 mm, 276.86 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(547.37 mm, 279.40 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(547.37 mm, 281.94 mm): Horizontal Wire, length 7.62 mm
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(563.88 mm, 165.10 mm): Symbol Q1007 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(563.88 mm, 222.25 mm): Symbol Q1010 [KCD3008A]
+[footprint_link_issues]: 在库 'ProDoc_Boa-easyedapro' 中找不到封装 ''
+    ; warning
+    @(563.88 mm, 246.38 mm): Symbol R1083 [R2512_S]
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(567.69 mm, 191.77 mm): Symbol CN1024 [5012]
+[unconnected_wire_endpoint]: 未连接的连线端点
+    ; warning
+    @(570.23 mm, 198.12 mm): Horizontal Wire, length 2.54 mm
+[footprint_link_issues]: 在库 'ProDoc_Board1v1_2026-10-26-import-fps' 中找不到封装 '测试点'
+    ; warning
+    @(570.23 mm, 232.41 mm): Symbol CN1030 [5012]
+
+***** Sheet /MCU/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(170.18 mm, 31.75 mm): Symbol #PWR0006 Pin 1 [5V, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(201.93 mm, 36.83 mm): Symbol U20 Pin 4 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(201.93 mm, 36.83 mm): Symbol U20 Pin 4 [NC, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(201.93 mm, 59.69 mm): Symbol U2 Pin 4 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(201.93 mm, 59.69 mm): Symbol U2 Pin 4 [NC, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(210.82 mm, 31.75 mm): Symbol #PWR0001 Pin 1 [VCC, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(210.82 mm, 39.37 mm): Symbol #PWR0002 Pin 1 [GND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(210.82 mm, 54.61 mm): Symbol #PWR0003 Pin 1 [VCC, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(210.82 mm, 62.23 mm): Symbol #PWR0005 Pin 1 [AGND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(275.59 mm, 148.59 mm): Symbol #PWR9010 Pin 1 [Power input, Line]
+
+***** Sheet /POWER_SHARED/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(26.67 mm, 27.94 mm): Symbol #PWR0046 Pin 1 [DCBUS, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(30.48 mm, 109.22 mm): Symbol R47 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(30.48 mm, 118.11 mm): Symbol R46 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(46.99 mm, 53.34 mm): Symbol C128 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(49.53 mm, 97.79 mm): Symbol C67 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(57.15 mm, 97.79 mm): Symbol C67 Pin 2 [2, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(58.42 mm, 116.84 mm): Symbol U6 Pin 6 [PG, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(58.42 mm, 116.84 mm): Symbol U6 Pin 6 [PG, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(67.31 mm, 105.41 mm): Symbol C66 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(67.31 mm, 113.03 mm): Symbol C66 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(87.63 mm, 19.05 mm): Symbol L7 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(88.90 mm, 52.07 mm): Symbol C125 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(90.17 mm, 138.43 mm): Symbol L5 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(101.60 mm, 50.80 mm): Symbol D4 Pin 1 [C, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(121.92 mm, 44.45 mm): Symbol C126 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(121.92 mm, 52.07 mm): Symbol C126 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(146.05 mm, 40.64 mm): Symbol C127 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(166.37 mm, 124.46 mm): Symbol R153 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(180.34 mm, 95.25 mm): Symbol L8 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(190.50 mm, 107.95 mm): Symbol C172 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(190.50 mm, 118.11 mm): Symbol C172 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(196.85 mm, 53.34 mm): Symbol C129 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(200.66 mm, 124.46 mm): Symbol R154 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(318.77 mm, 116.84 mm): Symbol C79 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(425.45 mm, 68.58 mm): Symbol #PWR0034 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(26.67 mm, 48.26 mm): Symbol CN1 Pin 1 [-, Unspecified, Line]
+    @(36.83 mm, 44.45 mm): Symbol D22 Pin 2 [A, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(26.67 mm, 50.80 mm): Symbol CN1 Pin 2 [+, Unspecified, Line]
+    @(36.83 mm, 54.61 mm): Symbol D22 Pin 1 [K, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(53.34 mm, 69.85 mm): Symbol Q3 Pin 2 [D, Unspecified, Line]
+    @(46.99 mm, 60.96 mm): Symbol C128 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(58.42 mm, 63.50 mm): Symbol Q3 Pin 1 [G, Unspecified, Line]
+    @(72.39 mm, 50.80 mm): Symbol D23 Pin 1 [K, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(63.50 mm, 69.85 mm): Symbol Q3 Pin 3 [S, Unspecified, Line]
+    @(72.39 mm, 60.96 mm): Symbol D23 Pin 2 [A, Input, Line]
+
+***** Sheet /FOC_M1/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(13.97 mm, 269.24 mm): Symbol #PWR0027 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(13.97 mm, 276.86 mm): Symbol R84 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(30.48 mm, 170.18 mm): Symbol R147 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(30.48 mm, 223.52 mm): Symbol R69 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(34.29 mm, 175.26 mm): Symbol R51 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(36.83 mm, 212.09 mm): Symbol R65 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(39.37 mm, 269.24 mm): Symbol #PWR0031 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(39.37 mm, 276.86 mm): Symbol R85 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(64.77 mm, 269.24 mm): Symbol #PWR0056 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 276.86 mm): Symbol R86 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(91.44 mm, 276.86 mm): Symbol R87 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(105.41 mm, 170.18 mm): Symbol R145 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(105.41 mm, 175.26 mm): Symbol R52 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(106.68 mm, 223.52 mm): Symbol R72 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(110.49 mm, 231.14 mm): Symbol #PWR0052 Pin 1 [DCBUS, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(111.76 mm, 212.09 mm): Symbol R66 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(123.19 mm, 269.24 mm): Symbol #PWR0038 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(123.19 mm, 280.67 mm): Symbol R128 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(123.19 mm, 298.45 mm): Symbol #PWR0082 Pin 1 [5V, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(137.16 mm, 283.21 mm): Symbol #PWR0067 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(207.01 mm, 280.67 mm): Symbol CN5 Pin 5 [5, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(207.01 mm, 283.21 mm): Symbol CN5 Pin 4 [4, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(207.01 mm, 285.75 mm): Symbol CN5 Pin 3 [3, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(207.01 mm, 288.29 mm): Symbol CN5 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(231.14 mm, 264.16 mm): Symbol R49 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(255.27 mm, 289.56 mm): Symbol C85 Pin 1 [1, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(257.81 mm, 199.39 mm): Symbol #PWR0029 Pin 1 [12V, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(279.40 mm, 208.28 mm): Symbol U7 Pin 5 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(279.40 mm, 208.28 mm): Symbol U7 Pin 5 [NC, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(279.40 mm, 213.36 mm): Symbol U7 Pin 7 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(279.40 mm, 213.36 mm): Symbol U7 Pin 7 [NC, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(279.40 mm, 215.90 mm): Symbol U7 Pin 8 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(279.40 mm, 215.90 mm): Symbol U7 Pin 8 [NC, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(303.53 mm, 205.74 mm): Symbol U7 Pin 21 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(303.53 mm, 205.74 mm): Symbol U7 Pin 21 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(341.63 mm, 199.39 mm): Symbol D8 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(341.63 mm, 210.82 mm): Symbol D9 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(341.63 mm, 222.25 mm): Symbol D10 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(378.46 mm, 285.75 mm): Symbol CN47 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(378.46 mm, 288.29 mm): Symbol CN47 Pin 3 [3, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(378.46 mm, 290.83 mm): Symbol CN47 Pin 4 [4, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(378.46 mm, 293.37 mm): Symbol CN47 Pin 5 [5, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(427.99 mm, 160.02 mm): Symbol D5 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(427.99 mm, 217.17 mm): Symbol D11 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(448.31 mm, 166.37 mm): Symbol C145 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(448.31 mm, 223.52 mm): Symbol C146 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(448.31 mm, 231.14 mm): Symbol C146 Pin 1 [1, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(463.55 mm, 284.48 mm): Symbol #PWR0011 Pin 1 [Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(481.33 mm, 160.02 mm): Symbol D6 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(481.33 mm, 217.17 mm): Symbol D12 Pin 1 [-, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(494.03 mm, 271.78 mm): Symbol #PWR0013 Pin 1 [DCBUS, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(501.65 mm, 166.37 mm): Symbol C147 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(501.65 mm, 223.52 mm): Symbol C148 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(501.65 mm, 231.14 mm): Symbol C148 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(502.92 mm, 262.89 mm): Symbol CN35 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(534.67 mm, 160.02 mm): Symbol D7 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(534.67 mm, 217.17 mm): Symbol D13 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(554.99 mm, 166.37 mm): Symbol C149 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(554.99 mm, 223.52 mm): Symbol C150 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(554.99 mm, 231.14 mm): Symbol C150 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(38.10 mm, 170.18 mm): Symbol U10 Pin 6 [-INB, Unspecified, Line]
+    @(35.56 mm, 163.83 mm): Symbol R149 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(38.10 mm, 175.26 mm): Symbol U10 Pin 5 [+INB, Unspecified, Line]
+    @(34.29 mm, 175.26 mm): Symbol R51 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(38.10 mm, 218.44 mm): Symbol U10 Pin 9 [-INC, Unspecified, Line]
+    @(36.83 mm, 212.09 mm): Symbol R65 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(38.10 mm, 223.52 mm): Symbol U10 Pin 10 [+INC, Unspecified, Line]
+    @(34.29 mm, 223.52 mm): Symbol R71 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(113.03 mm, 170.18 mm): Symbol U10 Pin 2 [-INA, Unspecified, Line]
+    @(110.49 mm, 163.83 mm): Symbol R146 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(113.03 mm, 175.26 mm): Symbol U10 Pin 3 [+INA, Unspecified, Line]
+    @(109.22 mm, 175.26 mm): Symbol R55 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(114.30 mm, 218.44 mm): Symbol U10 Pin 13 [-IND, Unspecified, Line]
+    @(111.76 mm, 212.09 mm): Symbol R66 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(114.30 mm, 223.52 mm): Symbol U10 Pin 12 [+IND, Unspecified, Line]
+    @(110.49 mm, 223.52 mm): Symbol R74 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(123.19 mm, 162.56 mm): Symbol U10 Pin 4 [V+, Unspecified, Line]
+    @(123.19 mm, 162.56 mm): Symbol #PWR0061 Pin 1 [DCBUS, Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(123.19 mm, 182.88 mm): Symbol U10 Pin 11 [V-, Unspecified, Line]
+    @(123.19 mm, 182.88 mm): Symbol #PWR0105 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(349.25 mm, 199.39 mm): Symbol C130 Pin 1 [1, Unspecified, Line]
+    @(341.63 mm, 199.39 mm): Symbol D8 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(349.25 mm, 210.82 mm): Symbol C131 Pin 1 [1, Unspecified, Line]
+    @(341.63 mm, 210.82 mm): Symbol D9 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(349.25 mm, 222.25 mm): Symbol C132 Pin 1 [1, Unspecified, Line]
+    @(341.63 mm, 222.25 mm): Symbol D10 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(359.41 mm, 199.39 mm): Symbol C130 Pin 2 [2, Unspecified, Line]
+    @(303.53 mm, 213.36 mm): Symbol U7 Pin 18 [VS1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(359.41 mm, 210.82 mm): Symbol C131 Pin 2 [2, Unspecified, Line]
+    @(303.53 mm, 220.98 mm): Symbol U7 Pin 15 [VS2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(359.41 mm, 222.25 mm): Symbol C132 Pin 2 [2, Unspecified, Line]
+    @(279.40 mm, 226.06 mm): Symbol U7 Pin 12 [VS3, Input, Line]
+
+***** Sheet /FOC_M2/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(13.97 mm, 269.24 mm): Symbol #PWR1027 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(13.97 mm, 276.86 mm): Symbol R1084 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(30.48 mm, 170.18 mm): Symbol R1147 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(30.48 mm, 223.52 mm): Symbol R1069 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(34.29 mm, 175.26 mm): Symbol R1051 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(36.83 mm, 212.09 mm): Symbol R1065 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(39.37 mm, 269.24 mm): Symbol #PWR1031 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(39.37 mm, 276.86 mm): Symbol R1085 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(64.77 mm, 269.24 mm): Symbol #PWR1056 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 276.86 mm): Symbol R1086 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(91.44 mm, 276.86 mm): Symbol R1087 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(101.60 mm, 289.56 mm): Symbol C1078 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(105.41 mm, 170.18 mm): Symbol R1145 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(105.41 mm, 175.26 mm): Symbol R1052 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(106.68 mm, 223.52 mm): Symbol R1072 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(111.76 mm, 212.09 mm): Symbol R1066 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(123.19 mm, 269.24 mm): Symbol #PWR1038 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(123.19 mm, 280.67 mm): Symbol R1128 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(123.19 mm, 298.45 mm): Symbol #PWR1082 Pin 1 [5V, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(137.16 mm, 283.21 mm): Symbol #PWR1067 Pin 1 [5V, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(207.01 mm, 280.67 mm): Symbol CN1005 Pin 5 [5, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(207.01 mm, 283.21 mm): Symbol CN1005 Pin 4 [4, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(207.01 mm, 285.75 mm): Symbol CN1005 Pin 3 [3, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(207.01 mm, 288.29 mm): Symbol CN1005 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(231.14 mm, 264.16 mm): Symbol R1049 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(255.27 mm, 289.56 mm): Symbol C1085 Pin 1 [1, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(279.40 mm, 208.28 mm): Symbol U1007 Pin 5 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(279.40 mm, 208.28 mm): Symbol U1007 Pin 5 [NC, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(279.40 mm, 213.36 mm): Symbol U1007 Pin 7 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(279.40 mm, 213.36 mm): Symbol U1007 Pin 7 [NC, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(279.40 mm, 215.90 mm): Symbol U1007 Pin 8 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(279.40 mm, 215.90 mm): Symbol U1007 Pin 8 [NC, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(303.53 mm, 205.74 mm): Symbol U1007 Pin 21 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(303.53 mm, 205.74 mm): Symbol U1007 Pin 21 [NC, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(341.63 mm, 199.39 mm): Symbol D1008 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(341.63 mm, 210.82 mm): Symbol D1009 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(341.63 mm, 222.25 mm): Symbol D1010 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(378.46 mm, 285.75 mm): Symbol CN1047 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(378.46 mm, 288.29 mm): Symbol CN1047 Pin 3 [3, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(378.46 mm, 290.83 mm): Symbol CN1047 Pin 4 [4, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(378.46 mm, 293.37 mm): Symbol CN1047 Pin 5 [5, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(427.99 mm, 160.02 mm): Symbol D1005 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(427.99 mm, 217.17 mm): Symbol D1011 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(448.31 mm, 166.37 mm): Symbol C1145 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(448.31 mm, 223.52 mm): Symbol C1146 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(448.31 mm, 231.14 mm): Symbol C1146 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(481.33 mm, 160.02 mm): Symbol D1006 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(481.33 mm, 217.17 mm): Symbol D1012 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(501.65 mm, 166.37 mm): Symbol C1147 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(501.65 mm, 223.52 mm): Symbol C1148 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(501.65 mm, 231.14 mm): Symbol C1148 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(502.92 mm, 262.89 mm): Symbol CN1035 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(534.67 mm, 160.02 mm): Symbol D1007 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(534.67 mm, 217.17 mm): Symbol D1013 Pin 1 [-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(554.99 mm, 166.37 mm): Symbol C1149 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(554.99 mm, 223.52 mm): Symbol C1150 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(554.99 mm, 231.14 mm): Symbol C1150 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(38.10 mm, 170.18 mm): Symbol U1010 Pin 6 [-INB, Unspecified, Line]
+    @(35.56 mm, 163.83 mm): Symbol R1149 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(38.10 mm, 175.26 mm): Symbol U1010 Pin 5 [+INB, Unspecified, Line]
+    @(34.29 mm, 175.26 mm): Symbol R1051 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(38.10 mm, 218.44 mm): Symbol U1010 Pin 9 [-INC, Unspecified, Line]
+    @(36.83 mm, 212.09 mm): Symbol R1065 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(38.10 mm, 223.52 mm): Symbol U1010 Pin 10 [+INC, Unspecified, Line]
+    @(34.29 mm, 223.52 mm): Symbol R1071 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(113.03 mm, 170.18 mm): Symbol U1010 Pin 2 [-INA, Unspecified, Line]
+    @(110.49 mm, 163.83 mm): Symbol R1146 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(113.03 mm, 175.26 mm): Symbol U1010 Pin 3 [+INA, Unspecified, Line]
+    @(109.22 mm, 175.26 mm): Symbol R1055 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(114.30 mm, 218.44 mm): Symbol U1010 Pin 13 [-IND, Unspecified, Line]
+    @(111.76 mm, 212.09 mm): Symbol R1066 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(114.30 mm, 223.52 mm): Symbol U1010 Pin 12 [+IND, Unspecified, Line]
+    @(110.49 mm, 223.52 mm): Symbol R1074 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(123.19 mm, 162.56 mm): Symbol U1010 Pin 4 [V+, Unspecified, Line]
+    @(123.19 mm, 162.56 mm): Symbol #PWR1061 Pin 1 [DCBUS, Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(123.19 mm, 182.88 mm): Symbol U1010 Pin 11 [V-, Unspecified, Line]
+    @(123.19 mm, 182.88 mm): Symbol #PWR1105 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(349.25 mm, 199.39 mm): Symbol C1130 Pin 1 [1, Unspecified, Line]
+    @(341.63 mm, 199.39 mm): Symbol D1008 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(349.25 mm, 210.82 mm): Symbol C1131 Pin 1 [1, Unspecified, Line]
+    @(341.63 mm, 210.82 mm): Symbol D1009 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(349.25 mm, 222.25 mm): Symbol C1132 Pin 1 [1, Unspecified, Line]
+    @(341.63 mm, 222.25 mm): Symbol D1010 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(359.41 mm, 199.39 mm): Symbol C1130 Pin 2 [2, Unspecified, Line]
+    @(303.53 mm, 213.36 mm): Symbol U1007 Pin 18 [VS1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(359.41 mm, 210.82 mm): Symbol C1131 Pin 2 [2, Unspecified, Line]
+    @(303.53 mm, 220.98 mm): Symbol U1007 Pin 15 [VS2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(359.41 mm, 222.25 mm): Symbol C1132 Pin 2 [2, Unspecified, Line]
+    @(279.40 mm, 226.06 mm): Symbol U1007 Pin 12 [VS3, Input, Line]
+
+***** Sheet /HSL_DEBUGGER/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(8.89 mm, 77.47 mm): Symbol C8080 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(34.29 mm, 149.86 mm): Symbol R8063 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(34.29 mm, 152.40 mm): Symbol R8064 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(34.29 mm, 154.94 mm): Symbol R8065 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(34.29 mm, 160.02 mm): Symbol R8068 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(34.29 mm, 163.83 mm): Symbol R8070 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(39.37 mm, 82.55 mm): Symbol C8081 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(39.37 mm, 119.38 mm): Symbol C8086 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(44.45 mm, 149.86 mm): Symbol R8063 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(44.45 mm, 152.40 mm): Symbol R8064 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(44.45 mm, 154.94 mm): Symbol R8065 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(44.45 mm, 157.48 mm): Symbol R8066 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(44.45 mm, 160.02 mm): Symbol R8068 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(44.45 mm, 163.83 mm): Symbol R8070 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(48.26 mm, 21.59 mm): Symbol C8064 Pin 1 [1, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(49.53 mm, 90.17 mm): Symbol #PWR11010 Pin 1 [Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(62.23 mm, 21.59 mm): Symbol C8066 Pin 1 [1, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(78.74 mm, 166.37 mm): Symbol #PWR11014 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(81.28 mm, 19.05 mm): Symbol #PWR11004 Pin 1 [Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(100.33 mm, 113.03 mm): Symbol R8059 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(101.60 mm, 73.66 mm): Symbol R8053 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(101.60 mm, 76.20 mm): Symbol R8055 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(110.49 mm, 113.03 mm): Symbol R8059 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(111.76 mm, 152.40 mm): Symbol R8061 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(114.30 mm, 152.40 mm): Symbol R8062 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(127.00 mm, 154.94 mm): Symbol R8067 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(127.00 mm, 157.48 mm): Symbol R8069 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(142.24 mm, 91.44 mm): Symbol R8056 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(142.24 mm, 106.68 mm): Symbol R8057 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(144.78 mm, 133.35 mm): Symbol #PWR11007 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(148.59 mm, 88.90 mm): Symbol USB8002 Pin 3 [SBU2, Unspecified, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(148.59 mm, 104.14 mm): Symbol USB8002 Pin 9 [SBU1, Unspecified, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(185.42 mm, 129.54 mm): Symbol #PWR11005 Pin 1 [Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(203.20 mm, 20.32 mm): Symbol D8005 Pin 3 [3, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(207.01 mm, 128.27 mm): Symbol #PWR11002 Pin 1 [Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(233.68 mm, 20.32 mm): Symbol D8005 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(288.58 mm, 34.29 mm): Symbol #PWR11047 Pin 1 [Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(288.58 mm, 44.45 mm): Symbol C8089 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(344.46 mm, 34.29 mm): Symbol C8088 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(354.62 mm, 34.29 mm): Symbol C8088 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(366.05 mm, 41.91 mm): Symbol R8076 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(34.29 mm, 102.87 mm): Symbol U8007 Pin 1 [1, Unspecified, Line]
+    @(25.40 mm, 102.87 mm): Symbol C8085 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(53.34 mm, 59.69 mm): Symbol U8006 Pin 32 [VANA, Unspecified, Line]
+    @(52.07 mm, 59.69 mm): Symbol #PWR11020 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(53.34 mm, 62.23 mm): Symbol U8006 Pin 16 [VPMC, Unspecified, Line]
+    @(53.34 mm, 59.69 mm): Symbol U8006 Pin 32 [VANA, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(53.34 mm, 69.85 mm): Symbol U8006 Pin 31 [VREFH, Unspecified, Line]
+    @(48.26 mm, 69.85 mm): Symbol C8079 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(53.34 mm, 72.39 mm): Symbol U8006 Pin 30 [VREFL, Unspecified, Line]
+    @(49.53 mm, 72.39 mm): Symbol #PWR11024 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(53.34 mm, 80.01 mm): Symbol U8006 Pin 35 [XTALI, Unspecified, Line]
+    @(35.56 mm, 77.47 mm): Symbol R8054 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(53.34 mm, 82.55 mm): Symbol U8006 Pin 36 [XTALO, Unspecified, Line]
+    @(45.72 mm, 77.47 mm): Symbol R8054 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(53.34 mm, 90.17 mm): Symbol U8006 Pin 6 [VIO_B00, Unspecified, Line]
+    @(53.34 mm, 92.71 mm): Symbol U8006 Pin 34 [VIO_B00, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(53.34 mm, 92.71 mm): Symbol U8006 Pin 34 [VIO_B00, Unspecified, Line]
+    @(49.53 mm, 90.17 mm): Symbol #PWR11010 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(53.34 mm, 95.25 mm): Symbol U8006 Pin 29 [VIO_B01, Unspecified, Line]
+    @(53.34 mm, 92.71 mm): Symbol U8006 Pin 34 [VIO_B00, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(53.34 mm, 102.87 mm): Symbol U8006 Pin 15 [DCDC_LP, Unspecified, Line]
+    @(44.45 mm, 102.87 mm): Symbol U8007 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(53.34 mm, 105.41 mm): Symbol U8006 Pin 13 [RESETN, Unspecified, Line]
+    @(39.37 mm, 119.38 mm): Symbol C8086 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(60.96 mm, 179.07 mm): Symbol H8001 Pin 1 [1, Unspecified, Line]
+    @(55.88 mm, 179.07 mm): Symbol #PWR11035 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(60.96 mm, 181.61 mm): Symbol H8001 Pin 3 [3, Unspecified, Line]
+    @(60.96 mm, 184.15 mm): Symbol H8001 Pin 5 [5, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(60.96 mm, 184.15 mm): Symbol H8001 Pin 5 [5, Unspecified, Line]
+    @(55.88 mm, 184.15 mm): Symbol #PWR11025 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(66.04 mm, 26.67 mm): Symbol U8006 Pin 10 [VDD_OTPCAP, Unspecified, Line]
+    @(54.61 mm, 21.59 mm): Symbol C8065 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(68.58 mm, 26.67 mm): Symbol U8006 Pin 17 [VDD_PMCCAP, Unspecified, Line]
+    @(68.58 mm, 21.59 mm): Symbol C8067 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(71.12 mm, 26.67 mm): Symbol U8006 Pin 5 [VDD_SOC, Unspecified, Line]
+    @(73.66 mm, 26.67 mm): Symbol U8006 Pin 9 [VDD_SOC, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(73.66 mm, 26.67 mm): Symbol U8006 Pin 9 [VDD_SOC, Unspecified, Line]
+    @(76.20 mm, 26.67 mm): Symbol U8006 Pin 28 [VDD_SOC, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(73.66 mm, 130.81 mm): Symbol U8006 Pin 49 [VSS, Unspecified, Line]
+    @(73.66 mm, 130.81 mm): Symbol #PWR11019 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(73.66 mm, 179.07 mm): Symbol H8001 Pin 2 [2, Unspecified, Line]
+    @(78.74 mm, 176.53 mm): Symbol R8071 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(73.66 mm, 181.61 mm): Symbol H8001 Pin 4 [4, Unspecified, Line]
+    @(85.09 mm, 191.77 mm): Symbol R8073 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(73.66 mm, 184.15 mm): Symbol H8001 Pin 6 [6, Unspecified, Line]
+    @(44.45 mm, 149.86 mm): Symbol R8063 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(73.66 mm, 186.69 mm): Symbol H8001 Pin 8 [8, Unspecified, Line]
+    @(88.90 mm, 176.53 mm): Symbol R8072 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(73.66 mm, 189.23 mm): Symbol H8001 Pin 10 [10, Unspecified, Line]
+    @(44.45 mm, 160.02 mm): Symbol R8068 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(76.20 mm, 26.67 mm): Symbol U8006 Pin 28 [VDD_SOC, Unspecified, Line]
+    @(78.74 mm, 26.67 mm): Symbol U8006 Pin 33 [VDD_SOC, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(78.74 mm, 26.67 mm): Symbol U8006 Pin 33 [VDD_SOC, Unspecified, Line]
+    @(81.28 mm, 26.67 mm): Symbol U8006 Pin 45 [VDD_SOC, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(81.28 mm, 26.67 mm): Symbol U8006 Pin 45 [VDD_SOC, Unspecified, Line]
+    @(81.28 mm, 19.05 mm): Symbol #PWR11004 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(93.98 mm, 48.26 mm): Symbol U8006 Pin 25 [PB10, Unspecified, Line]
+    @(93.98 mm, 101.60 mm): Symbol U8006 Pin 42 [PA26, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(93.98 mm, 50.80 mm): Symbol U8006 Pin 24 [PB11, Unspecified, Line]
+    @(93.98 mm, 104.14 mm): Symbol U8006 Pin 41 [PA27, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 53.34 mm): Symbol U8006 Pin 23 [PB12, Unspecified, Line]
+    @(34.29 mm, 149.86 mm): Symbol R8063 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 55.88 mm): Symbol U8006 Pin 22 [PB13, Unspecified, Line]
+    @(34.29 mm, 152.40 mm): Symbol R8064 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 58.42 mm): Symbol U8006 Pin 21 [PB14, Unspecified, Line]
+    @(34.29 mm, 160.02 mm): Symbol R8068 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 60.96 mm): Symbol U8006 Pin 20 [PB15, Unspecified, Line]
+    @(34.29 mm, 163.83 mm): Symbol R8070 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 73.66 mm): Symbol U8006 Pin 8 [PA02, Unspecified, Line]
+    @(101.60 mm, 73.66 mm): Symbol R8053 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 76.20 mm): Symbol U8006 Pin 7 [PA03, Unspecified, Line]
+    @(101.60 mm, 76.20 mm): Symbol R8055 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 88.90 mm): Symbol U8006 Pin 2 [PA08, Unspecified, Line]
+    @(114.30 mm, 152.40 mm): Symbol R8062 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 91.44 mm): Symbol U8006 Pin 3 [PA09, Unspecified, Line]
+    @(111.76 mm, 152.40 mm): Symbol R8061 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(93.98 mm, 96.52 mm): Symbol U8006 Pin 44 [PA24/USB_DP, Unspecified, Line]
+    @(148.59 mm, 96.52 mm): Symbol USB8002 Pin 6 [DP1, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(93.98 mm, 99.06 mm): Symbol U8006 Pin 43 [PA25/USB_DM, Unspecified, Line]
+    @(148.59 mm, 99.06 mm): Symbol USB8002 Pin 7 [DN1, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 104.14 mm): Symbol U8006 Pin 41 [PA27, Unspecified, Line]
+    @(34.29 mm, 154.94 mm): Symbol R8065 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 106.68 mm): Symbol U8006 Pin 40 [PA28, Unspecified, Line]
+    @(110.49 mm, 113.03 mm): Symbol R8059 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(93.98 mm, 109.22 mm): Symbol U8006 Pin 39 [PA29, Unspecified, Line]
+    @(100.33 mm, 113.03 mm): Symbol R8059 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(148.59 mm, 83.82 mm): Symbol USB8002 Pin 1 [GND, Unspecified, Line]
+    @(148.59 mm, 83.82 mm): Symbol #PWR11034 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(148.59 mm, 86.36 mm): Symbol USB8002 Pin 2 [VBUS, Unspecified, Line]
+    @(148.59 mm, 86.36 mm): Symbol #PWR11043 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(148.59 mm, 91.44 mm): Symbol USB8002 Pin 4 [CC1, Unspecified, Line]
+    @(142.24 mm, 91.44 mm): Symbol R8056 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(148.59 mm, 93.98 mm): Symbol USB8002 Pin 5 [DN2, Unspecified, Line]
+    @(148.59 mm, 99.06 mm): Symbol USB8002 Pin 7 [DN1, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(148.59 mm, 96.52 mm): Symbol USB8002 Pin 6 [DP1, Unspecified, Line]
+    @(148.59 mm, 101.60 mm): Symbol USB8002 Pin 8 [DP2, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(148.59 mm, 99.06 mm): Symbol USB8002 Pin 7 [DN1, Unspecified, Line]
+    @(203.20 mm, 20.32 mm): Symbol D8005 Pin 3 [3, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(148.59 mm, 101.60 mm): Symbol USB8002 Pin 8 [DP2, Unspecified, Line]
+    @(233.68 mm, 20.32 mm): Symbol D8005 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(148.59 mm, 106.68 mm): Symbol USB8002 Pin 10 [CC2, Unspecified, Line]
+    @(142.24 mm, 106.68 mm): Symbol R8057 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(148.59 mm, 109.22 mm): Symbol USB8002 Pin 11 [VBUS, Unspecified, Line]
+    @(148.59 mm, 109.22 mm): Symbol #PWR11033 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(148.59 mm, 111.76 mm): Symbol USB8002 Pin 12 [GND, Unspecified, Line]
+    @(148.59 mm, 111.76 mm): Symbol #PWR11037 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(170.18 mm, 83.82 mm): Symbol USB8002 Pin 14 [SHELL, Unspecified, Line]
+    @(170.18 mm, 83.82 mm): Symbol #PWR11008 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(170.18 mm, 111.76 mm): Symbol USB8002 Pin 13 [SHELL, Unspecified, Line]
+    @(170.18 mm, 111.76 mm): Symbol #PWR11031 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(189.23 mm, 127.00 mm): Symbol U8008 Pin 1 [GND, Unspecified, Line]
+    @(189.23 mm, 127.00 mm): Symbol #PWR11006 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(189.23 mm, 129.54 mm): Symbol U8008 Pin 2 [VO-, Unspecified, Line]
+    @(185.42 mm, 129.54 mm): Symbol #PWR11005 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(207.01 mm, 128.27 mm): Symbol U8008 Pin 3 [VI+, Unspecified, Line]
+    @(207.01 mm, 128.27 mm): Symbol #PWR11002 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(215.90 mm, 86.36 mm): Symbol SW8005 Pin 1 [1, Unspecified, Line]
+    @(215.90 mm, 86.36 mm): Symbol #PWR11013 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(231.14 mm, 86.36 mm): Symbol SW8005 Pin 2 [2, Unspecified, Line]
+    @(101.60 mm, 76.20 mm): Symbol R8055 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Power input 的引脚已连接
+    ; warning
+    @(268.26 mm, 34.29 mm): Symbol L8006 Pin 1 [1, Unspecified, Line]
+    @(266.99 mm, 34.29 mm): Symbol #PWR11045 Pin 1 [Power input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(278.42 mm, 34.29 mm): Symbol L8006 Pin 2 [2, Unspecified, Line]
+    @(278.42 mm, 34.29 mm): Symbol R8075 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(321.60 mm, 34.29 mm): Symbol U8009 Pin 1 [1, Unspecified, Line]
+    @(307.63 mm, 34.29 mm): Symbol C8092 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Unspecified 的引脚已连接
+    ; warning
+    @(331.76 mm, 34.29 mm): Symbol U8009 Pin 2 [2, Unspecified, Line]
+    @(333.03 mm, 41.91 mm): Symbol U8010 Pin 2 [SW, Unspecified, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(333.03 mm, 39.37 mm): Symbol U8010 Pin 1 [GND, Unspecified, Line]
+    @(324.14 mm, 54.61 mm): Symbol C8095 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(333.03 mm, 41.91 mm): Symbol U8010 Pin 2 [SW, Unspecified, Line]
+    @(344.46 mm, 34.29 mm): Symbol C8088 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(333.03 mm, 44.45 mm): Symbol U8010 Pin 3 [VIN, Unspecified, Line]
+    @(324.14 mm, 44.45 mm): Symbol C8095 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(358.43 mm, 39.37 mm): Symbol U8010 Pin 6 [VBST, Unspecified, Line]
+    @(354.62 mm, 34.29 mm): Symbol C8088 Pin 2 [2, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(358.43 mm, 41.91 mm): Symbol U8010 Pin 5 [EN, Unspecified, Line]
+    @(366.05 mm, 41.91 mm): Symbol R8076 Pin 1 [1, Input, Line]
+[pin_to_pin]: 类型为 Unspecified 和 Input 的引脚已连接
+    ; warning
+    @(358.43 mm, 44.45 mm): Symbol U8010 Pin 4 [VFB, Unspecified, Line]
+    @(288.58 mm, 44.45 mm): Symbol C8089 Pin 1 [1, Input, Line]
+
+ ** ERC messages: 688  Errors 193  Warnings 495
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

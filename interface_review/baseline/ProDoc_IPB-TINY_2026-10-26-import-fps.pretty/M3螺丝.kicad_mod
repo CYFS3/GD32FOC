@@ -1,0 +1,116 @@
+(footprint "M3螺丝"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "dfbd20e5-eedc-43b8-9ee0-4260548f6c68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "982d5583-b425-4683-8825-abc37a427866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c586af0d-42cd-4e2d-811a-bd6e76496763")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07deb15e-48cf-494a-a327-16b06234bf6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.8415 -1.8415)
+		(end 1.8415 1.8415)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "344c6e9f-2a14-485c-829c-5c1087ecef8c")
+	)
+	(fp_line
+		(start 1.8415 -1.8415)
+		(end -1.8415 1.8415)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2048f7dd-b274-499e-b6b7-a44bf6a3b479")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.667 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ef59de99-4ddc-4e22-9d89-673c0d41a076")
+	)
+	(fp_rect
+		(start -1.85025 -1.85025)
+		(end 1.85025 1.85025)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0edb4a1d-1892-4be0-9e84-57b21da28055")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "45f9bd50-951b-4f36-aff9-2e5c2ac56921")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.2005 3.2005)
+		(drill 3.2005)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "fe75de92-57bd-466e-939e-aa01e063a56b")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,26 @@
+{
+  "scope": "Final LCD/button nets and R3 identity only; encoder changes verified by parent final_delta.json",
+  "interface_components": [
+    "C300",
+    "C301",
+    "C302",
+    "C303",
+    "C304",
+    "J300",
+    "R310",
+    "R311",
+    "R312",
+    "R313",
+    "R314",
+    "R315",
+    "R316",
+    "R317",
+    "R318",
+    "R319",
+    "SW300",
+    "SW301",
+    "SW302"
+  ],
+  "expected_new_signal_nets_verified": 13,
+  "R3_metadata_verified": true
+}

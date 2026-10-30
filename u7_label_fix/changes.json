@@ -1,0 +1,174 @@
+[
+  {
+    "file": "FOC_M1.kicad_sch",
+    "reference": "U7",
+    "changed_wires": [
+      {
+        "pin": "22",
+        "label": "M1_HIN1",
+        "wire_uuid": "15738b67-80ac-4481-ac6b-f611ffb5455b",
+        "y": 203.2,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "23",
+        "label": "M1_HIN2",
+        "wire_uuid": "179f8e51-8bd2-4e15-87ba-31001b83ddc5",
+        "y": 200.66,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "20",
+        "label": "M1_VB1",
+        "wire_uuid": "473ef6d8-6a16-4cf2-98e7-e6c286060600",
+        "y": 208.28,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "15",
+        "label": "M1_MB",
+        "wire_uuid": "4ecb38da-da73-4171-b146-0aa8a539cf24",
+        "y": 220.98,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "14",
+        "label": "M1_VB3",
+        "wire_uuid": "5139691d-4af7-4a60-916a-2c5fef03210e",
+        "y": 223.52,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "13",
+        "label": "M1_HO3",
+        "wire_uuid": "706a0c13-22b7-4395-9364-051b70468f29",
+        "y": 226.06,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "19",
+        "label": "M1_HO1",
+        "wire_uuid": "958a24f7-7278-4e48-89b3-b22da5b3812b",
+        "y": 210.82,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "18",
+        "label": "M1_MA",
+        "wire_uuid": "aa30c59d-ed93-4b7f-b464-fcd3d0f060bd",
+        "y": 213.36,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "16",
+        "label": "M1_HO2",
+        "wire_uuid": "c00dd55f-b6d5-47f4-a40d-b817f31d842c",
+        "y": 218.44,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "17",
+        "label": "M1_VB2",
+        "wire_uuid": "c7e64cd2-c57f-494b-a9c7-0438cc52f939",
+        "y": 215.9,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      }
+    ]
+  },
+  {
+    "file": "FOC_M2.kicad_sch",
+    "reference": "U1007",
+    "changed_wires": [
+      {
+        "pin": "16",
+        "label": "M2_HO2",
+        "wire_uuid": "4b88a003-1a08-4e73-a041-65989a442da8",
+        "y": 218.44,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "24",
+        "label": "M2_HIN3",
+        "wire_uuid": "5011942c-9baa-4aa4-94d6-8c4e186d0ac4",
+        "y": 198.12,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "22",
+        "label": "M2_HIN1",
+        "wire_uuid": "718cbce3-b4d4-4cce-a21f-b6f6ef261663",
+        "y": 203.2,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "19",
+        "label": "M2_HO1",
+        "wire_uuid": "83bc80a9-e8fc-4d8e-8662-06b987439247",
+        "y": 210.82,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "18",
+        "label": "M2_MA",
+        "wire_uuid": "b03b933b-2517-4960-ba80-10d08d4568c0",
+        "y": 213.36,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "17",
+        "label": "M2_VB2",
+        "wire_uuid": "bca52a68-db5f-4aeb-a9cf-0f321b5fd18b",
+        "y": 215.9,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "23",
+        "label": "M2_HIN2",
+        "wire_uuid": "ce1bbe99-a49d-4357-a64c-9f5551cd91a8",
+        "y": 200.66,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "20",
+        "label": "M2_VB1",
+        "wire_uuid": "de66961e-07a4-4e00-9d22-0d32deafb460",
+        "y": 208.28,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "15",
+        "label": "M2_MB",
+        "wire_uuid": "e9a5e7f5-0d3f-4e18-b8d6-504356f1fbd9",
+        "y": 220.98,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      },
+      {
+        "pin": "14",
+        "label": "M2_VB3",
+        "wire_uuid": "ef43b237-0b63-44ca-b58c-b796603b8fbd",
+        "y": 223.52,
+        "old_end_x": 311.15,
+        "new_end_x": 306.07
+      }
+    ]
+  }
+]

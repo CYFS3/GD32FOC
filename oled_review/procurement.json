@@ -1,0 +1,171 @@
+[
+  {
+    "reference": "FPC300",
+    "source": "FPC1",
+    "value": "AFC07-S16ECA-00",
+    "mpn": "AFC07-S16ECA-00",
+    "supplier_part": "C262639",
+    "footprint": "Interface:FPC-SMD_16P-P0.50_AFC07-S16ECA-00",
+    "position": [
+      85.09,
+      68.58,
+      0
+    ]
+  },
+  {
+    "reference": "C320",
+    "source": "C56",
+    "value": "1uF",
+    "mpn": "CL05A105KA5NQNC",
+    "supplier_part": "C52923",
+    "footprint": "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2",
+    "position": [
+      145,
+      43,
+      0
+    ]
+  },
+  {
+    "reference": "C321",
+    "source": "C57",
+    "value": "1uF",
+    "mpn": "CL05A105KA5NQNC",
+    "supplier_part": "C52923",
+    "footprint": "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2",
+    "position": [
+      205,
+      43,
+      0
+    ]
+  },
+  {
+    "reference": "C322",
+    "source": "C58",
+    "value": "4.7uF",
+    "mpn": "CL05A106MQ5NUNC",
+    "supplier_part": "C15525",
+    "footprint": "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2",
+    "position": [
+      265,
+      43,
+      0
+    ]
+  },
+  {
+    "reference": "C323",
+    "source": "C59",
+    "value": "100nF",
+    "mpn": "CL05A106MQ5NUNC",
+    "supplier_part": "C15525",
+    "footprint": "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2",
+    "position": [
+      325,
+      43,
+      0
+    ]
+  },
+  {
+    "reference": "C324",
+    "source": "C63",
+    "value": "2.2uF",
+    "mpn": "CL05A106MQ5NUNC",
+    "supplier_part": "C15525",
+    "footprint": "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2",
+    "position": [
+      145,
+      83,
+      0
+    ]
+  },
+  {
+    "reference": "C325",
+    "source": "C65",
+    "value": "4.7uF",
+    "mpn": "CL05A106MQ5NUNC",
+    "supplier_part": "C15525",
+    "footprint": "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2",
+    "position": [
+      145,
+      121,
+      0
+    ]
+  },
+  {
+    "reference": "R320",
+    "source": "R27",
+    "value": "390K",
+    "mpn": "0402WGF1002TCE",
+    "supplier_part": "C25744",
+    "footprint": "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1",
+    "position": [
+      205,
+      83,
+      0
+    ]
+  },
+  {
+    "reference": "R321",
+    "source": "R30",
+    "value": "4.7K",
+    "mpn": "0402WGF1002TCE",
+    "supplier_part": "C25744",
+    "footprint": "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1",
+    "position": [
+      265,
+      83,
+      0
+    ]
+  },
+  {
+    "reference": "R322",
+    "source": "R29",
+    "value": "4.7K",
+    "mpn": "0402WGF1002TCE",
+    "supplier_part": "C25744",
+    "footprint": "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1",
+    "position": [
+      325,
+      83,
+      0
+    ]
+  },
+  {
+    "reference": "R323",
+    "source": "R31",
+    "value": "4.7K",
+    "mpn": "0402WGF1002TCE",
+    "supplier_part": "C25744",
+    "footprint": "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1",
+    "position": [
+      265,
+      121,
+      0
+    ]
+  },
+  {
+    "reference": "R324",
+    "source": "R34",
+    "value": "4.7K",
+    "mpn": "0402WGF1002TCE",
+    "supplier_part": "C25744",
+    "footprint": "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1",
+    "position": [
+      325,
+      121,
+      0
+    ]
+  },
+  {
+    "reference": "D300",
+    "source": "D3",
+    "value": "1N4148WS",
+    "mpn": "1N4148WS",
+    "supplier_part": "C2128",
+    "footprint": "ProDoc_Board1v1_2026-10-26-import-fps:SOD-323_L1.8-W1.3-LS2.5-RD",
+    "position": [
+      205,
+      121,
+      0
+    ]
+  }
+]
