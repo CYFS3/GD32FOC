@@ -1,0 +1,189 @@
+{
+  "source": "E:\\MCU\\GD32\\GD32F5_FOC\\data\\FOC\\ProDoc_1.axdr_v1.3_2026-10-31-import-fps.pretty\\DFN-8_L5.8-W4.9-P1.27-LS6.0-BL-1.kicad_mod",
+  "output": "VerifiedParts.pretty\\WSD90P06DN56_GDS123.kicad_mod",
+  "source_sha256": "fee7ec5cd2970d021f05bdc0c38c1c0a7488453b9cc71da4417af30d2b2bbe63",
+  "output_sha256": "9d4c6a7eede206a157de1849627c756313280db0e9c41443dca69bdfadcd9b1f",
+  "electrodes": {
+    "1": "G",
+    "2": "D including EP",
+    "3": "S"
+  },
+  "pad_counts": {
+    "1": 1,
+    "2": 5,
+    "3": 3
+  },
+  "pads": [
+    {
+      "number": "1",
+      "at": [
+        "1.9025",
+        "2.751",
+        "180"
+      ],
+      "size": [
+        "0.579",
+        "1.199"
+      ],
+      "type": "smd",
+      "layers": [
+        "F.Cu",
+        "F.Paste",
+        "F.Mask"
+      ]
+    },
+    {
+      "number": "2",
+      "at": [
+        "-1.9025",
+        "-2.751"
+      ],
+      "size": [
+        "0.579",
+        "1.199"
+      ],
+      "type": "smd",
+      "layers": [
+        "F.Cu",
+        "F.Paste",
+        "F.Mask"
+      ]
+    },
+    {
+      "number": "2",
+      "at": [
+        "-0.6325",
+        "-2.751"
+      ],
+      "size": [
+        "0.579",
+        "1.199"
+      ],
+      "type": "smd",
+      "layers": [
+        "F.Cu",
+        "F.Paste",
+        "F.Mask"
+      ]
+    },
+    {
+      "number": "2",
+      "at": [
+        "-0.0025",
+        "-0.4445"
+      ],
+      "size": [
+        "4.6",
+        "4.0995"
+      ],
+      "type": "smd",
+      "layers": [
+        "F.Cu",
+        "F.Paste",
+        "F.Mask"
+      ]
+    },
+    {
+      "number": "2",
+      "at": [
+        "0.6375",
+        "-2.751"
+      ],
+      "size": [
+        "0.579",
+        "1.199"
+      ],
+      "type": "smd",
+      "layers": [
+        "F.Cu",
+        "F.Paste",
+        "F.Mask"
+      ]
+    },
+    {
+      "number": "2",
+      "at": [
+        "1.9075",
+        "-2.751"
+      ],
+      "size": [
+        "0.579",
+        "1.199"
+      ],
+      "type": "smd",
+      "layers": [
+        "F.Cu",
+        "F.Paste",
+        "F.Mask"
+      ]
+    },
+    {
+      "number": "3",
+      "at": [
+        "-1.9075",
+        "2.751",
+        "180"
+      ],
+      "size": [
+        "0.579",
+        "1.199"
+      ],
+      "type": "smd",
+      "layers": [
+        "F.Cu",
+        "F.Paste",
+        "F.Mask"
+      ]
+    },
+    {
+      "number": "3",
+      "at": [
+        "-0.6375",
+        "2.751",
+        "180"
+      ],
+      "size": [
+        "0.579",
+        "1.199"
+      ],
+      "type": "smd",
+      "layers": [
+        "F.Cu",
+        "F.Paste",
+        "F.Mask"
+      ]
+    },
+    {
+      "number": "3",
+      "at": [
+        "0.6325",
+        "2.751",
+        "180"
+      ],
+      "size": [
+        "0.579",
+        "1.199"
+      ],
+      "type": "smd",
+      "layers": [
+        "F.Cu",
+        "F.Paste",
+        "F.Mask"
+      ]
+    }
+  ],
+  "unchanged": "all pad number/position/size/rotation/shape/uuid and all graphics including existing F.Paste",
+  "changes": [
+    "footprint name and value",
+    "attr smd and source description",
+    "9 pad types thru_hole -> smd",
+    "9 drill=0.001 removed",
+    "9 layer sets *.Cu/*.Mask -> F.Cu/F.Paste/F.Mask",
+    "9 remove_unused_layers removed"
+  ],
+  "limitations": [
+    "Reference exact MPN evidence, not manufacturer visual pin/land pattern certification",
+    "Existing paste polygons retained; EP stencil coverage requires manufacturing review",
+    "No schematic or PCB modified"
+  ]
+}

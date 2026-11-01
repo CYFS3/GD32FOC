@@ -1,0 +1,543 @@
+{
+  "map": {
+    "CN1": "CN3",
+    "Q1": "Q1",
+    "Q2": "Q2",
+    "Q3": "Q3",
+    "U6": "U2",
+    "U19": "U5",
+    "U12": "U6",
+    "U2": "U4",
+    "U20": "U3",
+    "R47": "R15",
+    "R46": "R19",
+    "R44": "R16",
+    "R43": "R20",
+    "R154": "R39",
+    "R153": "R38",
+    "R142": "R2",
+    "R140": "R5",
+    "R139": "R8",
+    "R138": "R9",
+    "L6": "L2",
+    "D24": "D1",
+    "D23": "D3",
+    "D22": "D2",
+    "C79": "C54",
+    "C74": "C29",
+    "C70": "C24",
+    "C67": "C21",
+    "C172": "C40",
+    "C169": "C26",
+    "C127": "C1",
+    "C126": "C2",
+    "C125": "C19",
+    "C69": "C23",
+    "R3": "R12",
+    "R45": "R13",
+    "R152": "R26",
+    "R137": "R6",
+    "R133": "R1",
+    "R132": "R7",
+    "R131": "R4",
+    "D4": "D4",
+    "CN9": "CN2",
+    "CN7": "CN7",
+    "CN6": "CN8",
+    "CN4": "CN4",
+    "CN3": "CN6",
+    "CN2": "CN5",
+    "CN13": "CN13",
+    "C68": "C22",
+    "C129": "C20",
+    "C128": "C18",
+    "C66": "C25",
+    "R141": "R3",
+    "L8": "L5",
+    "L7": "L1",
+    "R40": "R25",
+    "L5": "L4"
+  },
+  "pinmaps": {
+    "CN1": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4"
+    },
+    "Q1": {
+      "2": "2",
+      "3": "3",
+      "1": "1"
+    },
+    "Q2": {
+      "2": "2",
+      "1": "1",
+      "3": "3"
+    },
+    "Q3": {
+      "1": "1",
+      "3": "3",
+      "2": "2"
+    },
+    "U6": {
+      "7": "7",
+      "2": "2",
+      "5": "5",
+      "1": "1",
+      "9": "9",
+      "3": "3",
+      "4": "4",
+      "8": "8",
+      "6": "6"
+    },
+    "U19": {
+      "1": "1",
+      "5": "5",
+      "2": "2",
+      "4": "4",
+      "3": "3",
+      "6": "6"
+    },
+    "U12": {
+      "2": "2",
+      "5": "5",
+      "1": "1",
+      "3": "3",
+      "4": "4"
+    },
+    "U2": {
+      "1": "1",
+      "3": "3",
+      "5": "5",
+      "2": "2",
+      "4": "4"
+    },
+    "U20": {
+      "1": "1",
+      "3": "3",
+      "2": "2",
+      "5": "5",
+      "4": "4"
+    },
+    "R47": {
+      "1": "1",
+      "2": "2"
+    },
+    "R46": {
+      "2": "2",
+      "1": "1"
+    },
+    "R44": {
+      "1": "1",
+      "2": "2"
+    },
+    "R43": {
+      "1": "1",
+      "2": "2"
+    },
+    "R154": {
+      "2": "2",
+      "1": "1"
+    },
+    "R153": {
+      "2": "2",
+      "1": "1"
+    },
+    "R142": {
+      "2": "2",
+      "1": "1"
+    },
+    "R140": {
+      "2": "2",
+      "1": "1"
+    },
+    "R139": {
+      "1": "1",
+      "2": "2"
+    },
+    "R138": {
+      "1": "1",
+      "2": "2"
+    },
+    "L6": {
+      "2": "2",
+      "1": "1"
+    },
+    "D24": {
+      "1": "1",
+      "2": "2"
+    },
+    "D23": {
+      "1": "1",
+      "2": "2"
+    },
+    "D22": {
+      "2": "2",
+      "1": "1"
+    },
+    "C79": {
+      "1": "1",
+      "2": "2"
+    },
+    "C74": {
+      "2": "2",
+      "1": "1"
+    },
+    "C70": {
+      "2": "2",
+      "1": "1"
+    },
+    "C67": {
+      "1": "1",
+      "2": "2"
+    },
+    "C172": {
+      "1": "1",
+      "2": "2"
+    },
+    "C169": {
+      "1": "1",
+      "2": "2"
+    },
+    "C127": {
+      "1": "1",
+      "2": "2"
+    },
+    "C126": {
+      "1": "1",
+      "2": "2"
+    },
+    "C125": {
+      "1": "1",
+      "2": "2"
+    },
+    "C69": {
+      "2": "2",
+      "1": "1"
+    },
+    "R3": {
+      "1": "1",
+      "2": "2"
+    },
+    "R45": {
+      "2": "2",
+      "1": "1"
+    },
+    "R152": {
+      "2": "2",
+      "1": "1"
+    },
+    "R137": {
+      "2": "2",
+      "1": "1"
+    },
+    "R133": {
+      "2": "2",
+      "1": "1"
+    },
+    "R132": {
+      "2": "2",
+      "1": "1"
+    },
+    "R131": {
+      "2": "2",
+      "1": "1"
+    },
+    "D4": {
+      "1": "1",
+      "2": "2"
+    },
+    "CN9": {
+      "1": "1"
+    },
+    "CN7": {
+      "1": "1"
+    },
+    "CN6": {
+      "1": "1"
+    },
+    "CN4": {
+      "1": "1"
+    },
+    "CN3": {
+      "1": "1"
+    },
+    "CN2": {
+      "1": "1"
+    },
+    "CN13": {
+      "1": "1"
+    },
+    "C68": {
+      "1": "1",
+      "2": "2"
+    },
+    "C129": {
+      "1": "1",
+      "2": "2"
+    },
+    "C128": {
+      "1": "1",
+      "2": "2"
+    },
+    "C66": {
+      "1": "1",
+      "2": "2"
+    },
+    "R141": {
+      "2": "2",
+      "1": "1"
+    },
+    "L8": {
+      "2": "2",
+      "1": "1"
+    },
+    "L7": {
+      "2": "2",
+      "1": "1"
+    },
+    "R40": {
+      "2": "2",
+      "1": "1"
+    },
+    "L5": {
+      "2": "2",
+      "1": "1"
+    }
+  },
+  "netmap": {
+    "DCBUS_IN": "DCBUS_IN",
+    "PGND_IN": "PGND_IN",
+    "DCBUS": "DCBUS",
+    "Net-(D24-A)": "$1N398404",
+    "Net-(Q2-B)": "$1N10553",
+    "Net-(Q2-C)": "$1N15998",
+    "Net-(D23-K)": "$1N11589",
+    "PGND": "PGND",
+    "/POWER_SHARED/PWR_BST_U6": "$1N1062508",
+    "FB": "FB",
+    "GND": "GND",
+    "Net-(U6-EN)": "$1N1062507",
+    "Net-(U6-RON)": "$1N1062500",
+    "Net-(U6-SW)": "$1N1062506",
+    "/POWER_SHARED/PWR_BST_U19": "$1N245780",
+    "12V": "12V",
+    "Net-(U19-EN)": "$1N846235",
+    "Net-(U19-FB)": "$1N245778",
+    "Net-(U19-SW)": "$1N245779",
+    "AGND": "AGND",
+    "AVCC": "AVCC",
+    "Net-(U12-IN+)": "$1N858763",
+    "VREF": "VREF",
+    "5V": "5V",
+    "VCC": "VCC",
+    "Net-(C66-Pad2)": "$1N1062505",
+    "Net-(L8-Pad1)": "$1N134680",
+    "Net-(D4-C)": "$1N11866",
+    "Net-(L7-Pad1)": "$1N269486",
+    "Net-(C129-Pad1)": "$1N12961",
+    "Net-(C128-Pad1)": "$1N7256",
+    "Net-(L5-Pad1)": "$1N1062496"
+  },
+  "evidence": {
+    "CN1": "Verified active MPN/function anchor; same pin function",
+    "Q1": "Verified active MPN/function anchor; same pin function",
+    "Q2": "Verified active MPN/function anchor; same pin function",
+    "Q3": "Verified active MPN/function anchor; same pin function",
+    "U6": "Verified active MPN/function anchor; same pin function",
+    "U19": "Verified active MPN/function anchor; same pin function",
+    "U12": "Verified active MPN/function anchor; same pin function",
+    "U2": "Verified active MPN/function anchor; same pin function",
+    "U20": "Verified active MPN/function anchor; same pin function",
+    "R47": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R46": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R44": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R43": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R154": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R153": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R142": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R140": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R139": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R138": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "L6": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "D24": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "D23": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "D22": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C79": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C74": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C70": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C67": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C172": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C169": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C127": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C126": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C125": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C69": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R3": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R45": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R152": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R137": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R133": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R132": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R131": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "D4": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "CN9": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "CN7": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "CN6": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "CN4": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "CN3": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "CN2": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "CN13": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C68": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C129": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C128": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "C66": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R141": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "L8": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "L7": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "R40": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+    "L5": "Pin-network topology propagated from verified active anchors; value/MPN tie break"
+  },
+  "unmatched": [
+    "C162",
+    "C163",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C164",
+    "C165",
+    "R134",
+    "R136",
+    "C71",
+    "C72",
+    "C73",
+    "C137",
+    "C138",
+    "C139",
+    "R41",
+    "R42",
+    "C19",
+    "C166",
+    "C167",
+    "C168",
+    "C170",
+    "C171",
+    "L9",
+    "R155",
+    "CN16",
+    "R48",
+    "R57",
+    "C2",
+    "C3",
+    "C5",
+    "C6"
+  ],
+  "refs": [
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C162",
+    "C163",
+    "CN1",
+    "D4",
+    "D22",
+    "D23",
+    "D24",
+    "Q1",
+    "Q2",
+    "Q3",
+    "R131",
+    "R132",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C164",
+    "C165",
+    "CN9",
+    "L7",
+    "R133",
+    "R134",
+    "R136",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "C72",
+    "C73",
+    "C74",
+    "C137",
+    "C138",
+    "C139",
+    "CN4",
+    "L5",
+    "L6",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "U6",
+    "C19",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C170",
+    "C171",
+    "C172",
+    "CN7",
+    "L8",
+    "L9",
+    "R152",
+    "R153",
+    "R154",
+    "R155",
+    "U19",
+    "C79",
+    "CN13",
+    "CN16",
+    "R48",
+    "R57",
+    "U12",
+    "C2",
+    "C3",
+    "C5",
+    "C6",
+    "CN2",
+    "CN3",
+    "CN6",
+    "R3",
+    "U2",
+    "U20"
+  ]
+}

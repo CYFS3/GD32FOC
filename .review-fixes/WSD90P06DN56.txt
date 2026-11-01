@@ -1,0 +1,324 @@
+                                                                                   WSD90P06DN56
+                                                                                                      P-Ch MOSFET
+
+
+
+
+General Description                                             Product Summery
+
+The WSD90P06DN56 is the highest performance                         BVDSS       RDSON                    ID
+trench P-ch MOSFETs with extreme high cell
+density , which provide excellent RDSON and                          -60V         10mΩ                  -90A
+gate charge for most of the synchronous buck
+converter applications .
+                                                                Applications
+The WSD90P06DN56 meet the RoHS and
+Green Product requirement , 100% EAS                            z Power Management
+guaranteed with full function reliability                       z Load Switch
+approved.
+
+Features                                                        DFN5X6_8L Pin Configuration
+
+z Advanced high cell density Trench technology
+z Super Low Gate Charge
+z Excellent CdV/dt effect decline
+z 100% EAS Guaranteed
+z Green Device Available
+
+
+
+
+Absolute Maximum Ratings
+
+      Symbol                               Parameter                               Rating                 Units
+        VDS                           Drain-Source Voltage                              -60                V
+        VGS                            Gate-Source Voltage                           ±20                   V
+    ID@TC=25℃               Continuous Drain Current, -VGS @ -10V                       -90                A
+   ID@TC=100℃               Continuous Drain Current, -VGS @ -10V                       -40                A
+        IDM                           Pulsed Drain Current                           -190                  A
+   PD@TC=25℃                         Total Power Dissipation                            96                 W
+       TSTG                         Storage Temperature Range                     -55 to 150               ℃
+        TJ                  Operating Junction Temperature Range                  -55 to 150               ℃
+
+
+
+
+Thermal Data
+
+      Symbol                                  Parameter                           Typ.         Max.        Unit
+       RθJA                    Thermal Resistance Junction-Ambient                ---          62          ℃/W
+       RθJC                     Thermal Resistance Junction-Case                  ---          1.3         ℃/W
+
+
+
+
+www.winsok.tw                                             Page 1                               Rev1.3.Jul.2021
+                                                                                                                         WSD90P06DN56
+                                                                                                                                               P-Ch MOSFET
+
+
+
+
+P-Channel Electrical Characteristics (TJ=25 ℃, unless otherwise noted)
+
+     Symbol                               Parameter                                           Conditions                  Min.       Typ.        Max.          Unit
+      BVDSS           Drain-Source Breakdown Voltage                          VGS=0V , ID=-250uA                           -60         ---         ---          V
+                                                                              VGS=-10V , ID=-18A                           ---        10          14
+      RDS(ON)         Static Drain-Source On-Resistance                                                                                                        mΩ
+                                                                              VGS=-4.5V , ID=-12A                          ---        13          18
+       VGS(th)        Gate Threshold Voltage                                  VGS=VDS , ID =-250uA                        -1.1        -1.8        -2.5          V
+       IDSS           Drain-Source Leakage Current                            VDS=-48V , VGS=0V , TJ=25℃                   ---         ---         1           uA
+        IGSS          Gate-Source Leakage Current                             VGS=±20V , VDS=0V                            ---         ---      ±100           nA
+         Qg           Total Gate Charge                                                                                    ---         89          ---
+                                                                              VDS = -30 V, VGS = -10 V,
+        Qgs           Gate-Source Charge                                                                                   ---         12          ---         nC
+                                                                              ID = -17A
+        Qgd           Gate-Drain Charge                                                                                    ---         32          ---
+       Td(on)         Turn-On Delay Time                                      VDD = -30 V,                                 ---         15          ---
+         Tr           Rise Time                                               RL = 30Ω ，ID =-1 A,                          ---         13          ---
+                                                                                                                                                                ns
+       Td(off)        Turn-Off Delay Time                                     VGEN = -10 V, Rg = 6Ω                        ---        110          ---
+         Tf           Fall Time                                                                                            ---         60          ---
+        Ciss          Input Capacitance                                                                                    ---       4066          ---
+        Coss          Output Capacitance                                       VDS=-30V,VGS=0V, f=1.0MHz                   ---        501          ---         pF
+        Crss          Reverse Transfer Capacitance                                                                         ---        291          ---
+
+
+
+
+Diode Characteristics
+
+     Symbol                               Parameter                                           Conditions                  Min.       Typ.        Max.          Unit
+         IS          Continuous Source Current                                TC=25℃                                       ---         ---        -40           A
+        VSD          Diode Forward Voltage                                   VGS=0V , IS=-1A , TJ=25℃                      ---         ---       -1.2           V
+
+
+
+A: The value of RθJA is measured with the device mounted on 1in2 FR-4 board with 2oz. Copper, in a still air environment with TA=25°
+                                                                                                                                   C. The value in any given
+
+application depends on the user's specific board design.
+
+B: Repetitive rating, pulse width limited by junction temperature.
+
+C: The current rating is based on the t≤ 10s junction to ambient thermal resistance rating.
+
+
+
+
+ www.winsok.tw                                                                   Page 2                                                 Rev1.3.Jul.2021
+                                                                                                                                                                     WSD90P06DN56
+                                                                                                                                                                                     P-Ch MOSFET
+
+        P-Channel Typical Characteristics
+
+                             120                                                                                                   35
+
+                                                                                                                                             ID=-18A
+                             100
+                                                                                                                                   30
+     -ID Drain Current (A)
+
+
+
+
+                                                                   VGS=-10V
+
+
+
+
+                                                                                                RDSON (mΩ)
+                              80
+                                                                   VGS=-7V
+                                                                                                                                   25
+                                                                   VGS=-5V
+                              60
+                                                                   VGS=-4.5V                                                       20
+                              40
+
+                                                                                                                                   15
+                              20
+
+
+                              0                                                                                                    9
+                                    0        1.0             2.0             3.0        4.0                                              2              4               6            8       10
+                                           -VDS Drain-to-Source Voltage (V)                                                                                          -VGS (V)
+                                    Fig.1 Typical Output Characteristics                                                                       Fig.2 On-Resistance vs G-S Voltage
+                             70                                                                                                    10
+                                                                                                                                             VDS=-30V
+                             60                                                                                                              ID=-17A
+                                                                                                 -VGS Gate to Source Voltage (V)
+
+
+
+
+                                                                                                                                    8
+-IS Source Current(A)
+
+
+
+
+                             50
+                                                                                                                                    6
+
+                             40                    TJ=150℃                     TJ=25℃
+                                                                                                                                    4
+                             30
+
+                                                                                                                                    2
+                             15
+
+
+                              0                                                                                                     0
+                                  0.2        0.4             0.6             0.8         1                                               0                      30              50           100
+                                          -VSD , Source-to-Drain Voltage (V)                                                                             QG , Total Gate Charge (nC)
+
+                              Fig.3 Source Drain Forward Characteristics                                                                       Fig.4 Gate-Charge Characteristics
+
+                             1.5                                                                                                   2.0
+                                                                                                  Normalized On Resistance
+     Normalized -VGS(th)
+
+
+
+
+                              1                                                                                                    1.5
+
+
+
+
+                             0.5                                                                                                   1.0
+
+
+
+
+                              0                                                                                                    0.5
+                                   -50        0              50               100       150                                              -50                0           50           100     150
+                                             TJ ,Junction Temperature ( ℃)                                                                              TJ , Junction Temperature (℃)
+
+                                         Fig.5 Normalized VGS(th) vs TJ                                                                            Fig.6 Normalized RDSON vs TJ
+
+
+
+www.winsok.tw                                                                                 Page 3                                                                            Rev1.3.Jul.2021
+                                                                                                                                                                           WSD90P06DN56
+                                                                                                                                                                                           P-Ch MOSFET
+
+
+                   10000                                                                                                                200.00
+                                                                                                       F=1.0MHz
+
+                                                                                                                                                                                         100us
+                                                                                                                                         10.00
+                                                                                                                Ciss
+Capacitance (pF)
+
+
+
+
+                   1000
+                                                                                                                                                                                         1ms
+
+
+
+
+                                                                                                                              -ID (A)
+                                                                                                                                          1.00                                           10ms
+                                                                                                                Coss
+                                                                                                                                                                                         100ms
+                                                                                                                                                                                          DC
+                    100
+                                                                                                                Crss
+                                                                                                                                          0.10
+
+                                                                                                                                                         Tc=25o C
+                                                                                                                                                       Single Pulse
+                               10                                                                                                         0.01
+                                                          1          5          9      13        17        21          25                        0.1             1            10         100         1000
+                                                                         -VDS Drain to Source Voltage(V)                                                                   -VDS (V)
+                                                                           Fig.7 Capacitance                                                                  Fig.8 Safe Operating Area
+                                                               1.5
+                     Normalized Thermal Response (RθJC)
+
+
+
+
+                                                                     DUTY=0.5
+
+                                                                     0.3
+
+
+                                                                     0.1
+                                                               0.1
+                                                                     0.05
+                                                                                                                                                                PDM
+                                                                     0.02                                                                                                   TON
+                                                                     0.01                                                                                                           T
+                                                                                                                                                                     D = TON/T
+                                                                     SINGLE PULSE                                                                                    TJpeak = TC + PDM x RθJC
+                                                              0.01
+                                                                0.00001                 0.0001                    0.001                                0.01                   0.1                1
+                                                                                                                       t , Pulse Width (s)
+
+                                                                                    Fig.9 Normalized Maximum Transient Thermal Impedance
+
+
+
+
+                                                               Fig.10 Switching Time Waveform                                                     Fig.11 Unclamped Inductive Waveform
+
+
+
+www.winsok.tw                                                                                                               Page 4                                                      Rev1.3.Jul.2021
+                                                          Attention
+
+1,AnyandallWinsokpowerproductsdescribedorcontainedhereindonothavespecificationsthatcanhandle
+applicationsthatrequireextremelyhighlevelsofreliability,suchaslifeͲsupportsystems,aircraft'scontrolsystems,or
+otherapplicationswhosefailurecanbereasonablyexpectedtoresultinseriousphysicaland/ormaterialdamage. 
+ConsultwithyourWinsokpowerrepresentativenearestyoubeforeusinganyWinsokpowerproductsdescribedor
+containedhereininsuchapplications.
+
+
+2,Winsokpowerassumesnoresponsibilityforequipmentfailuresthatresultfromusingproductsatvaluesthatexceed, 
+evenmomentarily,ratedvalues(suchasmaximumratings,operatingconditionranges,orotherparameters)listedin
+productsspecificationsofanyandallWinsokpowerproductsdescribedorcontainedherein.
+
+
+3,SpecificationsofanyandallWinsokpowerproductsdescribedorcontainedhereinstipulatetheperformance,
+characteristics,andfunctionsofthedescribedproductsintheindependentstate,andarenotguaranteesofthe
+performance,characteristics,andfunctionsofthedescribedproductsasmountedinthecustomer’sproductsor
+equipment.Toverifysymptomsandstatesthatcannotbeevaluatedinanindependentdevice,thecustomershouldalways
+evaluateandtestdevicesmountedinthecustomer’sproductsorequipment.
+
+
+4,WinsokpowerSemiconductorCO.,LTD.strivestosupplyhighͲqualityhighͲreliabilityproducts.However,anyandall
+semiconductorproductsfailwithsomeprobability.Itispossiblethattheseprobabilisticfailurescouldgiverisetoaccidents
+oreventsthatcouldendangerhumanlivesthatcouldgiverisetosmokeorfire,orthatcouldcausedamagetoother
+property.Whendesigningequipment,adoptsafetymeasuressothatthesekindsofaccidentsoreventscannotoccur.Such
+measuresincludebutarenotlimitedtoprotectivecircuitsanderrorpreventioncircuitsforsafedesign,redundantdesign,
+andstructuraldesign.
+
+
+5,IntheeventthatanyorallWinsokpowerproducts(includingtechnicaldata,services)describedorcontainedhereinare
+controlledunderanyofapplicablelocalexportcontrollawsandregulations,suchproductsmustnotbeexportedwithout
+obtainingtheexportlicensefromtheauthoritiesconcernedinaccordancewiththeabovelaw.
+
+
+6,Nopartofthispublicationmaybereproducedortransmittedinanyformorbyanymeans,electronicormechanical,
+includingphotocopyingandrecording,oranyinformationstorageorretrievalsystem,orotherwise,withouttheprior
+writtenpermissionofWinsokpowerSemiconductorCO.,LTD.
+
+
+7,Information(includingcircuitdiagramsandcircuitparameters)hereinisforexampleonly;itisnotguaranteedfor
+volumeproduction. Winsokpowerbelievesinformationhereinisaccurateandreliable,butnoguaranteesaremadeor
+impliedregardingitsuseoranyinfringementsofintellectualpropertyrightsorotherrightsofthirdparties.
+
+
+8,Anyandallinformationdescribedorcontainedhereinaresubjecttochangewithoutnoticeduetoproduct/technology
+improvement,etc.Whendesigningequipment,refertothe"DeliverySpecification"fortheWinsokpowerproductthatyou 
+Intendtouse.
+
+
+9,thiscatalogprovidesinformationasofSep.2014. Specificationsandinformationhereinaresubjecttochangewithout
+notice.
+

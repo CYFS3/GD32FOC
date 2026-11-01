@@ -1,0 +1,3248 @@
+{
+  "placements": {
+    "U1": {
+      "x_mm": 88.0,
+      "y_mm": 94.0,
+      "rotation_deg": 0,
+      "group": "mcu"
+    },
+    "CN41": {
+      "x_mm": 88.0,
+      "y_mm": 8.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "CN1041": {
+      "x_mm": 154.0,
+      "y_mm": 8.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "CN1": {
+      "x_mm": 10.0,
+      "y_mm": 16.0,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "USB8002": {
+      "x_mm": 8.5,
+      "y_mm": 96.0,
+      "rotation_deg": 270,
+      "group": "hslink"
+    },
+    "C164": {
+      "x_mm": 12.0,
+      "y_mm": 40.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C165": {
+      "x_mm": 28.0,
+      "y_mm": 40.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "FPC300": {
+      "x_mm": 124.0,
+      "y_mm": 112.5,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "Q5": {
+      "x_mm": 49.0,
+      "y_mm": 18.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "Q8": {
+      "x_mm": 49.0,
+      "y_mm": 29.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "Q6": {
+      "x_mm": 66.0,
+      "y_mm": 18.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "Q9": {
+      "x_mm": 66.0,
+      "y_mm": 29.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "Q7": {
+      "x_mm": 83.0,
+      "y_mm": 24.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "Q10": {
+      "x_mm": 83.0,
+      "y_mm": 31.5,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "Q1005": {
+      "x_mm": 115.0,
+      "y_mm": 18.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "Q1008": {
+      "x_mm": 115.0,
+      "y_mm": 29.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "Q1006": {
+      "x_mm": 132.0,
+      "y_mm": 18.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "Q1009": {
+      "x_mm": 132.0,
+      "y_mm": 29.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "Q1007": {
+      "x_mm": 149.0,
+      "y_mm": 24.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "Q1010": {
+      "x_mm": 149.0,
+      "y_mm": 31.5,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "CN5": {
+      "x_mm": 50.0,
+      "y_mm": 114.5,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "CN47": {
+      "x_mm": 50.0,
+      "y_mm": 94.0,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "CN1005": {
+      "x_mm": 153.0,
+      "y_mm": 114.5,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "CN1047": {
+      "x_mm": 153.0,
+      "y_mm": 80.0,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "U8006": {
+      "x_mm": 22.0,
+      "y_mm": 96.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "L6": {
+      "x_mm": 26.0,
+      "y_mm": 56.0,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "H8001": {
+      "x_mm": 25.0,
+      "y_mm": 113.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "U10": {
+      "x_mm": 69.0,
+      "y_mm": 56.0,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "U1010": {
+      "x_mm": 135.0,
+      "y_mm": 56.0,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "U6": {
+      "x_mm": 16.0,
+      "y_mm": 56.0,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "Q3": {
+      "x_mm": 21.0,
+      "y_mm": 23.0,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "J200": {
+      "x_mm": 75.0,
+      "y_mm": 110.5,
+      "rotation_deg": 0,
+      "group": "mcu_debug"
+    },
+    "J201": {
+      "x_mm": 98.0,
+      "y_mm": 110.5,
+      "rotation_deg": 0,
+      "group": "mcu_debug"
+    },
+    "Q1": {
+      "x_mm": 21.0,
+      "y_mm": 12.0,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "R81": {
+      "x_mm": 56.0,
+      "y_mm": 12.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R82": {
+      "x_mm": 73.0,
+      "y_mm": 12.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R83": {
+      "x_mm": 94.0,
+      "y_mm": 31.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R109": {
+      "x_mm": 94.0,
+      "y_mm": 26.5,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R1081": {
+      "x_mm": 122.0,
+      "y_mm": 12.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1082": {
+      "x_mm": 139.0,
+      "y_mm": 12.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1083": {
+      "x_mm": 160.0,
+      "y_mm": 31.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1109": {
+      "x_mm": 160.0,
+      "y_mm": 26.5,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "U7": {
+      "x_mm": 68.0,
+      "y_mm": 43.0,
+      "rotation_deg": 0,
+      "group": "m1_driver"
+    },
+    "U1007": {
+      "x_mm": 134.0,
+      "y_mm": 43.0,
+      "rotation_deg": 0,
+      "group": "m2_driver"
+    },
+    "SW300": {
+      "x_mm": 117.5,
+      "y_mm": 99.0,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "SW301": {
+      "x_mm": 125.0,
+      "y_mm": 99.0,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "SW302": {
+      "x_mm": 132.5,
+      "y_mm": 99.0,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "SW8005": {
+      "x_mm": 9.0,
+      "y_mm": 111.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "U19": {
+      "x_mm": 17.0,
+      "y_mm": 70.0,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "U12": {
+      "x_mm": 50.0,
+      "y_mm": 68.0,
+      "rotation_deg": 0,
+      "group": "analog_reference"
+    },
+    "U2": {
+      "x_mm": 46.0,
+      "y_mm": 82.0,
+      "rotation_deg": 0,
+      "group": "logic_ldo"
+    },
+    "U20": {
+      "x_mm": 55.0,
+      "y_mm": 82.0,
+      "rotation_deg": 0,
+      "group": "logic_ldo"
+    },
+    "D8005": {
+      "x_mm": 14.0,
+      "y_mm": 96.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "U9101": {
+      "x_mm": 50.0,
+      "y_mm": 102.0,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "U9102": {
+      "x_mm": 153.0,
+      "y_mm": 90.0,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "NTC1": {
+      "x_mm": 46.0,
+      "y_mm": 52.5,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "NTC1001": {
+      "x_mm": 112.0,
+      "y_mm": 52.5,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "L9": {
+      "x_mm": 25.0,
+      "y_mm": 70.0,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "U8007": {
+      "x_mm": 24.0,
+      "y_mm": 88.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "TP200": {
+      "x_mm": 85.0,
+      "y_mm": 115.5,
+      "rotation_deg": 0,
+      "group": "mcu_debug"
+    },
+    "Y201": {
+      "x_mm": 76.05,
+      "y_mm": 90.5,
+      "rotation_deg": 90,
+      "group": "mcu"
+    },
+    "Y200": {
+      "x_mm": 76.05,
+      "y_mm": 96.5,
+      "rotation_deg": 90,
+      "group": "mcu"
+    },
+    "C200": {
+      "x_mm": 78.5,
+      "y_mm": 88.0,
+      "rotation_deg": 90,
+      "group": "mcu"
+    },
+    "C201": {
+      "x_mm": 83.0,
+      "y_mm": 104.25,
+      "rotation_deg": 270,
+      "group": "mcu"
+    },
+    "C202": {
+      "x_mm": 94.0,
+      "y_mm": 104.25,
+      "rotation_deg": 270,
+      "group": "mcu"
+    },
+    "C203": {
+      "x_mm": 98.25,
+      "y_mm": 88.0,
+      "rotation_deg": 0,
+      "group": "mcu"
+    },
+    "C204": {
+      "x_mm": 82.0,
+      "y_mm": 83.75,
+      "rotation_deg": 90,
+      "group": "mcu"
+    },
+    "C212": {
+      "x_mm": 75.75,
+      "y_mm": 87.5,
+      "rotation_deg": 180,
+      "group": "mcu"
+    },
+    "C206": {
+      "x_mm": 78.5,
+      "y_mm": 102.0,
+      "rotation_deg": 270,
+      "group": "mcu"
+    },
+    "C208": {
+      "x_mm": 75.75,
+      "y_mm": 101.25,
+      "rotation_deg": 180,
+      "group": "mcu"
+    },
+    "C207": {
+      "x_mm": 76.5,
+      "y_mm": 104.0,
+      "rotation_deg": 270,
+      "group": "mcu"
+    },
+    "C213": {
+      "x_mm": 79.25,
+      "y_mm": 105.5,
+      "rotation_deg": 270,
+      "group": "mcu"
+    },
+    "C214": {
+      "x_mm": 73.05,
+      "y_mm": 91.775,
+      "rotation_deg": 180,
+      "group": "mcu"
+    },
+    "C215": {
+      "x_mm": 73.05,
+      "y_mm": 89.475,
+      "rotation_deg": 180,
+      "group": "mcu"
+    },
+    "C210": {
+      "x_mm": 72.249999,
+      "y_mm": 98.5,
+      "rotation_deg": 180,
+      "group": "mcu"
+    },
+    "C211": {
+      "x_mm": 72.350001,
+      "y_mm": 94.5,
+      "rotation_deg": 180,
+      "group": "mcu"
+    },
+    "X8002": {
+      "x_mm": 28.1,
+      "y_mm": 94.2005,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "D8": {
+      "x_mm": 64.0925,
+      "y_mm": 42.25,
+      "rotation_deg": 90,
+      "group": "m1_driver"
+    },
+    "C130": {
+      "x_mm": 66.0925,
+      "y_mm": 39.25,
+      "rotation_deg": 0,
+      "group": "m1_driver"
+    },
+    "R59": {
+      "x_mm": 45.708,
+      "y_mm": 12.727,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R62": {
+      "x_mm": 42.708,
+      "y_mm": 16.727,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "D5": {
+      "x_mm": 42.208,
+      "y_mm": 12.227,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "C145": {
+      "x_mm": 49.708,
+      "y_mm": 11.727,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "R75": {
+      "x_mm": 45.708,
+      "y_mm": 23.727,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R78": {
+      "x_mm": 42.708,
+      "y_mm": 27.727,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "D11": {
+      "x_mm": 42.208,
+      "y_mm": 23.227,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "C146": {
+      "x_mm": 50.208,
+      "y_mm": 23.727,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "D9": {
+      "x_mm": 69.75,
+      "y_mm": 39.0925,
+      "rotation_deg": 0,
+      "group": "m1_driver"
+    },
+    "C131": {
+      "x_mm": 71.75,
+      "y_mm": 42.0925,
+      "rotation_deg": 90,
+      "group": "m1_driver"
+    },
+    "R60": {
+      "x_mm": 62.708,
+      "y_mm": 12.727,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R63": {
+      "x_mm": 59.708,
+      "y_mm": 16.727,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "D6": {
+      "x_mm": 66.208,
+      "y_mm": 12.227,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "C147": {
+      "x_mm": 62.708,
+      "y_mm": 9.727,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R76": {
+      "x_mm": 62.708,
+      "y_mm": 23.727,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R79": {
+      "x_mm": 59.708,
+      "y_mm": 27.727,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "D12": {
+      "x_mm": 59.208,
+      "y_mm": 23.227,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "C148": {
+      "x_mm": 67.208,
+      "y_mm": 23.727,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "D10": {
+      "x_mm": 73.75,
+      "y_mm": 39.0925,
+      "rotation_deg": 0,
+      "group": "m1_driver"
+    },
+    "C132": {
+      "x_mm": 73.75,
+      "y_mm": 42.0925,
+      "rotation_deg": 90,
+      "group": "m1_driver"
+    },
+    "R61": {
+      "x_mm": 76.708,
+      "y_mm": 21.727,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "R64": {
+      "x_mm": 77.208,
+      "y_mm": 17.727,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "D7": {
+      "x_mm": 75.708,
+      "y_mm": 25.227,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "C149": {
+      "x_mm": 75.708,
+      "y_mm": 27.727,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R77": {
+      "x_mm": 76.708,
+      "y_mm": 31.727,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "R80": {
+      "x_mm": 72.708,
+      "y_mm": 34.227,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "D13": {
+      "x_mm": 74.208,
+      "y_mm": 21.727,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "C150": {
+      "x_mm": 68.208,
+      "y_mm": 34.227,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "C96": {
+      "x_mm": 55.0,
+      "y_mm": 23.5,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "C97": {
+      "x_mm": 47.0,
+      "y_mm": 8.5,
+      "rotation_deg": 90,
+      "group": "m1_power"
+    },
+    "C98": {
+      "x_mm": 51.0,
+      "y_mm": 8.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "C99": {
+      "x_mm": 43.0,
+      "y_mm": 8.5,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "C100": {
+      "x_mm": 56.5,
+      "y_mm": 8.5,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "C101": {
+      "x_mm": 51.0,
+      "y_mm": 5.0,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "C102": {
+      "x_mm": 43.0,
+      "y_mm": 5.5,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "C103": {
+      "x_mm": 56.5,
+      "y_mm": 5.5,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "C104": {
+      "x_mm": 41.5,
+      "y_mm": 31.5,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "D1008": {
+      "x_mm": 130.0925,
+      "y_mm": 42.25,
+      "rotation_deg": 90,
+      "group": "m2_driver"
+    },
+    "C1130": {
+      "x_mm": 132.0925,
+      "y_mm": 39.25,
+      "rotation_deg": 0,
+      "group": "m2_driver"
+    },
+    "R1059": {
+      "x_mm": 111.708,
+      "y_mm": 12.727,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1062": {
+      "x_mm": 108.708,
+      "y_mm": 16.727,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "D1005": {
+      "x_mm": 108.208,
+      "y_mm": 12.227,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "C1145": {
+      "x_mm": 115.708,
+      "y_mm": 11.727,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "R1075": {
+      "x_mm": 111.708,
+      "y_mm": 23.727,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1078": {
+      "x_mm": 108.708,
+      "y_mm": 27.727,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "D1011": {
+      "x_mm": 108.208,
+      "y_mm": 23.227,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "C1146": {
+      "x_mm": 116.208,
+      "y_mm": 23.727,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "D1009": {
+      "x_mm": 135.75,
+      "y_mm": 39.0925,
+      "rotation_deg": 0,
+      "group": "m2_driver"
+    },
+    "C1131": {
+      "x_mm": 137.75,
+      "y_mm": 42.0925,
+      "rotation_deg": 90,
+      "group": "m2_driver"
+    },
+    "R1060": {
+      "x_mm": 128.708,
+      "y_mm": 12.727,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1063": {
+      "x_mm": 125.708,
+      "y_mm": 16.727,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "D1006": {
+      "x_mm": 132.208,
+      "y_mm": 12.227,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "C1147": {
+      "x_mm": 128.708,
+      "y_mm": 9.727,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1076": {
+      "x_mm": 128.708,
+      "y_mm": 23.727,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1079": {
+      "x_mm": 125.708,
+      "y_mm": 27.727,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "D1012": {
+      "x_mm": 125.208,
+      "y_mm": 23.227,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "C1148": {
+      "x_mm": 133.208,
+      "y_mm": 23.727,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "D1010": {
+      "x_mm": 139.75,
+      "y_mm": 39.0925,
+      "rotation_deg": 0,
+      "group": "m2_driver"
+    },
+    "C1132": {
+      "x_mm": 139.75,
+      "y_mm": 42.0925,
+      "rotation_deg": 90,
+      "group": "m2_driver"
+    },
+    "R1061": {
+      "x_mm": 142.708,
+      "y_mm": 21.727,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "R1064": {
+      "x_mm": 143.208,
+      "y_mm": 17.727,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "D1007": {
+      "x_mm": 141.708,
+      "y_mm": 25.227,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C1149": {
+      "x_mm": 141.708,
+      "y_mm": 27.727,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1077": {
+      "x_mm": 142.708,
+      "y_mm": 31.727,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "R1080": {
+      "x_mm": 138.708,
+      "y_mm": 34.227,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "D1013": {
+      "x_mm": 140.208,
+      "y_mm": 21.727,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "C1150": {
+      "x_mm": 134.208,
+      "y_mm": 34.227,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C1096": {
+      "x_mm": 121.0,
+      "y_mm": 23.5,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C1097": {
+      "x_mm": 113.0,
+      "y_mm": 8.5,
+      "rotation_deg": 90,
+      "group": "m2_power"
+    },
+    "C1098": {
+      "x_mm": 117.0,
+      "y_mm": 8.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C1099": {
+      "x_mm": 109.0,
+      "y_mm": 8.5,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C1100": {
+      "x_mm": 122.0,
+      "y_mm": 8.5,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C1101": {
+      "x_mm": 117.0,
+      "y_mm": 5.0,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C1102": {
+      "x_mm": 112.0,
+      "y_mm": 4.5,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C1103": {
+      "x_mm": 122.0,
+      "y_mm": 5.5,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C1104": {
+      "x_mm": 107.5,
+      "y_mm": 31.5,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "C8080": {
+      "x_mm": 22.0,
+      "y_mm": 91.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8081": {
+      "x_mm": 22.0,
+      "y_mm": 101.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8054": {
+      "x_mm": 17.0,
+      "y_mm": 96.0,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8056": {
+      "x_mm": 13.0,
+      "y_mm": 92.0,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8057": {
+      "x_mm": 13.0,
+      "y_mm": 100.0,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8060": {
+      "x_mm": 8.5,
+      "y_mm": 89.5,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8087": {
+      "x_mm": 8.5,
+      "y_mm": 102.5,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8064": {
+      "x_mm": 27.0,
+      "y_mm": 97.5,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "C8065": {
+      "x_mm": 18.5,
+      "y_mm": 91.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8066": {
+      "x_mm": 18.5,
+      "y_mm": 101.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8067": {
+      "x_mm": 25.5,
+      "y_mm": 91.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8068": {
+      "x_mm": 25.5,
+      "y_mm": 101.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8069": {
+      "x_mm": 16.0,
+      "y_mm": 93.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8070": {
+      "x_mm": 16.0,
+      "y_mm": 99.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8071": {
+      "x_mm": 22.0,
+      "y_mm": 103.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8072": {
+      "x_mm": 20.5,
+      "y_mm": 89.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8073": {
+      "x_mm": 29.0,
+      "y_mm": 97.5,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "C8074": {
+      "x_mm": 18.5,
+      "y_mm": 103.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8075": {
+      "x_mm": 25.5,
+      "y_mm": 103.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8076": {
+      "x_mm": 28.5,
+      "y_mm": 91.0,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "C8077": {
+      "x_mm": 28.5,
+      "y_mm": 101.0,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "C8078": {
+      "x_mm": 17.0,
+      "y_mm": 89.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8079": {
+      "x_mm": 15.5,
+      "y_mm": 102.0,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "C8082": {
+      "x_mm": 22.0,
+      "y_mm": 105.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8083": {
+      "x_mm": 31.0,
+      "y_mm": 96.0,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "C8084": {
+      "x_mm": 20.5,
+      "y_mm": 87.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8085": {
+      "x_mm": 18.5,
+      "y_mm": 105.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "D22": {
+      "x_mm": 27.8946,
+      "y_mm": 16.9601,
+      "rotation_deg": 90,
+      "group": "shared_input"
+    },
+    "C163": {
+      "x_mm": 20.7901,
+      "y_mm": 17.4088,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "C162": {
+      "x_mm": 26.7712,
+      "y_mm": 9.9793,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "D4": {
+      "x_mm": 27.1712,
+      "y_mm": 24.0182,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "C128": {
+      "x_mm": 26.3462,
+      "y_mm": 26.7182,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "D24": {
+      "x_mm": 21.3449,
+      "y_mm": 6.7308,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "C127": {
+      "x_mm": 26.673,
+      "y_mm": 7.2308,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "R141": {
+      "x_mm": 32.7478,
+      "y_mm": 17.4071,
+      "rotation_deg": 90,
+      "group": "shared_input"
+    },
+    "R140": {
+      "x_mm": 15.8607,
+      "y_mm": 7.9035,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "R131": {
+      "x_mm": 21.6984,
+      "y_mm": 28.5944,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "Q2": {
+      "x_mm": 31.2088,
+      "y_mm": 9.1789,
+      "rotation_deg": 90,
+      "group": "shared_input"
+    },
+    "CN1024": {
+      "x_mm": 143.1523,
+      "y_mm": 7.3992,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1086": {
+      "x_mm": 144.0273,
+      "y_mm": 52.3992,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN1023": {
+      "x_mm": 124.8077,
+      "y_mm": 32.2689,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1085": {
+      "x_mm": 128.5577,
+      "y_mm": 52.3939,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN1022": {
+      "x_mm": 126.8619,
+      "y_mm": 5.8681,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1084": {
+      "x_mm": 124.0494,
+      "y_mm": 52.1806,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN24": {
+      "x_mm": 77.1523,
+      "y_mm": 7.3992,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R86": {
+      "x_mm": 78.0273,
+      "y_mm": 52.3992,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN23": {
+      "x_mm": 58.8077,
+      "y_mm": 32.2689,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R85": {
+      "x_mm": 62.5577,
+      "y_mm": 52.3939,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN22": {
+      "x_mm": 61.3619,
+      "y_mm": 5.8681,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R84": {
+      "x_mm": 58.1119,
+      "y_mm": 52.1806,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R203": {
+      "x_mm": 72.8167,
+      "y_mm": 103.6667,
+      "rotation_deg": 0,
+      "group": "mcu"
+    },
+    "CN1027": {
+      "x_mm": 138.3065,
+      "y_mm": 7.6683,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "CN1026": {
+      "x_mm": 133.3065,
+      "y_mm": 7.4683,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "CN1025": {
+      "x_mm": 104.8065,
+      "y_mm": 24.9683,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "CN1019": {
+      "x_mm": 144.2156,
+      "y_mm": 37.4774,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "CN1018": {
+      "x_mm": 131.3065,
+      "y_mm": 2.8683,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "CN1017": {
+      "x_mm": 104.5576,
+      "y_mm": 13.6194,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "CN27": {
+      "x_mm": 72.3065,
+      "y_mm": 7.6683,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "CN26": {
+      "x_mm": 67.3065,
+      "y_mm": 7.4683,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "CN25": {
+      "x_mm": 38.8065,
+      "y_mm": 24.9683,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "CN19": {
+      "x_mm": 78.2156,
+      "y_mm": 37.4774,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "CN18": {
+      "x_mm": 65.8065,
+      "y_mm": 2.8683,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "CN17": {
+      "x_mm": 38.5576,
+      "y_mm": 13.6194,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R1148": {
+      "x_mm": 140.5051,
+      "y_mm": 53.0794,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "R1145": {
+      "x_mm": 148.663,
+      "y_mm": 52.1559,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1068": {
+      "x_mm": 144.4497,
+      "y_mm": 55.2988,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1067": {
+      "x_mm": 149.0583,
+      "y_mm": 55.0336,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN1036": {
+      "x_mm": 148.9181,
+      "y_mm": 37.7275,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "CN1035": {
+      "x_mm": 146.2515,
+      "y_mm": 42.283,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1072": {
+      "x_mm": 128.4701,
+      "y_mm": 55.2458,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN1029": {
+      "x_mm": 129.6235,
+      "y_mm": 35.3437,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1069": {
+      "x_mm": 119.5086,
+      "y_mm": 52.2458,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN1028": {
+      "x_mm": 114.7312,
+      "y_mm": 35.2437,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R1052": {
+      "x_mm": 140.3843,
+      "y_mm": 57.7849,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "CN1030": {
+      "x_mm": 141.7077,
+      "y_mm": 46.3528,
+      "rotation_deg": 0,
+      "group": "m2_power"
+    },
+    "R148": {
+      "x_mm": 74.5051,
+      "y_mm": 53.0794,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "R145": {
+      "x_mm": 82.663,
+      "y_mm": 52.1559,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R68": {
+      "x_mm": 78.4497,
+      "y_mm": 55.2988,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R67": {
+      "x_mm": 83.0583,
+      "y_mm": 55.0336,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN36": {
+      "x_mm": 82.9181,
+      "y_mm": 37.7275,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "CN35": {
+      "x_mm": 80.2515,
+      "y_mm": 42.283,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R72": {
+      "x_mm": 62.4701,
+      "y_mm": 55.2458,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN29": {
+      "x_mm": 63.6235,
+      "y_mm": 35.3437,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R69": {
+      "x_mm": 53.5086,
+      "y_mm": 52.2458,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN28": {
+      "x_mm": 48.7312,
+      "y_mm": 35.2437,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R52": {
+      "x_mm": 74.3843,
+      "y_mm": 57.7849,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "CN30": {
+      "x_mm": 75.7077,
+      "y_mm": 46.3528,
+      "rotation_deg": 0,
+      "group": "m1_power"
+    },
+    "R139": {
+      "x_mm": 26.6559,
+      "y_mm": 4.2229,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "R1146": {
+      "x_mm": 136.3975,
+      "y_mm": 60.6353,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1066": {
+      "x_mm": 144.3097,
+      "y_mm": 58.1829,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1065": {
+      "x_mm": 141.8459,
+      "y_mm": 61.7612,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R146": {
+      "x_mm": 70.3975,
+      "y_mm": 60.6353,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R137": {
+      "x_mm": 32.8531,
+      "y_mm": 21.8612,
+      "rotation_deg": 90,
+      "group": "shared_input"
+    },
+    "C126": {
+      "x_mm": 31.4078,
+      "y_mm": 5.2985,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "R142": {
+      "x_mm": 32.3859,
+      "y_mm": 25.5302,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "R138": {
+      "x_mm": 15.7572,
+      "y_mm": 5.0668,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "R66": {
+      "x_mm": 78.3097,
+      "y_mm": 58.1829,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R65": {
+      "x_mm": 75.8459,
+      "y_mm": 61.7612,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R8065": {
+      "x_mm": 25.4825,
+      "y_mm": 105.2625,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C172": {
+      "x_mm": 20.6125,
+      "y_mm": 70.7125,
+      "rotation_deg": 90,
+      "group": "shared_buck5"
+    },
+    "C67": {
+      "x_mm": 20.1406,
+      "y_mm": 51.738,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "R45": {
+      "x_mm": 23.7229,
+      "y_mm": 51.4443,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "CN13": {
+      "x_mm": 45.5,
+      "y_mm": 67.05,
+      "rotation_deg": 0,
+      "group": "analog_reference"
+    },
+    "D23": {
+      "x_mm": 15.0059,
+      "y_mm": 26.3267,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "C125": {
+      "x_mm": 17.0892,
+      "y_mm": 28.9934,
+      "rotation_deg": 0,
+      "group": "shared_input"
+    },
+    "R1149": {
+      "x_mm": 131.6375,
+      "y_mm": 60.625,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1147": {
+      "x_mm": 128.2647,
+      "y_mm": 57.9625,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1098": {
+      "x_mm": 151.2833,
+      "y_mm": 105.3667,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "R1108": {
+      "x_mm": 151.8189,
+      "y_mm": 97.8083,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "C1084": {
+      "x_mm": 151.5682,
+      "y_mm": 94.8083,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "D1014": {
+      "x_mm": 148.3777,
+      "y_mm": 98.5583,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1097": {
+      "x_mm": 155.05,
+      "y_mm": 105.3667,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1107": {
+      "x_mm": 155.725,
+      "y_mm": 97.4311,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "C1083": {
+      "x_mm": 155.0583,
+      "y_mm": 101.1818,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "D1020": {
+      "x_mm": 158.3678,
+      "y_mm": 97.5568,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1095": {
+      "x_mm": 151.45,
+      "y_mm": 108.0333,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "R1106": {
+      "x_mm": 151.4022,
+      "y_mm": 101.6416,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "C1082": {
+      "x_mm": 147.7356,
+      "y_mm": 101.8923,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "D1019": {
+      "x_mm": 146.0451,
+      "y_mm": 98.3923,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1090": {
+      "x_mm": 147.8281,
+      "y_mm": 109.1458,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1089": {
+      "x_mm": 156.2414,
+      "y_mm": 109.6158,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "R1088": {
+      "x_mm": 144.9604,
+      "y_mm": 110.1902,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1049": {
+      "x_mm": 146.426,
+      "y_mm": 105.1519,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "R1074": {
+      "x_mm": 133.5436,
+      "y_mm": 63.2979,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1071": {
+      "x_mm": 124.4018,
+      "y_mm": 55.7524,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "R1055": {
+      "x_mm": 137.4835,
+      "y_mm": 64.3087,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "R1051": {
+      "x_mm": 127.2223,
+      "y_mm": 60.6337,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1073": {
+      "x_mm": 146.7101,
+      "y_mm": 61.1165,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1070": {
+      "x_mm": 141.4782,
+      "y_mm": 64.8556,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1053": {
+      "x_mm": 128.8915,
+      "y_mm": 63.3426,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1050": {
+      "x_mm": 131.5115,
+      "y_mm": 66.2875,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R149": {
+      "x_mm": 65.6375,
+      "y_mm": 60.625,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R147": {
+      "x_mm": 62.2647,
+      "y_mm": 57.9625,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R98": {
+      "x_mm": 48.2833,
+      "y_mm": 109.3667,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "R108": {
+      "x_mm": 48.8189,
+      "y_mm": 105.8083,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "C84": {
+      "x_mm": 45.0682,
+      "y_mm": 105.8083,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "D14": {
+      "x_mm": 52.1932,
+      "y_mm": 105.9988,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R97": {
+      "x_mm": 53.05,
+      "y_mm": 109.3667,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "R107": {
+      "x_mm": 55.1022,
+      "y_mm": 105.8083,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "C83": {
+      "x_mm": 54.9356,
+      "y_mm": 102.059,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "D20": {
+      "x_mm": 57.6201,
+      "y_mm": 105.559,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R95": {
+      "x_mm": 43.45,
+      "y_mm": 109.5333,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "R106": {
+      "x_mm": 44.9022,
+      "y_mm": 101.8916,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "C82": {
+      "x_mm": 42.1516,
+      "y_mm": 105.725,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "D19": {
+      "x_mm": 41.2766,
+      "y_mm": 101.2905,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R90": {
+      "x_mm": 42.3281,
+      "y_mm": 113.1458,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R89": {
+      "x_mm": 41.7094,
+      "y_mm": 116.8338,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "R88": {
+      "x_mm": 57.654,
+      "y_mm": 112.8838,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R49": {
+      "x_mm": 58.4798,
+      "y_mm": 116.7891,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "R74": {
+      "x_mm": 67.5436,
+      "y_mm": 63.2979,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R71": {
+      "x_mm": 58.4018,
+      "y_mm": 55.7524,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "R55": {
+      "x_mm": 71.4835,
+      "y_mm": 64.3087,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "R51": {
+      "x_mm": 61.2223,
+      "y_mm": 60.6337,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R73": {
+      "x_mm": 80.7101,
+      "y_mm": 61.1165,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R70": {
+      "x_mm": 75.4782,
+      "y_mm": 64.8556,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R53": {
+      "x_mm": 62.8915,
+      "y_mm": 63.3426,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R50": {
+      "x_mm": 65.5115,
+      "y_mm": 66.2875,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R48": {
+      "x_mm": 50.26,
+      "y_mm": 71.45,
+      "rotation_deg": 0,
+      "group": "analog_reference"
+    },
+    "CN16": {
+      "x_mm": 54.904,
+      "y_mm": 70.2,
+      "rotation_deg": 0,
+      "group": "analog_reference"
+    },
+    "R57": {
+      "x_mm": 51.904,
+      "y_mm": 74.2,
+      "rotation_deg": 0,
+      "group": "analog_reference"
+    },
+    "C79": {
+      "x_mm": 56.5926,
+      "y_mm": 74.2,
+      "rotation_deg": 0,
+      "group": "analog_reference"
+    },
+    "R8902": {
+      "x_mm": 25.0187,
+      "y_mm": 108.1562,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8073": {
+      "x_mm": 22.2437,
+      "y_mm": 107.6562,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8068": {
+      "x_mm": 28.27,
+      "y_mm": 105.075,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8066": {
+      "x_mm": 30.524,
+      "y_mm": 101.16,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8059": {
+      "x_mm": 30.981,
+      "y_mm": 92.1713,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8901": {
+      "x_mm": 28.492,
+      "y_mm": 107.6925,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8071": {
+      "x_mm": 30.3837,
+      "y_mm": 104.8592,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8064": {
+      "x_mm": 19.3567,
+      "y_mm": 107.0833,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8072": {
+      "x_mm": 20.2258,
+      "y_mm": 110.0667,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8063": {
+      "x_mm": 30.4,
+      "y_mm": 109.575,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8055": {
+      "x_mm": 15.0425,
+      "y_mm": 105.1,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R205": {
+      "x_mm": 91.25,
+      "y_mm": 114.935,
+      "rotation_deg": 0,
+      "group": "mcu_debug"
+    },
+    "R204": {
+      "x_mm": 94.875,
+      "y_mm": 115.79,
+      "rotation_deg": 90,
+      "group": "mcu_debug"
+    },
+    "R200": {
+      "x_mm": 81.125,
+      "y_mm": 105.0,
+      "rotation_deg": 90,
+      "group": "mcu"
+    },
+    "C209": {
+      "x_mm": 82.125,
+      "y_mm": 107.725,
+      "rotation_deg": 0,
+      "group": "mcu"
+    },
+    "C66": {
+      "x_mm": 27.1887,
+      "y_mm": 51.5286,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "R44": {
+      "x_mm": 21.0318,
+      "y_mm": 54.7168,
+      "rotation_deg": 90,
+      "group": "shared_buck12"
+    },
+    "R43": {
+      "x_mm": 21.0318,
+      "y_mm": 58.4418,
+      "rotation_deg": 90,
+      "group": "shared_buck12"
+    },
+    "C68": {
+      "x_mm": 30.7558,
+      "y_mm": 51.4864,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "C321": {
+      "x_mm": 121.5005,
+      "y_mm": 109.434,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "C320": {
+      "x_mm": 119.0008,
+      "y_mm": 109.434,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "CN1021": {
+      "x_mm": 146.4581,
+      "y_mm": 65.1165,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "C1135": {
+      "x_mm": 150.2081,
+      "y_mm": 65.1165,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "CN1020": {
+      "x_mm": 140.7262,
+      "y_mm": 68.8556,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "C1136": {
+      "x_mm": 136.7262,
+      "y_mm": 68.8556,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "CN1015": {
+      "x_mm": 124.1395,
+      "y_mm": 64.3426,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "C1133": {
+      "x_mm": 126.1395,
+      "y_mm": 68.3426,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN1014": {
+      "x_mm": 130.7595,
+      "y_mm": 70.2875,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "C1134": {
+      "x_mm": 126.2595,
+      "y_mm": 71.2875,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN21": {
+      "x_mm": 80.4581,
+      "y_mm": 65.1165,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "C135": {
+      "x_mm": 84.2081,
+      "y_mm": 65.1165,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "CN20": {
+      "x_mm": 74.7262,
+      "y_mm": 68.8556,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "C136": {
+      "x_mm": 70.7262,
+      "y_mm": 68.8556,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "CN15": {
+      "x_mm": 58.1395,
+      "y_mm": 64.3426,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "C133": {
+      "x_mm": 60.1395,
+      "y_mm": 68.3426,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN14": {
+      "x_mm": 64.7595,
+      "y_mm": 70.2875,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "C134": {
+      "x_mm": 60.2595,
+      "y_mm": 71.2875,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN6": {
+      "x_mm": 41.2,
+      "y_mm": 82.95,
+      "rotation_deg": 0,
+      "group": "logic_ldo"
+    },
+    "C6": {
+      "x_mm": 44.95,
+      "y_mm": 84.95,
+      "rotation_deg": 0,
+      "group": "logic_ldo"
+    },
+    "R1121": {
+      "x_mm": 145.625,
+      "y_mm": 79.425,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1120": {
+      "x_mm": 152.375,
+      "y_mm": 84.925,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "R1118": {
+      "x_mm": 160.625,
+      "y_mm": 79.425,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1117": {
+      "x_mm": 156.875,
+      "y_mm": 84.925,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "R1104": {
+      "x_mm": 111.248,
+      "y_mm": 55.5,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "C1080": {
+      "x_mm": 107.6252,
+      "y_mm": 54.0,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "R1103": {
+      "x_mm": 160.375,
+      "y_mm": 112.925,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1054": {
+      "x_mm": 161.125,
+      "y_mm": 109.301,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "R1105": {
+      "x_mm": 163.375,
+      "y_mm": 113.1705,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "C1085": {
+      "x_mm": 164.875,
+      "y_mm": 108.5465,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R1093": {
+      "x_mm": 149.2818,
+      "y_mm": 57.8992,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN1039": {
+      "x_mm": 154.0363,
+      "y_mm": 57.8992,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1129": {
+      "x_mm": 153.5363,
+      "y_mm": 53.8992,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1101": {
+      "x_mm": 152.7878,
+      "y_mm": 61.5659,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "C1077": {
+      "x_mm": 157.5998,
+      "y_mm": 57.8159,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "D1017": {
+      "x_mm": 157.0998,
+      "y_mm": 61.667,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1130": {
+      "x_mm": 157.2843,
+      "y_mm": 53.3992,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "R1128": {
+      "x_mm": 160.5343,
+      "y_mm": 54.0252,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "R1092": {
+      "x_mm": 121.4742,
+      "y_mm": 55.9357,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "CN1038": {
+      "x_mm": 145.3792,
+      "y_mm": 69.9129,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1100": {
+      "x_mm": 149.8792,
+      "y_mm": 68.7463,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "C1076": {
+      "x_mm": 153.3162,
+      "y_mm": 65.1213,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "D1016": {
+      "x_mm": 149.8162,
+      "y_mm": 71.6724,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1091": {
+      "x_mm": 122.759,
+      "y_mm": 59.6134,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "CN1037": {
+      "x_mm": 157.0239,
+      "y_mm": 65.1953,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1099": {
+      "x_mm": 154.5239,
+      "y_mm": 68.862,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "C1075": {
+      "x_mm": 154.2109,
+      "y_mm": 71.612,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "D1015": {
+      "x_mm": 157.9598,
+      "y_mm": 69.512,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "R153": {
+      "x_mm": 15.6,
+      "y_mm": 66.55,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "R121": {
+      "x_mm": 42.625,
+      "y_mm": 92.425,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R120": {
+      "x_mm": 49.375,
+      "y_mm": 98.925,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "R118": {
+      "x_mm": 57.625,
+      "y_mm": 92.425,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R117": {
+      "x_mm": 53.875,
+      "y_mm": 98.925,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "R104": {
+      "x_mm": 45.248,
+      "y_mm": 55.5,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "C80": {
+      "x_mm": 41.6253,
+      "y_mm": 54.0,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "R103": {
+      "x_mm": 58.875,
+      "y_mm": 108.925,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "R54": {
+      "x_mm": 58.499,
+      "y_mm": 100.925,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R105": {
+      "x_mm": 58.6295,
+      "y_mm": 96.925,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "C85": {
+      "x_mm": 44.7535,
+      "y_mm": 98.925,
+      "rotation_deg": 0,
+      "group": "m1_encoder"
+    },
+    "R93": {
+      "x_mm": 83.2818,
+      "y_mm": 57.8992,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN39": {
+      "x_mm": 88.0363,
+      "y_mm": 57.8992,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R129": {
+      "x_mm": 87.5363,
+      "y_mm": 53.8992,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R101": {
+      "x_mm": 86.7878,
+      "y_mm": 61.5659,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "C77": {
+      "x_mm": 91.5998,
+      "y_mm": 57.8159,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "D17": {
+      "x_mm": 91.0998,
+      "y_mm": 61.667,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R130": {
+      "x_mm": 91.2843,
+      "y_mm": 53.3992,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "R128": {
+      "x_mm": 94.5343,
+      "y_mm": 54.0252,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "R92": {
+      "x_mm": 55.4742,
+      "y_mm": 55.9357,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "CN38": {
+      "x_mm": 79.3792,
+      "y_mm": 69.913,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R100": {
+      "x_mm": 83.8792,
+      "y_mm": 68.7463,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "C76": {
+      "x_mm": 87.3162,
+      "y_mm": 65.1213,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "D16": {
+      "x_mm": 83.8162,
+      "y_mm": 71.6724,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R91": {
+      "x_mm": 56.8111,
+      "y_mm": 59.6134,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN37": {
+      "x_mm": 91.0499,
+      "y_mm": 65.1953,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R99": {
+      "x_mm": 88.5499,
+      "y_mm": 68.862,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "C75": {
+      "x_mm": 88.2369,
+      "y_mm": 71.612,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "D15": {
+      "x_mm": 91.9858,
+      "y_mm": 69.512,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "D300": {
+      "x_mm": 126.2505,
+      "y_mm": 108.934,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "R322": {
+      "x_mm": 129.3367,
+      "y_mm": 108.684,
+      "rotation_deg": 90,
+      "group": "display_buttons"
+    },
+    "C325": {
+      "x_mm": 127.1701,
+      "y_mm": 106.8283,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "R9104": {
+      "x_mm": 152.125,
+      "y_mm": 110.425,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "R9103": {
+      "x_mm": 157.5375,
+      "y_mm": 106.175,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "R9102": {
+      "x_mm": 60.125,
+      "y_mm": 112.925,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R9101": {
+      "x_mm": 60.125,
+      "y_mm": 105.5125,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "R8070": {
+      "x_mm": 32.6,
+      "y_mm": 99.6,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8903": {
+      "x_mm": 33.1,
+      "y_mm": 95.775,
+      "rotation_deg": 90,
+      "group": "hslink"
+    },
+    "R8069": {
+      "x_mm": 13.4,
+      "y_mm": 89.2005,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8062": {
+      "x_mm": 15.7375,
+      "y_mm": 86.7005,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8905": {
+      "x_mm": 12.225,
+      "y_mm": 87.2005,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8067": {
+      "x_mm": 19.4,
+      "y_mm": 85.1,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8061": {
+      "x_mm": 15.7375,
+      "y_mm": 84.35,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8904": {
+      "x_mm": 20.225,
+      "y_mm": 83.1,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8058": {
+      "x_mm": 12.8,
+      "y_mm": 103.1,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C8086": {
+      "x_mm": 15.7125,
+      "y_mm": 107.1,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R8053": {
+      "x_mm": 11.4,
+      "y_mm": 105.1,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "R1305": {
+      "x_mm": 133.75,
+      "y_mm": 46.9075,
+      "rotation_deg": 0,
+      "group": "m2_driver"
+    },
+    "R1304": {
+      "x_mm": 130.25,
+      "y_mm": 45.9075,
+      "rotation_deg": 90,
+      "group": "m2_driver"
+    },
+    "R1303": {
+      "x_mm": 128.25,
+      "y_mm": 45.9075,
+      "rotation_deg": 90,
+      "group": "m2_driver"
+    },
+    "R1302": {
+      "x_mm": 127.5925,
+      "y_mm": 42.25,
+      "rotation_deg": 90,
+      "group": "m2_driver"
+    },
+    "R1301": {
+      "x_mm": 128.5925,
+      "y_mm": 39.25,
+      "rotation_deg": 0,
+      "group": "m2_driver"
+    },
+    "R1300": {
+      "x_mm": 125.5925,
+      "y_mm": 43.25,
+      "rotation_deg": 90,
+      "group": "m2_driver"
+    },
+    "R318": {
+      "x_mm": 134.25,
+      "y_mm": 102.075,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "R319": {
+      "x_mm": 134.075,
+      "y_mm": 104.075,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "C304": {
+      "x_mm": 134.4875,
+      "y_mm": 106.075,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "R316": {
+      "x_mm": 127.25,
+      "y_mm": 102.075,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "R317": {
+      "x_mm": 128.075,
+      "y_mm": 104.075,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "C303": {
+      "x_mm": 130.9875,
+      "y_mm": 103.075,
+      "rotation_deg": 90,
+      "group": "display_buttons"
+    },
+    "R314": {
+      "x_mm": 119.75,
+      "y_mm": 102.075,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "R315": {
+      "x_mm": 120.575,
+      "y_mm": 104.075,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "C302": {
+      "x_mm": 123.4875,
+      "y_mm": 103.075,
+      "rotation_deg": 90,
+      "group": "display_buttons"
+    },
+    "R305": {
+      "x_mm": 67.75,
+      "y_mm": 46.9075,
+      "rotation_deg": 0,
+      "group": "m1_driver"
+    },
+    "R304": {
+      "x_mm": 64.25,
+      "y_mm": 45.9075,
+      "rotation_deg": 90,
+      "group": "m1_driver"
+    },
+    "R303": {
+      "x_mm": 62.25,
+      "y_mm": 45.9075,
+      "rotation_deg": 90,
+      "group": "m1_driver"
+    },
+    "R302": {
+      "x_mm": 61.5925,
+      "y_mm": 42.25,
+      "rotation_deg": 90,
+      "group": "m1_driver"
+    },
+    "R301": {
+      "x_mm": 62.5925,
+      "y_mm": 39.25,
+      "rotation_deg": 0,
+      "group": "m1_driver"
+    },
+    "R300": {
+      "x_mm": 59.5925,
+      "y_mm": 43.25,
+      "rotation_deg": 90,
+      "group": "m1_driver"
+    },
+    "R202": {
+      "x_mm": 87.5,
+      "y_mm": 103.75,
+      "rotation_deg": 0,
+      "group": "mcu"
+    },
+    "R201": {
+      "x_mm": 85.0,
+      "y_mm": 84.25,
+      "rotation_deg": 0,
+      "group": "mcu"
+    },
+    "R155": {
+      "x_mm": 19.9,
+      "y_mm": 67.05,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "R154": {
+      "x_mm": 22.5625,
+      "y_mm": 66.55,
+      "rotation_deg": 90,
+      "group": "shared_buck5"
+    },
+    "R47": {
+      "x_mm": 10.85,
+      "y_mm": 56.635,
+      "rotation_deg": 90,
+      "group": "shared_buck12"
+    },
+    "R46": {
+      "x_mm": 13.35,
+      "y_mm": 59.905,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "R324": {
+      "x_mm": 131.25,
+      "y_mm": 108.935,
+      "rotation_deg": 90,
+      "group": "display_buttons"
+    },
+    "R323": {
+      "x_mm": 132.247,
+      "y_mm": 111.4355,
+      "rotation_deg": 90,
+      "group": "display_buttons"
+    },
+    "R321": {
+      "x_mm": 122.7505,
+      "y_mm": 107.934,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "R320": {
+      "x_mm": 120.2505,
+      "y_mm": 107.934,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "C324": {
+      "x_mm": 123.2505,
+      "y_mm": 106.434,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "C323": {
+      "x_mm": 120.7505,
+      "y_mm": 106.434,
+      "rotation_deg": 0,
+      "group": "display_buttons"
+    },
+    "C322": {
+      "x_mm": 117.967,
+      "y_mm": 107.434,
+      "rotation_deg": 90,
+      "group": "display_buttons"
+    },
+    "CN1040": {
+      "x_mm": 121.5,
+      "y_mm": 69.0,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1102": {
+      "x_mm": 121.5,
+      "y_mm": 73.0,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "R1094": {
+      "x_mm": 117.624,
+      "y_mm": 71.0,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "C1078": {
+      "x_mm": 116.9573,
+      "y_mm": 67.2485,
+      "rotation_deg": 0,
+      "group": "m2_sense"
+    },
+    "D1018": {
+      "x_mm": 114.8934,
+      "y_mm": 70.8735,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "R1087": {
+      "x_mm": 112.124,
+      "y_mm": 71.752,
+      "rotation_deg": 90,
+      "group": "m2_sense"
+    },
+    "CN40": {
+      "x_mm": 53.5,
+      "y_mm": 63.5,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R102": {
+      "x_mm": 49.5,
+      "y_mm": 63.5,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "R94": {
+      "x_mm": 51.5,
+      "y_mm": 59.876,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "C78": {
+      "x_mm": 46.7515,
+      "y_mm": 62.5427,
+      "rotation_deg": 90,
+      "group": "m1_sense"
+    },
+    "D18": {
+      "x_mm": 47.0015,
+      "y_mm": 58.8565,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "R87": {
+      "x_mm": 51.248,
+      "y_mm": 56.876,
+      "rotation_deg": 0,
+      "group": "m1_sense"
+    },
+    "CN9": {
+      "x_mm": 19.0,
+      "y_mm": 48.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "CN7": {
+      "x_mm": 12.0,
+      "y_mm": 70.5,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "CN4": {
+      "x_mm": 9.5,
+      "y_mm": 52.5,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "CN3": {
+      "x_mm": 50.5,
+      "y_mm": 82.5,
+      "rotation_deg": 0,
+      "group": "logic_ldo"
+    },
+    "CN2": {
+      "x_mm": 50.0,
+      "y_mm": 87.0,
+      "rotation_deg": 0,
+      "group": "logic_ldo"
+    },
+    "C70": {
+      "x_mm": 25.0,
+      "y_mm": 61.5,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "C69": {
+      "x_mm": 8.5,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "C161": {
+      "x_mm": 19.0,
+      "y_mm": 33.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C160": {
+      "x_mm": 14.0,
+      "y_mm": 47.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C159": {
+      "x_mm": 24.0,
+      "y_mm": 47.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C158": {
+      "x_mm": 14.0,
+      "y_mm": 33.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C157": {
+      "x_mm": 24.5,
+      "y_mm": 33.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C156": {
+      "x_mm": 9.0,
+      "y_mm": 47.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C155": {
+      "x_mm": 29.5,
+      "y_mm": 47.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C154": {
+      "x_mm": 12.0,
+      "y_mm": 30.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C153": {
+      "x_mm": 8.5,
+      "y_mm": 33.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C152": {
+      "x_mm": 26.5,
+      "y_mm": 30.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C151": {
+      "x_mm": 30.0,
+      "y_mm": 33.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "C74": {
+      "x_mm": 19.0,
+      "y_mm": 61.5,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "R152": {
+      "x_mm": 19.0,
+      "y_mm": 74.0,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "L8": {
+      "x_mm": 15.748,
+      "y_mm": 74.0,
+      "rotation_deg": 90,
+      "group": "shared_buck5"
+    },
+    "R136": {
+      "x_mm": 14.5,
+      "y_mm": 50.0,
+      "rotation_deg": 0,
+      "group": "shared_bulk"
+    },
+    "R134": {
+      "x_mm": 3.5,
+      "y_mm": 40.5,
+      "rotation_deg": 90,
+      "group": "shared_bulk"
+    },
+    "R133": {
+      "x_mm": 5.0,
+      "y_mm": 48.0,
+      "rotation_deg": 90,
+      "group": "shared_bulk"
+    },
+    "L7": {
+      "x_mm": 4.0,
+      "y_mm": 36.252,
+      "rotation_deg": 90,
+      "group": "shared_bulk"
+    },
+    "R132": {
+      "x_mm": 12.0,
+      "y_mm": 7.0,
+      "rotation_deg": 90,
+      "group": "shared_input"
+    },
+    "C129": {
+      "x_mm": 9.0,
+      "y_mm": 6.752,
+      "rotation_deg": 90,
+      "group": "shared_input"
+    },
+    "R42": {
+      "x_mm": 7.5,
+      "y_mm": 56.5,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "R41": {
+      "x_mm": 30.5,
+      "y_mm": 61.0,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "R40": {
+      "x_mm": 32.0,
+      "y_mm": 56.5,
+      "rotation_deg": 90,
+      "group": "shared_buck12"
+    },
+    "L5": {
+      "x_mm": 34.0,
+      "y_mm": 60.752,
+      "rotation_deg": 90,
+      "group": "shared_buck12"
+    },
+    "C9104": {
+      "x_mm": 156.0,
+      "y_mm": 93.5,
+      "rotation_deg": 0,
+      "group": "m2_encoder"
+    },
+    "C9103": {
+      "x_mm": 148.0,
+      "y_mm": 94.0,
+      "rotation_deg": 90,
+      "group": "m2_encoder"
+    },
+    "C9102": {
+      "x_mm": 41.0,
+      "y_mm": 97.0,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "C9101": {
+      "x_mm": 39.5,
+      "y_mm": 105.5,
+      "rotation_deg": 90,
+      "group": "m1_encoder"
+    },
+    "C1143": {
+      "x_mm": 125.0,
+      "y_mm": 46.5,
+      "rotation_deg": 0,
+      "group": "m2_driver"
+    },
+    "C171": {
+      "x_mm": 24.0,
+      "y_mm": 73.0,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "C170": {
+      "x_mm": 12.5,
+      "y_mm": 74.5,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "C169": {
+      "x_mm": 26.0,
+      "y_mm": 67.0,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "C168": {
+      "x_mm": 11.0,
+      "y_mm": 66.5,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "C167": {
+      "x_mm": 28.5,
+      "y_mm": 71.0,
+      "rotation_deg": 90,
+      "group": "shared_buck5"
+    },
+    "C166": {
+      "x_mm": 8.0,
+      "y_mm": 70.5,
+      "rotation_deg": 90,
+      "group": "shared_buck5"
+    },
+    "C143": {
+      "x_mm": 59.0,
+      "y_mm": 46.5,
+      "rotation_deg": 0,
+      "group": "m1_driver"
+    },
+    "C139": {
+      "x_mm": 5.5,
+      "y_mm": 52.5,
+      "rotation_deg": 90,
+      "group": "shared_buck12"
+    },
+    "C138": {
+      "x_mm": 14.0,
+      "y_mm": 62.5,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "C137": {
+      "x_mm": 9.5,
+      "y_mm": 63.0,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "C73": {
+      "x_mm": 30.5,
+      "y_mm": 64.0,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "C72": {
+      "x_mm": 5.0,
+      "y_mm": 63.0,
+      "rotation_deg": 0,
+      "group": "shared_buck12"
+    },
+    "C71": {
+      "x_mm": 3.5,
+      "y_mm": 57.0,
+      "rotation_deg": 90,
+      "group": "shared_buck12"
+    },
+    "C19": {
+      "x_mm": 8.0,
+      "y_mm": 74.5,
+      "rotation_deg": 0,
+      "group": "shared_buck5"
+    },
+    "R8052": {
+      "x_mm": 17.5,
+      "y_mm": 109.0,
+      "rotation_deg": 0,
+      "group": "hslink"
+    },
+    "C205": {
+      "x_mm": 78.5,
+      "y_mm": 91.5,
+      "rotation_deg": 90,
+      "group": "mcu"
+    },
+    "R3": {
+      "x_mm": 50.0,
+      "y_mm": 79.5,
+      "rotation_deg": 0,
+      "group": "logic_ldo"
+    },
+    "C5": {
+      "x_mm": 52.0,
+      "y_mm": 79.0,
+      "rotation_deg": 90,
+      "group": "logic_ldo"
+    },
+    "C3": {
+      "x_mm": 47.0,
+      "y_mm": 85.5,
+      "rotation_deg": 90,
+      "group": "logic_ldo"
+    },
+    "C2": {
+      "x_mm": 47.5,
+      "y_mm": 79.0,
+      "rotation_deg": 0,
+      "group": "logic_ldo"
+    }
+  },
+  "bbox_collisions": [],
+  "notes": [
+    "C165: expanded beyond nominal shared_bulk region",
+    "J200: expanded beyond nominal mcu_debug region",
+    "J201: expanded beyond nominal mcu_debug region",
+    "CN1025: expanded beyond nominal m2_power region",
+    "CN1019: expanded beyond nominal m2_power region",
+    "CN1018: expanded beyond nominal m2_power region",
+    "CN1017: expanded beyond nominal m2_power region",
+    "CN25: expanded beyond nominal m1_power region",
+    "CN19: expanded beyond nominal m1_power region",
+    "CN18: expanded beyond nominal m1_power region",
+    "CN17: expanded beyond nominal m1_power region",
+    "CN1036: expanded beyond nominal m2_power region",
+    "CN1035: expanded beyond nominal m2_power region",
+    "CN1029: expanded beyond nominal m2_power region",
+    "CN1028: expanded beyond nominal m2_power region",
+    "CN1030: expanded beyond nominal m2_power region",
+    "CN36: expanded beyond nominal m1_power region",
+    "CN35: expanded beyond nominal m1_power region",
+    "CN29: expanded beyond nominal m1_power region",
+    "CN28: expanded beyond nominal m1_power region",
+    "CN30: expanded beyond nominal m1_power region",
+    "CN9: expanded beyond nominal shared_bulk region",
+    "CN2: expanded beyond nominal logic_ldo region",
+    "C161: expanded beyond nominal shared_bulk region",
+    "C160: expanded beyond nominal shared_bulk region",
+    "C159: expanded beyond nominal shared_bulk region",
+    "C158: expanded beyond nominal shared_bulk region",
+    "C157: expanded beyond nominal shared_bulk region",
+    "C156: expanded beyond nominal shared_bulk region",
+    "C155: expanded beyond nominal shared_bulk region",
+    "C154: expanded beyond nominal shared_bulk region",
+    "C153: expanded beyond nominal shared_bulk region",
+    "C152: expanded beyond nominal shared_bulk region",
+    "C151: expanded beyond nominal shared_bulk region",
+    "R136: expanded beyond nominal shared_bulk region",
+    "R134: expanded beyond nominal shared_bulk region",
+    "R133: expanded beyond nominal shared_bulk region",
+    "C9101: expanded beyond nominal m1_encoder region",
+    "C138: expanded beyond nominal shared_buck12 region",
+    "C137: expanded beyond nominal shared_buck12 region",
+    "C73: expanded beyond nominal shared_buck12 region",
+    "C72: expanded beyond nominal shared_buck12 region",
+    "C71: expanded beyond nominal shared_buck12 region"
+  ],
+  "bounds": [
+    2.3615000000000066,
+    0.8432999999999922,
+    166.0135,
+    119.91500000000002
+  ]
+}

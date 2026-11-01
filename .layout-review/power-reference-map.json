@@ -1,0 +1,6703 @@
+{
+  "status": "read_only_mapping_plan_no_board_change",
+  "counts": {
+    "power_page": 87,
+    "mcu_power": 10,
+    "total": 97,
+    "mapped": 97
+  },
+  "rows": [
+    {
+      "source_ref": "C19",
+      "current_ref": "C125",
+      "group": "shared_input",
+      "source_pos_mm": [
+        120.828,
+        90.6325
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N11589",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "100nF",
+      "current_mpn": "0603B104K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "Net-(D23-K)",
+        "2": "PGND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C2",
+      "current_ref": "C126",
+      "group": "shared_input",
+      "source_pos_mm": [
+        119.05,
+        82.695
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N10553",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N15998",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "100nF",
+      "current_mpn": "0603B104K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "Net-(Q2-B)",
+        "2": "Net-(Q2-C)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C1",
+      "current_ref": "C127",
+      "group": "shared_input",
+      "source_pos_mm": [
+        123.622,
+        82.695
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N398404",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "100nF",
+      "current_mpn": "0603B104K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "DCBUS_IN",
+        "2": "Net-(D24-A)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C18",
+      "current_ref": "C128",
+      "group": "shared_input",
+      "source_pos_mm": [
+        116.129,
+        90.6325
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N7256",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "PGND_IN",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10nF",
+      "current_mpn": "0603B103K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "Net-(C128-Pad1)",
+        "2": "PGND_IN"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C20",
+      "current_ref": "C129",
+      "group": "shared_input",
+      "source_pos_mm": [
+        124.384,
+        91.966
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N12961",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10nF",
+      "current_mpn": "0603B103K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "Net-(C129-Pad1)",
+        "2": "PGND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C16",
+      "current_ref": "C162",
+      "group": "shared_input",
+      "source_pos_mm": [
+        100.6985,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND_IN",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS_IN",
+        "1": "PGND_IN"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C17",
+      "current_ref": "C163",
+      "group": "shared_input",
+      "source_pos_mm": [
+        109.4845,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND_IN",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS_IN",
+        "1": "PGND_IN"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "CN3",
+      "current_ref": "CN1",
+      "group": "shared_input",
+      "source_pos_mm": [
+        110.668,
+        90.569
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            -2.5,
+            -2.5,
+            270.0
+          ],
+          "size": [
+            2.5,
+            2.5
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            2.5,
+            -2.5,
+            270.0
+          ],
+          "size": [
+            2.5,
+            2.5
+          ],
+          "net": "PGND_IN",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            5.5,
+            2.5,
+            270.0
+          ],
+          "size": [
+            1.8,
+            1.8
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            -5.5,
+            2.5,
+            270.0
+          ],
+          "size": [
+            1.8,
+            1.8
+          ],
+          "net": "",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "XT30PW-F",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:CONN-TH_XT30PW-F",
+      "current_value": "XT30PW-M30.G.Y",
+      "current_mpn": "XT30PW-M30.G.Y",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:CONN-TH_XT30PW-M",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "DCBUS_IN",
+        "2": "PGND_IN",
+        "3": "unconnected-(CN1-Pad3)",
+        "4": "unconnected-(CN1-Pad4)"
+      },
+      "evidence": "Verified active MPN/function anchor; same pin function",
+      "current_expected_diff": [
+        "Current XT30PW-M30.G.Y male vs reference XT30PW-F female; preserve functional anchor and orient by actual pin1 DCBUS_IN/pin2 PGND_IN, extra current pins3/4 no reference mapping; physical polarity remains verification item.",
+        "Value changed: current XT30PW-M30.G.Y, source XT30PW-F; geometry may differ.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "D4",
+      "current_ref": "D4",
+      "group": "shared_input",
+      "source_pos_mm": [
+        113.618,
+        82.568
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.7,
+            0.0,
+            90.0
+          ],
+          "size": [
+            1.1,
+            1.7
+          ],
+          "net": "$1N11866",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.7,
+            0.0,
+            90.0
+          ],
+          "size": [
+            1.1,
+            1.7
+          ],
+          "net": "PGND_IN",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "TCLLZ39VTR",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:LL-34_L3.5-W1.5-RD",
+      "current_value": "TCLLZ39VTR",
+      "current_mpn": "TCLLZ39VTR",
+      "current_footprint": "Diode_SMD:D_MiniMELF",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "Net-(D4-C)",
+        "2": "PGND_IN"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "D2",
+      "current_ref": "D22",
+      "group": "shared_input",
+      "source_pos_mm": [
+        105.08,
+        90.569
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            3.434,
+            0.0,
+            270.0
+          ],
+          "size": [
+            3.03,
+            3.82
+          ],
+          "net": "PGND_IN",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -3.434,
+            0.0,
+            270.0
+          ],
+          "size": [
+            3.03,
+            3.82
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "1.5SMC30CAHE3/57T",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:SMC_L6.8-W5.9-LS7.8-BI",
+      "current_value": "1.5SMC30CAHE3/57T",
+      "current_mpn": "1.5SMC30CAHE3/57T",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:SMC_L6.8-W5.9-LS7.8-BI",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS_IN",
+        "1": "PGND_IN"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "D3",
+      "current_ref": "D23",
+      "group": "shared_input",
+      "source_pos_mm": [
+        122.733,
+        93.9995
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.778,
+            0.0,
+            90.0
+          ],
+          "size": [
+            1.016,
+            1.7
+          ],
+          "net": "$1N11589",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.778,
+            0.0,
+            90.0
+          ],
+          "size": [
+            1.016,
+            1.7
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "ZMM12V",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:LL-34_L3.5-W1.5-RD-2",
+      "current_value": "ZMM12V",
+      "current_mpn": "ZMM12V",
+      "current_footprint": "Diode_SMD:D_MiniMELF",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "Net-(D23-K)",
+        "2": "PGND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "D1",
+      "current_ref": "D24",
+      "group": "shared_input",
+      "source_pos_mm": [
+        115.748,
+        87.267
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.778,
+            0.0,
+            90.0
+          ],
+          "size": [
+            1.016,
+            1.7
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.778,
+            0.0,
+            90.0
+          ],
+          "size": [
+            1.016,
+            1.7
+          ],
+          "net": "$1N398404",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "ZMM12V",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:LL-34_L3.5-W1.5-RD-2",
+      "current_value": "ZMM12V",
+      "current_mpn": "ZMM12V",
+      "current_footprint": "Diode_SMD:D_MiniMELF",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "DCBUS_IN",
+        "2": "Net-(D24-A)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "Q1",
+      "current_ref": "Q1",
+      "group": "shared_input",
+      "source_pos_mm": [
+        120.193,
+        87.267
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.9025,
+            2.751,
+            90.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "$1N398404",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.9025,
+            -2.751,
+            270.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.6325,
+            -2.751,
+            270.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.0025,
+            -0.4445,
+            270.0
+          ],
+          "size": [
+            4.6,
+            4.0995
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.6375,
+            -2.751,
+            270.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.9075,
+            -2.751,
+            270.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.9075,
+            2.751,
+            90.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.6375,
+            2.751,
+            90.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.6325,
+            2.751,
+            90.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "WSD90P06DN56",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:DFN-8_L5.8-W4.9-P1.27-LS6.0-BL-1",
+      "current_value": "WSD90P06DN56",
+      "current_mpn": "WSD90P06DN56",
+      "current_footprint": "VerifiedParts:WSD90P06DN56_GDS123",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "3": "3",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "3": "DCBUS_IN",
+        "1": "Net-(D24-A)"
+      },
+      "evidence": "Verified active MPN/function anchor; same pin function",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "Q2",
+      "current_ref": "Q2",
+      "group": "shared_input",
+      "source_pos_mm": [
+        121.336,
+        82.695
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.0,
+            0.95,
+            270.0
+          ],
+          "size": [
+            1.25,
+            0.7
+          ],
+          "net": "$1N10553",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.0,
+            -0.95,
+            270.0
+          ],
+          "size": [
+            1.25,
+            0.7
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.0,
+            0.0,
+            270.0
+          ],
+          "size": [
+            1.25,
+            0.7
+          ],
+          "net": "$1N15998",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "FMMT593",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "current_value": "FMMT593",
+      "current_mpn": "FMMT593",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR_1",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1",
+        "3": "3"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS_IN",
+        "1": "Net-(Q2-B)",
+        "3": "Net-(Q2-C)"
+      },
+      "evidence": "Verified active MPN/function anchor; same pin function",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "Q3",
+      "current_ref": "Q3",
+      "group": "shared_input",
+      "source_pos_mm": [
+        118.174,
+        93.998
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.9025,
+            2.751,
+            270.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "$1N11589",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.9025,
+            -2.751,
+            90.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "PGND_IN",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.6325,
+            -2.751,
+            90.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.0025,
+            -0.4445,
+            90.0
+          ],
+          "size": [
+            4.6,
+            4.0995
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.6375,
+            -2.751,
+            90.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.9075,
+            -2.751,
+            90.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.9075,
+            2.751,
+            270.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.6375,
+            2.751,
+            270.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.6325,
+            2.751,
+            270.0
+          ],
+          "size": [
+            0.579,
+            1.199
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "WSD80120DN56",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:DFN-8_L5.8-W4.9-P1.27-LS6.0-BL-1",
+      "current_value": "WSD80120DN56",
+      "current_mpn": "WSD80120DN56",
+      "current_footprint": "VerifiedParts:WSD80120DN56_GDS123",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "3": "3",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "Net-(D23-K)",
+        "3": "PGND",
+        "2": "PGND_IN"
+      },
+      "evidence": "Verified active MPN/function anchor; same pin function",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R4",
+      "current_ref": "R131",
+      "group": "shared_input",
+      "source_pos_mm": [
+        119.177,
+        90.6325
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N7256",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "22Ω",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "22Ω",
+      "current_mpn": "0603WAF220JT5E",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS_IN",
+        "1": "Net-(C128-Pad1)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R7",
+      "current_ref": "R132",
+      "group": "shared_input",
+      "source_pos_mm": [
+        124.384,
+        89.172
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N12961",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "22Ω",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "22Ω",
+      "current_mpn": "0603WAF220JT5E",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "Net-(C129-Pad1)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R6",
+      "current_ref": "R137",
+      "group": "shared_input",
+      "source_pos_mm": [
+        116.51,
+        82.695
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N10553",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N11866",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "1kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "1kΩ",
+      "current_mpn": "RC0603FR-071KL",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "Net-(D4-C)",
+        "1": "Net-(Q2-B)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R9",
+      "current_ref": "R138",
+      "group": "shared_input",
+      "source_pos_mm": [
+        126.162,
+        82.695
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N15998",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "1kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "1kΩ",
+      "current_mpn": "RC0603FR-071KL",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "Net-(Q2-C)",
+        "2": "PGND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R8",
+      "current_ref": "R139",
+      "group": "shared_input",
+      "source_pos_mm": [
+        124.892,
+        82.695
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N398404",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N15998",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "1kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "1kΩ",
+      "current_mpn": "RC0603FR-071KL",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "Net-(D24-A)",
+        "2": "Net-(Q2-C)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R5",
+      "current_ref": "R140",
+      "group": "shared_input",
+      "source_pos_mm": [
+        122.225,
+        90.6325
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N11589",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "100kΩ",
+      "current_mpn": "RS-03K1003FT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS_IN",
+        "1": "Net-(D23-K)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R3",
+      "current_ref": "R141",
+      "group": "shared_input",
+      "source_pos_mm": [
+        115.24,
+        82.695
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N11866",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "DCBUS_IN",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "100kΩ",
+      "current_mpn": "RS-03K1003FT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS_IN",
+        "1": "Net-(D4-C)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R2",
+      "current_ref": "R142",
+      "group": "shared_input",
+      "source_pos_mm": [
+        117.78,
+        82.695
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N10553",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "1.5MΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "1.5MΩ",
+      "current_mpn": "RS-03L1504FT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "Net-(Q2-B)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C5",
+      "current_ref": "C151",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        136.957,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C6",
+      "current_ref": "C152",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        138.989,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C7",
+      "current_ref": "C153",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        145.085,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C8",
+      "current_ref": "C154",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        134.925,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C9",
+      "current_ref": "C155",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        132.893,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C10",
+      "current_ref": "C156",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        130.861,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C11",
+      "current_ref": "C157",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        143.053,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C12",
+      "current_ref": "C158",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        141.021,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C13",
+      "current_ref": "C159",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        126.797,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C14",
+      "current_ref": "C160",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        124.765,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C15",
+      "current_ref": "C161",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        128.829,
+        90.442
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "B.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C3",
+      "current_ref": "C164",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        141.148,
+        90.696
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            4.395,
+            0.0,
+            270.0
+          ],
+          "size": [
+            4.8,
+            1.8
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -4.395,
+            0.0,
+            270.0
+          ],
+          "size": [
+            4.8,
+            1.8
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "220uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-R-RD",
+      "current_value": "220uF",
+      "current_mpn": "50TZV220M10X10.5",
+      "current_footprint": "VerifiedParts:50TZV220M10X10.5",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "DCBUS",
+        "2": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C4",
+      "current_ref": "C165",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        130.423,
+        90.696
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            4.395,
+            0.0,
+            270.0
+          ],
+          "size": [
+            4.8,
+            1.8
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -4.395,
+            0.0,
+            270.0
+          ],
+          "size": [
+            4.8,
+            1.8
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "220uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-R-RD",
+      "current_value": "220uF",
+      "current_mpn": "50TZV220M10X10.5",
+      "current_footprint": "VerifiedParts:50TZV220M10X10.5",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "DCBUS",
+        "2": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "CN2",
+      "current_ref": "CN9",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        145.0085,
+        82.314
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "size": [
+            1.27,
+            1.27
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "5012",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:TESTPOINT-TH_BD2.0_C9900010656",
+      "current_value": "5012",
+      "current_mpn": "5012",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:测试点",
+      "current_to_source_pin_map": {
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "1": "DCBUS"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Current 5012 real PTH test post may be larger than source imported test pad; check both copper sides/courtyard before exact reuse.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "L1",
+      "current_ref": "L7",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        138.24,
+        101.9565
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.3805,
+            0.0005,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N269486",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.1255,
+            0.0005,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "NCD0603R1",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:LED0603_S",
+      "current_value": "NCD0603R1",
+      "current_mpn": "NCD0603R1",
+      "current_footprint": "Interface:LED_0603_1608Metric_A1K2",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "GND",
+        "1": "Net-(L7-Pad1)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R1",
+      "current_ref": "R133",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        136.9705,
+        102.583
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N269486",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "10kΩ",
+      "current_mpn": "0603WAF1002T5E",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "Net-(L7-Pad1)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R10",
+      "current_ref": "R134",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        130.62,
+        99.234
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "0Ω",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "0Ω",
+      "current_mpn": "RS-03000FT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "GND",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R11",
+      "current_ref": "R136",
+      "group": "shared_bulk",
+      "source_pos_mm": [
+        129.35,
+        99.234
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "PGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "0Ω",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "0Ω",
+      "current_mpn": "RS-03000FT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "GND",
+        "1": "PGND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C25",
+      "current_ref": "C66",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        126.3525,
+        104.2215
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "FB",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062505",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "56pF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "56pF",
+      "current_mpn": "0603CG560J500NT",
+      "current_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "FB",
+        "2": "Net-(C66-Pad2)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C21",
+      "current_ref": "C67",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        126.3525,
+        107.011
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062508",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062506",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "2.2nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "2.2nF",
+      "current_mpn": "0603B222K500NT",
+      "current_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "/POWER_SHARED/PWR_BST_U6",
+        "2": "Net-(U6-SW)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C22",
+      "current_ref": "C68",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        125.005,
+        104.2215
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062505",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "3.3nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "3.3nF",
+      "current_mpn": "CL10B332KB8NNNC",
+      "current_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "12V",
+        "2": "Net-(C66-Pad2)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C23",
+      "current_ref": "C69",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        137.9095,
+        106.3165
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": null,
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C1206_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "GND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C24",
+      "current_ref": "C70",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        135.9365,
+        106.3165
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "100nF",
+      "current_mpn": "CL31B104KBCNNNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C1206_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "DCBUS",
+        "1": "GND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C27",
+      "current_ref": "C71",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        125.54,
+        99.271
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10uF",
+      "current_mpn": "CL10A106MA8NRNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C28",
+      "current_ref": "C72",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        120.46,
+        99.2435
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10uF",
+      "current_mpn": "CL10A106MA8NRNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C39",
+      "current_ref": "C73",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        126.81,
+        99.2435
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10uF",
+      "current_mpn": "CL10A106MA8NRNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "12V",
+        "2": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C29",
+      "current_ref": "C74",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        113.9835,
+        102.0625
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.651,
+            0.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.397,
+            0.0
+          ],
+          "size": [
+            0.762,
+            1.6255
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C1206_S",
+      "current_value": "10uF",
+      "current_mpn": "CL31A106KBHNNNE",
+      "current_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "GND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C58",
+      "current_ref": "C137",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        123.0,
+        99.2435
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10uF",
+      "current_mpn": "CL10A106MA8NRNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C59",
+      "current_ref": "C138",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        124.27,
+        99.2435
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10uF",
+      "current_mpn": "CL10A106MA8NRNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C60",
+      "current_ref": "C139",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        121.73,
+        99.2435
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10uF",
+      "current_mpn": "CL10A106MA8NRNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "CN4",
+      "current_ref": "CN4",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        139.4205,
+        82.314
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.27,
+            1.27
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "5012",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:TESTPOINT-TH_BD2.0_C9900010656",
+      "current_value": "5012",
+      "current_mpn": "5012",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:测试点",
+      "current_to_source_pin_map": {
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "1": "12V"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Current 5012 real PTH test post may be larger than source imported test pad; check both copper sides/courtyard before exact reuse.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "L4",
+      "current_ref": "L5",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        115.3805,
+        99.8615
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.3805,
+            0.0005,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062496",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.1255,
+            0.0005,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "NCD0603R1",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:LED0603_S",
+      "current_value": "NCD0603R1",
+      "current_mpn": "NCD0603R1",
+      "current_footprint": "Interface:LED_0603_1608Metric_A1K2",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "GND",
+        "1": "Net-(L5-Pad1)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "L2",
+      "current_ref": "L6",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        120.828,
+        104.7295
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            2.413,
+            0.0,
+            270.0
+          ],
+          "size": [
+            2.032,
+            5.969
+          ],
+          "net": "$1N1062506",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -2.413,
+            0.0,
+            270.0
+          ],
+          "size": [
+            2.032,
+            5.969
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "68uH",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:IND-SMD_L6.0-W6.0_SMNR6045",
+      "current_value": "68uH",
+      "current_mpn": "SMNR6045-680MT",
+      "current_footprint": "VerifiedParts:SMNR6045-680MT",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "Net-(U6-SW)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R25",
+      "current_ref": "R40",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        116.6505,
+        99.2335
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062496",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "10kΩ",
+      "current_mpn": "0603WAF1002T5E",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "Net-(L5-Pad1)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R23",
+      "current_ref": "R41",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        131.0165,
+        101.8575
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "0Ω",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "0Ω",
+      "current_mpn": "RS-03000FT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "GND",
+        "2": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R24",
+      "current_ref": "R42",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        128.08,
+        99.2355
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "0Ω",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "0Ω",
+      "current_mpn": "RS-03000FT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "GND",
+        "2": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R20",
+      "current_ref": "R43",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        128.3725,
+        101.8575
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "FB",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "49.9kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "49.9kΩ",
+      "current_mpn": "0603WAF4992T5E",
+      "current_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "FB",
+        "2": "GND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R16",
+      "current_ref": "R44",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        125.7285,
+        101.8575
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "FB",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "453kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "453kΩ",
+      "current_mpn": "0603WAF4533T5E",
+      "current_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "12V",
+        "2": "FB"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R13",
+      "current_ref": "R45",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        125.005,
+        107.003
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062506",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062505",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "453kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "453kΩ",
+      "current_mpn": "0603WAF4533T5E",
+      "current_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "Net-(C66-Pad2)",
+        "1": "Net-(U6-SW)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R19",
+      "current_ref": "R46",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        133.662,
+        101.8575
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062500",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "100kΩ",
+      "current_mpn": "RC0603FR-07100KL",
+      "current_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "GND",
+        "1": "Net-(U6-RON)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R15",
+      "current_ref": "R47",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        135.7005,
+        102.583
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N1062507",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "100kΩ",
+      "current_mpn": "RC0603FR-07100KL",
+      "current_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "DCBUS",
+        "2": "Net-(U6-EN)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "U2",
+      "current_ref": "U6",
+      "group": "shared_buck12",
+      "source_pos_mm": [
+        130.965,
+        105.6185
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.905,
+            2.9085,
+            90.0
+          ],
+          "size": [
+            0.6,
+            1.2
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.635,
+            2.9085,
+            90.0
+          ],
+          "size": [
+            0.6,
+            1.2
+          ],
+          "net": "DCBUS",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.635,
+            2.9085,
+            90.0
+          ],
+          "size": [
+            0.6,
+            1.2
+          ],
+          "net": "$1N1062507",
+          "pinfunction": ""
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.905,
+            2.9085,
+            90.0
+          ],
+          "size": [
+            0.6,
+            1.2
+          ],
+          "net": "$1N1062500",
+          "pinfunction": ""
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.905,
+            -2.9085,
+            90.0
+          ],
+          "size": [
+            0.6,
+            1.2
+          ],
+          "net": "FB",
+          "pinfunction": ""
+        },
+        {
+          "number": "6",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.635,
+            -2.9085,
+            90.0
+          ],
+          "size": [
+            0.6,
+            1.2
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "7",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.635,
+            -2.9085,
+            90.0
+          ],
+          "size": [
+            0.6,
+            1.2
+          ],
+          "net": "$1N1062508",
+          "pinfunction": ""
+        },
+        {
+          "number": "8",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.905,
+            -2.9085,
+            90.0
+          ],
+          "size": [
+            0.6,
+            1.2
+          ],
+          "net": "$1N1062506",
+          "pinfunction": ""
+        },
+        {
+          "number": "9",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.0,
+            0.0,
+            270.0
+          ],
+          "size": [
+            3.3,
+            2.4
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "LM5164DDAR",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",
+      "current_value": "LM5164DDAR",
+      "current_mpn": "LM5164DDAR",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:SO-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",
+      "current_to_source_pin_map": {
+        "7": "7",
+        "2": "2",
+        "5": "5",
+        "1": "1",
+        "9": "9",
+        "3": "3",
+        "4": "4",
+        "8": "8"
+      },
+      "current_pin_nets": {
+        "7": "/POWER_SHARED/PWR_BST_U6",
+        "2": "DCBUS",
+        "5": "FB",
+        "1": "GND",
+        "9": "GND",
+        "3": "Net-(U6-EN)",
+        "4": "Net-(U6-RON)",
+        "8": "Net-(U6-SW)",
+        "6": "unconnected-(U6-PG-Pad6)"
+      },
+      "evidence": "Verified active MPN/function anchor; same pin function",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C30",
+      "current_ref": "C19",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        110.235,
+        101.5225
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "5V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "100nF",
+      "current_mpn": "0603B104K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "5V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C44",
+      "current_ref": "C166",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        109.935,
+        107.841
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N958663",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "100nF",
+      "current_mpn": "0603B104K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "5V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Reference regulated 5V local net $1N958663 joins 5V through R27; current schematic consolidates to 5V. Retain source buck-local geometry, do not invent R27.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C45",
+      "current_ref": "C167",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        109.906,
+        109.111
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N958663",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "100nF",
+      "current_mpn": "0603B104K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "5V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Reference regulated 5V local net $1N958663 joins 5V through R27; current schematic consolidates to 5V. Retain source buck-local geometry, do not invent R27.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C38",
+      "current_ref": "C168",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        119.19,
+        99.2435
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10uF",
+      "current_mpn": "CL10A106MA8NRNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C26",
+      "current_ref": "C169",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        142.241,
+        107.714
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "100nF",
+      "current_mpn": "0603B104K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "12V",
+        "2": "GND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C37",
+      "current_ref": "C170",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        117.92,
+        99.2435
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10uF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10uF",
+      "current_mpn": "CL10A106MA8NRNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "12V",
+        "2": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C106",
+      "current_ref": "C171",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        111.938,
+        108.476
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N958663",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "100nF",
+      "current_mpn": "0603B104K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "5V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Reference regulated 5V local net $1N958663 joins 5V through R27; current schematic consolidates to 5V. Retain source buck-local geometry, do not invent R27.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C40",
+      "current_ref": "C172",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        111.8745,
+        105.1015
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N245780",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N245779",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S_3",
+      "current_value": "100nF",
+      "current_mpn": "CC0603KRX7R9BB104",
+      "current_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "/POWER_SHARED/PWR_BST_U19",
+        "2": "Net-(U19-SW)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "CN7",
+      "current_ref": "CN7",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        136.6265,
+        82.314
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.27,
+            1.27
+          ],
+          "net": "5V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "5012",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:TESTPOINT-TH_BD2.0_C9900010656",
+      "current_value": "5012",
+      "current_mpn": "5012",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:测试点",
+      "current_to_source_pin_map": {
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "1": "5V"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Current 5012 real PTH test post may be larger than source imported test pad; check both copper sides/courtyard before exact reuse.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "L5",
+      "current_ref": "L8",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        110.0495,
+        121.24
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.3805,
+            0.0005,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N134680",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.1255,
+            0.0005,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "NCD0603R1",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:LED0603_S",
+      "current_value": "NCD0603R1",
+      "current_mpn": "NCD0603R1",
+      "current_footprint": "Interface:LED_0603_1608Metric_A1K2",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "GND",
+        "1": "Net-(L8-Pad1)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "L7",
+      "current_ref": "L9",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        110.003,
+        105.301
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.028,
+            0.0,
+            90.0
+          ],
+          "size": [
+            1.2,
+            2.2
+          ],
+          "net": "$1N245779",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.028,
+            0.0,
+            90.0
+          ],
+          "size": [
+            1.2,
+            2.2
+          ],
+          "net": "$1N958663",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "4.7uH",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:IND-SMD_L2.5-W2.0",
+      "current_value": "4.7uH",
+      "current_mpn": "MPIH252010-4R7M-LF",
+      "current_footprint": "VerifiedParts:MPIH252010-4R7M-LF",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "5V",
+        "1": "Net-(U19-SW)"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Reference regulated 5V local net $1N958663 joins 5V through R27; current schematic consolidates to 5V. Retain source buck-local geometry, do not invent R27.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R26",
+      "current_ref": "R152",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        110.677,
+        122.51
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N134680",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "5V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "1kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "1kΩ",
+      "current_mpn": "RC0603FR-071KL",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "5V",
+        "1": "Net-(L8-Pad1)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R38",
+      "current_ref": "R153",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        116.6505,
+        101.923
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N846235",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "10kΩ",
+      "current_mpn": "0603WAF1002T5E",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "12V",
+        "1": "Net-(U19-EN)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R39",
+      "current_ref": "R154",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        116.65,
+        104.6125
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N245778",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "12kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "12kΩ",
+      "current_mpn": "0603WAF1202T5E",
+      "current_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "GND",
+        "1": "Net-(U19-FB)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R36",
+      "current_ref": "R155",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        116.65,
+        107.3015
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N958663",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N245778",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "62kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "62kΩ",
+      "current_mpn": "0603WAF6202T5E",
+      "current_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "5V",
+        "2": "Net-(U19-FB)"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Reference regulated 5V local net $1N958663 joins 5V through R27; current schematic consolidates to 5V. Retain source buck-local geometry, do not invent R27.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "U5",
+      "current_ref": "U19",
+      "group": "shared_buck5",
+      "source_pos_mm": [
+        114.219,
+        105.1105
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.4,
+            0.95,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.55
+          ],
+          "net": "$1N245780",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.4,
+            0.0,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.55
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.4,
+            -0.95,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.55
+          ],
+          "net": "$1N245778",
+          "pinfunction": ""
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.4,
+            -0.95,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.55
+          ],
+          "net": "$1N846235",
+          "pinfunction": ""
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.4,
+            0.0,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.55
+          ],
+          "net": "12V",
+          "pinfunction": ""
+        },
+        {
+          "number": "6",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.4,
+            0.95,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.55
+          ],
+          "net": "$1N245779",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "RY8411",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+      "current_value": "RY8411",
+      "current_mpn": "JW5026",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "5": "5",
+        "2": "2",
+        "4": "4",
+        "3": "3",
+        "6": "6"
+      },
+      "current_pin_nets": {
+        "1": "/POWER_SHARED/PWR_BST_U19",
+        "5": "12V",
+        "2": "GND",
+        "4": "Net-(U19-EN)",
+        "3": "Net-(U19-FB)",
+        "6": "Net-(U19-SW)"
+      },
+      "evidence": "Verified active MPN/function anchor; same pin function",
+      "current_expected_diff": [
+        "Current Value=RY8411 but MPN=JW5026; source RY8411. Mapping uses schematic pin functions/topology, not proof of exact BOM identity.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C54",
+      "current_ref": "C79",
+      "group": "analog_reference",
+      "source_pos_mm": [
+        161.5835,
+        131.5805
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "AGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N858763",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "10nF",
+      "current_mpn": "0603B103K500NT",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "AGND",
+        "2": "Net-(U12-IN+)"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "CN13",
+      "current_ref": "CN13",
+      "group": "analog_reference",
+      "source_pos_mm": [
+        164.0635,
+        133.876
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.27,
+            1.27
+          ],
+          "net": "VREF",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "5012",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:TESTPOINT-TH_BD2.0_C9900010656",
+      "current_value": "5012",
+      "current_mpn": "5012",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:测试点",
+      "current_to_source_pin_map": {
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "1": "VREF"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Current 5012 real PTH test post may be larger than source imported test pad; check both copper sides/courtyard before exact reuse.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "CN16",
+      "current_ref": "CN16",
+      "group": "analog_reference",
+      "source_pos_mm": [
+        161.585,
+        133.876
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.27,
+            1.27
+          ],
+          "net": "$1N752227",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "5012",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:TESTPOINT-TH_BD2.0_C9900010656",
+      "current_value": "5012",
+      "current_mpn": "5012",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:测试点",
+      "current_to_source_pin_map": {
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "1": "Net-(U12-IN+)"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Reference divider node $1N752227 reaches opamp input through R54 0ohm; current joins directly. Do not copy removed R54/DAC branch.",
+        "Current 5012 real PTH test post may be larger than source imported test pad; check both copper sides/courtyard before exact reuse.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R46",
+      "current_ref": "R48",
+      "group": "analog_reference",
+      "source_pos_mm": [
+        164.123,
+        131.59
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N752227",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "AVCC",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "10kΩ",
+      "current_mpn": "0603WAF1002T5E",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "AVCC",
+        "1": "Net-(U12-IN+)"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Reference divider node $1N752227 reaches opamp input through R54 0ohm; current joins directly. Do not copy removed R54/DAC branch.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R57",
+      "current_ref": "R57",
+      "group": "analog_reference",
+      "source_pos_mm": [
+        162.8535,
+        131.589
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "AGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "$1N752227",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "10kΩ",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "10kΩ",
+      "current_mpn": "0603WAF1002T5E",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0603_S",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "AGND",
+        "2": "Net-(U12-IN+)"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Reference divider node $1N752227 reaches opamp input through R54 0ohm; current joins directly. Do not copy removed R54/DAC branch.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "U6",
+      "current_ref": "U12",
+      "group": "analog_reference",
+      "source_pos_mm": [
+        161.582,
+        128.161
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.3,
+            0.95,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "$1N858763",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.3,
+            0.0,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "AGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.3,
+            -0.95,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "VREF",
+          "pinfunction": ""
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.3,
+            -0.95,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "VREF",
+          "pinfunction": ""
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.3,
+            0.95,
+            270.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "AVCC",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "LM321MF/NOPB",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "current_value": "LM321MF/NOPB",
+      "current_mpn": "LM321MF/NOPB",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR_1",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "5": "5",
+        "1": "1",
+        "3": "3",
+        "4": "4"
+      },
+      "current_pin_nets": {
+        "2": "AGND",
+        "5": "AVCC",
+        "1": "Net-(U12-IN+)",
+        "3": "VREF",
+        "4": "VREF"
+      },
+      "evidence": "Verified active MPN/function anchor; same pin function",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C36",
+      "current_ref": "C2",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        110.235,
+        102.7925
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            180.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "5V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "1uF",
+      "current_mpn": "CL05A105KA5NQNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0402",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "5V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Value changed: current 1uF, source 100nF; geometry may differ.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C32",
+      "current_ref": "C3",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        150.038,
+        124.478
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "VCC",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "1uF",
+      "current_mpn": "CL05A105KA5NQNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0402",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "GND",
+        "2": "VCC"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Value changed: current 1uF, source 100nF; geometry may differ.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C41",
+      "current_ref": "C5",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        105.9055,
+        101.5225
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "5V",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "1uF",
+      "current_mpn": "CL05A105KA5NQNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0402",
+      "current_to_source_pin_map": {
+        "2": "2",
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "2": "5V",
+        "1": "GND"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Value changed: current 1uF, source 100nF; geometry may differ.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "C42",
+      "current_ref": "C6",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        112.84,
+        99.226
+      ],
+      "source_angle_deg": 90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.762,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "AGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7445,
+            0.0,
+            90.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "AVCC",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "100nF",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:C0603_S",
+      "current_value": "1uF",
+      "current_mpn": "CL05A105KA5NQNC",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:C0402",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "AGND",
+        "2": "AVCC"
+      },
+      "evidence": "Manual functional-region mapping with every connected pin network checked; electrically parallel repeated passives use deterministic source order, not uniquely inferable identity",
+      "current_expected_diff": [
+        "Value changed: current 1uF, source 100nF; geometry may differ.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "CN5",
+      "current_ref": "CN2",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        133.8325,
+        82.314
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "size": [
+            1.27,
+            1.27
+          ],
+          "net": "VCC",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "5012",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:TESTPOINT-TH_BD2.0_C9900010656",
+      "current_value": "5012",
+      "current_mpn": "5012",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:测试点",
+      "current_to_source_pin_map": {
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "1": "VCC"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Current 5012 real PTH test post may be larger than source imported test pad; check both copper sides/courtyard before exact reuse.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "CN6",
+      "current_ref": "CN3",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        142.2145,
+        82.314
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.27,
+            1.27
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "5012",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:TESTPOINT-TH_BD2.0_C9900010656",
+      "current_value": "5012",
+      "current_mpn": "5012",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:测试点",
+      "current_to_source_pin_map": {
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "1": "GND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Current 5012 real PTH test post may be larger than source imported test pad; check both copper sides/courtyard before exact reuse.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "CN8",
+      "current_ref": "CN6",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        131.0385,
+        82.314
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "local_at": [
+            0.0,
+            0.0,
+            270.0
+          ],
+          "size": [
+            1.27,
+            1.27
+          ],
+          "net": "AVCC",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "5012",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:TESTPOINT-TH_BD2.0_C9900010656",
+      "current_value": "5012",
+      "current_mpn": "5012",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:测试点",
+      "current_to_source_pin_map": {
+        "1": "1"
+      },
+      "current_pin_nets": {
+        "1": "AVCC"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Current 5012 real PTH test post may be larger than source imported test pad; check both copper sides/courtyard before exact reuse.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "R12",
+      "current_ref": "R3",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        114.11,
+        99.234
+      ],
+      "source_angle_deg": -90.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -0.752,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "AGND",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            0.7545,
+            0.0,
+            270.0
+          ],
+          "size": [
+            0.8065,
+            0.864
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "0Ω",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:R0603_S",
+      "current_value": "0R",
+      "current_mpn": "0402WGF0000TCE",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:R0402",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "AGND",
+        "2": "GND"
+      },
+      "evidence": "Pin-network topology propagated from verified active anchors; value/MPN tie break",
+      "current_expected_diff": [
+        "Value changed: current 0R, source 0Ω; geometry may differ.",
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "U4",
+      "current_ref": "U2",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        110.223,
+        99.2035
+      ],
+      "source_angle_deg": 180.0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.3,
+            0.95,
+            180.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "5V",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.3,
+            0.0,
+            180.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.3,
+            -0.95,
+            180.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "5V",
+          "pinfunction": ""
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.3,
+            -0.95,
+            180.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.3,
+            0.95,
+            180.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "AVCC",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "LP5907QMFX-3.3Q1",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "current_value": "LP5907QMFX-3.3Q1",
+      "current_mpn": "LP5907QMFX-3.3Q1",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "3": "3",
+        "5": "5",
+        "2": "2"
+      },
+      "current_pin_nets": {
+        "1": "5V",
+        "3": "5V",
+        "5": "AVCC",
+        "2": "GND",
+        "4": "unconnected-(U2-NC-Pad4)"
+      },
+      "evidence": "Verified active MPN/function anchor; same pin function",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    },
+    {
+      "source_ref": "U3",
+      "current_ref": "U20",
+      "group": "logic_ldo",
+      "source_pos_mm": [
+        106.353,
+        99.2035
+      ],
+      "source_angle_deg": 0,
+      "source_layer": "F.Cu",
+      "source_pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.3,
+            0.95
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "5V",
+          "pinfunction": ""
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.3,
+            0.0
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "GND",
+          "pinfunction": ""
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            1.3,
+            -0.95
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "5V",
+          "pinfunction": ""
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.3,
+            -0.95
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "",
+          "pinfunction": ""
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "shape": "rect",
+          "local_at": [
+            -1.3,
+            0.95
+          ],
+          "size": [
+            1.0,
+            0.6
+          ],
+          "net": "VCC",
+          "pinfunction": ""
+        }
+      ],
+      "source_value": "XC6210B332MR",
+      "source_footprint": "ProDoc_1.axdr_v1.3_2026-10-31-import-fps:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "current_value": "XC6210B332MR",
+      "current_mpn": "XC6210B332MR",
+      "current_footprint": "ProDoc_Board1v1_2026-10-26-import-fps:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "current_to_source_pin_map": {
+        "1": "1",
+        "3": "3",
+        "2": "2",
+        "5": "5"
+      },
+      "current_pin_nets": {
+        "1": "5V",
+        "3": "5V",
+        "2": "GND",
+        "5": "VCC",
+        "4": "unconnected-(U20-NC-Pad4)"
+      },
+      "evidence": "Verified active MPN/function anchor; same pin function",
+      "current_expected_diff": [
+        "Use current real pad centers for rigid origin/rotation alignment; source angle alone is insufficient if current footprint differs."
+      ]
+    }
+  ],
+  "anchors": {
+    "CN3": {
+      "position_mm": [
+        110.668,
+        90.569
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "value": "XT30PW-F"
+    },
+    "Q1": {
+      "position_mm": [
+        120.193,
+        87.267
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "value": "WSD90P06DN56"
+    },
+    "Q2": {
+      "position_mm": [
+        121.336,
+        82.695
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "value": "FMMT593"
+    },
+    "Q3": {
+      "position_mm": [
+        118.174,
+        93.998
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "value": "WSD80120DN56"
+    },
+    "C3": {
+      "position_mm": [
+        141.148,
+        90.696
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "value": "220uF"
+    },
+    "C4": {
+      "position_mm": [
+        130.423,
+        90.696
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "value": "220uF"
+    },
+    "U2": {
+      "position_mm": [
+        130.965,
+        105.6185
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "value": "LM5164DDAR"
+    },
+    "U5": {
+      "position_mm": [
+        114.219,
+        105.1105
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "value": "RY8411"
+    },
+    "U3": {
+      "position_mm": [
+        106.353,
+        99.2035
+      ],
+      "angle_deg": 0,
+      "layer": "F.Cu",
+      "value": "XC6210B332MR"
+    },
+    "U4": {
+      "position_mm": [
+        110.223,
+        99.2035
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "value": "LP5907QMFX-3.3Q1"
+    },
+    "U6": {
+      "position_mm": [
+        161.582,
+        128.161
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "value": "LM321MF/NOPB"
+    },
+    "Q5": {
+      "position_mm": [
+        153.086,
+        84.219
+      ],
+      "angle_deg": 0,
+      "layer": "F.Cu",
+      "value": "NCE7560K"
+    },
+    "Q6": {
+      "position_mm": [
+        153.086,
+        91.204
+      ],
+      "angle_deg": 0,
+      "layer": "F.Cu",
+      "value": "NCE7560K"
+    },
+    "Q7": {
+      "position_mm": [
+        153.086,
+        98.189
+      ],
+      "angle_deg": 0,
+      "layer": "F.Cu",
+      "value": "NCE7560K"
+    },
+    "Q8": {
+      "position_mm": [
+        166.167,
+        84.219
+      ],
+      "angle_deg": 0,
+      "layer": "F.Cu",
+      "value": "NCE7560K"
+    },
+    "Q9": {
+      "position_mm": [
+        166.167,
+        91.204
+      ],
+      "angle_deg": 0,
+      "layer": "F.Cu",
+      "value": "NCE7560K"
+    },
+    "Q10": {
+      "position_mm": [
+        166.167,
+        98.189
+      ],
+      "angle_deg": 0,
+      "layer": "F.Cu",
+      "value": "NCE7560K"
+    },
+    "U7": {
+      "position_mm": [
+        146.932,
+        109.365
+      ],
+      "angle_deg": 0,
+      "layer": "F.Cu",
+      "value": "FD6288Q"
+    }
+  },
+  "source_power_center_bounds_mm": [
+    100.6985,
+    82.314,
+    164.123,
+    133.876
+  ],
+  "source_board_bounds_mm": [
+    99.1235,
+    79.8475,
+    199.1235,
+    134.8475
+  ],
+  "placement_plan": {
+    "common_transform": "For every shared-power item and M1 source-mapped item apply the SAME board-origin translation T=(target_x-99.1235,target_y-79.8475), then model-specific rigid pad-origin/rotation correction. Do not assign power a separate downshift.",
+    "M2": "Copy only full current FOC module below M1 with dx=0,dy=actual M1 full envelope height+8mm. Current module needs approximately78.5mm pitch because TP/new peripherals; nominal55mm+margin only if true full-module clearance verified.",
+    "shared_power": "Exactly one input/protection/DCbus/buck/LDO/reference set, never duplicate for M2.",
+    "control": "GD32/HSLink/display do not inherit STM32 coordinates. Repack these groups into free left/lower regions around M2, preserving internal clusters; eliminate global208 downshift and do not treat283mm workspace as board outline.",
+    "envelope": "Source power+M1 uses original100x55mm relationships; two-module work envelope roughly100x(55+actual_pitch)mm before new control/HSLink clearance. Not a board size commitment."
+  },
+  "source_no_copy": [
+    "STM32 U1 and its clock/decoupling",
+    "reference R27 local5V bridge when absent current",
+    "reference R54/DAC selection branch when absent current",
+    "all copper/tracks/vias/board outline/layer stack"
+  ]
+}

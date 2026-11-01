@@ -1,0 +1,122 @@
+[
+  {
+    "a": "U1.8",
+    "b": "Y201.1",
+    "pad_center_distance_mm": 4.209
+  },
+  {
+    "a": "U1.9",
+    "b": "Y201.2",
+    "pad_center_distance_mm": 5.034
+  },
+  {
+    "a": "U1.12",
+    "b": "Y200.1",
+    "pad_center_distance_mm": 5.831
+  },
+  {
+    "a": "U1.13",
+    "b": "Y200.3",
+    "pad_center_distance_mm": 5.423
+  },
+  {
+    "a": "Y201.1",
+    "b": "C214.1",
+    "pad_center_distance_mm": 2.225
+  },
+  {
+    "a": "Y201.2",
+    "b": "C215.1",
+    "pad_center_distance_mm": 2.239
+  },
+  {
+    "a": "Y200.1",
+    "b": "C210.1",
+    "pad_center_distance_mm": 4.225
+  },
+  {
+    "a": "Y200.3",
+    "b": "C211.1",
+    "pad_center_distance_mm": 1.725
+  },
+  {
+    "a": "U1.11",
+    "b": "C200.1",
+    "pad_center_distance_mm": 4.573
+  },
+  {
+    "a": "U1.28",
+    "b": "C201.1",
+    "pad_center_distance_mm": 1.725
+  },
+  {
+    "a": "U1.50",
+    "b": "C202.1",
+    "pad_center_distance_mm": 1.725
+  },
+  {
+    "a": "U1.75",
+    "b": "C203.1",
+    "pad_center_distance_mm": 1.725
+  },
+  {
+    "a": "U1.100",
+    "b": "C204.1",
+    "pad_center_distance_mm": 1.725
+  },
+  {
+    "a": "U1.6",
+    "b": "C212.1",
+    "pad_center_distance_mm": 4.783
+  },
+  {
+    "a": "U1.22",
+    "b": "C206.1",
+    "pad_center_distance_mm": 3.239
+  },
+  {
+    "a": "U1.22",
+    "b": "C207.1",
+    "pad_center_distance_mm": 6.032
+  },
+  {
+    "a": "U1.21",
+    "b": "C208.1",
+    "pad_center_distance_mm": 4.943
+  },
+  {
+    "a": "U1.21",
+    "b": "C213.1",
+    "pad_center_distance_mm": 6.799
+  },
+  {
+    "a": "Q5.1",
+    "b": "R59.1",
+    "pad_center_distance_mm": 3.093
+  },
+  {
+    "a": "Q6.1",
+    "b": "R60.1",
+    "pad_center_distance_mm": 3.093
+  },
+  {
+    "a": "Q7.1",
+    "b": "R61.1",
+    "pad_center_distance_mm": 3.093
+  },
+  {
+    "a": "Q8.1",
+    "b": "R75.1",
+    "pad_center_distance_mm": 3.093
+  },
+  {
+    "a": "Q9.1",
+    "b": "R76.1",
+    "pad_center_distance_mm": 3.093
+  },
+  {
+    "a": "Q10.1",
+    "b": "R77.2",
+    "pad_center_distance_mm": 3.471
+  }
+]

@@ -1,0 +1,92 @@
+[
+  [
+    "power.kicad_sch",
+    "#FLG9700",
+    "DCBUS_IN",
+    "CN1.1 external input; polarity marking requires verification"
+  ],
+  [
+    "power.kicad_sch",
+    "#FLG9701",
+    "PGND_IN",
+    "CN1.2 external supply return"
+  ],
+  [
+    "power.kicad_sch",
+    "#FLG9702",
+    "DCBUS",
+    "DCBUS_IN via Q1 protection MOSFET"
+  ],
+  [
+    "power.kicad_sch",
+    "#FLG9703",
+    "PGND",
+    "PGND_IN via Q3 protection MOSFET"
+  ],
+  [
+    "power.kicad_sch",
+    "#FLG9704",
+    "12V",
+    "U6 LM5164 SW via L6"
+  ],
+  [
+    "power.kicad_sch",
+    "#FLG9705",
+    "PWR_BST_U6",
+    "U6 internal VCC/bootstrap diode; C67 to SW"
+  ],
+  [
+    "power.kicad_sch",
+    "#FLG9706",
+    "PWR_BST_U19",
+    "U19 RY8411 internal bootstrap driver; C172 to SW"
+  ],
+  [
+    "FOC_M1.kicad_sch",
+    "#FLG9707",
+    "M1_VB1",
+    "12V via D8; C130 to VS1"
+  ],
+  [
+    "FOC_M1.kicad_sch",
+    "#FLG9708",
+    "M1_VB2",
+    "12V via D9; C131 to VS2"
+  ],
+  [
+    "FOC_M1.kicad_sch",
+    "#FLG9709",
+    "M1_VB3",
+    "12V via D10; C132 to VS3"
+  ],
+  [
+    "FOC_M2.kicad_sch",
+    "#FLG9710",
+    "M2_VB1",
+    "12V via D1008; C1130 to VS1"
+  ],
+  [
+    "FOC_M2.kicad_sch",
+    "#FLG9711",
+    "M2_VB2",
+    "12V via D1009; C1131 to VS2"
+  ],
+  [
+    "FOC_M2.kicad_sch",
+    "#FLG9712",
+    "M2_VB3",
+    "12V via D1010; C1132 to VS3"
+  ],
+  [
+    "HSLink.kicad_sch",
+    "#FLG9713",
+    "HSL_LINK_3V3",
+    "VCC via R8052 0R"
+  ],
+  [
+    "HSLink.kicad_sch",
+    "#FLG9714",
+    "HSL_USB_VBUS",
+    "USB8002 VBUS host supply"
+  ]
+]

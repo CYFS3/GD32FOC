@@ -1,0 +1,162 @@
+ CERAMIC SMD CRYSTAL
+            ABM3B                                                                               Pb RoHS                    5.0 X 3.2 X 1.1mm
+                                                                                                   Compliant                 | | | | | | | | | | | | | | |
+
+ FEATURES:                                                                           APPLICATIONS:
+ • Fundamental mode.                                                                 • Cellular telephones, Pagers.
+ • Suitable for reflow.                                                              • Communication and Test equipment.
+ • Tight Stability available.                                                        • High Density applications.
+ • Ceramic package and metal lid assures high precision and reliability.             • PCMCIA and wireless applications.
+ • Seam sealing.
+ STANDARD SPECIFICATIONS:
+
+  PARAMETERS
+  ABRACON P/N                                   ABM3B Series
+  Frequency Range                               8.0MHz - 50.0MHz (Fundamental
+                                                50.1MHz - 125MHz (3rd overtone)
+  Operation Mode                                 Fundamental or 3rd overtone
+
+  Operating Temperature                         - 10°C to + 60°C (see options)
+  Storage Temperature                           - 40°C to + 85°C
+  Frequency Tolerance @ 25°C                    ± 50 ppm max. (see options)
+  Frequency Stability over the
+  Operating Temperature
+  (Ref to + 25°C)                               ± 50 ppm max. (see options)
+  Equivalent Series Resistance                  See table 1
+  Shunt Capacitance C0                          7 pF max.
+  Load Capacitance CL                           18 pF (see options)
+  Drive Level                                   100 µW max., 10 µW typical
+  Aging (First Year) @ 25°C ± 3°C               ± 5ppm max.
+  Insulation Resistance                         500 M Ω min at 100Vdc ± 15 V
+
+ TABLE 1- Standard ESR
+    Frequency (MHz)                        ESR( Ω) max              Frequency (MHz)                   ESR( Ω max )
+  8.000 - 9.999 (Fund.)                       200               16.000 - 50.000 (Fund.)                  50
+ 10.000 -11.999 (Fund.)                       100               50.001 - 80.000 (3rd OT)                 60
+ 12.000 - 15.999 (Fund.)                        70             80.001 - 125.000 (3rd OT)                 80
+
+
+
+
+   ABRACON IS
+                                                                                 2 Faraday, Suite# B | Irvine | CA 92618 Revised: 08.25.15
+ISOISO 9001:2008
+    9001 / QS 9000                                                         LLC
+                                                                                 Ph. 949.546.8000 | Fax. 949.546.8001
+    CERTIFIED                                                                    Visit www.abracon.com for Terms and Conditions of Sale
+ CERAMIC SMD CRYSTAL
+             ABM3B                                                                                      Pb RoHS                                  5.0 X 3.2 X 1.1mm
+                                                                                                           Compliant                               | | | | | | | | | | | | | | |
+
+
+
+
+ OPTIONS AND PART IDENTIFICATION: (Left blank if standard)
+                                        ABM3B         –           MHz -              -             -     -    -      -
+              Height (mm)
+                                                                                                                                     Packaging
+           Blank: 1.1mm max
+                                                                                                                                    Blank: Bulk
+             1: 0.8mm max
+                                                                                                                                 T: 1k pcs per reel
+           Frequency in MHz                                                                                                     T2: 250 pcs per reel
+          e.g. 8.000MHz
+               14.31818MHz
+               26.000MHz                                                                                              Freq. Stability
+             125.000MHz                                                                                               U**: ± 10 ppm
+                                                                                                                      G***: ± 15 ppm
+            Load Capacitance
+                                                                                                                       X: ± 20 ppm
+           Please specify CL(6 to                                                                                      W: ± 25 ppm
+         32pF) in pF or S for Series                               Operating Temp.          Freq. Tolerance
+                                                                                                                       Y: ± 30 ppm
+           Please contact ABRACON for
+                  values under 6pF
+                                           Custom ESRSTD
+                                                      if            E: 0°C ~ +70°C            1: ± 10 ppm
+                                                                                                                       H: ± 35 ppm
+                                                                   B: -20°C ~ +70°C           7: ± 15 ppm
+                                         other than standard                                                           Z: ± 100 ppm
+                                                                   C: -30°C ~ +70°C           2: ± 20 ppm
+                                                  R□                                          3: ± 25 ppm         (*) Option Z only
+                                                                   N: -30°C ~ +85°C
+                                         □: Specify a value in     D: -40°C ~ +85°C           4: ± 30 ppm
+                                                                                                                  (**)Standard temp or
+                                                                                                                  options E and B only
+                                             Ω (e.g.: R40)       J****: -40°C ~ +105°C                            (***)Standard temp or
+                                                                                                                  options E, B, C and N
+                                                                 K****: -40°C ~ +125°C                            only.
+                                                                  L*: -55°C ~ +125°C                              (****) Freq. stability
+                                                                                                                  ±50ppm and ±100ppm
+                                                                                                                  only. Contact ABRACON
+                                                                                                                  for tighter freq. stability.
+
+
+
+  OUTLINE DIMENSIONS:
+   Please see Table 2 below for height and chamfer information.
+
+
+
+
+                                                                         Chamfer on PIN 1
+                                                                           (Default)
+
+                                                                                            Table 2
+                                                                                                  Height (mm)      Chamfer PIN #
+                                                                                              ABM3B 1.1mm max #1 (Default), #4 (See Note)
+                                                                                             ABM3B1 0.8mm max #1 (Default), #4 (See Note)
+
+                                                                         Chamfer on PIN 4
+                                                                           (See Note)
+
+
+
+
+          Note: Due to the availability of raw materials, this part may be manufactured with the
+          chamfer on pin 4. Be advised that this does not affect the electrical characteristics                                    Dimension : Inches (mm)
+          of the crystal in any way.
+
+
+
+
+   ABRACON IS
+                                                                                     2 Faraday, Suite# B | Irvine | CA 92618 Revised: 08.25.15
+ISOISO 9001:2008
+    9001 / QS 9000                                                             LLC
+                                                                                     Ph. 949.546.8000 | Fax. 949.546.8001
+    CERTIFIED                                                                        Visit www.abracon.com for Terms and Conditions of Sale
+      CERAMIC SMD CRYSTAL
+                 ABM3B                                                                                                   Pb RoHS                           5.0 X 3.2 X 1.1mm
+                                                                                                                            Compliant                          | | | | | | | | | | | | | | |
+
+
+       REFLOW PROFILE:
+
+
+
+
+        TAPE & REEL:
+
+         T=1000pcsTape and reel
+         T2=250pcsTape and reel
+
+
+
+
+                                                                                                                                                            Dimension : mm
+
+
+ ATTENTION: Abracon Corporation’s products are COTS – Commercial-Off-The-Shelf products; suitable for Commercial, Industrial and, where designated, Automotive Applica-
+tions. Abracon’s products are not specifically designed for Military, Aviation, Aerospace, Life-dependant Medical applications or any application requiring high reliability where
+component failure could result in loss of life and/or property. For applications requiring high reliability and/or presenting an extreme operating environment, written consent and
+authorization from Abracon Corporation is required. Please contact Abracon Corporation for more information.
+
+
+        ABRACON IS
+                                                                                                    2 Faraday, Suite# B | Irvine | CA 92618 Revised: 08.25.15
+     ISOISO 9001:2008
+         9001 / QS 9000                                                                       LLC
+                                                                                                    Ph. 949.546.8000 | Fax. 949.546.8001
+         CERTIFIED                                                                                  Visit www.abracon.com for Terms and Conditions of Sale
+

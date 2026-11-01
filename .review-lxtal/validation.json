@@ -1,0 +1,6 @@
+{
+  "connectivity": "PASS exact U1.8-Y201.1-C214.1 and U1.9-Y201.2-C215.1; capacitor pin2 GND",
+  "other_nets": "UNCHANGED",
+  "unique_references": true,
+  "erc_before_after": "Counter({('warning', 'endpoint_off_grid'): 346, ('warning', 'pin_to_pin'): 3, ('warning', 'isolated_pin_label'): 2, ('warning', 'footprint_link_issues'): 1, ('error', 'power_pin_not_driven'): 1})"
+}

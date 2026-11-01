@@ -5,6 +5,121 @@
 	(uuid "8ef932b6-d065-49a1-a4e8-040930693b5c")
 	(paper "A2")
 	(lib_symbols
+(symbol "power:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "ProDoc_IPB-easyedapro:BLM18KG121TN1D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -172,7 +287,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 0.762)
 					(name "1"
@@ -190,7 +305,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 0.762)
 					(name "2"
@@ -337,7 +452,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -8.89 1.27 0)
 					(length 2.54)
 					(name "GND"
@@ -355,7 +470,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -8.89 -1.27 0)
 					(length 2.54)
 					(name "VO-"
@@ -373,7 +488,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 8.89 0 180)
 					(length 2.54)
 					(name "VI+"
@@ -503,7 +618,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -521,7 +636,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -668,7 +783,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 5.08 0)
 					(length 2.54)
 					(name "1"
@@ -686,7 +801,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 6.35 5.08 180)
 					(length 2.54)
 					(name "2"
@@ -704,7 +819,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 2.54 0)
 					(length 2.54)
 					(name "3"
@@ -722,7 +837,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 6.35 2.54 180)
 					(length 2.54)
 					(name "4"
@@ -740,7 +855,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 0 0)
 					(length 2.54)
 					(name "5"
@@ -758,7 +873,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 6.35 0 180)
 					(length 2.54)
 					(name "6"
@@ -776,7 +891,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -2.54 0)
 					(length 2.54)
 					(name "7"
@@ -794,7 +909,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 6.35 -2.54 180)
 					(length 2.54)
 					(name "8"
@@ -812,7 +927,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -5.08 0)
 					(length 2.54)
 					(name "9"
@@ -830,7 +945,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 6.35 -5.08 180)
 					(length 2.54)
 					(name "10"
@@ -1015,7 +1130,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 1.016)
 					(name "1"
@@ -1033,7 +1148,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 1.016)
 					(name "2"
@@ -1180,7 +1295,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 0 180)
 					(length 2.54)
 					(name "PA04"
@@ -1198,7 +1313,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -10.16 180)
 					(length 2.54)
 					(name "PA08"
@@ -1216,7 +1331,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -12.7 180)
 					(length 2.54)
 					(name "PA09"
@@ -1234,7 +1349,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -15.24 180)
 					(length 2.54)
 					(name "PA10"
@@ -1252,7 +1367,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 52.07 270)
 					(length 2.54)
 					(name "VDD_SOC"
@@ -1270,7 +1385,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -20.32 -11.43 0)
 					(length 2.54)
 					(name "VIO_B00"
@@ -1288,7 +1403,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 2.54 180)
 					(length 2.54)
 					(name "PA03"
@@ -1306,7 +1421,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 5.08 180)
 					(length 2.54)
 					(name "PA02"
@@ -1324,7 +1439,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 52.07 270)
 					(length 2.54)
 					(name "VDD_SOC"
@@ -1360,7 +1475,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 7.62 180)
 					(length 2.54)
 					(name "PA01"
@@ -1378,7 +1493,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 10.16 180)
 					(length 2.54)
 					(name "PA00"
@@ -1396,7 +1511,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -20.32 -26.67 0)
 					(length 2.54)
 					(name "RESETN"
@@ -1414,7 +1529,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -20.32 -29.21 0)
 					(length 2.54)
 					(name "WAKEUP"
@@ -1450,7 +1565,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -20.32 16.51 0)
 					(length 2.54)
 					(name "VPMC"
@@ -1486,7 +1601,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -20.32 26.67 0)
 					(length 2.54)
 					(name "PY01"
@@ -1504,7 +1619,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -20.32 29.21 0)
 					(length 2.54)
 					(name "PY00"
@@ -1522,7 +1637,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 17.78 180)
 					(length 2.54)
 					(name "PB15"
@@ -1540,7 +1655,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 20.32 180)
 					(length 2.54)
 					(name "PB14"
@@ -1558,7 +1673,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 22.86 180)
 					(length 2.54)
 					(name "PB13"
@@ -1576,7 +1691,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 25.4 180)
 					(length 2.54)
 					(name "PB12"
@@ -1594,7 +1709,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 27.94 180)
 					(length 2.54)
 					(name "PB11"
@@ -1612,7 +1727,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 30.48 180)
 					(length 2.54)
 					(name "PB10"
@@ -1630,7 +1745,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 33.02 180)
 					(length 2.54)
 					(name "PB09"
@@ -1648,7 +1763,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 35.56 180)
 					(length 2.54)
 					(name "PB08"
@@ -1666,7 +1781,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 2.54 52.07 270)
 					(length 2.54)
 					(name "VDD_SOC"
@@ -1684,7 +1799,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -20.32 -16.51 0)
 					(length 2.54)
 					(name "VIO_B01"
@@ -1702,7 +1817,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -20.32 6.35 0)
 					(length 2.54)
 					(name "VREFL"
@@ -1720,7 +1835,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -20.32 8.89 0)
 					(length 2.54)
 					(name "VREFH"
@@ -1738,7 +1853,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -20.32 19.05 0)
 					(length 2.54)
 					(name "VANA"
@@ -1756,7 +1871,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 5.08 52.07 270)
 					(length 2.54)
 					(name "VDD_SOC"
@@ -1774,7 +1889,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -20.32 -13.97 0)
 					(length 2.54)
 					(name "VIO_B00"
@@ -1792,7 +1907,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -20.32 -1.27 0)
 					(length 2.54)
 					(name "XTALI"
@@ -1810,7 +1925,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -20.32 -3.81 0)
 					(length 2.54)
 					(name "XTALO"
@@ -1828,7 +1943,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -35.56 180)
 					(length 2.54)
 					(name "PA31"
@@ -1846,7 +1961,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -33.02 180)
 					(length 2.54)
 					(name "PA30"
@@ -1864,7 +1979,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -30.48 180)
 					(length 2.54)
 					(name "PA29"
@@ -1882,7 +1997,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -27.94 180)
 					(length 2.54)
 					(name "PA28"
@@ -1900,7 +2015,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -25.4 180)
 					(length 2.54)
 					(name "PA27"
@@ -1918,7 +2033,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -22.86 180)
 					(length 2.54)
 					(name "PA26"
@@ -1936,7 +2051,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -20.32 180)
 					(length 2.54)
 					(name "PA25/USB_DM"
@@ -1954,7 +2069,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -17.78 180)
 					(length 2.54)
 					(name "PA24/USB_DP"
@@ -1972,7 +2087,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 7.62 52.07 270)
 					(length 2.54)
 					(name "VDD_SOC"
@@ -1990,7 +2105,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -7.62 180)
 					(length 2.54)
 					(name "PA07"
@@ -2008,7 +2123,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -5.08 180)
 					(length 2.54)
 					(name "PA06"
@@ -2026,7 +2141,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 20.32 -2.54 180)
 					(length 2.54)
 					(name "PA05"
@@ -2044,7 +2159,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -52.07 90)
 					(length 2.54)
 					(name "VSS"
@@ -2479,7 +2594,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -16.51 6.35 0)
 					(length 5.08)
 					(name "1"
@@ -2497,7 +2612,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -16.51 -3.81 0)
 					(length 5.08)
 					(name "2"
@@ -2515,7 +2630,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 13.97 -3.81 180)
 					(length 5.08)
 					(name "3"
@@ -2533,7 +2648,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 13.97 6.35 180)
 					(length 5.08)
 					(name "4"
@@ -2691,7 +2806,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -2709,7 +2824,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "SW"
@@ -2727,7 +2842,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "VIN"
@@ -2745,7 +2860,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "VFB"
@@ -2763,7 +2878,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name "EN"
@@ -2781,7 +2896,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "VBST"
@@ -2953,7 +3068,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "1"
@@ -2971,7 +3086,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "2"
@@ -3129,7 +3244,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 13.97 0)
 					(length 2.54)
 					(name "GND"
@@ -3147,7 +3262,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 11.43 0)
 					(length 2.54)
 					(name "VBUS"
@@ -3165,7 +3280,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 8.89 0)
 					(length 2.54)
 					(name "SBU2"
@@ -3183,7 +3298,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 6.35 0)
 					(length 2.54)
 					(name "CC1"
@@ -3201,7 +3316,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 3.81 0)
 					(length 2.54)
 					(name "DN2"
@@ -3219,7 +3334,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 1.27 0)
 					(length 2.54)
 					(name "DP1"
@@ -3237,7 +3352,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -1.27 0)
 					(length 2.54)
 					(name "DN1"
@@ -3255,7 +3370,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -3.81 0)
 					(length 2.54)
 					(name "DP2"
@@ -3273,7 +3388,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -6.35 0)
 					(length 2.54)
 					(name "SBU1"
@@ -3291,7 +3406,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -8.89 0)
 					(length 2.54)
 					(name "CC2"
@@ -3309,7 +3424,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -11.43 0)
 					(length 2.54)
 					(name "VBUS"
@@ -3327,7 +3442,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -13.97 0)
 					(length 2.54)
 					(name "GND"
@@ -3345,7 +3460,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 -13.97 180)
 					(length 2.54)
 					(name "SHELL"
@@ -3363,7 +3478,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 13.97 180)
 					(length 2.54)
 					(name "SHELL"
@@ -3570,7 +3685,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "1"
@@ -3588,7 +3703,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -3606,7 +3721,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "3"
@@ -3624,7 +3739,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -3717,7 +3832,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -3735,7 +3850,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -9759,80 +9874,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "StylePower:HSL_SHIELD")
-		(at 205.18 141.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3849c812-6839-49e5-b82f-13353bd1863e")
-		(property "Reference" "#PWR11031"
-			(at 205.18 141.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "HSL_SHIELD"
-			(at 205.18 145.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.18 141.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.18 141.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 205.18 141.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aea1264d-44b8-4262-aefb-c773b4b41169")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/92cc594b-d885-4848-b864-91d378b546ef"
-					(reference "#PWR11031")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "HSL_SHIELD" (shape bidirectional) (at 205.18 141.76 0) (effects (font (size 1 1)) (justify left)) (uuid "3849c812-6839-49e5-b82f-13353bd1863e"))
 	(symbol
 		(lib_id "StylePower:VCC")
 		(at 317.64 78.58 0)
@@ -11972,80 +12014,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "StylePower:HSL_SHIELD")
-		(at 179.78 163.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7653a1f2-dc57-422f-b38f-145ef676c297")
-		(property "Reference" "#PWR11007"
-			(at 179.78 163.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "HSL_SHIELD"
-			(at 179.78 167.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.78 163.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.78 163.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 179.78 163.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef7dcecc-a43f-4513-8b25-42325e09c32e")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/92cc594b-d885-4848-b864-91d378b546ef"
-					(reference "#PWR11007")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "HSL_SHIELD" (shape bidirectional) (at 179.78 163.35 0) (effects (font (size 1 1)) (justify left)) (uuid "7653a1f2-dc57-422f-b38f-145ef676c297"))
 	(symbol
 		(lib_id "StylePower:HSL_LINK_3V3")
 		(at 266.76 207.24 0)
@@ -12837,80 +12806,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "StylePower:HSL_SHIELD")
-		(at 205.18 113.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a04d0486-21cb-4ed4-bd00-bb8768efc501")
-		(property "Reference" "#PWR11008"
-			(at 205.18 113.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "HSL_SHIELD"
-			(at 205.18 117.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.18 113.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.18 113.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 205.18 113.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5bb92848-a3b3-4e3f-a0e4-74085c29416c")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/92cc594b-d885-4848-b864-91d378b546ef"
-					(reference "#PWR11008")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "HSL_SHIELD" (shape bidirectional) (at 205.18 113.82 0) (effects (font (size 1 1)) (justify left)) (uuid "a04d0486-21cb-4ed4-bd00-bb8768efc501"))
 	(symbol
 		(lib_id "StylePower:GND")
 		(at 74.37 122.71 0)
@@ -16159,4 +16055,14 @@
 			)
 		)
 	)
+
+(no_connect (at 183.59 118.9) (uuid "1a4f7696-88de-4225-a022-f9692cf1e9e3"))
+(no_connect (at 183.59 134.14) (uuid "c0dce947-c6ee-4907-aa74-574d021f5daa"))
+
+(symbol (lib_id "power:PWR_FLAG") (at 25.4 260.35 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "6c9085f0-2ab3-4575-8f05-5d940df61f39") (property "Reference" "#FLG9713" (at 25.4 260.35 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "PWR_FLAG" (at 25.4 256.54 0) (effects (font (size 1 1)))) (pin "1" (uuid "c39a35da-cb3c-41d3-9a7b-2d9fc32ce89a")) (instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/92cc594b-d885-4848-b864-91d378b546ef" (reference "#FLG9713") (unit 1)))))
+(global_label "HSL_LINK_3V3" (shape bidirectional) (at 25.4 260.35 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "98eda09d-aff9-416a-8f2a-49b7ce795a73"))
+(text "VCC via R8052 0R" (at 25.4 264.16 0) (effects (font (size 0.85 0.85)) (justify left top)) (uuid "18abc6ff-6ce7-459e-85f3-b37738b237d2"))
+(symbol (lib_id "power:PWR_FLAG") (at 109.22 260.35 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "64bbe6bb-a4fe-422f-b54c-d2f267c0828e") (property "Reference" "#FLG9714" (at 109.22 260.35 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "PWR_FLAG" (at 109.22 256.54 0) (effects (font (size 1 1)))) (pin "1" (uuid "576911bf-c792-4a29-be87-167c97e3d286")) (instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/92cc594b-d885-4848-b864-91d378b546ef" (reference "#FLG9714") (unit 1)))))
+(global_label "HSL_USB_VBUS" (shape bidirectional) (at 109.22 260.35 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "87be7363-843d-4618-ad3a-c2470b0d6bd0"))
+(text "USB8002 VBUS host supply" (at 109.22 264.16 0) (effects (font (size 0.85 0.85)) (justify left top)) (uuid "1b7683e1-d148-42f9-bf85-bcbfd73f4f68"))
 )

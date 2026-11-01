@@ -1,0 +1,1826 @@
+XC6210 Series                                                                                                                                                         ETR0317_007
+
+
+High Current, High Speed LDO Regulators
+
+
+■GENERAL DESCRIPTION
+ The XC6210 series are precise, low noise, high current, positive voltage low dropout regulators. They are fabricated using
+Torex’s CMOS process.
+ The series features a voltage reference, an error amplifier, a current limiter, and a phase compensation circuit plus a driver transistor.
+With a low ON resistance driver transistor built into, batteries can be used until input-output voltage differential is minimal and
+can accordingly be used for a longer time.
+The series is also compatible with low ESR ceramic capacitors which give added output stability.
+ The output voltage of the LDO is selectable in 0.05V increments within the range of 0.80V to 5.00V.
+ The current limiter's foldback circuit also operates as the output current limiter and the output pin protection.
+ The IC's internal regulator circuit can be placed in stand-by mode via the CE function. In the stand-by mode, power
+consumption is greatly reduced.
+
+
+■APPLICATIONS                                                              ■FEATURES
+                                                                           Maximum Output Current : More than 700mA
+●Optical disk drive
+                                                                                                      (800mA limit, TYP.)
+●Magnetic disk drive                                                                                  (1.60V<VOUT<5.00V)
+●Digital still cameras / Camcorders                                        Dropout Voltage          : 50mV @ 100mA
+                                                                                                    : 100mV @ 200mA
+●Digital audio equipments                                                  Operating Voltage Range : 1.50V ~ 6.00V
+●Multi-function power supplies                                             Output Voltage Range     : 0.80V ~ 5.00V (0.05V increments)
+                                                                           Highly Accurate          : +2% (1.55V≦VOUT≦5.00V)
+                                                                                                      +30mV (0.80V≦VOUT≦1.50V)
+                                                                           Low Power Consumption : 35μA (TYP.)
+                                                                           High Ripple Rejection    : 60dB @1kHz
+                                                                           Operational Ambient Temperature
+                                                                                                    : -40℃ ~ 85℃
+                                                                           CMOS
+                                                                           Low ESR Capacitor Compatible
+                                                                           Packages                 : SOT-25
+                                                                                                      SOT-89-5
+                                                                                                      USP-6B
+                                                                           Environmentally Friendly : EU RoHS Compliant, Pb Free
+
+
+■TYPICAL APPLICATION CIRCUIT                                               ■TYPICAL PERFORMANCE
+                                                                            CHARACTERISTICS
+                                                                               ●Dropout Voltage vs. Output Current
+
+
+                                                                                                                          XC6210x302xx
+                               1   CE     NC    6
+                                                                                                                            CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                               2   NC    VOUT   5
+                                                                                                        0.6
+                                                                                                                                        Ta=85℃
+                   CIN         3   VIN   VSS    4                 CL                                                                    Ta=25℃
+                                                                                                        0.5
+                                                                            Dropout Voltage : Vdif(V)
+
+
+
+
+                 1.0μF                                          1.0μF                                                                   Ta=-40℃
+                （ceramic)                                      (ceramic)                                0.4
+
+                                                                                                        0.3
+
+                                                                                                        0.2
+
+                                                                                                        0.1
+
+                                                                                                        0.0
+                                                                                                              0   100   200     300     400     500      600     700
+
+                                                                                                                        Output Current : I OUT (mA)
+
+
+
+                                                                                                                                                                           1/24
+  XC6210 Series
+ ■BLOCK DIAGRAM
+
+
+                                                                            VIN                                                    VIN
+
+
+
+                                 ON/OFF               each circuit                      ON/OFF               each circuit
+       CE                                                                          CE
+                                 Control                                                Control
+
+                   R_pull down
+                                     -                                                      -
+                                         Error               Current                            Error               Current
+                                         Amp                  Limit                             Amp                  Limit
+                                     +                                                      +
+                                                                            VOUT                                                   VOUT
+
+
+                                                                       R1                                                     R1
+
+
+
+
+                                                                       R2                                                     R2
+
+                                                  Voltage                   VSS                          Voltage
+                                                                                                                                   VSS
+                                                 Reference                                              Reference
+
+
+
+
+                                XC6210Aシリーズ
+                                 XC6210A Series                                          XC6210B/Dシリーズ
+                                                                                         XC6210B/D Series
+
+
+                                                                            VIN
+
+                    R_pull up
+
+                                 ON/OFF               each circuit
+       CE                        Control
+
+
+                                     -
+                                         Error               Current
+                                         Amp                  Limit
+                                     +
+                                                                            VOUT
+
+
+                                                                       R1
+
+
+
+
+                                                                       R2
+
+                                                  Voltage                   VSS
+                                                 Reference
+
+
+
+
+                                 XC6210C Series
+                                XC6210Cシリーズ
+            *Diodes shown in the above circuit are ESD protection diodes and parasitic diodes
+               ※ 上図のダイオードは静電保護用と寄生のダイオードになります。
+
+
+
+
+2/24
+                                                                                                                                XC6210
+                                                                                                                                  Series
+
+
+  ■PRODUCT CLASSIFICATION
+  ●Ordering Information
+   XC6210 ①②③④⑤⑥-⑦(*1)
+
+          DESIGNATOR                  ITEM               SYMBOL                                  DESCRIPTION
+                                                             A
+                                                             B
+                 ①                    Type                              Refer to Selection Guide
+                                                             C
+                                                             D
+
+                 ②③              Output Voltage            08 ~ 50      e.g. 3.00V → ②=3, ③=0
+                                                                          Output voltage {x.x0v} (the 2nd decimal place is "0")
+                                                                          0.80V≦VOUT(T)≦1.50V：VOUT(T)±30mV
+                                                             2            1.60V≦VOUT(T)≦5.00V：VOUT(T)±2%
+                                Output Voltage                          e.g. 3.00V→②=3,③=0,④=2
+                 ④
+                                  Accuracy                                Output voltage {x.x5v} (the 2nd decimal place is "5")
+                                                                          0.85V≦VOUT(T)≦1.45V：VOUT(T)±30mV
+                                                             A            1.55V≦VOUT(T)≦4.95V：VOUT(T)±2%
+                                                                        e.g. 3.05V→②=3,③=0,④=A
+                                                             MR         SOT-25 (3,000pcs/Reel)
+                                                           MR-G         SOT-25 (3,000pcs/Reel)
+                                                             PR         SOT-89-5 (1,000pcs/Reel)
+           ⑤⑥-⑦(*1)                 Packages
+                                                           PR-G         SOT-89-5 (1,000pcs/Reel)
+                                                             DR         USP-6B (3,000pcs/Reel)
+                                                           DR-G         USP-6B (3,000pcs/Reel)
+   (*1)
+          The “-G” suffix indicates that the products are Halogen and Antimony free as well as being fully EU RoHS compliant.
+
+
+
+●Selection Guide
+                                                   CE Low             CE PULL-DOWN              CE PULL-UP
+          TYPE          CE High Active
+                                                    Active              RESISTOR                 RESISTOR
+
+             A                Yes                     No                     Yes                     No
+
+             B                Yes                     No                      No                     No
+
+             C                 No                    Yes                      No                     Yes
+
+             D                 No                    Yes                      No                     No
+
+
+
+
+                                                                                                                                  3/24
+  XC6210 Series
+■PIN CONFIGURATION
+                                               VOUT            VIN
+                VOUT         NC                        2
+                                                5               4
+                 5           4
+
+
+                                                                              NC 6             1 CE
+
+                                                                             VOUT 5            2 NC
+
+                                                                              VSS 4            3 VIN
+                 1     2     3
+                 VIN   VSS   CE                 1      2        3
+                                               CE      VSS     NC
+
+
+                                                     SOT-89-5                       USP-6B
+                    SOT-25
+                                                    (TOP VIEW)                   (BOTTOM VIEW)
+                  (TOP VIEW)
+
+                *The dissipation pad for the USP-6B package should be solder-plated in reference mount
+                pattern and metal masking so as to enhance mounting strength and heat release. If the pad
+                needs to be connected to other pins, it should be connected to the VSS pins.
+
+
+
+
+ ■PIN ASSIGNMENT
+                PIN NUMBER
+                                                       PIN NAME                             FUNCTION
+       SOT-25     SOT-89-5           USP-6B
+         3           1                 1                      CE                         ON/OFF Control
+         1           4                 3                      VIN                         Power Input
+         2           2                 4                     VSS                            Ground
+         5           5                 5                     VOUT                           Output
+         4           3                2, 6                   NC                          No Connection
+
+
+
+
+4/24
+                                                                                                           XC6210
+                                                                                                              Series
+
+
+
+■PIN FUNCTION ASSIGNMENT
+1) XC6210 Series A Type (CE High Active, CE pull-down resistor)
+    PIN NAME         SIGNAL                  STATUS
+                             H                      Active
+           CE                 L
+                                                   Stand-by
+                            OPEN
+
+
+2) XC6210 Series B Type (CE High Active, CE no pull-down resistor)
+
+    PIN NAME               SIGNAL               STATUS
+                              H                  Active
+           CE                 L                Stand-by
+                            OPEN             Undefined state
+
+
+3) XC6210 Series C Type (CE Low Active, CE pull-up resistor)
+     PIN NAME               SIGNAL                 STATUS
+                               H                   Stand-by
+            CE                 L                    Active
+                             OPEN                  Stand-by
+
+
+4) XC6210 Series D Type (CE Low Active, CE no pull-up resistor)
+    PIN NAME                SIGNAL              STATUS
+                               H               Stand-by
+            CE                 L                 Active
+                             OPEN            Undefined state
+
+
+
+
+■ABSOLUTE MAXIMUM RATINGS
+
+                 PARAMETER                SYMBOL                            RATINGS                   UNITS
+                 Input Voltage               VIN                               6.5                     V
+              Output Current *              IOUT                               900                     mA
+              Output Voltage                VOUT                       VSS - 0.3 ~ VIN + 0.3           V
+              CE Pin Voltage                 VCE                          VSS - 0.3 ~ 6.5              V
+                                                                                250
+                                 SOT-25                        600 (40mm x 40mm standard board)(*2)
+                                                                     760 (JESD51-7 board)(*2)
+  Power Dissipation                                                             500
+                                             Pd                                                        mW
+          (Ta=25℃)           SOT-89-5                         1300 (40mm x 40mm standard board)(*2)
+                                                                    1750 ( JESD51-7 board )(*2)
+                                                                                100
+                             USP-6B
+                                                              1000 (40mm x 40mm standard board)(*2)
+   Operating Temperature Range              Topr                             -40 ~ 85                  ℃
+     Storage Temperature Range              Tstg                            -55 ~ 125                  ℃
+  (*1)
+         IOUT=Pd / (VIN – VOUT)
+  (*2) The power dissipation figure shown is PCB mounted and is for reference only.
+
+         The mounting condition is please refer to PACKAGING INFORMATION.
+
+
+
+
+                                                                                                              5/24
+  XC6210 Series
+■ELECTRICAL CHARACTERISTICS
+●XC6210 series                                                                                                                          Ta=25℃
+                                                                                                                                      UNIT
+         PARAMETER                   SYMBOL                       CONDITIONS                      MIN.          TYP.         MAX.            CIRCUIT
+                                                                                                                                       S
+                                                            VIN=VOUT(T)+1.0V, IOUT=30mA
+                                                                                                 x 0.98       VOUT(T)(*2)    x 1.02
+                                                        VCE=ON (VIN or VSS) (VOUT(T)＞1.50V)
+         Output Voltage              VOUT(E)(*3)                                                                                       V       ①
+                                                     VIN=VOUT(T)+1.0V, IOUT=30mA, VCE=ON(VIN
+                                                                                                (-30mV)       VOUT(T)(*2)   (+30mV)
+                                                               or VSS)(VOUT(T)≦1.50V)
+                                                        VIN=VOUT(T)+1.0V,VCE=ON(VIN or VSS)
+                                                                                                  700             -            -
+                                                                  (VOUT(T)＞1.50V)
+  Maximum Output Current              IOUTMAX                                                                                         mA       ①
+                                                        VIN=VOUT(T)+1.0V,VCE=ON(VIN or VSS)
+                                                                                                  500             -            -
+                                                                  (VOUT(T)≦1.50V)
+       Load Regulation                △VOUT           1mA<IOUT<100mA, VCE=ON(VIN or VSS)            -            15           60      mV       ①
+                                      Vdif1   (*4)
+                                                         IOUT=30mA, VCE=ON(VIN or VSS)                           E-1
+       Dropout Voltage                                                                                                                mV       ①
+                                      Vdif2(*4)          IOUT=100mA, VCE=ON(VIN or VSS)                          E-2
+   Supply Current (A type)                                    VIN=VCE=VOUT(T)+1.0V                               E-3
+   Supply Current (B type)                                    VIN=VCE=VOUT(T)+1.0V                  -            35           55
+                                        IDD                                                                                           μA       ②
+   Supply Current (C type)                                  VIN=VOUT(T)+1.0V, VCE=VSS                            E-3
+   Supply Current (D type)                                  VIN=VOUT(T)+1.0V, VCE=VSS               -            35           55
+       Stand-by Current                ISTBY              VIN=6.0V,VCE=OFF(VIN or VSS)            -0.10           -          0.10     μA       ②
+                                                             VOUT(T)+1.0V≦VIN≦6.0V
+                                                         VCE=ON(VIN or VSS), IOUT=30mA
+                                     △VOUT                     VOUT(T)＜4.50V
+       Line Regulation                                                                              -           0.01         0.20     %/V      ①
+                                    △VIN･VOUT                 5.5V≦VIN≦6.0V
+                                                         VCE=ON(VIN or VSS), IOUT=30mA
+                                                                 VOUT(T)≧4.50V
+         Input Voltage                  VIN                             -                          1.5            -           6.0      V        -
+
+      Output Voltage                  △VOUT              IOUT=30mA, VCE=ON (VIN or VSS)                                               ppm/
+                                                                                                    -          ±100            -               ①
+  Temperature Characteristics       △Topr・△VOUT                -40℃≦Topr≦85℃                                                           ℃
+
+                                                         VIN=[VOUT(T)+1.0]VDC+0.5VP-PAC
+                                                     VCE=ON(VIN or VSS), IOUT=30mA, f=1kHz
+                                                                VOUT(T)＜4.75V
+   Ripple Rejection Rate              PSRR                                                          -            60            -      dB       ③
+                                                            VIN=5.75VDC+0.5VP-PAC
+                                                     VCE=ON(VIN or VSS), IOUT=30mA, f=1kHz
+                                                                VOUT(T)≧4.75V
+                                                       VIN=VOUT(T)+1.0V, VCE=ON(VIN or VSS)
+                                                                                                  700           800            -
+                                                                  VOUT(T)＞1.50V
+         Current Limiter                ILIM                                                                                          mA       ①
+                                                       VIN=VOUT(T)+1.0V, VCE=ON(VIN or VSS)
+                                                                                                    -           800            -
+                                                                  VOUT(T)≦1.50V
+    Short-Circuit Current              ISHORT          VIN=VOUT(T)+1.0V, VCE=ON(VIN or VSS)         -            50            -      mA       ①
+    CE "H" Level Voltage               VCEH                             -                          1.3            -           6.0
+                                                                                                                                       V       ①
+    CE "L" Level Voltage               VCEL                             -                           -             -          0.25
+                                                          VCE=VIN=VOUT(T)+1.0V (Type A)            E-4            -           E-4
+    CE "H" Level Current                ICEH                                                                                          μA       ①
+                                                        VCE=VIN=VOUT(T)+1.0V (Type B/C/D)        - 0.10                      0.10
+                                                        VIN=VOUT(T)+1.0V, VCE=VSS (Type C)         E-5            -           E-5
+    CE "L" Level Current                ICEL                                                                                          μA       ①
+                                                      VIN=VOUT(T)+1.0V, VCE=VSS(Type A/B/D)      - 0.10           -          0.10
+ NOTE:
+  *1: Unless otherwise stated, VIN=VOUT(T)+1.0V
+  *2: VOUT(T)=Specified output voltage
+  *3: VOUT(E)=Effective output voltage
+         (i.e. the output voltage when " VOUT(T)+1.0V" is provided while maintaining a certain IOUT value).
+  *4: Vdif ={VIN1(*6)-VOUT1(*5) }
+  *5: A voltage equal to 98% of the output voltage whenever a stabilized VOUT1=IOUT{VOUT(T)+1.0V} is input.
+  *6: VIN1= the input voltage when VOUT1, which appears as input voltage is gradually decreased.
+  *7: VCE conditions:           XC6210 Series A / B type: ON=VIN, OFF=VSS
+                               XC6210 Series C / D type: ON=VSS, OFF=VIN
+
+
+
+6/24
+                                                                                                                                XC6210
+                                                                                                                                       Series
+
+
+■VOLTAGE CHART
+●Dropout Voltage, Supply Current, CE “H / L” Level Current Chart                                                                      Ta=25℃
+                                           E-1                    E-2                   E-3                  E-4                     E-5
+ SETTING
+ OUTPUT     Output Voltage         Dropout Voltage        Dropout Voltage                             CE "H" Level            CE "L" Level
+ VOLTAGE                                                                         Supply Current
+                                    (IOUT=30mA)            (IOUT=100mA)                                 Current                Current
+
+    (V)             (V)                    (mV)                   (mV)                  (µA)                 (µA)                    (µA)
+
+                    VOUT                   Vdif1                  Vdif2                 IDD                  ICEH                    ICEL
+  VOUT(T)
+            MIN.           MAX.    TYP.          MAX.     TYP.          MAX.     TYP.          MAX.   MIN.          MAX.    MIN.            MAX.
+   0.80     0.770          0.830
+                                                 700.0                  800.0
+   0.85     0.820          0.880
+                                   100.0                  250.0                  38.0          60.0   1.50          5.00    -5.00           -1.50
+   0.90     0.870          0.930
+                                                 600.0                  700.0
+   0.95     0.920          0.980
+   1.00     0.970          1.030
+                                                 500.0                  600.0
+   1.05     1.020          1.080
+                                    50.0                  150.0
+   1.10     1.070          1.130
+                                                 400.0                  500.0
+   1.15     1.120          1.180
+   1.20     1.170          1.230
+                                                 300.0                  400.0    38.5          61.5   2.00          6.50    -6.50           -2.00
+   1.25     1.220          1.280
+   1.30     1.270          1.330
+                                    30.0         200.0    100.0         300.0
+   1.35     1.320          1.380
+   1.40     1.370          1.430
+                                                 100.0                  250.0
+   1.45     1.420          1.480
+   1.50     1.470          1.530
+   1.55     1.519          1.581
+   1.60     1.568          1.632
+   1.65     1.617          1.683
+   1.70     1.666          1.734
+                                    27.0           41.0    90.0         135.0    39.0          63.0   2.50          8.00    -8.00           -2.50
+   1.75     1.715          1.785
+   1.80     1.764          1.836
+   1.85     1.813          1.887
+   1.90     1.862          1.938
+   1.95     1.911          1.989
+   2.00     1.960          2.040
+   2.05     2.009          2.091
+   2.10     2.058          2.142
+   2.15     2.107          2.193
+   2.20     2.156          2.244
+                                    25.0           37.0    80.0         120.0    39.5          64.5   3.00          9.50    -9.50           -3.00
+   2.25     2.205          2.295
+   2.30     2.254          2.346
+   2.35     2.303          2.397
+   2.40     2.352          2.448
+   2.45     2.401          2.499
+   2.50     2.450          2.550
+   2.55     2.499          2.601
+   2.60     2.548          2.652
+   2.65     2.597          2.703
+   2.70     2.646          2.754
+                                    18.0           28.0    60.0           90.0   40.0          66.0   3.50          11.00   -11.00          -3.50
+   2.75     2.695          2.805
+   2.80     2.744          2.856
+   2.85     2.793          2.907
+   2.90     2.842          2.958
+   2.95     2.891          3.009
+
+
+
+
+                                                                                                                                            7/24
+   XC6210 Series
+■VOLTAGE CHART (Continued)
+ ●Dropout Voltage, Supply Current, CE “H / L” Level Current Chart                                                                       Ta=25℃
+  SETTING                                    E-1                    E-2                   E-3                  E-4                     E-5
+  OUTPUT      Output Voltage         Dropout Voltage        Dropout Voltage                             CE "H" Level            CE "L" Level
+                                                                                   Supply Current
+  VOLTAGE                             (IOUT=30mA)            (IOUT=100mA)                                 Current                Current
+       (V)            (V)                    (mV)                   (mV)                  (µA)                 (µA)                    (µA)
+                      VOUT                   Vdif1                  Vdif2                 IDD                  ICEH                    ICEL
+    VOUT(T)
+              MIN.           MAX.    TYP.          MAX.     TYP.          MAX.     TYP.          MAX.   MIN.          MAX.    MIN.            MAX.
+     3.00     2.940          3.060
+     3.05     2.989          3.111
+     3.10     3.038          3.162
+     3.15     3.087          3.213
+     3.20     3.136          3.264
+                                      15.0           23.0    50.0           75.0   40.5          67.5   4.00          12.50   -12.50          -4.00
+     3.25     3.185          3.315
+     3.30     3.234          3.366
+     3.35     3.283          3.417
+     3.40     3.332          3.468
+     3.45     3.381          3.519
+     3.50     3.430          3.570
+     3.55     3.479          3.621
+     3.60     3.528          3.672
+     3.65     3.577          3.723
+     3.70     3.626          3.774
+                                      15             23      50             75     41.0          69.0   4.40          14.00   -14.00          -4.40
+     3.75     3.675          3.825
+     3.80     3.724          3.876
+     3.85     3.773          3.927
+     3.90     3.822          3.978
+     3.95     3.871          4.029
+     4.00     3.920          4.080
+     4.05     3.969          4.131
+     4.10     4.018          4.182
+     4.15     4.067          4.233
+     4.20     4.116          4.284
+                                                                                   41.5          70.5   4.85          15.50   -15.50          -4.85
+     4.25     4.165          4.335
+     4.30     4.214          4.386
+     4.30     4.214          4.386
+     4.40     4.312          4.488
+     4.45     4.361          4.539
+     4.50     4.410          4.590    15.0           23.0    50.0           75.0
+     4.55     4.459          4.641
+     4.60     4.508          4.692
+     4.65     4.557          4.743
+     4.70     4.606          4.794
+     4.75     4.655          4.845                                                 42.0          72.0   5.30          17.00   -17.00          -5.30
+     4.80     4.704          4.896
+     4.85     4.753          4.947
+     4.90     4.802          4.998
+     4.95     4.851          5.049
+     5.00     4.900          5.100
+
+
+
+
+8/24
+                                                                                                                                  XC6210
+                                                                                                                                    Series
+
+
+■TEST CIRCUITS
+●Circuit①
+
+
+
+
+                                                                                      VIN
+
+
+                                                   CIN
+                                VIN
+                                                         V                     CE                                   IOUT
+
+                                                                                            VOUT                       A
+                                                                 V   A
+                                                                                      VSS
+                                                                         VCE                       CL        V               RL
+
+
+
+
+●Circuit ②
+
+
+
+                                                             A
+                                                                                VIN
+
+
+                                            VIN
+                                                     V
+                                                                         CE            VOUT
+
+
+
+
+                                                                                VSS
+
+
+
+
+●Circuit ③
+
+
+
+
+                                                                               VIN
+
+
+                                                                                                                 IOUT=30mA
+
+                                      VIN                V               CE          VOUT                          A
+
+
+                                                                               VSS                  CL   V                   RL
+
+
+
+
+●Output Capacitor Corresponding Chart(MIN)
+
+     OUTPUT VOLTAGE                           CL
+       0.80V ~ 1.45V            More than 6.8μF
+       1.50V ~ 1.75V            More than 4.7μF
+       1.80V ~ 5.00V            More than 1.0μF
+
+
+
+
+                                                                                                                                    9/24
+   XC6210 Series
+ ■OPERATIONAL EXPLANATION
+  <Output Voltage Regulator Control>
+    The voltage, divided by resistors R1 & R2, which are connected to the VOUT pin is compared with the internal reference
+   voltage by the error amplifier. The P-channel MOSFET, which is connected to the VOUT pin, is then driven by the
+   subsequent output signal. The output voltage at the VOUT pin is controlled & stabilized by negative feedback. The constant
+   current limit circuit and short circuit protection operate in relation to the level of output current.
+
+
+
+
+                                                                                                 VIN
+
+
+
+                                                   ON/OFF               each circuit
+                                    CE             Control
+
+
+                                                       -
+                                                           Error               Current
+                                                           Amp                  Limit
+                                                       +
+                                                                                                 VOUT
+
+
+                                                                                         R1
+
+
+
+
+                                                                                         R2
+
+                                                                    Voltage
+                                                                                                 VSS
+                                                                   Reference
+
+
+
+
+ <Low ESR Capacitor>
+   With the XC6210 series regulator, a stable output voltage is achievable even if low ESR capacitors are used, as a phase
+  compensation circuit is built into the regulator. In order to ensure the effectiveness of the phase compensation, we
+  suggest that an output capacitor (CL) be connected as close as possible, between the output pin (VOUT) and the VSS pin.
+  Please use an output capacitor (CL) with a capacitance, based on the chart below. We also suggest an input capacitor
+  (CIN) of 1.0µF: this should be connected between VIN and VSS in order to stabilize input power source.
+
+
+    Output Capacitor Corresponding Chart(MIN)
+           OUTPUT VOLTAGE RANGE                                       OUTPUT CAPACITOR
+                   0.80V ~ 1.45V                                               More than 6.8μF
+                   1.50V ~ 1.75V                                               More than 4.7μF
+                   1.80V ~ 5.00V                                               More than 1.0μF
+
+
+
+  <Current Limiter, Short-Circuit Protection>
+    The XC6210 series regulator offers a combination of current limit and short circuit protection by means of a built-in fixed
+   current limiter circuit and a foldback circuit. When the load current reaches the current limit level, the fixed current limiter
+   circuit operates and output voltage drops. As a result of this drop in output voltage, the foldback circuit operates, the
+   output voltage drops further and output current decreases. When the output pin is shorted, a current of about 50mA flows.
+
+
+
+  <CE Pin>
+    The IC's internal regulator circuitry can be shut down via the signal from the CE pin with the XC6210 series. In
+   shutdown mode, output at the VOUT pin will be pulled down to the VSS level via R1 & R2. Options are available for the CE
+   pin logic (See the product classification). Note that as the XC6210 series B types are 'High Active / No Pull-Down',
+   operations will become unstable with the CE pin open. Although the CE pin is equal to an inverter input with CMOS
+   hysteresis, with either the pull-up or pull-down options, the CE pin input current will increase when the IC is in operation.
+    We suggest that you use this IC with either a VIN voltage or a VSS voltage input at the CE pin. If this IC is used with the
+   correct specifications for the CE pin, the IC will operate normally. However, supply current may increase as a result of
+   through current in the IC's internal circuitry if a voltage other than VIN or VSS is applied.
+
+
+
+
+10/24
+                                                                                                                        XC6210
+                                                                                                                            Series
+
+
+■NOTES ON USE
+1. Please use this IC within the stated maximum ratings. For temporary, transitional voltage drop or voltage rising
+   phenomenon, the IC is liable to malfunction should the ratings be exceeded.
+
+2. Where wiring impedance is high, operations may become unstable due to noise and/or phase lag depending on output
+   current. Please strengthen VIN and VSS wiring in particular.
+
+3. Please wire the input capacitor (CIN) and the output capacitor (CL) as close to the IC as possible. If rapid input fluctuation
+   or load fluctuation should occur, please increase the capacitor value such as CIN or CL more than the recommended values
+   to stabilize the operation.
+
+4. Torex places an importance on improving our products and its reliability.
+   However, by any possibility, we would request user fail-safe design and post-aging treatment on system or equipment.
+
+
+
+
+                                                                                                                            11/24
+                             XC6210 Series
+    ■TYPICAL PERFORMANCE CHARACTERISTICS
+(1) Output Voltage vs. Output Current
+
+
+                                               XC6210x082xx                                                                               XC6210x082xx
+                                                                                VIN =1.8V                                                                                  Ta=25℃
+                                                 CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)                                                    CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)
+                             0.9                                                                                         0.9
+                             0.8                                                                                         0.8
+ Output Voltage : VOUT (V)
+
+
+
+
+                                                                                             Output Voltage : VOUT (V)
+                             0.7                                                                                         0.7
+                                              Ta=-40℃
+                             0.6                                                                                         0.6
+                                              Ta=25℃
+                             0.5                                                                                         0.5
+                                              Ta=85℃
+                             0.4                                                                                         0.4
+                             0.3                                                                                         0.3
+                             0.2                                                                                         0.2                                               VIN=1.5V
+                                                                                                                                                                           VIN=1.8V
+                             0.1                                                                                         0.1                                               VIN=3V
+                                                                                                                                                                           VIN=6V
+                               0                                                                                           0
+                                   0   100 200 300 400 500 600 700 800 900                                                     0   100 200 300 400 500 600 700 800 900
+
+                                             Output Current : I OUT (mA)                                                                 Output Current : I OUT (mA)
+
+                                               XC6210x302xx                                                                               XC6210x302xx
+                                                                               VIN =4.0V                                                                                    Ta=25℃
+                                                CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)                                                      CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                             4.0                                                                                         4.0
+
+                             3.5                                                                                         3.5
+Output Voltage : VOUT (V)
+
+
+
+
+                                                                                            Output Voltage : VOUT (V)
+
+
+
+
+                             3.0                                                                                         3.0
+                                                                                                                                       VIN=3.2V
+                             2.5            Ta=-40℃                                                                      2.5           VIN=3.5V
+                                                                                                                                       VIN=4V
+                             2.0            Ta=25℃                                                                       2.0           VIN=5V
+                                            Ta=85℃                                                                                     VIN=6V
+                             1.5                                                                                         1.5
+
+                             1.0                                                                                         1.0
+                             0.5                                                                                         0.5
+
+                             0.0                                                                                         0.0
+                                   0   100 200 300 400 500 600 700 800 900                                                     0   100 200 300 400 500 600 700 800 900
+
+                                            Output Current : I OUT (mA)                                                                  Output Current : I OUT (mA)
+
+                                               XC6210x502xx                                                                               XC6210x502xx
+                                                                                VIN =6.0V                                                                                   Ta=25℃
+                                                 CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)                                                     CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                             6.0                                                                                         6.0
+
+                             5.0                                                                                         5.0
+ Output Voltage : VOUT (V)
+
+
+
+
+                                                                                             Output Voltage : VOUT (V)
+
+
+
+
+                             4.0                                                                                         4.0            VIN=6V
+                                            Ta=-40℃
+                                                                                                                                        VIN=5.8V
+                             3.0            Ta=25℃                                                                       3.0            VIN=5.6V
+                                            Ta=85℃                                                                                      VIN=5.4V
+                             2.0                                                                                         2.0
+
+                             1.0                                                                                         1.0
+
+                             0.0                                                                                         0.0
+                                   0   100 200 300 400 500 600 700 800 900                                                     0   100 200 300 400 500 600 700 800 900
+                                             Output Current : I OUT (mA)                                                                 Output Current : I OUT (mA)
+
+
+
+
+12/24
+                                                                                                                                                                                               XC6210
+                                                                                                                                                                                                     Series
+
+
+■TYPICAL PERFORMANCE CHARACTERISTICS (Continued)
+(2) Output Voltage vs. Input Voltage
+
+
+                                          XC6210x082xx                                                                                              XC6210x082xx
+                                                                         Ta=25℃                                                                                                     Ta=25℃
+                                          CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)                                                                    CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)
+                                                                                                                           0.90
+                            1.1
+
+                            1.0                                                                                            0.85
+
+
+
+
+                                                                                          Output Voltage : VOUT (V)
+Output Voltage : VOUT (V)
+
+
+
+
+                            0.9
+                                                                                                                           0.80
+
+                            0.8
+                                                                                                                           0.75
+                            0.7                                        IOUT=0mA                                                                                                  IOUT=0mA
+                                                                       IOUT=30mA                                                                                                 IOUT=30mA
+                                                                                                                           0.70                                                  IOUT=100mA
+                            0.6                                        IOUT=100mA
+
+
+                            0.5                                                                                            0.65
+                                  0.5   1.0            1.5            2.0           2.5                                           1.5   2.0    2.5    3.0   3.5    4.0     4.5    5.0    5.5    6.0
+                                          Input Voltage : VIN(V)                                                                                     Input Voltage : VIN(V)
+
+
+                                          XC6210x302xx                                                                                               XC6210x302xx
+                                                                             Ta=25℃                                                                                                  Ta=25℃
+                                              CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)                                                                 CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                            3.2                                                                                            3.10
+
+
+                            3.0                                                                                            3.05
+Output Voltage : VOUT (V)
+
+
+
+
+                                                                                               Output Voltage : VOUT (V)
+
+
+
+
+                            2.8                                                                                            3.00
+
+
+                            2.6                                                                                            2.95
+                                                                      IOUT=0mA                                                                                                   IOUT=0mA
+
+                                                                      IOUT=30mA                                                                                                  IOUT=30mA
+                            2.4                                                                                            2.90                                                  IOUT=100mA
+                                                                      IOUT=100mA
+
+
+                            2.2                                                                                            2.85
+                                  2.5                  3.0                          3.5                                           3.5         4.0         4.5        5.0           5.5          6.0
+
+                                          Input Voltage : VIN(V)                                                                                     Input Voltage : VIN(V)
+
+
+                                          XC6210x502xx                                                                                               XC6210x502xx
+                                                                             Ta=25℃                                                                                                 Ta=25℃
+                                              CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)                                                                CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                            5.2                                                                                            5.10
+
+
+                            5.0                                                                                            5.05
+Output Voltage : VOUT (V)
+
+
+
+
+                                                                                               Output Voltage : VOUT (V)
+
+
+
+
+                            4.8                                                                                            5.00
+
+
+                            4.6                                                                                            4.95
+                                                                                                                                                                                 IOUT=0mA
+                                                                      IOUT=0mA
+                                                                                                                                                                                 IOUT=30mA
+                                                                      IOUT=30mA
+                            4.4                                                                                            4.90                                                  IOUT=100mA
+                                                                      IOUT=100mA
+
+
+                            4.2                                                                                            4.85
+                                  4.5                  5.0                          5.5                                           5.5         5.6        5.7        5.8           5.9          6.0
+
+                                          Input Voltage : VIN(V)                                                                                     Input Voltage : VIN(V)
+
+
+
+
+                                                                                                                                                                                                 13/24
+                            XC6210 Series
+■TYPICAL PERFORMANCE CHARACTERISTICS (Continued)
+  (3) Dropout Voltage vs. Output Current
+
+
+
+                                                      XC6210x082xx                                                                                 XC6210x122xx
+                                                                                                                                                    CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)
+                                                       CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)                                  0.8
+                            1.0                                                                                                                                         Ta=85℃
+                                                                                                                                0.7
+                            0.9                                                                                                                                         Ta=25℃
+
+
+
+
+                                                                                                    Dropout Voltage : Vdif(V)
+                            0.8                                                                                                 0.6                                     Ta=-40℃
+Dropout Voltage : Vdif(V)
+
+
+
+
+                            0.7                                                                                                 0.5
+                                      Below the minimum operating voltage
+                            0.6
+                                                                                                                                0.4
+                            0.5
+                            0.4                                                                                                 0.3
+                            0.3                                                      Ta=85℃
+                                                                                                                                0.2
+                            0.2                                                      Ta=25℃
+                                                                                     Ta=-40℃                                    0.1
+                            0.1
+                                                                                                                                                   Below the minimum operating voltage
+                            0.0                                                                                                 0.0
+                                  0           100         200         300         400         500                                     0     100          200        300          400          500
+
+                                                    Output Current : I OUT (mA)                                                                   Output Current : I OUT (mA)
+
+                                                      XC6210x152xx                                                                                 XC6210x252xx
+
+                                                                                                                                                      CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                                                       CIN = 1.0μF(ceramic),CL= 2.2μF(ceramic)
+                            0.6                                                                                                 0.6
+                                                                                                                                                                                   Ta=85℃
+
+                                                                                                                                0.5                                               Ta=25℃
+                            0.5
+                                                                                                    Dropout Voltage : Vdif(V)
+Dropout Voltage : Vdif(V)
+
+
+
+
+                                                                                                                                                                                   Ta=-40℃
+                                                      Ta=85℃
+                            0.4                                                                                                 0.4
+                                                      Ta=25℃
+                                                      Ta=-40℃                                                                   0.3
+                            0.3
+
+
+                            0.2                                                                                                 0.2
+
+
+                            0.1                                                                                                 0.1
+
+
+                            0.0                                                                                                 0.0
+                                  0           100         200         300         400        500                                      0     100         200         300          400          500
+
+                                                VR Output Current : I OUT (mA)                                                                  VR Output Current : I OUT (mA)
+
+
+                                                      XC6210x302xx                                                                                 XC6210x502xx
+
+                                                        CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)                                                       CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                            0.6                                                                                                 0.6
+                                                                                                                                                                          Ta=85℃
+                            0.5                                                                                                 0.5                                       Ta=25℃
+                                                                                                    Dropout Voltage : Vdif(V)
+Dropout Voltage : Vdif(V)
+
+
+
+
+                                                     Ta=85℃                                                                                                               Ta=-40℃
+                            0.4                                                                                                 0.4
+                                                     Ta=25℃
+                                                     Ta=-40℃
+                            0.3                                                                                                 0.3
+
+
+                            0.2                                                                                                 0.2
+
+
+                            0.1                                                                                                 0.1
+
+
+                            0.0                                                                                                 0.0
+                                  0       100       200     300     400     500      600     700                                      0   100     200     300     400     500      600        700
+
+                                                VR Output Current : I OUT (mA)                                                                  VR Output Current : I OUT (mA)
+
+
+
+
+14/24
+                                                                                                                                                                                                                                       XC6210
+                                                                                                                                                                                                                                             Series
+
+
+         ■TYPICAL PERFORMANCE CHARACTERISTICS (Continued)
+        (4) Supply Current vs. Input Voltage
+
+                                                               XC6210x082xx                                                                                                                  XC6210x302xx
+                                                               CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)                                                                                      CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                                      100                                                                                                                             100
+                                                                                                Ta=85℃                                                                                                                      Ta=85℃
+
+                                       80                                                       Ta=25℃                                                                 80                                                   Ta=25℃
+         Supply Current : I DD(μA)
+
+
+
+
+                                                                                                                                          Supply Current : I DD(μA)
+                                                                                                Ta=-40℃                                                                                                                     Ta=-40℃
+
+                                       60                                                                                                                              60
+
+
+                                       40                                                                                                                              40
+
+
+                                       20                                                                                                                              20
+
+
+                                           0
+                                                                                                                                                                        0
+                                            0.0       1.0       2.0      3.0          4.0        5.0        6.0
+                                                                                                                                                                            0.0     1.0       2.0       3.0       4.0       5.0        6.0
+                                                                Input Voltage : VIN(V)
+                                                                                                                                                                                              Input Voltage : VIN(V)
+
+                                                                                                                                  (5) Output Voltage vs. Ambient Temperature
+
+
+                                                               XC6210x502xx                                                                                                                XC6210x082xx
+                                                                                                                                                                                                                           VIN =1.8V
+                                                                CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)                                                                                     CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)
+                              120
+                                                                                                                                                         0.84
+                                                                                                                                                                                                                        IOUT=0mA
+                              100                                                                                                                                                                                       IOUT=30mA
+Supply Current : I DD(μA)
+
+
+
+
+                                                                                                                                                                                                                        IOUT=100mA
+                                                                                                                                                         0.82
+                                                                                                                      Output Voltage : V OUT(V)
+
+
+
+
+                                      80
+
+
+                                      60                                                                                                                 0.80
+                                                                                   Ta=85℃
+                                      40
+                                                                                   Ta=25℃
+                                                                                                                                                         0.78
+                                                                                   Ta=-40℃
+                                      20
+
+
+                                       0                                                                                                                 0.76
+
+                                        0.0          1.0      2.0       3.0         4.0        5.0        6.0                                                           -50        -25       0        25        50         75       100
+
+                                                              Input Voltage : VIN(V)                                                                                                 Ambient Temperature : Topr(℃)
+
+
+                                                                XC6210x302xx                                                                                                                  XC6210x502xx
+                                                                                                VIN =4.0V                                                                                                                     VIN =6.0V
+                                                                 CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)                                                                                       CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                                      3.10                                                                                                                            5.20
+                                                                                               IOUT=1mA                                                                                                                  IOUT=1mA
+                                                                                               IOUT=30mA                                                                                                                 IOUT=30mA
+                                                                                                                                                                                                                         IOUT=100mA
+          Output Voltage : VOUT (V)
+
+
+
+
+                                                                                                                                          Output Voltage : VOUT (V)
+
+
+
+
+                                                                                               IOUT=100mA                                                             5.10
+                                      3.05
+
+
+
+                                      3.00                                                                                                                            5.00
+
+
+
+                                      2.95                                                                                                                            4.90
+
+
+
+                                      2.90                                                                                                                            4.80
+                                               -50     -25          0         25          50         75         100                                                          -50    -25          0       25        50        75        100
+
+                                                            Ambient Temperature : Topr(℃)                                                                                                Ambient Temperature : Topr(℃)
+
+
+
+
+                                                                                                                                                                                                                                          15/24
+                         XC6210 Series
+■TYPICAL PERFORMANCE CHARACTERISTICS (Continued)
+(6) Supply Current vs. Ambient Temperature
+
+                                                                               XC6210x082xx                                                                                   XC6210x302xx
+                                                                                                              VIN =1.8V                                                                                       VIN =4.0V
+                                                                               CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)                                                         CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                                       50                                                                                                                   50
+
+
+                                       45                                                                                                                   45
+  Supply Current : I DD(μA)
+
+
+
+
+                                                                                                                                Supply Current : I DD(μA)
+                                       40                                                                                                                   40
+
+
+                                       35                                                                                                                   35
+
+
+                                       30                                                                                                                   30
+
+
+                                       25                                                                                                                   25
+                                                       -50         -25         0         25        50        75        100                                       -50   -25    0        25         50        75        100
+
+                                                                     Ambient Temperature : Topr(℃)                                                                       Ambient Temperature : Topr(℃)
+                                                                               XC6210x502xx
+                                                                                                              VIN =6.0V
+                                                                               CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                                     50
+
+
+                                     45
+ Supply Current : I DD(μA)
+
+
+
+
+                                     40
+
+
+                                     35
+
+
+                                     30
+
+
+                                     25
+                                                       -50         -25         0         25        50        75        100
+
+                                                                     Ambient Temperature : Topr(℃)
+
+
+
+ (7) CE Pin Threshold Voltage vs. Ambient Temperature
+
+                                                                                   XC6210xxxxxx
+                                                                                                            VIN =VOUT+1.0V
+                                                                                   CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                                                       1.1
+                CE Threshold Voltage : VCEH/ VCEL(V)
+
+
+
+
+                                                                                                     H Level Voltage
+                                                                                                     L Level Voltage
+                                                       1.0
+
+
+
+                                                       0.9
+
+
+
+                                                       0.8
+
+
+
+                                                       0.7
+                                                             -50         -25       0          25      50       75         100
+
+                                                                           Ambient Temperature : Topr(℃)
+
+
+
+
+16/24
+                                                                                                                                                                                   XC6210
+                                                                                                                                                                                      Series
+
+
+■TYPICAL PERFORMANCE CHARACTERISTICS (Continued)
+(8) Input Transient Response 1
+
+
+                                   XC6210x082xx                                                                                              XC6210x082xx
+                                                IOUT= 30mA,tr= tf= 5.0μs                                                                                IOUT= 200mA,tr= tf= 5.0μs
+                                         CL= 6.8μF(ceramic),Ta= 25℃                                                                                CL= 6.8μF(ceramic),Ta= 25℃
+                             1.2                                           4.0                                                         1.2                                          4.0
+                                     Input Voltage                                                                                             Input Voltage
+                             1.1                                           3.0                                                         1.1                                          3.0
+ Output Voltage : VOUT (V)
+
+
+
+
+                                                                                                           Output Voltage : VOUT (V)
+                                                                                  Input Voltage : VIN(V)
+
+
+
+
+                                                                                                                                                                                           Input Voltage : VIN(V)
+                             1.0                                           2.0                                                         1.0                                          2.0
+
+                             0.9                                           1.0                                                         0.9                                          1.0
+
+                             0.8                                           0.0                                                         0.8                                          0.0
+
+                             0.7    Output Voltage                         -1.0                                                        0.7    Output Voltage                        -1.0
+
+
+                             0.6                                           -2.0                                                        0.6                                          -2.0
+                                   Time (20μs/div )                                                                                          Time (20μs/div )
+
+
+
+                                   XC6210x302xx                                                                                              XC6210x302xx
+                                                IOUT= 30mA,tr= tf= 5.0μs                                                                                IOUT= 200mA,tr= tf= 5.0μs
+                                          CL= 1.0μF(ceramic),Ta= 25℃                                                                               CL= 1.0μF(ceramic),Ta= 25℃
+                             3.4                                           6.0                                                         3.4                                          6.0
+                                     Input Voltage                                                                                             Input Voltage
+                             3.3                                           5.0                                                         3.3                                          5.0
+ Output Voltage : VOUT (V)
+
+
+
+
+                                                                                                           Output Voltage : VOUT (V)
+                                                                                  Input Voltage : VIN(V)
+
+
+
+
+                                                                                                                                                                                           Input Voltage : VIN(V)
+                             3.2                                           4.0                                                         3.2                                          4.0
+
+                             3.1                                           3.0                                                         3.1                                          3.0
+
+                             3.0                                           2.0                                                         3.0                                          2.0
+
+                             2.9     Output Voltage                        1.0                                                         2.9     Output Voltage                       1.0
+
+
+                             2.8                                           0.0                                                         2.8                                          0.0
+                                   Time (20μs/div )                                                                                          Time (20μs/div )
+
+
+
+                                   XC6210x502xx                                                                                              XC6210x502xx
+                                                IOUT= 30mA,tr= tf= 5.0μs                                                                               IOUT= 200mA,tr= tf= 5.0μs
+                                          CL=1.0uF(ceramic),Ta=25℃                                                                                 CL=1.0uF(ceramic),Ta=25℃
+                             5.4                                           8.0                                                         5.4                                          8.0
+                                     Input Voltage                                                                                             Input Voltage
+                             5.3                                           7.0                                                         5.3                                          7.0
+                                                                                                           Output Voltage : VOUT (V)
+ Output Voltage : VOUT (V)
+
+
+
+
+                                                                                                                                                                                           Input Voltage : VIN(V)
+                                                                                  Input Voltage : VIN(V)
+
+
+
+
+                             5.2                                           6.0                                                         5.2                                          6.0
+
+
+                             5.1                                           5.0                                                         5.1                                          5.0
+
+
+                             5.0                                           4.0                                                         5.0                                          4.0
+
+                             4.9     Output Voltage                        3.0                                                         4.9     Output Voltage                       3.0
+
+                             4.8                                           2.0                                                         4.8                                          2.0
+                                   Time (20μs/div )                                                                                          Time (20μs/div )
+
+
+
+
+                                                                                                                                                                                     17/24
+                                    XC6210 Series
+           ■TYPICAL PERFORMANCE CHARACTERISTICS (Continued)
+           (9) Load Transient Response
+
+
+
+                                                  XC6210x082xx                                                                                                                               XC6210x082xx
+                                                             VIN = 1.8V,tr= tf= 5.0μs,Ta= 25℃                                                                                                           VIN = 1.8V,tr= tf= 5.0μs,Ta= 25℃
+                                                  CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)                                                                                                    CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic)
+                                    1.0                                                          500                                                                     1.0                                                                500
+                                                      Output Voltage                                                                                                                           Output Voltage
+
+                                    0.8                                                          400                                                                     0.8                                                                400
+
+
+
+
+                                                                                                     Output Current : I OUT (mA)
+Output Voltage : VOUT (V)
+
+
+
+
+                                                                                                                                                                                                                                                    Output Current : I OUT (mA)
+                                                                                                                                           Output Voltage : VOUT (V)
+                                    0.6                                                          300                                                                     0.6                                                                300
+
+                                                                                                                                                                                             Output Current
+                                    0.4                                                          200                                                                     0.4         200mA                                                  200
+                                                      Output Current
+                                    0.2   100mA                                                  100                                                                     0.2                                                                100
+                                          10mA                                                                                                                                       10mA
+                                    0.0                                                          0                                                                       0.0                                                                0
+                                                    Time (25μs/div )                                                                                                                           Time (25μs/div )
+
+
+                                                   XC6210x302xx                                                                                                                               XC6210x302xx
+                                                              VIN = 4.0V,tr= tf= 5.0μs,Ta= 25℃                                                                                                           VIN = 4.0V,tr= tf= 5.0μs,Ta= 25℃
+                                                   CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)                                                                                                    CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                                    3.4                                                          500                                                                           3.4                                                          500
+                                                      Output Voltage                                                                                                                             Output Voltage
+
+                                    3.0                                                          400                                                                           3.0                                                          400
+                                                                                                             Output Current : I OUT (mA)
+
+
+
+
+                                                                                                                                                                                                                                                            Output Current : I OUT (mA)
+        Output Voltage : VOUT (V)
+
+
+
+
+                                                                                                                                                   Output Voltage : VOUT (V)
+
+
+
+
+                                    2.6                                                          300                                                                           2.6                                                          300
+
+                                                                                                                                                                                              Output Current
+                                    2.2                                                          200                                                                           2.2   200mA                                                  200
+                                                       Output Current
+                                          100mA
+                                    1.8                                                          100                                                                           1.8                                                          100
+                                           10mA                                                                                                                                      10mA
+                                    1.4                                                          0                                                                             1.4                                                          0
+                                                    Time (25μs/div )                                                                                                                            Time (25μs/div )
+
+
+
+
+                                                   XC6210x502xx                                                                                                                               XC6210x502xx
+                                                              VIN = 6.0V,tr= tf= 5.0μs,Ta= 25℃                                                                                                           VIN = 6.0V,tr= tf= 5.0μs,Ta= 25℃
+                                                   CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)                                                                                                    CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                                    5.4                                                          500                                                                           5.4                                                              500
+                                                     Output Voltage                                                                                                                              Output Voltage
+
+                                    5.0                                                          400                                                                           5.0                                                              400
+                                                                                                                                                                                                                                                            Output Current : I OUT (mA)
+                                                                                                             Output Current : I OUT (mA)
+
+
+
+
+                                                                                                                                                   Output Voltage : VOUT (V)
+        Output Voltage : VOUT (V)
+
+
+
+
+                                    4.6                                                          300                                                                           4.6                                                              300
+
+                                                                                                                                                                                               Output Current
+                                    4.2                                                          200                                                                           4.2   200mA                                                      200
+                                                     Output Current
+                                    3.8   100mA                                                  100                                                                           3.8                                                              100
+                                           10mA                                                                                                                                       10mA
+                                    3.4                                                          0                                                                             3.4                                                              0
+
+                                                    Time (25μs/div )                                                                                                                             Time (25μs/div )
+
+
+
+
+18/24
+                                                                                                                                                                             XC6210
+                                                                                                                                                                                    Series
+
+
+■TYPICAL PERFORMANCE CHARACTERISTICS (Continued)
+(10) Ripple Rejection Rate
+
+                                                 XC6210x082xx                                                                            XC6210x302xx
+                                             VIN =1.8VDC +0.5VP-PAC ,IOUT=30mA,Ta=25℃                                                    VIN =4.0VDC +0.5VP-PAC ,IOUT=30mA,Ta=25℃
+                                               CIN =1.0μF(ceramic),CL=6.8μF(ceramic)                                                       CIN =1.0μF(ceramic),CL=1.0μF(ceramic)
+                                   80                                                                                          80
+
+
+
+
+                                                                                            Ripple Rejection Rate : PSRR(dB)
+Ripple Rejection Rate : PSRR(dB)
+
+
+
+
+                                   70                                                                                          70
+
+                                   60                                                                                          60
+
+                                   50                                                                                          50
+
+                                   40                                                                                          40
+
+                                   30                                                                                          30
+
+                                   20                                                                                          20
+
+                                   10                                                                                          10
+
+                                    0                                                                                          0
+                                    0.01   0.1            1             10            100                                       0.01   0.1           1            10            100
+
+                                           Ripple Frequency : f (kHz)                                                                  Ripple Frequency : f (kHz)
+
+
+
+                                                 XC6210x502xx
+                                            VIN =5.75VDC +0.5VP-PAC ,IOUT=30mA,Ta=25℃
+                                                CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic)
+                                   80
+Ripple Rejection Rate : PSRR(dB)
+
+
+
+
+                                   70
+
+                                   60
+
+                                   50
+
+                                   40
+
+                                   30
+
+                                   20
+
+                                   10
+
+                                   0
+                                    0.01   0.1           1              10            100
+
+                                           Ripple Frequency : f (kHz)
+
+
+
+
+                                                                                                                                                                                    19/24
+    XC6210 Series
+■TYPICAL PERFORMANCE CHARACTERISTICS (Continued)
+ (11) Input Transient Response 2
+
+                                                     XC6210x082xx                                                                                                                                XC6210x082xx
+                                                              VIN =1.8V,IOUT= 30mA,tr= 5.0μs                                                                                                               VIN =1.8V,IOUT= 30mA,tr= 5.0μs
+                                         CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic),Ta= 25℃                                                                                              CIN = 1.0μF(ceramic),CL= 6.8μF(ceramic),Ta= 25℃
+                                 5.0                                                           4.0                                                                             5.0                                                          4.0
+                                                      CE Input Voltage                                                                                                                             CE Input Voltage
+
+                                 4.0                                                           2.0                                                                             4.0                                                          2.0
+
+
+
+
+                                                                                                                                                                                                                                                   CE Input Voltage : VCE(V)
+                                                                                                       CE Input Voltage : VCE(V)
+
+
+
+
+                                                                                                                                               Output Voltage : VOUT (V)
+   Output Voltage : VOUT (V)
+
+
+
+
+                                 3.0                                                           0.0                                                                             3.0                                                          0.0
+
+
+                                 2.0                                                           -2.0                                                                            2.0                                                          -2.0
+
+                                                        Output Voltage                                                                                                                               Output Voltage
+                                 1.0                                                           -4.0                                                                            1.0                                                          -4.0
+
+
+                                 0.0                                                           -6.0                                                                            0.0                                                          -6.0
+
+                                                       Time (25μs/div )                                                                                                                             Time (25μs/div )
+
+
+
+                                                    XC6210x302xx                                                                                                                                 XC6210x302xx
+                                                             VIN =4.0V,IOUT= 30mA,tr= 5.0μs                                                                                                                VIN =4.0V,IOUT= 30mA,tr= 5.0μs
+                                        CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic),Ta= 25℃                                                                                               CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic),Ta= 25℃
+                                 5.0                                                           6.0                                                                             5.0                                                          6.0
+
+                                                                CE Input Voltage                                                                                                                             CE Input Voltage
+
+                                 4.0                                                           4.0                                                                             4.0                                                          4.0
+
+
+
+
+                                                                                                                                                                                                                                                   CE Input Voltage : VCE(V)
+                                                                                                       CE Input Voltage : VCE(V)
+
+
+
+
+                                                                                                                                               Output Voltage : VOUT (V)
+   Output Voltage : VOUT (V)
+
+
+
+
+                                 3.0                                                           2.0                                                                             3.0                                                          2.0
+
+                                                                      Output Voltage
+                                 2.0                                                           0.0                                                                             2.0                                 Output Voltage           0.0
+
+
+                                 1.0                                                           -2.0                                                                            1.0                                                          -2.0
+
+
+                                 0.0                                                           -4.0                                                                            0.0                                                          -4.0
+
+                                                       Time (25μs/div )                                                                                                                             Time (25μs/div )
+
+
+
+                                                      XC6210x502xx                                                                                                                                 XC6210x502xx
+                                                              VIN =6.0V,IOUT= 30mA,tr= 5.0μs                                                                                                               VIN =6.0V,IOUT= 30mA,tr= 5.0μs
+                                          CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic),Ta= 25℃                                                                                              CIN = 1.0μF(ceramic),CL= 1.0μF(ceramic),Ta= 25℃
+                                 10.0                                                           8.0                                                                            10.0                                                          8.0
+                                                                       CE Input Voltage                                                                                                                            CE Input Voltage
+                                  8.0                                                           6.0                                                                             8.0                                                          6.0
+                                                                                                                                                                                                                                                               CE Input Voltage : VCE(V)
+                                                                                                                   CE Input Voltage : VCE(V)
+
+
+
+
+                                                                                                                                                   Output Voltage : VOUT (V)
+     Output Voltage : VOUT (V)
+
+
+
+
+                                  6.0                                                           4.0                                                                             6.0                                                          4.0
+
+
+                                  4.0                                                           2.0                                                                             4.0                                                          2.0
+
+                                                                         Output Voltage                                                                                                                                Output Voltage
+                                  2.0                                                           0.0                                                                             2.0                                                          0.0
+
+
+                                  0.0                                                           -2.0                                                                            0.0                                                          -2.0
+
+                                                         Time (25μs/div )                                                                                                                             Time (25μs/div )
+
+
+
+
+20/24
+                                                                                                                XC6210
+                                                                                                                  Series
+
+
+■PACKAGING INFORMATION
+For the latest package information go to, www.torexsemi.com/technical-support/packages
+
+
+    PACKAGE          OUTLINE / LAND PATTERN                            THERMAL CHARACTERISTICS
+
+                                                      Standard Board
+      SOT-25                 SOT-25 PKG                                             SOT-25 Power Dissipation
+                                                     JESD51-7 Board
+
+                                                      Standard Board
+     SOT-89-5               SOT-89-5 PKG                                           SOT-89-5 Power Dissipation
+                                                     JESD51-7 Board
+
+     USP-6B                  USP-6B PKG               Standard Board               USP-6B Power Dissipation
+
+
+
+
+                                                                                                                 21/24
+  XC6210 Series
+■MARKING RULE
+●SOT-25
+                       ① represents product series
+                                    MARK                                PRODUCT SERIES
+                                      0                                      XC6210xxxxxx
+
+
+                       ② represents CE function
+
+                                                    MARK
+                          OUTPUT           OUTPUT           OUTPUT     OUTPUT
+                                                                                          PRODUCT SERIES
+                         VOLTAGE=         VOLTAGE=      VOLTAGE=      VOLTAGE=
+                         0.80~3.00V       3.10~5.00V    0.85~3.05V    3.15~4.95V
+                                V             A               E              L             XC6210Axxxxx
+●SOT-89-5
+                                X             B               F           M                XC6210Bxxxxx
+                                Y             C               H              N             XC6210Cxxxxx
+                                Z             D               K              P             XC6210Dxxxxx
+
+                       ③ represents output voltage
+                         MARK          OUTPUT VOLTAGE (V)             MARK          OUTPUT VOLTAGE (V)
+                            0         -      3.10       -      3.15      F         1.60    4.60   1.65    4.65
+                            1         -      3.20       -      3.25      H         1.70    4.70   1.75    4.75
+                            2         -      3.30       -      3.35      K         1.80    4.80   1.85    4.85
+            SOT-89-5
+          (TOP VIEW)        3         -      3.40       -      3.45      L         1.90    4.90   1.95    4.95
+                            4         -      3.50       -      3.55     M          2.00    5.00   2.05     -
+                            5         -      3.60       -      3.65      N         2.10     -     2.15     -
+                            6         -      3.70       -      3.75      P         2.20     -     2.25     -
+                            7       0.80     3.80      0.85    3.85      R         2.30     -     2.35     -
+                            8       0.90     3.90      0.95    3.95      S         2.40     -     2.45     -
+                            9       1.00     4.00      1.05    4.05      T         2.50     -     2.55     -
+                            A       1.10     4.10      1.15    4.15      U         2.60     -     2.65     -
+                            B       1.20     4.20      1.25    4.25      V         2.70     -     2.75     -
+                            C       1.30     4.30      1.35    4.35      X         2.80     -     2.85     -
+                            D       1.40     4.40      1.45    4.45      Y         2.90     -     2.95     -
+                            E       1.50     4.50      1.55    4.55      Z         3.00     -     3.05     -
+
+
+                       ④ represents production lot number
+                        0 to 9, A to Z reverse character 0 to 9, A to Z repeated (G, I, J, O, Q, W excluded)
+
+
+
+
+22/24
+                                                                                                             XC6210
+                                                                                                                Series
+
+
+
+■MARKING RULE (Continued)
+
+●USP-6B
+                       ①② represents product series
+
+                                                 MARK
+                                                                                           PRODUCT SERIES
+                                     ①                          ②
+                                     1                           0                          XC6210xxxxxx
+
+
+                        ③ represents CE Function
+
+                              MARK                                   TYPE                            PRODUCT SERIES
+            USP-6B               A                 CE High Active with pull-down resistor             XC6210AxxxDx
+          (TOP VIEW)
+                                 B                CE High Active with no pull-down resistor           XC6210BxxxDx
+                                 C                   CE Low Active with pull-up resistor              XC6210CxxxDx
+                                 D                 CE Low Active with no pull-up resistor             XC6210DxxxDx
+
+
+
+
+                       ④ represents the integer number of output voltage
+                         ex.)
+                                           MARK                             VOLTAGE (V)              PRODUCT SERIES
+                                             3                                  3.x                   XC6210x3xxDx
+                                             5                                  5.x                   XC6210x5xxDx
+
+
+                       ⑤ represents the decimal point of output voltage
+                                         VOLTAGE          PRODUCT                          VOLTAGE         PRODUCT
+                          MARK                                               MARK
+                                           (V)             SERIES                             (V)           SERIES
+                             0             x.00         XC6210xx02Dx           A              x.05       XC6210xx0ADx
+                             1             x.10         XC6210xx12Dx           B              x.15       XC6210xx1ADx
+                             2             x.20         XC6210xx22Dx           C              x.25       XC6210xx2ADx
+                             3             x.30         XC6210xx32Dx           D              x.35       XC6210xx3ADx
+                             4             x.40         XC6210xx42Dx           E              x.45       XC6210xx4ADx
+                             5             x.50         XC6210xx52Dx           F              x.55       XC6210xx5ADx
+                             6             x.60         XC6210xx62Dx           H              x.65       XC6210xx6ADx
+                             7             x.70         XC6210xx72Dx           K              x.75       XC6210xx7ADx
+                             8             x.80         XC6210xx82Dx           L              x.85       XC6210xx8ADx
+                             9             x.90         XC6210xx92Dx           M              x.95       XC6210xx9ADx
+
+
+                       ⑥ represents production lot number
+                        0 to 9, A to Z repeated (G, I, J, O, Q, W, excluded)
+                        Note: No character inversion used.
+
+
+
+
+                                                                                                               23/24
+  XC6210 Series
+
+
+
+
+        1.   The product and product specifications contained herein are subject to change without notice to
+             improve performance characteristics. Consult us, or our representatives before use, to confirm that
+             the information in this datasheet is up to date.
+
+        2.   The information in this datasheet is intended to illustrate the operation and characteristics of our
+             products. We neither make warranties or representations with respect to the accuracy or
+             completeness of the information contained in this datasheet nor grant any license to any intellectual
+             property rights of ours or any third party concerning with the information in this datasheet.
+
+        3.   Applicable export control laws and regulations should be complied and the procedures required by
+             such laws and regulations should also be followed, when the product or any information contained in
+             this datasheet is exported.
+
+        4.   The product is neither intended nor warranted for use in equipment of systems which require
+             extremely high levels of quality and/or reliability and/or a malfunction or failure which may cause loss
+             of human life, bodily injury, serious property damage including but not limited to devices or equipment
+             used in 1) nuclear facilities, 2) aerospace industry, 3) medical facilities, 4) automobile industry and
+             other transportation industry and 5) safety devices and safety equipment to control combustions and
+             explosions. Do not use the product for the above use unless agreed by us in writing in advance.
+
+        5.   Although we make continuous efforts to improve the quality and reliability of our products;
+             nevertheless Semiconductors are likely to fail with a certain probability. So in order to prevent personal
+             injury and/or property damage resulting from such failure, customers are required to incorporate
+             adequate safety measures in their designs, such as system fail safes, redundancy, and fire prevention
+             features.
+
+        6.   Our products are not designed to be Radiation-resistant.
+
+        7.   Please use the product listed in this datasheet within the specified ranges.
+
+        8.   We assume no responsibility for damage or loss due to abnormal use.
+
+        9.   All rights reserved. No part of this datasheet may be copied or reproduced unless agreed by Torex
+             Semiconductor Ltd in writing in advance.
+
+
+
+
+                                                TOREX SEMICONDUCTOR LTD.
+
+
+
+
+24/24
+

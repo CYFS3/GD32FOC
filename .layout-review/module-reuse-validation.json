@@ -1,0 +1,2043 @@
+{
+  "count": 532,
+  "module_refs": 324,
+  "nonfoc_refs": 208,
+  "backside_changed_refs": [
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C1096",
+    "C1097",
+    "C1098",
+    "C1099",
+    "C1100",
+    "C1101",
+    "C1102",
+    "C1103",
+    "C1104",
+    "C96",
+    "C97",
+    "C98",
+    "C99"
+  ],
+  "pitch_mm": 66.396,
+  "maximum_pair_delta_error_mm": 9.999999974752427e-07,
+  "identity_pad_net_lock_preserved": true,
+  "reference_fits": {
+    "C100": {
+      "x": 156.19750000000002,
+      "y": 91.204,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.049000000000006594,
+      "origin_offset_mm": [
+        0.12700000000000955,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C101": {
+      "x": 156.19750000000002,
+      "y": 86.378,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.049000000000006594,
+      "origin_offset_mm": [
+        0.12700000000000955,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C102": {
+      "x": 156.19750000000002,
+      "y": 96.03,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.049000000000006594,
+      "origin_offset_mm": [
+        0.12700000000000955,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C103": {
+      "x": 156.19750000000002,
+      "y": 93.236,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.049000000000006594,
+      "origin_offset_mm": [
+        0.12700000000000955,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C104": {
+      "x": 156.19750000000002,
+      "y": 100.094,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.049000000000006594,
+      "origin_offset_mm": [
+        0.12700000000000955,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C130": {
+      "x": 142.24975,
+      "y": 104.6945,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.021750000000025693,
+      "origin_offset_mm": [
+        -0.008749999999992042,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C131": {
+      "x": 142.24975,
+      "y": 101.675,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.021750000000025693,
+      "origin_offset_mm": [
+        -0.008749999999992042,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C132": {
+      "x": 142.24975,
+      "y": 98.656,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.021750000000025693,
+      "origin_offset_mm": [
+        -0.008749999999992042,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C133": {
+      "x": 167.165,
+      "y": 114.191,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C134": {
+      "x": 170.037,
+      "y": 121.955,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C135": {
+      "x": 176.3885,
+      "y": 113.0395,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C136": {
+      "x": 179.24799999999996,
+      "y": 120.6045,
+      "angle": 0,
+      "max_pad_center_error_mm": 2.842170943040401e-14,
+      "origin_offset_mm": [
+        -2.842170943040401e-14,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C143": {
+      "x": 147.8375,
+      "y": 112.9845,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C145": {
+      "x": 156.769,
+      "y": 84.21900000000001,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        1.4210854715202004e-14
+      ],
+      "matched_pins": 2
+    },
+    "C146": {
+      "x": 169.85,
+      "y": 84.219,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C147": {
+      "x": 156.769,
+      "y": 91.20399999999998,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        -1.4210854715202004e-14
+      ],
+      "matched_pins": 2
+    },
+    "C148": {
+      "x": 169.85,
+      "y": 91.20399999999998,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        -1.4210854715202004e-14
+      ],
+      "matched_pins": 2
+    },
+    "C149": {
+      "x": 156.769,
+      "y": 98.189,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C150": {
+      "x": 169.85,
+      "y": 98.189,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C75": {
+      "x": 171.01050000000004,
+      "y": 109.61,
+      "angle": 0,
+      "max_pad_center_error_mm": 2.842170943040401e-14,
+      "origin_offset_mm": [
+        2.842170943040401e-14,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C76": {
+      "x": 175.96349999999998,
+      "y": 109.61,
+      "angle": 0,
+      "max_pad_center_error_mm": 2.842170943040401e-14,
+      "origin_offset_mm": [
+        -2.842170943040401e-14,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C77": {
+      "x": 181.032,
+      "y": 109.61,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C78": {
+      "x": 166.04549999999998,
+      "y": 109.61,
+      "angle": 0,
+      "max_pad_center_error_mm": 2.842170943040401e-14,
+      "origin_offset_mm": [
+        -2.842170943040401e-14,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C80": {
+      "x": 155.6895,
+      "y": 103.78549999999998,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        -1.4210854715202004e-14
+      ],
+      "matched_pins": 2
+    },
+    "C82": {
+      "x": 184.6455,
+      "y": 117.485,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C83": {
+      "x": 184.6435,
+      "y": 120.41,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C84": {
+      "x": 184.6455,
+      "y": 123.33100000000002,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        1.4210854715202004e-14
+      ],
+      "matched_pins": 2
+    },
+    "C85": {
+      "x": 177.3005,
+      "y": 131.5805,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C96": {
+      "x": 156.19750000000002,
+      "y": 82.314,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.049000000000006594,
+      "origin_offset_mm": [
+        0.12700000000000955,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C97": {
+      "x": 156.19750000000002,
+      "y": 89.172,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.049000000000006594,
+      "origin_offset_mm": [
+        0.12700000000000955,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C98": {
+      "x": 156.19750000000002,
+      "y": 98.062,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.049000000000006594,
+      "origin_offset_mm": [
+        0.12700000000000955,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "C99": {
+      "x": 156.19750000000002,
+      "y": 84.346,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.049000000000006594,
+      "origin_offset_mm": [
+        0.12700000000000955,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "CN14": {
+      "x": 168.453,
+      "y": 122.3565,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN15": {
+      "x": 168.453,
+      "y": 112.54,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN17": {
+      "x": 158.547,
+      "y": 86.505,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN18": {
+      "x": 158.547,
+      "y": 93.49,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN19": {
+      "x": 158.547,
+      "y": 100.475,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN20": {
+      "x": 177.978,
+      "y": 122.3565,
+      "angle": 180.0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN21": {
+      "x": 177.978,
+      "y": 112.54,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN22": {
+      "x": 158.547,
+      "y": 81.925,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN23": {
+      "x": 158.547,
+      "y": 88.918,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN24": {
+      "x": 158.547,
+      "y": 95.903,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN25": {
+      "x": 171.509,
+      "y": 86.505,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN26": {
+      "x": 171.509,
+      "y": 93.49,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN27": {
+      "x": 171.509,
+      "y": 100.475,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN28": {
+      "x": 171.509,
+      "y": 81.925,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN29": {
+      "x": 171.509,
+      "y": 88.918,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN30": {
+      "x": 171.509,
+      "y": 95.903,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN35": {
+      "x": 179.6345,
+      "y": 94.76,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN36": {
+      "x": 179.6345,
+      "y": 87.775,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN37": {
+      "x": 173.44,
+      "y": 106.952,
+      "angle": 90.0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN38": {
+      "x": 178.528,
+      "y": 106.952,
+      "angle": 90.0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN39": {
+      "x": 183.576,
+      "y": 106.952,
+      "angle": 90.0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN40": {
+      "x": 168.538,
+      "y": 106.952,
+      "angle": 90.0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 1
+    },
+    "CN41": {
+      "x": 187.016,
+      "y": 91.204,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 5
+    },
+    "CN47": {
+      "x": 195.504,
+      "y": 109.873,
+      "angle": 90,
+      "max_pad_center_error_mm": 3.1776437161565096e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 8
+    },
+    "CN5": {
+      "x": 195.504,
+      "y": 120.4905,
+      "angle": 90.0,
+      "max_pad_center_error_mm": null,
+      "origin_offset_mm": [
+        0,
+        0
+      ],
+      "matched_pins": 0,
+      "functional_replacement": true
+    },
+    "D10": {
+      "x": 142.1315,
+      "y": 100.1655,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.1225000000000307,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D11": {
+      "x": 156.388,
+      "y": 108.095,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D12": {
+      "x": 159.436,
+      "y": 108.095,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D13": {
+      "x": 162.484,
+      "y": 108.095,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D14": {
+      "x": 193.218,
+      "y": 115.715,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D15": {
+      "x": 170.9975,
+      "y": 106.939,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D16": {
+      "x": 175.942,
+      "y": 106.939,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D17": {
+      "x": 181.0215,
+      "y": 106.939,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D18": {
+      "x": 166.036,
+      "y": 106.939,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D19": {
+      "x": 189.916,
+      "y": 115.715,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D20": {
+      "x": 191.567,
+      "y": 115.715,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D5": {
+      "x": 147.586,
+      "y": 103.659,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D6": {
+      "x": 150.556,
+      "y": 103.7475,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D7": {
+      "x": 153.5265,
+      "y": 103.7475,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D8": {
+      "x": 142.1315,
+      "y": 106.204,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.1225000000000307,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "D9": {
+      "x": 142.1315,
+      "y": 103.185,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.1225000000000307,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "NTC1": {
+      "x": 156.9595,
+      "y": 103.7775,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "Q10": {
+      "x": 165.95533333333336,
+      "y": 98.18683333333333,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.07479230501118116,
+      "origin_offset_mm": [
+        -0.2116666666666447,
+        -0.0021666666666675383
+      ],
+      "matched_pins": 3
+    },
+    "Q5": {
+      "x": 152.87433333333337,
+      "y": 84.21683333333333,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.07479230501118116,
+      "origin_offset_mm": [
+        -0.2116666666666447,
+        -0.0021666666666675383
+      ],
+      "matched_pins": 3
+    },
+    "Q6": {
+      "x": 152.87433333333337,
+      "y": 91.20183333333334,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.07479230501118198,
+      "origin_offset_mm": [
+        -0.2116666666666447,
+        -0.0021666666666533274
+      ],
+      "matched_pins": 3
+    },
+    "Q7": {
+      "x": 152.87433333333337,
+      "y": 98.18683333333333,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.07479230501118116,
+      "origin_offset_mm": [
+        -0.2116666666666447,
+        -0.0021666666666675383
+      ],
+      "matched_pins": 3
+    },
+    "Q8": {
+      "x": 165.95533333333336,
+      "y": 84.21683333333333,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.07479230501118116,
+      "origin_offset_mm": [
+        -0.2116666666666447,
+        -0.0021666666666675383
+      ],
+      "matched_pins": 3
+    },
+    "Q9": {
+      "x": 165.95533333333336,
+      "y": 91.20183333333334,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.07479230501118198,
+      "origin_offset_mm": [
+        -0.2116666666666447,
+        -0.0021666666666533274
+      ],
+      "matched_pins": 3
+    },
+    "R100": {
+      "x": 175.9555,
+      "y": 108.336,
+      "angle": -180,
+      "max_pad_center_error_mm": 2.842170943040401e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R101": {
+      "x": 181.024,
+      "y": 108.336,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R102": {
+      "x": 166.037,
+      "y": 108.336,
+      "angle": 180,
+      "max_pad_center_error_mm": 2.842170943040401e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R104": {
+      "x": 158.2295,
+      "y": 103.778,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R106": {
+      "x": 185.9155,
+      "y": 117.494,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R107": {
+      "x": 185.9135,
+      "y": 120.41,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R108": {
+      "x": 185.9155,
+      "y": 123.335,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R109": {
+      "x": 186.223,
+      "y": 101.618,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.103999999999985,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R117": {
+      "x": 186.2235,
+      "y": 107.968,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R118": {
+      "x": 186.2235,
+      "y": 109.238,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R120": {
+      "x": 186.2235,
+      "y": 110.508,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R121": {
+      "x": 186.2235,
+      "y": 111.778,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R128": {
+      "x": 163.5,
+      "y": 103.778,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R129": {
+      "x": 160.96,
+      "y": 103.77699999999999,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        -1.4210854715202004e-14
+      ],
+      "matched_pins": 2
+    },
+    "R130": {
+      "x": 162.23,
+      "y": 103.777,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R145": {
+      "x": 167.183,
+      "y": 118.001,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R146": {
+      "x": 167.183,
+      "y": 116.731,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R147": {
+      "x": 173.847,
+      "y": 121.955,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R148": {
+      "x": 175.117,
+      "y": 121.9505,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R149": {
+      "x": 172.577,
+      "y": 121.9505,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R50": {
+      "x": 171.307,
+      "y": 121.9505,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R51": {
+      "x": 176.387,
+      "y": 121.9505,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R52": {
+      "x": 167.183,
+      "y": 119.271,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R53": {
+      "x": 167.1735,
+      "y": 115.461,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R55": {
+      "x": 167.183,
+      "y": 120.541,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R59": {
+      "x": 146.101,
+      "y": 103.747,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R60": {
+      "x": 149.071,
+      "y": 103.747,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R61": {
+      "x": 152.0415,
+      "y": 103.747,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R62": {
+      "x": 155.499,
+      "y": 84.219,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R63": {
+      "x": 155.499,
+      "y": 91.204,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R64": {
+      "x": 155.499,
+      "y": 98.189,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R65": {
+      "x": 179.248,
+      "y": 118.0645,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R66": {
+      "x": 173.8485,
+      "y": 113.0395,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R67": {
+      "x": 179.248,
+      "y": 116.7945,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R68": {
+      "x": 172.5785,
+      "y": 113.0395,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R69": {
+      "x": 179.248,
+      "y": 115.5245,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R70": {
+      "x": 179.248,
+      "y": 119.3345,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R71": {
+      "x": 179.248,
+      "y": 114.2545,
+      "angle": 180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R72": {
+      "x": 171.3085,
+      "y": 113.0395,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R73": {
+      "x": 175.1185,
+      "y": 113.0395,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R74": {
+      "x": 170.0385,
+      "y": 113.0395,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R75": {
+      "x": 154.864,
+      "y": 108.0945,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R76": {
+      "x": 157.912,
+      "y": 108.0945,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R77": {
+      "x": 160.96,
+      "y": 108.0945,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R78": {
+      "x": 168.58,
+      "y": 84.219,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R79": {
+      "x": 168.58,
+      "y": 91.204,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R80": {
+      "x": 168.58,
+      "y": 98.189,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R81": {
+      "x": 176.454,
+      "y": 84.219,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.103999999999985,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R82": {
+      "x": 176.454,
+      "y": 91.195,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.103999999999985,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R83": {
+      "x": 176.454,
+      "y": 98.189,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.103999999999985,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R84": {
+      "x": 171.001,
+      "y": 104.276,
+      "angle": 0,
+      "max_pad_center_error_mm": 2.842170943040401e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R85": {
+      "x": 175.954,
+      "y": 104.276,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R86": {
+      "x": 181.0225,
+      "y": 104.276,
+      "angle": 0,
+      "max_pad_center_error_mm": 2.842170943040401e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R87": {
+      "x": 166.036,
+      "y": 104.276,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R88": {
+      "x": 188.4555,
+      "y": 117.493,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R89": {
+      "x": 188.4535,
+      "y": 120.414,
+      "angle": 90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R90": {
+      "x": 188.4555,
+      "y": 123.33599999999998,
+      "angle": 90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        -1.4210854715202004e-14
+      ],
+      "matched_pins": 2
+    },
+    "R91": {
+      "x": 171.001,
+      "y": 105.542,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R92": {
+      "x": 175.954,
+      "y": 105.542,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R93": {
+      "x": 181.0225,
+      "y": 105.542,
+      "angle": 0,
+      "max_pad_center_error_mm": 2.842170943040401e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R94": {
+      "x": 166.036,
+      "y": 105.542,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R95": {
+      "x": 187.186,
+      "y": 117.493,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R97": {
+      "x": 187.1835,
+      "y": 120.418,
+      "angle": -90,
+      "max_pad_center_error_mm": 1.4210854715202004e-14,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R98": {
+      "x": 187.186,
+      "y": 123.335,
+      "angle": -90,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "R99": {
+      "x": 171.0025,
+      "y": 108.336,
+      "angle": -180,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 2
+    },
+    "U10": {
+      "x": 173.287,
+      "y": 117.49300000000001,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.06249999999997158,
+      "origin_offset_mm": [
+        0.0,
+        1.4210854715202004e-14
+      ],
+      "matched_pins": 14
+    },
+    "U7": {
+      "x": 146.932,
+      "y": 109.365,
+      "angle": 0,
+      "max_pad_center_error_mm": 0.0,
+      "origin_offset_mm": [
+        0.0,
+        0.0
+      ],
+      "matched_pins": 25
+    }
+  },
+  "local_exceptions": [
+    {
+      "m1_ref": "CN5",
+      "m2_ref": "CN1005",
+      "delta_mm": [
+        0.0,
+        0.4
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN5",
+          "6",
+          "D14",
+          "1"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN14",
+      "m2_ref": "CN1014",
+      "delta_mm": [
+        -0.1,
+        0.30000000000000004
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN14",
+          "1",
+          "C134",
+          "1"
+        ],
+        [
+          "CN14",
+          "1",
+          "R55",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN15",
+      "m2_ref": "CN1015",
+      "delta_mm": [
+        -0.5,
+        -0.4
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN15",
+          "1",
+          "C133",
+          "1"
+        ],
+        [
+          "CN15",
+          "1",
+          "R74",
+          "1"
+        ],
+        [
+          "CN15",
+          "1",
+          "R74",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN17",
+      "m2_ref": "CN1017",
+      "delta_mm": [
+        -16.04050000000001,
+        61.394999999999996
+      ],
+      "reason": "Oversized through-hole post cannot clear both copper sides locally; paired peripheral shelf",
+      "original_conflicts": [
+        [
+          "CN17",
+          "1",
+          "C101",
+          "2"
+        ],
+        [
+          "CN17",
+          "1",
+          "C99",
+          "2"
+        ],
+        [
+          "CN17",
+          "1",
+          "CN23",
+          "1"
+        ],
+        [
+          "CN17",
+          "1",
+          "Q8",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN18",
+      "m2_ref": "CN1018",
+      "delta_mm": [
+        -12.040500000000009,
+        54.41
+      ],
+      "reason": "Oversized through-hole post cannot clear both copper sides locally; paired peripheral shelf",
+      "original_conflicts": [
+        [
+          "CN18",
+          "1",
+          "C100",
+          "2"
+        ],
+        [
+          "CN18",
+          "1",
+          "C103",
+          "2"
+        ],
+        [
+          "CN18",
+          "1",
+          "CN24",
+          "1"
+        ],
+        [
+          "CN18",
+          "1",
+          "Q9",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN19",
+      "m2_ref": "CN1019",
+      "delta_mm": [
+        -8.040500000000009,
+        47.425
+      ],
+      "reason": "Oversized through-hole post cannot clear both copper sides locally; paired peripheral shelf",
+      "original_conflicts": [
+        [
+          "CN19",
+          "1",
+          "C104",
+          "2"
+        ],
+        [
+          "CN19",
+          "1",
+          "Q10",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN20",
+      "m2_ref": "CN1020",
+      "delta_mm": [
+        0.5,
+        0.30000000000000004
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN20",
+          "1",
+          "C136",
+          "1"
+        ],
+        [
+          "CN20",
+          "1",
+          "R51",
+          "1"
+        ],
+        [
+          "CN20",
+          "1",
+          "R51",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN21",
+      "m2_ref": "CN1021",
+      "delta_mm": [
+        0.0,
+        -0.4
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN21",
+          "1",
+          "C135",
+          "1"
+        ],
+        [
+          "CN21",
+          "1",
+          "R71",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN22",
+      "m2_ref": "CN1022",
+      "delta_mm": [
+        1.3,
+        0.0
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN22",
+          "1",
+          "C96",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN23",
+      "m2_ref": "CN1023",
+      "delta_mm": [
+        1.3,
+        0.0
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN23",
+          "1",
+          "C100",
+          "2"
+        ],
+        [
+          "CN23",
+          "1",
+          "C97",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN24",
+      "m2_ref": "CN1024",
+      "delta_mm": [
+        1.3,
+        0.0
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN24",
+          "1",
+          "C102",
+          "2"
+        ],
+        [
+          "CN24",
+          "1",
+          "C98",
+          "2"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN25",
+      "m2_ref": "CN1025",
+      "delta_mm": [
+        -0.30000000000000004,
+        -0.6000000000000001
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN25",
+          "1",
+          "CN29",
+          "1"
+        ],
+        [
+          "CN25",
+          "1",
+          "R81",
+          "1"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN26",
+      "m2_ref": "CN1026",
+      "delta_mm": [
+        -0.30000000000000004,
+        -0.6000000000000001
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN26",
+          "1",
+          "CN30",
+          "1"
+        ],
+        [
+          "CN26",
+          "1",
+          "R82",
+          "1"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN37",
+      "m2_ref": "CN1037",
+      "delta_mm": [
+        -0.6000000000000001,
+        0.0
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN37",
+          "1",
+          "D16",
+          "1"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN38",
+      "m2_ref": "CN1038",
+      "delta_mm": [
+        -0.6000000000000001,
+        0.0
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN38",
+          "1",
+          "D17",
+          "1"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN40",
+      "m2_ref": "CN1040",
+      "delta_mm": [
+        -0.7000000000000001,
+        0.0
+      ],
+      "reason": "Current package larger than original reference; avoid different-net pad overlap",
+      "original_conflicts": [
+        [
+          "CN40",
+          "1",
+          "D15",
+          "1"
+        ]
+      ]
+    },
+    {
+      "m1_ref": "CN27",
+      "m2_ref": "CN1027",
+      "delta_mm": [
+        -0.1,
+        0.1
+      ],
+      "reason": "DRC source shunt pad to enlarged testpoint clearance 0.1846mm; paired outward correction"
+    }
+  ],
+  "native_both_side_copper_overlaps": [],
+  "copper_layers": 2,
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "shapes": 0,
+  "original_snapshot_identity_net_lock_comparison": true,
+  "max_angle_error_deg": 0.0,
+  "max_actual_pad_transform_error_mm": 1.374368596672339e-06,
+  "groups": 2
+}

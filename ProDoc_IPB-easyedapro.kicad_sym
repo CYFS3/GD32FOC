@@ -3108,7 +3108,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 0.762)
 				(name "1"
@@ -3126,7 +3126,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 0.762)
 				(name "2"
@@ -3479,7 +3479,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "GND"
@@ -3497,7 +3497,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "VO-"
@@ -3515,7 +3515,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 8.89 0 180)
 				(length 2.54)
 				(name "VI+"
@@ -3645,7 +3645,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "1"
@@ -3663,7 +3663,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "2"
@@ -4214,7 +4214,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -6.35 5.08 0)
 				(length 2.54)
 				(name "1"
@@ -4232,7 +4232,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 6.35 5.08 180)
 				(length 2.54)
 				(name "2"
@@ -4250,7 +4250,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -6.35 2.54 0)
 				(length 2.54)
 				(name "3"
@@ -4268,7 +4268,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 6.35 2.54 180)
 				(length 2.54)
 				(name "4"
@@ -4286,7 +4286,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -6.35 0 0)
 				(length 2.54)
 				(name "5"
@@ -4304,7 +4304,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 6.35 0 180)
 				(length 2.54)
 				(name "6"
@@ -4322,7 +4322,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -6.35 -2.54 0)
 				(length 2.54)
 				(name "7"
@@ -4340,7 +4340,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 6.35 -2.54 180)
 				(length 2.54)
 				(name "8"
@@ -4358,7 +4358,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -6.35 -5.08 0)
 				(length 2.54)
 				(name "9"
@@ -4376,7 +4376,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 6.35 -5.08 180)
 				(length 2.54)
 				(name "10"
@@ -6408,7 +6408,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 1.016)
 				(name "1"
@@ -6426,7 +6426,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 1.016)
 				(name "2"
@@ -6813,7 +6813,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 0 180)
 				(length 2.54)
 				(name "PA04"
@@ -6831,7 +6831,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -10.16 180)
 				(length 2.54)
 				(name "PA08"
@@ -6849,7 +6849,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -12.7 180)
 				(length 2.54)
 				(name "PA09"
@@ -6867,7 +6867,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -15.24 180)
 				(length 2.54)
 				(name "PA10"
@@ -6885,7 +6885,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -2.54 52.07 270)
 				(length 2.54)
 				(name "VDD_SOC"
@@ -6903,7 +6903,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -20.32 -11.43 0)
 				(length 2.54)
 				(name "VIO_B00"
@@ -6921,7 +6921,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 2.54 180)
 				(length 2.54)
 				(name "PA03"
@@ -6939,7 +6939,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 5.08 180)
 				(length 2.54)
 				(name "PA02"
@@ -6957,7 +6957,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 0 52.07 270)
 				(length 2.54)
 				(name "VDD_SOC"
@@ -6993,7 +6993,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 7.62 180)
 				(length 2.54)
 				(name "PA01"
@@ -7011,7 +7011,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 10.16 180)
 				(length 2.54)
 				(name "PA00"
@@ -7029,7 +7029,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -20.32 -26.67 0)
 				(length 2.54)
 				(name "RESETN"
@@ -7047,7 +7047,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -20.32 -29.21 0)
 				(length 2.54)
 				(name "WAKEUP"
@@ -7083,7 +7083,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -20.32 16.51 0)
 				(length 2.54)
 				(name "VPMC"
@@ -7119,7 +7119,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -20.32 26.67 0)
 				(length 2.54)
 				(name "PY01"
@@ -7137,7 +7137,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -20.32 29.21 0)
 				(length 2.54)
 				(name "PY00"
@@ -7155,7 +7155,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 17.78 180)
 				(length 2.54)
 				(name "PB15"
@@ -7173,7 +7173,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 20.32 180)
 				(length 2.54)
 				(name "PB14"
@@ -7191,7 +7191,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 22.86 180)
 				(length 2.54)
 				(name "PB13"
@@ -7209,7 +7209,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 25.4 180)
 				(length 2.54)
 				(name "PB12"
@@ -7227,7 +7227,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 27.94 180)
 				(length 2.54)
 				(name "PB11"
@@ -7245,7 +7245,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 30.48 180)
 				(length 2.54)
 				(name "PB10"
@@ -7263,7 +7263,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 33.02 180)
 				(length 2.54)
 				(name "PB09"
@@ -7281,7 +7281,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 35.56 180)
 				(length 2.54)
 				(name "PB08"
@@ -7299,7 +7299,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 2.54 52.07 270)
 				(length 2.54)
 				(name "VDD_SOC"
@@ -7317,7 +7317,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -20.32 -16.51 0)
 				(length 2.54)
 				(name "VIO_B01"
@@ -7335,7 +7335,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -20.32 6.35 0)
 				(length 2.54)
 				(name "VREFL"
@@ -7353,7 +7353,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -20.32 8.89 0)
 				(length 2.54)
 				(name "VREFH"
@@ -7371,7 +7371,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -20.32 19.05 0)
 				(length 2.54)
 				(name "VANA"
@@ -7389,7 +7389,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 5.08 52.07 270)
 				(length 2.54)
 				(name "VDD_SOC"
@@ -7407,7 +7407,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -20.32 -13.97 0)
 				(length 2.54)
 				(name "VIO_B00"
@@ -7425,7 +7425,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -20.32 -1.27 0)
 				(length 2.54)
 				(name "XTALI"
@@ -7443,7 +7443,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at -20.32 -3.81 0)
 				(length 2.54)
 				(name "XTALO"
@@ -7461,7 +7461,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -35.56 180)
 				(length 2.54)
 				(name "PA31"
@@ -7479,7 +7479,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -33.02 180)
 				(length 2.54)
 				(name "PA30"
@@ -7497,7 +7497,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -30.48 180)
 				(length 2.54)
 				(name "PA29"
@@ -7515,7 +7515,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -27.94 180)
 				(length 2.54)
 				(name "PA28"
@@ -7533,7 +7533,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -25.4 180)
 				(length 2.54)
 				(name "PA27"
@@ -7551,7 +7551,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -22.86 180)
 				(length 2.54)
 				(name "PA26"
@@ -7569,7 +7569,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -20.32 180)
 				(length 2.54)
 				(name "PA25/USB_DM"
@@ -7587,7 +7587,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -17.78 180)
 				(length 2.54)
 				(name "PA24/USB_DP"
@@ -7605,7 +7605,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 7.62 52.07 270)
 				(length 2.54)
 				(name "VDD_SOC"
@@ -7623,7 +7623,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -7.62 180)
 				(length 2.54)
 				(name "PA07"
@@ -7641,7 +7641,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -5.08 180)
 				(length 2.54)
 				(name "PA06"
@@ -7659,7 +7659,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 20.32 -2.54 180)
 				(length 2.54)
 				(name "PA05"
@@ -7677,7 +7677,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 0 -52.07 90)
 				(length 2.54)
 				(name "VSS"
@@ -13457,7 +13457,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -16.51 6.35 0)
 				(length 5.08)
 				(name "1"
@@ -13475,7 +13475,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -16.51 -3.81 0)
 				(length 5.08)
 				(name "2"
@@ -13493,7 +13493,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 13.97 -3.81 180)
 				(length 5.08)
 				(name "3"
@@ -13511,7 +13511,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 13.97 6.35 180)
 				(length 5.08)
 				(name "4"
@@ -14496,7 +14496,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "GND"
@@ -14514,7 +14514,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at -12.7 0 0)
 				(length 2.54)
 				(name "SW"
@@ -14532,7 +14532,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "VIN"
@@ -14550,7 +14550,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "VFB"
@@ -14568,7 +14568,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 0 180)
 				(length 2.54)
 				(name "EN"
@@ -14586,7 +14586,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "VBST"
@@ -14758,7 +14758,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -7.62 0 0)
 				(length 2.54)
 				(name "1"
@@ -14776,7 +14776,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name "2"
@@ -14934,7 +14934,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 13.97 0)
 				(length 2.54)
 				(name "GND"
@@ -14952,7 +14952,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 11.43 0)
 				(length 2.54)
 				(name "VBUS"
@@ -14970,7 +14970,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 8.89 0)
 				(length 2.54)
 				(name "SBU2"
@@ -14988,7 +14988,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 6.35 0)
 				(length 2.54)
 				(name "CC1"
@@ -15006,7 +15006,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 3.81 0)
 				(length 2.54)
 				(name "DN2"
@@ -15024,7 +15024,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 1.27 0)
 				(length 2.54)
 				(name "DP1"
@@ -15042,7 +15042,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 -1.27 0)
 				(length 2.54)
 				(name "DN1"
@@ -15060,7 +15060,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 -3.81 0)
 				(length 2.54)
 				(name "DP2"
@@ -15078,7 +15078,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 -6.35 0)
 				(length 2.54)
 				(name "SBU1"
@@ -15096,7 +15096,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 -8.89 0)
 				(length 2.54)
 				(name "CC2"
@@ -15114,7 +15114,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 -11.43 0)
 				(length 2.54)
 				(name "VBUS"
@@ -15132,7 +15132,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 -13.97 0)
 				(length 2.54)
 				(name "GND"
@@ -15150,7 +15150,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 -13.97 180)
 				(length 2.54)
 				(name "SHELL"
@@ -15168,7 +15168,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 13.97 180)
 				(length 2.54)
 				(name "SHELL"
@@ -15375,7 +15375,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "1"
@@ -15393,7 +15393,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "GND"
@@ -15411,7 +15411,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "3"
@@ -15429,7 +15429,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "GND"
@@ -15522,7 +15522,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "1"
@@ -15540,7 +15540,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "2"

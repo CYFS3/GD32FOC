@@ -5,6 +5,121 @@
 	(uuid "002f1e27-a97b-4ea9-9c19-692a93519a47")
 	(paper "A2")
 	(lib_symbols
+(symbol "power:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -271,7 +386,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -6.35 0 0)
 					(length 3.81)
 					(name "1"
@@ -431,7 +546,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "-"
@@ -449,7 +564,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "+"
@@ -566,7 +681,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "1"
@@ -584,7 +699,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "2"
@@ -713,7 +828,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "1"
@@ -731,7 +846,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "2"
@@ -860,7 +975,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "1"
@@ -878,7 +993,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "2"
@@ -1063,7 +1178,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1081,7 +1196,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1282,7 +1397,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -19.05 -1.27 0)
 					(length 2.54)
 					(name "VCC"
@@ -1300,7 +1415,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -19.05 -3.81 0)
 					(length 2.54)
 					(name "NC"
@@ -1318,7 +1433,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -19.05 -6.35 0)
 					(length 2.54)
 					(name "COM"
@@ -1336,7 +1451,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -19.05 -8.89 0)
 					(length 2.54)
 					(name "NC"
@@ -1354,7 +1469,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -19.05 -11.43 0)
 					(length 2.54)
 					(name "NC"
@@ -1372,7 +1487,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -19.05 -13.97 0)
 					(length 2.54)
 					(name "LO3"
@@ -1390,7 +1505,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -19.05 -16.51 0)
 					(length 2.54)
 					(name "LO2"
@@ -1408,7 +1523,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -19.05 -19.05 0)
 					(length 2.54)
 					(name "LO1"
@@ -1426,7 +1541,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -19.05 -21.59 0)
 					(length 2.54)
 					(name "VS3"
@@ -1444,7 +1559,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 5.08 -21.59 180)
 					(length 2.54)
 					(name "HO3"
@@ -1462,7 +1577,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 5.08 -19.05 180)
 					(length 2.54)
 					(name "VB3"
@@ -1480,7 +1595,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 -16.51 180)
 					(length 2.54)
 					(name "VS2"
@@ -1498,7 +1613,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 5.08 -13.97 180)
 					(length 2.54)
 					(name "HO2"
@@ -1516,7 +1631,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 5.08 -11.43 180)
 					(length 2.54)
 					(name "VB2"
@@ -1534,7 +1649,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 -8.89 180)
 					(length 2.54)
 					(name "VS1"
@@ -1552,7 +1667,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 5.08 -6.35 180)
 					(length 2.54)
 					(name "HO1"
@@ -1570,7 +1685,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 5.08 -3.81 180)
 					(length 2.54)
 					(name "VB1"
@@ -1588,7 +1703,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 5.08 -1.27 180)
 					(length 2.54)
 					(name "NC"
@@ -1660,7 +1775,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -6.35 13.97 270)
 					(length 5.08)
 					(name "EP"
@@ -2235,7 +2350,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.032)
 					(name "G"
@@ -2253,7 +2368,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -2271,7 +2386,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -2418,7 +2533,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 2.54 0)
 					(length 2.54)
 					(name "1"
@@ -2436,7 +2551,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "2"
@@ -2454,7 +2569,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "3"
@@ -2472,7 +2587,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 7.62 270)
 					(length 2.54)
 					(name "4"
@@ -2490,7 +2605,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 -7.62 90)
 					(length 2.54)
 					(name "5"
@@ -2924,7 +3039,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 1.778)
 					(name "1"
@@ -2942,7 +3057,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 1.778)
 					(name "2"
@@ -3034,7 +3149,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 1.778)
 					(name "1"
@@ -3052,7 +3167,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 1.778)
 					(name "2"
@@ -3223,7 +3338,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "-INA"
@@ -3241,7 +3356,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "+INA"
@@ -3259,7 +3374,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 10.16 270)
 					(length 5.08)
 					(name "V+"
@@ -3277,7 +3392,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -10.16 90)
 					(length 5.08)
 					(name "V-"
@@ -3369,7 +3484,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "+INB"
@@ -3387,7 +3502,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "-INB"
@@ -3515,7 +3630,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "-INC"
@@ -3533,7 +3648,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "+INC"
@@ -3625,7 +3740,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "+IND"
@@ -3643,7 +3758,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "-IND"
@@ -3819,7 +3934,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 7.62 0)
 					(length 2.54)
 					(name "1"
@@ -3837,7 +3952,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 5.08 0)
 					(length 2.54)
 					(name "2"
@@ -3855,7 +3970,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "3"
@@ -3873,7 +3988,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "4"
@@ -3891,7 +4006,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "5"
@@ -3909,7 +4024,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 2.54)
 					(name "6"
@@ -3927,7 +4042,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 2.54 -10.16 90)
 					(length 2.54)
 					(name "7"
@@ -3945,7 +4060,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 2.54 12.7 270)
 					(length 2.54)
 					(name "8"
@@ -6292,16 +6407,7 @@
 		)
 		(uuid "31877de7-c803-4cc8-ac47-892c6f73d22a")
 	)
-	(wire
-		(pts
-			(xy 294.64 226.06) (xy 303.53 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31b457db-a257-4e11-8632-f43ae19ec421")
-	)
+	
 	(wire
 		(pts
 			(xy 39.37 287.02) (xy 49.53 287.02)
@@ -6932,16 +7038,7 @@
 		)
 		(uuid "614b495b-1582-4985-b832-08befdbaae73")
 	)
-	(wire
-		(pts
-			(xy 331.47 222.25) (xy 323.85 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "616432c1-4213-426b-b8d4-03a6fe2b75f0")
-	)
+	
 	(wire
 		(pts
 			(xy 365.76 285.75) (xy 347.98 285.75)
@@ -7844,16 +7941,7 @@
 		)
 		(uuid "9efaa659-9eeb-42e4-8aab-5ebdb3aae6ae")
 	)
-	(wire
-		(pts
-			(xy 331.47 199.39) (xy 323.85 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f553c6b-630a-480b-b26d-0c670dc6889f")
-	)
+	
 	(wire
 		(pts
 			(xy 66.04 220.98) (xy 67.31 220.98)
@@ -7884,16 +7972,7 @@
 		)
 		(uuid "a0e1f60f-3c8f-4287-a8d8-7e906ee827c7")
 	)
-	(wire
-		(pts
-			(xy 331.47 210.82) (xy 323.85 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a127cbe3-1be0-4a96-be8e-348b65d0e448")
-	)
+	
 	(wire
 		(pts
 			(xy 378.46 283.21) (xy 347.98 283.21)
@@ -8504,16 +8583,7 @@
 		)
 		(uuid "c52eb479-c310-45f0-bdbd-19c7d177beae")
 	)
-	(wire
-		(pts
-			(xy 323.85 280.67) (xy 255.27 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c574e4a3-b7c1-4f64-a736-60aa22916469")
-	)
+	
 	(wire
 		(pts
 			(xy 280.67 285.75) (xy 288.29 285.75)
@@ -12192,9 +12262,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "099869b4-7da3-41c3-8d41-1f128165751f")
 		(property "Reference" "CN1020"
@@ -12209,7 +12279,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 70.0532 217.3478 90)
 			(hide yes)
 			(show_name no)
@@ -12221,7 +12291,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 67.31 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -12232,7 +12302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 67.31 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -12256,7 +12326,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 67.31 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -12268,7 +12338,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 67.31 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -12280,7 +12350,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 67.31 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -12292,7 +12362,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 67.31 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -12661,7 +12731,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 336.55 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -12684,7 +12754,7 @@
 				(justify right top)
 			)
 		)
-		(property "Description" "直流反向耐压(Vr):40V;平均整流电流(Io):1A;正向压降(Vf):650mV@1A;"
+		(property "Description" "B16WS; see manufacturer datasheet; legacy B5819WS metadata removed"
 			(at 336.55 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -12852,30 +12922,8 @@
 				(justify right top)
 			)
 		)
-		(property "Reverse Leakage Current (Ir)" "100uA@40V"
-			(at 336.55 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify right top)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "40V"
-			(at 336.55 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify right top)
-			)
-		)
+		
+		
 		(property "Supplier Footprint" "SOD-323"
 			(at 336.55 199.39 0)
 			(hide yes)
@@ -13526,9 +13574,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0cedbd30-5088-4dcc-9d4d-1535e84d6bff")
 		(property "Reference" "CN1035"
@@ -13543,7 +13591,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 502.92 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -13555,7 +13603,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 502.92 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -13566,7 +13614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 502.92 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -13590,7 +13638,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 502.92 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -13602,7 +13650,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 502.92 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -13614,7 +13662,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 502.92 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -13626,7 +13674,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 502.92 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -14903,84 +14951,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC")
-		(at 64.77 269.24 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "16f90bd2-2ae0-4032-a526-98751c5d68eb")
-		(property "Reference" "#PWR1056"
-			(at 64.77 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_MC"
-			(at 64.77 266.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5bb6977d-78ae-4606-9987-42321e20b1c9")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1056")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "M2_MC" (shape bidirectional) (at 64.77 269.24 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "16f90bd2-2ae0-4032-a526-98751c5d68eb"))
 	(symbol
 		(lib_id "ProDoc_Boa-easyedapro:KCD3008A")
 		(at 457.2 165.1 0)
@@ -15015,7 +14986,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "VerifiedParts:NCE7560K"
 			(at 457.2 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -15394,162 +15365,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC")
-		(at 137.16 283.21 270)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "18e46e9b-9d01-43b5-8c9e-27eb7b1c4801")
-		(property "Reference" "#PWR1067"
-			(at 137.16 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_VB"
-			(at 139.7 283.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64948021-4b24-423c-b933-fc08d4d429c8")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC")
-		(at 123.19 269.24 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "193d0036-932b-439d-a93c-54f849e894ca")
-		(property "Reference" "#PWR1038"
-			(at 123.19 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_VA"
-			(at 123.19 266.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b64056c-4337-481b-b3ce-064d2912409b")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1038")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "M2_VB" (shape bidirectional) (at 137.16 283.21 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "18e46e9b-9d01-43b5-8c9e-27eb7b1c4801"))
+	(global_label "M2_VA" (shape bidirectional) (at 123.19 269.24 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "193d0036-932b-439d-a93c-54f849e894ca"))
 	(symbol
 		(lib_id "ProDoc_Boa-easyedapro:KCD3008A")
 		(at 563.88 165.1 0)
@@ -15584,7 +15401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "VerifiedParts:NCE7560K"
 			(at 563.88 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -15895,9 +15712,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "1991ae48-be09-4c58-8211-1ffbe5a880af")
 		(property "Reference" "CN1018"
@@ -15912,7 +15729,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 504.3932 161.4678 90)
 			(hide yes)
 			(show_name no)
@@ -15924,7 +15741,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 501.65 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -15935,7 +15752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 501.65 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -15959,7 +15776,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 501.65 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -15971,7 +15788,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 501.65 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -15983,7 +15800,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 501.65 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -15995,7 +15812,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 501.65 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -16241,9 +16058,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "1cfdde70-89fc-482a-8cf0-1301ac85da62")
 		(property "Reference" "CN1030"
@@ -16258,7 +16075,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 567.8932 236.3978 0)
 			(hide yes)
 			(show_name no)
@@ -16270,7 +16087,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 570.23 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16281,7 +16098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 570.23 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16305,7 +16122,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 570.23 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16317,7 +16134,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 570.23 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16329,7 +16146,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 570.23 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16341,7 +16158,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 570.23 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16459,7 +16276,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "VerifiedParts:NCE7560K"
 			(at 510.54 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18751,9 +18568,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2c680e58-6e04-4b8d-a21c-56a6572d6174")
 		(property "Reference" "CN1019"
@@ -18768,7 +18585,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 557.7332 161.4678 90)
 			(hide yes)
 			(show_name no)
@@ -18780,7 +18597,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 554.99 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -18791,7 +18608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 554.99 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -18815,7 +18632,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 554.99 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -18827,7 +18644,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 554.99 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -18839,7 +18656,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 554.99 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -18851,7 +18668,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 554.99 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -19204,9 +19021,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "3047e432-af0c-4225-92b8-28b668ae6f34")
 		(property "Reference" "CN1029"
@@ -19221,7 +19038,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 514.5532 236.3978 0)
 			(hide yes)
 			(show_name no)
@@ -19233,7 +19050,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 516.89 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19244,7 +19061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 516.89 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19268,7 +19085,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 516.89 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19280,7 +19097,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 516.89 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19292,7 +19109,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 516.89 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19304,7 +19121,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 516.89 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19468,9 +19285,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "310de378-aaea-466b-8b7b-7cef51d830ec")
 		(property "Reference" "CN1021"
@@ -19485,7 +19302,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 146.2532 217.3478 90)
 			(hide yes)
 			(show_name no)
@@ -19497,7 +19314,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 143.51 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -19508,7 +19325,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 143.51 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -19532,7 +19349,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 143.51 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -19544,7 +19361,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 143.51 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -19556,7 +19373,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 143.51 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -19568,7 +19385,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 143.51 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -20410,9 +20227,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "36207e41-bf5b-40f5-a9f8-4eee57a452cc")
 		(property "Reference" "CN1024"
@@ -20427,7 +20244,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 570.4332 194.4878 90)
 			(hide yes)
 			(show_name no)
@@ -20439,7 +20256,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 567.69 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -20450,7 +20267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 567.69 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -20474,7 +20291,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 567.69 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -20486,7 +20303,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 567.69 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -20498,7 +20315,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 567.69 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -20510,7 +20327,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 567.69 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -21485,9 +21302,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "39ca102f-0011-47df-be5d-bc4cb9640bab")
 		(property "Reference" "CN1015"
@@ -21502,7 +21319,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 144.9832 169.0878 90)
 			(hide yes)
 			(show_name no)
@@ -21514,7 +21331,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 142.24 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -21525,7 +21342,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 142.24 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -21549,7 +21366,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 142.24 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -21561,7 +21378,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 142.24 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -21573,7 +21390,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 142.24 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -21585,7 +21402,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 142.24 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -23227,9 +23044,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "43ad6007-3d9a-4c3d-93c9-bb8a212ebbc2")
 		(property "Reference" "CN1023"
@@ -23244,7 +23061,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 517.0932 197.0278 90)
 			(hide yes)
 			(show_name no)
@@ -23256,7 +23073,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 514.35 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -23267,7 +23084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 514.35 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23291,7 +23108,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 514.35 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23303,7 +23120,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 514.35 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23315,7 +23132,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 514.35 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23327,7 +23144,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 514.35 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -24425,9 +24242,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4a7e0abb-b71c-44e4-ab73-01494ab8bccf")
 		(property "Reference" "CN1036"
@@ -24442,7 +24259,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 518.16 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -24454,7 +24271,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 518.16 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -24465,7 +24282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 518.16 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -24489,7 +24306,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 518.16 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -24501,7 +24318,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 518.16 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -24513,7 +24330,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 518.16 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -24525,7 +24342,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 518.16 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -24991,9 +24808,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4e0ca200-4592-4443-9837-51ba8841ba3c")
 		(property "Reference" "CN1028"
@@ -25008,7 +24825,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 461.2132 236.3978 0)
 			(hide yes)
 			(show_name no)
@@ -25020,7 +24837,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 463.55 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -25031,7 +24848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 463.55 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -25055,7 +24872,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 463.55 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -25067,7 +24884,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 463.55 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -25079,7 +24896,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 463.55 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -25091,7 +24908,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 463.55 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -25181,9 +24998,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4e5d64e7-5a54-4bbd-b149-2952b6c295f0")
 		(property "Reference" "CN1040"
@@ -25198,7 +25015,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 105.6132 291.0078 0)
 			(hide yes)
 			(show_name no)
@@ -25210,7 +25027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 107.95 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -25221,7 +25038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 107.95 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -25245,7 +25062,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 107.95 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -25257,7 +25074,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 107.95 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -25269,7 +25086,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 107.95 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -25281,7 +25098,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 107.95 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -25365,93 +25182,16 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC_2")
-		(at 34.29 182.88 180)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "524447ea-5c2f-4c65-b689-b1aca5180b3e")
-		(property "Reference" "#PWR1102"
-			(at 34.29 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 34.29 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90d4e84f-0b5b-409e-8ee1-5fe27d66f4fc")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1102")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "VREF" (shape bidirectional) (at 34.29 182.88 0) (effects (font (size 1 1)) (justify left)) (uuid "524447ea-5c2f-4c65-b689-b1aca5180b3e"))
 	(symbol
 		(lib_id "ProDoc_Boa-easyedapro:5012")
 		(at 448.31 215.9 90)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "535dc1e2-4784-4096-8b8f-8076797bda9f")
 		(property "Reference" "CN1025"
@@ -25466,7 +25206,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 451.0532 218.6178 90)
 			(hide yes)
 			(show_name no)
@@ -25478,7 +25218,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 448.31 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -25489,7 +25229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 448.31 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -25513,7 +25253,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 448.31 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -25525,7 +25265,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 448.31 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -25537,7 +25277,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 448.31 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -25549,7 +25289,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 448.31 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -26237,9 +25977,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "55f1860f-5267-4ba3-980a-9ec6bde26fe5")
 		(property "Reference" "CN1027"
@@ -26254,7 +25994,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 557.7332 218.6178 90)
 			(hide yes)
 			(show_name no)
@@ -26266,7 +26006,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 554.99 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -26277,7 +26017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 554.99 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -26301,7 +26041,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 554.99 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -26313,7 +26053,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 554.99 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -26325,7 +26065,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 554.99 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -26337,7 +26077,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 554.99 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -26533,7 +26273,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 336.55 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -26556,7 +26296,7 @@
 				(justify right top)
 			)
 		)
-		(property "Description" "直流反向耐压(Vr):40V;平均整流电流(Io):1A;正向压降(Vf):650mV@1A;"
+		(property "Description" "B16WS; see manufacturer datasheet; legacy B5819WS metadata removed"
 			(at 336.55 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -26724,30 +26464,8 @@
 				(justify right top)
 			)
 		)
-		(property "Reverse Leakage Current (Ir)" "100uA@40V"
-			(at 336.55 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify right top)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "40V"
-			(at 336.55 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify right top)
-			)
-		)
+		
+		
 		(property "Supplier Footprint" "SOD-323"
 			(at 336.55 222.25 0)
 			(hide yes)
@@ -27654,9 +27372,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5e53f2cf-e09a-4894-8a2b-e5cc5fb1a06c")
 		(property "Reference" "CN1026"
@@ -27671,7 +27389,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 504.3932 218.6178 90)
 			(hide yes)
 			(show_name no)
@@ -27683,7 +27401,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 501.65 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -27694,7 +27412,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 501.65 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -27718,7 +27436,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 501.65 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -27730,7 +27448,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 501.65 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -27742,7 +27460,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 501.65 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -27754,7 +27472,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 501.65 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -28433,7 +28151,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 422.91 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -31305,7 +31023,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 453.39 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -31805,9 +31523,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "71ea9110-f243-48ae-ad79-c4e486548974")
 		(property "Reference" "CN1017"
@@ -31822,7 +31540,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 451.0532 161.4678 90)
 			(hide yes)
 			(show_name no)
@@ -31834,7 +31552,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 448.31 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -31845,7 +31563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 448.31 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -31869,7 +31587,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 448.31 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -31881,7 +31599,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 448.31 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -31893,7 +31611,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 448.31 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -31905,7 +31623,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 448.31 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -32265,84 +31983,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC")
-		(at 123.19 298.45 180)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "738a17ac-650e-4846-a5e3-26c76417b04f")
-		(property "Reference" "#PWR1082"
-			(at 123.19 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_VC"
-			(at 123.19 300.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02b68508-61a2-434d-8e7f-2bf957cb5614")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1082")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "M2_VC" (shape bidirectional) (at 123.19 298.45 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "738a17ac-650e-4846-a5e3-26c76417b04f"))
 	(symbol
 		(lib_id "ProDoc_Boa-easyedapro:RS6334XQ")
 		(at 123.19 172.72 0)
@@ -32377,7 +32018,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 123.19 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -32950,7 +32591,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 494.03 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -33851,7 +33492,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 510.54 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -33928,7 +33569,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 433.07 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -34863,84 +34504,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC")
-		(at 13.97 269.24 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "85a49217-d7fb-4b57-8fcb-44da57e23bcf")
-		(property "Reference" "#PWR1027"
-			(at 13.97 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_MA"
-			(at 13.97 266.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 13.97 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 13.97 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 13.97 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d8e74f8e-96e0-48de-8951-50d6ad11b58f")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1027")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "M2_MA" (shape bidirectional) (at 13.97 269.24 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "85a49217-d7fb-4b57-8fcb-44da57e23bcf"))
 	(symbol
 		(lib_id "ProDoc_Boa-easyedapro:Power-VCC_2")
 		(at 457.2 147.32 0)
@@ -35019,84 +34583,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC_2")
-		(at 109.22 182.88 180)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8745b68e-b520-431e-af69-ecb541f2ff55")
-		(property "Reference" "#PWR1070"
-			(at 109.22 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 109.22 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f4fb996-4da3-425a-b4c3-5c54a618a5ca")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1070")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "VREF" (shape bidirectional) (at 109.22 182.88 0) (effects (font (size 1 1)) (justify left)) (uuid "8745b68e-b520-431e-af69-ecb541f2ff55"))
 	(symbol
 		(lib_id "ProDoc_Boa-easyedapro:KCD3008A")
 		(at 563.88 222.25 0)
@@ -35131,7 +34618,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "VerifiedParts:NCE7560K"
 			(at 563.88 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -36019,7 +35506,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 457.2 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -36918,7 +36405,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 48.26 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -38214,9 +37701,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "984444bf-0b46-4831-aa6b-95da41ef68a7")
 		(property "Reference" "CN1014"
@@ -38231,7 +37718,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 70.0532 169.0878 90)
 			(hide yes)
 			(show_name no)
@@ -38243,7 +37730,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 67.31 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -38254,7 +37741,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 67.31 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -38278,7 +37765,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 67.31 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -38290,7 +37777,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 67.31 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -38302,7 +37789,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 67.31 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -38314,7 +37801,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 67.31 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -38808,7 +38295,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 336.55 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -38831,7 +38318,7 @@
 				(justify right top)
 			)
 		)
-		(property "Description" "直流反向耐压(Vr):40V;平均整流电流(Io):1A;正向压降(Vf):650mV@1A;"
+		(property "Description" "B16WS; see manufacturer datasheet; legacy B5819WS metadata removed"
 			(at 336.55 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -38999,30 +38486,8 @@
 				(justify right top)
 			)
 		)
-		(property "Reverse Leakage Current (Ir)" "100uA@40V"
-			(at 336.55 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify right top)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "40V"
-			(at 336.55 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify right top)
-			)
-		)
+		
+		
 		(property "Supplier Footprint" "SOD-323"
 			(at 336.55 210.82 0)
 			(hide yes)
@@ -41149,9 +40614,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a63ddefb-fbf7-48de-bd4a-e8dfc72b5ddc")
 		(property "Reference" "CN1037"
@@ -41166,7 +40631,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 28.1432 291.0078 0)
 			(hide yes)
 			(show_name no)
@@ -41178,7 +40643,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 30.48 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -41189,7 +40654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 30.48 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -41213,7 +40678,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 30.48 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -41225,7 +40690,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 30.48 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -41237,7 +40702,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 30.48 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -41249,7 +40714,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 30.48 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -41522,7 +40987,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 473.71 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -42173,7 +41638,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 412.75 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -42720,9 +42185,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "af256c8a-7b82-4252-9c74-924130815683")
 		(property "Reference" "CN1039"
@@ -42737,7 +42202,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 78.9432 291.0078 0)
 			(hide yes)
 			(show_name no)
@@ -42749,7 +42214,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 81.28 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -42760,7 +42225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 81.28 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -42784,7 +42249,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 81.28 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -42796,7 +42261,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 81.28 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -42808,7 +42273,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 81.28 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -42820,7 +42285,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 81.28 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -44550,84 +44015,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC_2")
-		(at 34.29 231.14 180)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbc8cb20-fb5b-4b65-848a-1d1b3e191d3b")
-		(property "Reference" "#PWR1071"
-			(at 34.29 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 34.29 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9750f857-c2e0-42a3-804f-7a5842da3fd2")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1071")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "VREF" (shape bidirectional) (at 34.29 231.14 0) (effects (font (size 1 1)) (justify left)) (uuid "bbc8cb20-fb5b-4b65-848a-1d1b3e191d3b"))
 	(symbol
 		(lib_id "ProDoc_Boa-easyedapro:C1206_S_1")
 		(at 443.23 278.13 270)
@@ -44661,7 +44049,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 443.23 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -45757,7 +45145,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 124.46 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -49735,7 +49123,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 48.26 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -50157,7 +49545,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "VerifiedParts:NCE7560K"
 			(at 457.2 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -51705,7 +51093,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "VerifiedParts:NCE7560K"
 			(at 510.54 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -52357,9 +51745,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e4a57f29-0ee5-4817-9c28-68f93c63c654")
 		(property "Reference" "CN1022"
@@ -52374,7 +51762,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 463.7532 194.4878 90)
 			(hide yes)
 			(show_name no)
@@ -52386,7 +51774,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 461.01 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -52397,7 +51785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 461.01 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -52421,7 +51809,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 461.01 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -52433,7 +51821,7 @@
 				(justify right top)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 461.01 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -52445,7 +51833,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 461.01 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -52457,7 +51845,7 @@
 				(justify right top)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 461.01 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -52574,7 +51962,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 483.87 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -52816,84 +52204,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC_2")
-		(at 110.49 231.14 180)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e6427c2c-5e51-4d21-b8c0-22baf2db035c")
-		(property "Reference" "#PWR1052"
-			(at 110.49 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 110.49 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1102e87-185d-4206-a706-90fd3b71a5d4")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1052")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "VREF" (shape bidirectional) (at 110.49 231.14 0) (effects (font (size 1 1)) (justify left)) (uuid "e6427c2c-5e51-4d21-b8c0-22baf2db035c"))
 	(symbol
 		(lib_id "ProDoc_Boa-easyedapro:C1206_S_1")
 		(at 463.55 278.13 270)
@@ -52927,7 +52238,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 463.55 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -53809,84 +53120,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ProDoc_Boa-easyedapro:Power-VCC")
-		(at 39.37 269.24 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ecc3c7fd-99d8-443b-a3f6-26af6fd333bb")
-		(property "Reference" "#PWR1031"
-			(at 39.37 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_MB"
-			(at 39.37 266.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72eacb01-c268-45f0-b35c-180209ef63f3")
-		)
-		(instances
-			(project "GD32F5_FOC"
-				(path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848"
-					(reference "#PWR1031")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(global_label "M2_MB" (shape bidirectional) (at 39.37 269.24 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid "ecc3c7fd-99d8-443b-a3f6-26af6fd333bb"))
 	(symbol
 		(lib_id "ProDoc_Boa-easyedapro:R0603_S")
 		(at 440.69 227.33 90)
@@ -54219,7 +53453,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 563.88 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -54296,7 +53530,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "ProDoc_Boa-easyedapro:"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 510.54 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -55627,9 +54861,9 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "fb8e653c-cd16-4f9c-9bbc-e334e11ab030")
 		(property "Reference" "CN1038"
@@ -55644,7 +54878,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5012"
+		(property "Value" "TestPoint"
 			(at 53.5432 291.0078 0)
 			(hide yes)
 			(show_name no)
@@ -55656,7 +54890,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProDoc_Board1v1_2026-10-26-import-fps:测试点"
+		(property "Footprint" "VerifiedParts:TestPoint_D1.27_Reference"
 			(at 55.88 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -55667,7 +54901,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211102/12102DF701EA335825673F0350517149.pdf"
+		(property "Datasheet" ""
 			(at 55.88 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -55691,7 +54925,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer Part" "5012"
+		(property "Manufacturer Part" ""
 			(at 55.88 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -55703,7 +54937,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Keystone"
+		(property "Manufacturer" ""
 			(at 55.88 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -55715,7 +54949,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier Part" "C2906766"
+		(property "Supplier Part" ""
 			(at 55.88 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -55727,7 +54961,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 55.88 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -56436,4 +55670,19 @@
 (text "Buffer pinout from KiCad library; silicon / footprint review required before fabrication." (at 195.58 77.56 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "77781b33-fe4a-4b61-be41-00baa4926075"))
 (text "Buffer decoupling: 100nF + 1uF close to pins 8 / 4." (at 485.14 96.24000000000001 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "5c312e33-dc63-43a3-84d0-1d7c93dfa7ea"))
 (text "Existing 5V input clamps retained; power sequencing not validated." (at 485.14 99.74000000000001 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "47480c60-6f81-4e6a-88e8-1a6709caff4c"))
+
+(no_connect (at 279.4 208.28) (uuid "bdd9650a-0da5-4b5b-a672-2480c39b099e"))
+(no_connect (at 279.4 213.36) (uuid "c1ed1ec4-1555-45a6-8a70-97b71dfae9ff"))
+(no_connect (at 279.4 215.9) (uuid "ff2ed647-1729-4082-9c81-8283ce6dcfd6"))
+(no_connect (at 303.53 205.74) (uuid "873e376c-95b6-4d42-a03c-d625a2158d38"))
+
+(symbol (lib_id "power:PWR_FLAG") (at 25.4 260.35 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "ab9a98d0-a64f-44ff-8993-6bad3f5bcc26") (property "Reference" "#FLG9710" (at 25.4 260.35 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "PWR_FLAG" (at 25.4 256.54 0) (effects (font (size 1 1)))) (pin "1" (uuid "48941bbe-532a-43cb-bee1-00c9c5faee0e")) (instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848" (reference "#FLG9710") (unit 1)))))
+(global_label "M2_VB1" (shape bidirectional) (at 25.4 260.35 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "89c38a02-cfac-420a-a17d-de741b80a641"))
+(text "12V via D1008; C1130 to VS1" (at 25.4 264.16 0) (effects (font (size 0.85 0.85)) (justify left top)) (uuid "547f4978-291a-44f4-a7ed-c99ce7d88f7d"))
+(symbol (lib_id "power:PWR_FLAG") (at 109.22 260.35 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "0ceb0a80-21cf-4614-a507-47e8d29c4d5b") (property "Reference" "#FLG9711" (at 109.22 260.35 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "PWR_FLAG" (at 109.22 256.54 0) (effects (font (size 1 1)))) (pin "1" (uuid "880a3010-3b80-4793-ab39-fee20cb8aa79")) (instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848" (reference "#FLG9711") (unit 1)))))
+(global_label "M2_VB2" (shape bidirectional) (at 109.22 260.35 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "190513ce-bed3-435b-8084-6e9549e01ce9"))
+(text "12V via D1009; C1131 to VS2" (at 109.22 264.16 0) (effects (font (size 0.85 0.85)) (justify left top)) (uuid "0d4e5539-838f-46cc-a9cb-cef5b39c4982"))
+(symbol (lib_id "power:PWR_FLAG") (at 193.04 260.35 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "7b257b84-22e1-4b67-97fd-878b8cefc3a8") (property "Reference" "#FLG9712" (at 193.04 260.35 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "PWR_FLAG" (at 193.04 256.54 0) (effects (font (size 1 1)))) (pin "1" (uuid "08743648-f7e5-410e-9a00-77ae27fb59a4")) (instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848" (reference "#FLG9712") (unit 1)))))
+(global_label "M2_VB3" (shape bidirectional) (at 193.04 260.35 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "402f51cf-ef22-4c58-abc0-7b728a6380cc"))
+(text "12V via D1010; C1132 to VS3" (at 193.04 264.16 0) (effects (font (size 0.85 0.85)) (justify left top)) (uuid "d8268105-2959-41fb-9f17-fc32110ed187"))
 )

@@ -1,0 +1,628 @@
+                                                                                                    RY8411
+
+     Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+
+Features
+•    Wide 4V to 38V Operating Input Range                   •   250mΩ/150mΩ Low RDS(ON) Internal Power
+•    Standoff Voltage: 42V                                      MOSFETs
+•    1.2A Continuous Output Current                         •   Output Adjustable from 0.8V
+•    800KHz Switching Frequency                             •   No Schottky Diode Required
+•    Short Protection with Foldback-Mode                    •   Integrated internal compensation
+•    Built-in Over Current Limit                            •   Thermal Shutdown
+•    Built-in Over Voltage Protection                       •   Available in SOT23-6 Package
+•    Support PSM Mode                                       •   -40°C to +85°C Temperature Range
+•    Internal Soft-Start
+
+Applications
+•    Battery-Powered Equipment                              •   Industrial Distributed Power Applications
+•    Portable Media Players                                 •   Portable Hand-Held Instruments
+
+General Description
+The RY8411 device is high-efficiency, synchronous step-down DC/DC regulators. With a wide input range, it is
+suitable for a wide range of applications, such as power conditioning from unregulated sources. It features a low
+RDSON (250mΩ/150mΩ typical) internal switch for maximum efficiency (92% typical). Supports PSM mode, the
+operating frequency is fixed at 800kHz, allowing the use of small external components while still being able to have
+low output voltage ripple. With OVP function, the IC can stand off input voltage as high as 42V. The RY8411
+supports 1.2A continuous output current, and it has a 0.8V nominal feedback voltage.
+Additional features include: thermal shutdown, VIN undervoltage lockout, and gate drive undervoltage lockout. The
+RY8411 is available in a low-profile SOT23-6 package.
+
+Typical Application Circuit
+                                                       C1
+
+
+
+
+                  VIN                           BS                 L1                       VOUT
+                                         IN          SW
+
+                                                                          R1   CFF          COUT
+
+                            ON/
+                    CIN                  EN           FB
+                            OFF
+                                               GND
+                                                                          R2
+
+
+
+
+                                              Basic Application Circuit
+
+
+
+
+Email: support@rychip.com                                                                      http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                              Page 1 / 13
+                                                                                                    RY8411
+
+    Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+
+Pin Description
+
+Pin Configuration
+
+                                                    TOP VIEW
+
+                                         BS    1                    6   SW
+
+
+
+                                       GND     2                    5   IN
+
+
+
+                                          FB   3                    4   EN
+
+
+                                                     SOT23-6
+
+                 Top Marking: HOYLL (device code: HO, Y=year code, LL= lot number code)
+
+Pin Description
+
+    Pin          Name                                              Function
+                             Bootstrap. A capacitor connected between SW and BST pins is required to form a
+     1            BS
+                             floating supply across the high-side switch driver.
+     2           GND         Ground Pin
+                             Adjustable Version Feedback input. Connect FB to the center point of the external
+     3            FB
+                             resistor divider
+                             Drive this pin to a logic-high to enable the IC. Drive to a logic-low to disable the
+     4            EN
+                             IC and enter micro-power shutdown mode.
+     5            IN         Power Supply Pin
+     6            SW         Switching Pin
+
+Order Information (1)
+ Marking       Part No.      Model         Description                                    Package       T/R Qty
+                                           RY8411 PSM SYN Buck, 4-38V, 1.2A,
+  HOYLL        70301650      RY8411                                                       SOT23-6       3000PCS
+                                           800KHz, VFB 0.8V, SOT23-6
+Note (1): All RYCHIP parts are Pb-Free and adhere to the RoHS directive.
+
+
+
+
+Email: support@rychip.com                                                                      http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                              Page 2 / 13
+                                                                                                 RY8411
+
+    Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+
+Specifications
+
+Absolute Maximum Ratings (1) (2)
+ Item                                                   Min                     Max                       Unit
+ VIN voltage                                            -0.3                    42                        V
+ EN voltage                                             –0.3 (VIN + 0.3 V)      42                        V
+ SW voltage                                             -0.3                    VIN+1V                    V
+ SW voltage (10 ns transient)                           -5                      VIN+2V                    V
+ BS voltage                                                                     7                         V
+ FB voltage                                             –0.3                    6                         V
+                     (3)
+ Power dissipation                                      Internally Limited
+ Operating junction temperature, TJ                     -40                     150                       °C
+ Storage temperature, Tstg                              –65                     150                       °C
+ Lead Temperature (Soldering, 10sec.)                                           260                       °C
+Note (1): Exceeding these ratings may damage the device.
+Note (2): The device is not guaranteed to function outside of its operating conditions.
+Note (3): The maximum allowable power dissipation is a function of the maximum junction temperature, TJ(MAX),
+the junction-to-ambient thermal resistance, RθJA, and the ambient temperature, TA. The maximum allowable power
+dissipation at any ambient temperature is calculated using: PD (MAX) = (TJ(MAX) − TA)/RθJA. Exceeding the maximum
+allowable power dissipation causes excessive die temperature, and the regulator goes into thermal shutdown.
+Internal thermal shutdown circuitry protects the device from permanent damage. Thermal shutdown engages at
+TJ=150°C (typical) and disengages at TJ= 130°C (typical).
+
+ESD Ratings
+ Item                           Description                                     Value                     Unit
+                                Human Body Model (HBM)
+ V(ESD-HBM)                     ANSI/ESDA/JEDEC JS-001-2014                     ±2000                     V
+                                Classification, Class: 2
+                                Charged Device Mode (CDM)
+ V(ESD-CDM)                     ANSI/ESDA/JEDEC JS-002-2014                     ±200                      V
+                                Classification, Class: C0b
+                                JEDEC STANDARD NO.78E APRIL 2016
+ ILATCH-UP                      Temperature Classification,                     ±150                      mA
+                                Class: I
+
+Recommended Operating Conditions
+ Item                                                   Min                     Max                       Unit
+                                  (1)
+ Operating junction temperature                         –40                     125                       °C
+ Operating temperature range                            -40                     85                        °C
+ Input voltage VIN                                      4                       38                        V
+ Output current                                         0                       1.2                       A
+Note (1): All limits specified at room temperature (TA = 25°C) unless otherwise specified. All room temperature
+
+
+Email: support@rychip.com                                                                   http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                           Page 3 / 13
+                                                                                                   RY8411
+
+       Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+limits are 100% production tested. All limits at temperature extremes are ensured through correlation using standard
+Statistical Quality Control (SQC) methods. All limits are used to calculate Average Outgoing Quality Level (AOQL).
+
+Thermal Information
+ Item                          Description                                        Value                     Unit
+                                                                        (1)(2)
+ RθJA                          Junction-to-ambient thermal resistance             105                       °C/W
+ RθJC(top)                     Junction-to-case (top) thermal resistance          55                        °C/W
+ RθJB                          Junction-to-board thermal resistance               17.5                      °C/W
+ ψJT                           Junction-to-top characterization parameter         3.5                       °C/W
+ ψJB                           Junction-to-board characterization parameter       17.5                      °C/W
+Note (1): The package thermal impedance is calculated in accordance to JESD 51-7.
+Note (2): Thermal Resistances were simulated on a 4-layer, JEDEC board.
+
+Electrical Characteristics (1) (2)
+VIN=12V, TA=25°C, unless otherwise specified.
+ Parameter                              Test Conditions                    Min      Typ.        Max        Unit
+ Input Voltage Range                                                        4                    38         V
+ Supply Current (Quiescent)             VEN =3.0V                                    0.4        0.8         mA
+ Supply Current (Shutdown)              VEN =0 or EN = GND                                       10         uA
+ Feedback Voltage                                                       0.780      0.800       0.820        V
+ High-Side Switch On-Resistance         ISW=100mA                                   250                    mΩ
+ Low-Side Switch On-Resistance          ISW=-100mA                                  150                    mΩ
+ Upper Switch Current Limit                                                 2                               A
+ Over Voltage Protection Threshold                                                     39                   V
+ Switching Frequency                                                                800                    KHz
+ Maximum Duty Cycle                     VFB=90%                                        92                   %
+ Minimum On-Time                                                                       90                   nS
+ EN Rising Threshold                                                       1.3                              V
+ EN Falling Threshold                                                                           0.9         V
+                                        Wake up VIN Voltage                          3.6        3.8         V
+ Under-Voltage Lockout Threshold        Shutdown VIN Voltage               3.1       3.3                    V
+                                        Hysteresis VIN voltage                      300                     mV
+ Soft Start                                                                             1                   mS
+ Thermal Shutdown                                                                   150                     ℃
+ Thermal Hysteresis                                                                    20                   ℃
+Note (1): MOSFET on-resistance specifications are guaranteed by correlation to wafer level measurements.
+Note (2): Thermal shutdown specifications are guaranteed by correlation to the design and characteristics analysis.
+
+
+
+
+Email: support@rychip.com                                                                     http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                             Page 4 / 13
+                                                                                                RY8411
+
+      Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+
+Typical Performance Characteristics (1) (2)
+Note (1): Performance waveforms are tested on the evaluation board.
+Note (2): VIN =12V, VOUT=3.3V, TA = +25ºC, unless otherwise noted.
+
+Efficiency vs Load Current           Load Regulation                  Line Regulation
+
+VOUT=5V, 3.3V, 1.2V                  VOUT=5V, 3.3V, 1.2               VOUT=3.3V
+
+
+
+
+Output Ripple Voltage                Output Ripple Voltage            Output Ripple Voltage
+
+VIN=12V, VOUT=3.3V, IOUT=0A          VIN=12V, VOUT=3.3V, IOUT=0.6A    VIN=12V, VOUT=3.3V, IOUT=1.2A
+
+
+
+
+Loop Response                        Output Short                     Short Circuit Entry
+
+VIN=12V, VOUT=3.3V, IOUT=0.6A-1.2A   VIN=12V, VOUT=3.3V               VIN=12V, VOUT=3.3V
+
+
+
+
+Email: support@rychip.com                                                                   http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                           Page 5 / 13
+                                                                                          RY8411
+
+     Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+Short Circuit Recovery          Enable Startup at No Load       Enable Shutdown at No Load
+
+VIN=12V, VOUT=3.3V              VIN=12V, VOUT=3.3V, IOUT=0A     VIN=12V, VOUT=3.3V, IOUT=0A
+
+
+
+
+Enable Startup at Full Load     Enable Shutdown at Full Load    Power Up at No Load
+
+VIN=12V, VOUT=3.3V, IOUT=1.2A   VIN=12V, VOUT=3.3V, IOUT=1.2A   VIN=12V, VOUT=3.3V, IOUT=0A
+
+
+
+
+Power Up at Full Load
+
+VIN=12V, VOUT=3.3V, IOUT=1.2A
+
+
+
+
+Email: support@rychip.com                                                           http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                   Page 6 / 13
+                                                                                                    RY8411
+
+     Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+
+Functional Block Diagram
+
+                                                                                                   IN
+
+
+
+
+                                                                                Peak Curve
+                                              Regulator
+                                                                                 Detection
+
+
+
+
+                                                                                                   BS
+              EN             Bias&Ref
+
+
+
+                                                                  0.8/2MHz
+                                                                    Clock
+                                                Slope
+                                             Compensation
+                                                                              Driver              SW
+
+
+                                                                 Comparator
+
+              FB           Error Amplifier
+
+
+
+                                                                   Fault        Valley Curve
+                                                                  Detection      Detection
+
+
+                                                                                                  GND
+
+                                                                    OTP
+
+
+
+                                                            Block Diagram
+
+Functions Description
+
+Internal Regulator
+The RY8411 is a current mode step down DC/DC converter that provides excellent transient response with no extra
+external compensation components. This device contains an internal, low resistance, high voltage power MOSFET,
+and operates at a high 800KHz operating frequency to ensure a compact, high efficiency design with excellent AC
+and DC performance.
+
+Error Amplifier
+The error amplifier compares the FB pin voltage with the internal FB reference (VFB) and outputs a current
+proportional to the difference between the two. This output current is then used to charge or discharge the internal
+compensation network, which is used to control the power MOSFET current. The optimized internal compensation
+network minimizes the external component counts and simplifies the control loop design.
+
+Under-Voltage Lockout (UVLO)
+Under-voltage lockout (UVLO) protects the chip from operating at an insufficient supply voltage. UVLO protection
+monitors the internal regulator voltage. When the voltage is lower than UVLO threshold voltage, the device is shut
+off. When the voltage is higher than UVLO threshold voltage, the device is enabled again.
+
+Thermal Shutdown
+Thermal shutdown prevents the chip from operating at exceedingly high temperatures. When the silicon die
+temperature exceeds 150°C, it shuts down the whole chip. When the temperature falls below its lower threshold
+(Typ. 130°C) the chip is enabled again.
+
+
+
+Email: support@rychip.com                                                                      http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                              Page 7 / 13
+                                                                                                    RY8411
+
+     Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+Internal Soft-Start
+The soft-start is implemented to prevent the converter output voltage from overshooting during startup. When the
+chip starts, the internal circuitry generates a soft-start voltage (SS) ramping up from 0V to 0.8V. When it is lower
+than the internal reference (REF), SS overrides REF so the error amplifier uses SS as the reference. When SS is
+higher than REF, REF regains control. The SS time is internally max to 1ms.
+
+Over Current Protection with Foldback
+The RY8411 has cycle-by-cycle over current limit when the inductor current peak value exceeds the set current
+limit threshold. Meanwhile, output voltage starts to drop until FB is below the Under-Voltage (UV) threshold. When
+the output is shorted to the ground, the switching frequency is folded back and the current limit is reduced to lower
+the short circuit current. The frequency foldback helps prevent inductor current runaway and thermal issue during
+short circuit. The RY8411 exits the foldback mode once the over current condition is removed.
+
+Startup and Shutdown
+If both VIN and EN are higher than their appropriate thresholds, the chip starts. The reference block starts first,
+generating stable reference voltage and currents, and then the internal regulator is enabled. The regulator provides
+stable supply for the remaining circuitries. Three events can shut down the chip: EN low, VIN low and thermal
+shutdown. In the shutdown procedure, the signaling path is first blocked to avoid any fault triggering. The comp
+voltage and the internal supply rail are then pulled down. The floating driver is not subject to this shutdown
+command.
+
+
+
+
+Email: support@rychip.com                                                                      http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                              Page 8 / 13
+                                                                                                           RY8411
+
+       Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+
+Applications Information
+
+Setting the Output Voltage
+RY8411 require an input capacitor, an output capacitor and an inductor. These components are critical to the
+performance of the device. RY8411 integrates internal loop compensating resistors, so we do not recommend using
+a value of more than 50K for R2. The output voltage can be programmed by resistor divider.
+
+
+                                                                    𝑅𝑅1 + 𝑅𝑅2
+                                              𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂 = 𝑉𝑉𝐹𝐹𝐹𝐹 ×
+                                                                       𝑅𝑅2
+
+
+ VOUT(V)       R1(KΩ)         R2(KΩ)        L1(μH)              C1(nF)                CIN(μF)   COUT(μF)    CFF (pF) Opt.
+ 1.0           12.5           50            2.2                 100                   22        22×2        CFF Chapter
+ 1.05          15.65          50            2.2                 100                   22        22×2        CFF Chapter
+ 1.2           25.0           50            2.2                 100                   22        22×2        CFF Chapter
+ 1.5           43.75          50            2.2                 100                   22        22×2        CFF Chapter
+ 1.8           62.5           50            3.3                 100                   22        22×2        CFF Chapter
+ 2.5           106.25         50            3.3                 100                   22        22×2        CFF Chapter
+ 3.3           156.25         50            4.7                 100                   22        22×2        CFF Chapter
+ 5.0           262.5          50            4.7                 100                   22        22×2        CFF Chapter
+All the external components are the suggested values, the final values are based on the application testing results.
+
+Selecting the Inductor
+The recommended inductor values are shown in the Application Diagram. It is important to guarantee the inductor
+core does not saturate during any foreseeable operational situation. The inductor should be rated to handle the
+maximum inductor peak current: Care should be taken when reviewing the different saturation current ratings that
+are specified by different manufacturers. Saturation current ratings are typically specified at 25°C, so ratings at
+maximum ambient temperature of the application should be requested from the manufacturer. The inductor value
+can be calculated with:
+
+                                                    𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂 × (𝑉𝑉𝐼𝐼𝐼𝐼 − 𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂 )
+                                             𝐿𝐿 =
+                                                       𝑉𝑉𝐼𝐼𝐼𝐼 × ∆𝐼𝐼𝐿𝐿 × 𝐹𝐹𝑂𝑂𝑂𝑂𝑂𝑂
+
+Where ΔIL is the inductor ripple current. Choose inductor ripple current to be approximately 30% to 40% of the
+maximum load current. The maximum inductor peak current can be estimated as:
+
+                                                                             ∆𝐼𝐼𝐿𝐿
+                                               𝐼𝐼𝐿𝐿(𝑀𝑀𝑀𝑀𝑀𝑀) = 𝐼𝐼𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿 +
+                                                                              2
+
+Under light load conditions below 100mA, larger inductance is recommended for improved efficiency. Larger
+inductances lead to smaller ripple currents and voltages, but they also have larger physical dimensions, lower
+saturation currents and higher linear impedance. Therefore, the choice of inductance should be compromised
+according to the specific application.
+
+
+
+
+Email: support@rychip.com                                                                              http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                                      Page 9 / 13
+                                                                                                                                      RY8411
+
+     Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+Selecting the Input Capacitor
+The input current to the step-down converter is discontinuous and therefore requires a capacitor to supply AC current
+to the step-down converter while maintaining the DC input voltage. For a better performance, use ceramic capacitors
+placed as close to VIN as possible and a 0.1µF input capacitor to filter out high frequency interference is
+recommended. Capacitors with X5R and X7R ceramic dielectrics are recommended because they are stable with
+temperature fluctuations.
+The capacitors must also have a ripple current rating greater than the maximum input ripple current of the converter.
+The input ripple current can be estimated with Equation:
+
+
+                                                                       𝑉𝑉𝑂𝑂𝑂𝑂𝑇𝑇        𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂
+                                             𝐼𝐼𝐶𝐶𝐶𝐶𝐶𝐶 = 𝐼𝐼𝑂𝑂𝑂𝑂𝑂𝑂 × �            × �1 −          �
+                                                                        𝑉𝑉𝐼𝐼𝐼𝐼          𝑉𝑉𝐼𝐼𝐼𝐼
+
+From the above equation, it can be concluded that the input ripple current reaches its maximum at VIN=2VOUT where
+          𝐼𝐼
+I𝐶𝐶𝐶𝐶𝐶𝐶 = 𝑂𝑂𝑂𝑂𝑂𝑂 . For simplification, choose an input capacitor with an RMS current rating greater than half of the
+             2
+maximum load current.
+The input capacitance value determines the input voltage ripple of the converter. If there is an input voltage ripple
+requirement in the system, choose the input capacitor that meets the specification. The input voltage ripple can be
+estimate with Equation:
+
+                                                           𝐼𝐼𝑂𝑂𝑂𝑂𝑂𝑂      𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂        𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂
+                                         ∆𝑉𝑉𝐼𝐼𝐼𝐼 =                     ×          × �1 −          �
+                                                     𝐹𝐹𝑂𝑂𝑂𝑂𝑂𝑂 × 𝐶𝐶𝐼𝐼𝐼𝐼    𝑉𝑉𝐼𝐼𝐼𝐼          𝑉𝑉𝐼𝐼𝐼𝐼
+
+                                                                                                                1          𝐼𝐼𝑂𝑂𝑂𝑂𝑂𝑂
+Similarly, when VIN=2VOUT, input voltage ripple reaches its maximum of ∆𝑉𝑉𝐼𝐼𝐼𝐼 =                                    × 𝐹𝐹                .
+                                                                                                                4      𝑂𝑂𝑂𝑂𝑂𝑂 ×𝐶𝐶𝐼𝐼𝐼𝐼
+
+
+Selecting the Output Capacitor
+An output capacitor is required to maintain the DC output voltage. The output voltage ripple can be estimated with
+Equation:
+
+                                           𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂          𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂                           1
+                          ∆𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂 =                 × �1 −          � × �𝑅𝑅𝐸𝐸𝐸𝐸𝐸𝐸 +                         �
+                                        𝐹𝐹𝑂𝑂𝑂𝑂𝑂𝑂 × 𝐿𝐿         𝑉𝑉𝐼𝐼𝐼𝐼                  8 × 𝐹𝐹𝑂𝑂𝑂𝑂𝑂𝑂 × 𝐶𝐶𝑂𝑂𝑂𝑂𝑂𝑂
+
+
+There are some differences between different types of capacitors. In the case of ceramic capacitors, the impedance
+at the switching frequency is dominated by the capacitance. The output voltage ripple is mainly caused by the
+capacitance. For simplification, the output voltage ripple can be estimated with Equation:
+
+                                                                 𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂                          𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂
+                                    ∆𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂 =                   2                    × �1 −               �
+                                                    8 × 𝐹𝐹𝑂𝑂𝑂𝑂𝑂𝑂 × 𝐿𝐿 × 𝐶𝐶𝑂𝑂𝑂𝑂𝑂𝑂                    𝑉𝑉𝐼𝐼𝐼𝐼
+
+
+A larger output capacitor can achieve a better load transient response, but the maximum output capacitor limitation
+should also be considered in the design application. If the output capacitor value is too high, the output voltage will
+not be able to reach the design value during the soft-start time and will fail to regulate. The maximum output
+capacitor value (COUT_MAX) can be limited approximately with Equation:
+
+                                        𝐶𝐶𝑂𝑂𝑂𝑂𝑇𝑇_𝑀𝑀𝑀𝑀𝑀𝑀 = �𝐼𝐼𝐿𝐿𝐿𝐿𝐿𝐿_𝐴𝐴𝐴𝐴𝐴𝐴 − 𝐼𝐼𝑂𝑂𝑂𝑂𝑂𝑂 � × 𝑇𝑇𝑆𝑆𝑆𝑆 /𝑉𝑉𝑂𝑂𝑂𝑂𝑂𝑂
+
+
+Email: support@rychip.com                                                                                                    http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                                                           Page 10 / 13
+                                                                                                   RY8411
+
+     Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+Where LLIM_AVG is the average start-up current during the soft-start period, and TSS is the soft- start time.
+On the other hand, special attention should be paid when selecting these components. The DC bias of these
+capacitors can result in a capacitance value that falls below the minimum value given in the recommended capacitor
+specifications table.
+The ceramic capacitor’s actual capacitance can vary with temperature. The capacitor type X7R, which operates over
+a temperature range of −55°C to +125°C, will only vary the capacitance to within ±15%. The capacitor type X5R
+has a similar tolerance over a reduced temperature range of −55°C to +85°C. Many large value ceramic capacitors,
+larger than 1uF are manufactured with Z5U or Y5V temperature characteristics. Their capacitance can drop by more
+than 50% as the temperature varies from 25°C to 85°C. Therefore, X5R or X7R is recommended over Z5U and
+Y5V in applications where the ambient temperature will change significantly above or below 25°C.
+
+Feed-Forward Capacitor (CFF)
+RY8411 has internal loop compensation, so adding CFF is optional. Specifically, for specific applications, if
+necessary, consider whether to add feed-forward capacitors according to the situation.
+The use of a feed-forward capacitor (CFF) in the feedback network is to improve the transient response or higher
+phase margin. For optimizing the feed-forward capacitor, knowing the cross frequency is the first thing. The cross
+frequency (or the converter bandwidth) can be determined by using a network analyzer. When getting the cross
+frequency with no feed-forward capacitor identified, the value of feed-forward capacitor (CFF) can be calculated
+with the following Equation:
+
+
+                                                     1               1   1   1
+                                    𝐶𝐶𝐹𝐹𝐹𝐹 =                      ×� ×� + �
+                                               2𝜋𝜋 × 𝐹𝐹𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶   𝑅𝑅1 𝑅𝑅1 𝑅𝑅2
+
+
+Where FCROSS is the cross frequency.
+To reduce transient ripple, the feed-forward capacitor value can be increased to push the cross frequency to higher
+region. Although this can improve transient response, it also decreases phase margin and cause more ringing. In the
+other hand, if more phase margin is desired, the feed-forward capacitor value can be decreased to push the cross
+frequency to lower region.
+
+
+
+
+Email: support@rychip.com                                                                     http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                            Page 11 / 13
+                                                                                              RY8411
+
+    Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+PC Board Layout Consideration
+PCB layout is very important to achieve stable operation. It is highly recommended to duplicate EVB layout for
+optimum performance. If change is necessary, please follow these guidelines for reference.
+1. Keep the path of switching current short and minimize the loop area formed by Input capacitor, high-side
+    MOSFET and low-side MOSFET.
+2. Bypass ceramic capacitors are suggested to be put close to the VIN Pin.
+3. Ensure all feedback connections are short and direct. Place the feedback resistors and compensation
+    components as close to the chip as possible.
+4. VOUT, SW away from sensitive analog areas such as FB.
+5. Connect IN, SW, and especially GND respectively to a large copper area to cool the chip to improve thermal
+    performance and long-term reliability.
+
+                   Top Layer                                                 Bottom Layer
+
+
+
+
+                                            Sample Board Layout
+
+
+
+
+Email: support@rychip.com                                                                 http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                        Page 12 / 13
+                                                                                                                   RY8411
+
+    Standoff 42V 1.2A 800KHz Sync Step-Down Regulator
+
+Package Description
+
+                                                                SOT23-6
+
+
+                                                                                                        0.95
+                                     2.80                                                               BSC
+                                                                                       0.60
+                                     3.00
+                                                                                       TYP
+
+
+
+                                                                                1.20
+            EXAMPLE                                                             TYP
+            TOP MARK
+
+
+
+
+                              AAAAA                        1.50
+                                                           1.70
+                                                                    2.60
+                                                                    3.00
+                                                                                                                    2.60
+                                                                                                                    TYP
+
+
+
+
+              PIN 1
+
+
+
+
+                                 TOP VIEW                                         RECOMMENDED PAD LAYOUT
+
+
+                                                                                GAUGE PLANE
+             0.90                                                                 0.25 BSC
+             1.30                                               1.45 MAX
+
+                                                                SEATING PLANE
+
+                       0.30                              0.00                                                       0.09
+                                       0.95 BSC                                               0.30
+                       0.50                              0.15                     0°~8°                             0.20
+                                                                                              0.55
+
+
+                               FRONT VIEW                                                     SIDE VIEW
+
+
+                      NOTE:
+                      1. CONTROL DIMENSION IS IN INCHES. DIMENSION IN BRACKET IS IN MILLIMETERS.
+                      2. PACKAGE LENGTH DOES NOT INCLUDE MOLD FLASH, PROTRUSIONS OR GATE BURRS.
+                      3. PACKAGE WIDTH DOES NOT INCLUDE INTERLEAD FLASH OR PROTRUSIONS.
+                      4. LEAD COPLANARITY (BOTTOM OF LEADS AFTER FORMING) SHALL BE 0.004" INCHES MAX.
+                      5. DRAWING CONFORMS TO JEDEC MS-012, VARIATION BA.
+                      6. DRAWING IS NOT TO SCALE.
+
+
+
+
+Email: support@rychip.com                                                                                      http://www.rychip.com
+©RYCHIP Semiconductor Inc.                                                                                             Page 13 / 13
+

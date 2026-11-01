@@ -1,0 +1,374 @@
+[
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "U10",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "U10",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "U10",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "C96",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "U10",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "C97",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "C104",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "C102",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "C101",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "C98",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "C100",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "C99",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M1.kicad_sch",
+    "ref": "C103",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "C1097",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "C1100",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "U1010",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "C1104",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "C1098",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "U1010",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "C1102",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "C1096",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "C1099",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "U1010",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "U1010",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "C1103",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "FOC_M2.kicad_sch",
+    "ref": "C1101",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C67",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C154",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C156",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C163",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C157",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C161",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C158",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "R47",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C152",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C159",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C155",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "R43",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C151",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "R154",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "R44",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C160",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C162",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C74",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C66",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "R45",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C153",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "R155",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "R46",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C172",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "sheet": "power.kicad_sch",
+    "ref": "C68",
+    "old": "\"ProDoc_Boa-easyedapro:\"",
+    "new": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "C320",
+    "old": "\"Interface:c0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_2\"",
+    "new": "Interface:c0402-无丝印-全尺寸_2"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "C321",
+    "old": "\"Interface:c0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_2\"",
+    "new": "Interface:c0402-无丝印-全尺寸_2"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "C322",
+    "old": "\"Interface:c0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_2\"",
+    "new": "Interface:c0402-无丝印-全尺寸_2"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "C323",
+    "old": "\"Interface:c0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_2\"",
+    "new": "Interface:c0402-无丝印-全尺寸_2"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "C324",
+    "old": "\"Interface:c0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_2\"",
+    "new": "Interface:c0402-无丝印-全尺寸_2"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "C325",
+    "old": "\"Interface:c0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_2\"",
+    "new": "Interface:c0402-无丝印-全尺寸_2"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "R320",
+    "old": "\"Interface:r0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_1\"",
+    "new": "Interface:r0402-无丝印-全尺寸_1"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "R321",
+    "old": "\"Interface:r0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_1\"",
+    "new": "Interface:r0402-无丝印-全尺寸_1"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "R322",
+    "old": "\"Interface:r0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_1\"",
+    "new": "Interface:r0402-无丝印-全尺寸_1"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "R323",
+    "old": "\"Interface:r0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_1\"",
+    "new": "Interface:r0402-无丝印-全尺寸_1"
+  },
+  {
+    "sheet": "Interface.kicad_sch",
+    "ref": "R324",
+    "old": "\"Interface:r0402-\\u65e0\\u4e1d\\u5370-\\u5168\\u5c3a\\u5bf8_1\"",
+    "new": "Interface:r0402-无丝印-全尺寸_1"
+  }
+]

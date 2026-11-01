@@ -1,0 +1,30 @@
+{
+  "HSLink.kicad_sch": [
+    [
+      "ProDoc_IPB-easyedapro:电阻",
+      "1",
+      "input",
+      "passive"
+    ],
+    [
+      "ProDoc_IPB-easyedapro:电阻",
+      "2",
+      "input",
+      "passive"
+    ]
+  ],
+  "ProDoc_IPB-easyedapro.kicad_sym": [
+    [
+      "电阻",
+      "1",
+      "input",
+      "passive"
+    ],
+    [
+      "电阻",
+      "2",
+      "input",
+      "passive"
+    ]
+  ]
+}

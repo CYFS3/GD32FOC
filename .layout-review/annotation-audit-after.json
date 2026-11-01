@@ -1,0 +1,13 @@
+{
+  "sheets": {
+    "GD32F5_FOC.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b",
+    "MCU.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/023525dc-8b31-4272-8a5f-3c0381bf9655",
+    "power.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/49516b4f-d465-4b39-ae52-1de484ecc052",
+    "FOC_M1.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/62514c89-5113-48c1-b940-b634a05af696",
+    "HSLink.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/92cc594b-d885-4848-b864-91d378b546ef",
+    "FOC_M2.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848",
+    "Interface.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764"
+  },
+  "symbols": 870,
+  "issues": []
+}

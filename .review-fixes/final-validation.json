@@ -1,0 +1,12 @@
+{
+  "original_physical_connectivity_unchanged": true,
+  "removed_connections": [],
+  "added_connections_excluding_C212_C213_TP200": [],
+  "erc_categories": {
+    "warning/endpoint_off_grid": 346,
+    "warning/isolated_pin_label": 2,
+    "warning/footprint_link_issues": 1,
+    "error/power_pin_not_driven": 1,
+    "warning/pin_to_pin": 3
+  }
+}

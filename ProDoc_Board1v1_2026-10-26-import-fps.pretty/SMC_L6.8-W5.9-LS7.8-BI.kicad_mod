@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(attr smd)
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
@@ -351,20 +352,16 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" smd rect
 		(at 3.434 0)
 		(size 3.03 3.82)
-		(drill 0.001)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a155cdc7-2588-474d-bb38-813abcefc86b")
 	)
-	(pad "2" thru_hole rect
+	(pad "2" smd rect
 		(at -3.434 0)
 		(size 3.03 3.82)
-		(drill 0.001)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1683b203-60d5-40e7-b348-a47c74bf7c23")
 	)
 	(embedded_fonts no)

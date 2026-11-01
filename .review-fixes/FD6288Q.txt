@@ -1,0 +1,603 @@
+                                                                FD6288
+
+
+FD6288                              三相 250V 栅极驱动器
+概述                                    产品特点
+   FD6288 是一款集成了三个独立的半桥栅                   悬浮绝对电压+250V
+极驱动集成电路芯片，专为高压、高速驱动                        电源电压工作范围：5.0~20V
+MOSFET 和 IGBT 设计，可在高达+250V 电压下             集成三个独立的半桥驱动
+工作。                                        输出电流+1.5A/-1.8A
+   FD6288 内置 VCC/VBS 欠压（UVLO）保护            3.3V/5V输入逻辑兼容
+功能，防止功率管在过低的电压下工作。                         VCC/VBS欠压保护（UVLO）
+   FD6288 内置直通防止和死区时间，防                    内置直通防止功能
+止被驱动的高低侧 MOSFET 或 IGBT 直通，                 内置200ns死区时间
+有效保护功率器件。                                  内置输入滤波功能
+   FD6288 内置输入信号滤波，防止输入噪                   高低端通道匹配
+声干扰。                                       输出与输入同相
+
+
+
+
+封装
+                                      应用
+                                      三相直流无刷电机驱动
+
+
+
+
+  TSSOP20      QFN24                  订购信息
+                                       产品名称         封装形式        订货型号
+
+                                          FD6288T    TSSOP20     FD6288T
+
+                                          FD6288Q     QFN24      FD6288Q
+
+
+
+
+                         www.fortiortech.com
+                                                                                       FD6288
+
+1.绝对最大额定值（除非特殊说明，所有管脚均以 COM 作为参考点）
+
+    电压超过绝对最大额定值，可能会损坏芯片。芯片长久地工作在推荐的工作条件之上，可能会影响
+其可靠性。不建议芯片在推荐的工作条件之上长期工作。
+                  参数               符号                        范围                             单位
+高侧浮动绝对电压                          VB1,2,3                 -0.3～275                           V
+高侧浮动偏移电压                          VS1,2,3         VB1,2,3-25～VB1,2,3+0.3                     V
+高侧输出电压                            VHO1,2,3       VS1,2,3-0.3～VB1,2,3+0.3                     V
+低侧供电电压                             VCC                      -0.3～25                          V
+低侧输出电压                            VLO1,2,3             -0.3～VCC+0.3                          V
+逻辑输入电压（HIN, LIN）                    VIN                -0.3～VCC+0.3                          V
+偏移电压压摆率范围                         dVS/dt                     ≤50                            V/ns
+                       TSSOP20      PD                      ≤1.25                            W
+功率耗散@TA≤25C
+                        QFN24       PD                       ≤3.0                            W
+                       TSSOP-20    RthJA                     ≤100                          C/W
+结对环境的热阻
+                        QFN24      RthJA                     ≤42                           C/W
+结温范围                                 Tj                      ≤150                            C
+储存温度范围                              Tstg                  -55～150                            C
+注意：在任何情况下，不要超过 PD。
+
+
+
+
+2. 推荐工作条件（所有电压均以 COM 为参考点）
+
+    建议不超过推荐的工作条件，或将绝对最大额定值设计为工作条件。
+                  参数               符号           最小值                     最大值                 单位
+高侧浮动绝对电压                          VB1,2,3     VS1,2,3+5.0             VS1,2,3+20              V
+静态高侧浮动偏移电压                        VS1,2,3    COM-2(注 1)                  250                  V
+动态高侧浮动偏移电压                        VS1,2,3     -50(注 2)                   250                  V
+高侧输出电压                            VHO1,2,3      VS1,2,3                 VB1,2,3               V
+低侧供电电压                             VCC           5.0                     20                   V
+低侧输出电压                            VLO1,2,3        0                      VCC                  V
+逻辑输入电压（HIN, LIN）                    VIN           0                      VCC                  V
+环境温度                             TA       -40          125       C
+注 1：VS1,2,3 为（COM-2V）到 250V 时，HO 正常工作。VS1,2,3 为（COM-2V）到（COM-VBS）时，HO
+逻辑状态保持。
+                     ，宽 50ns 的瞬态负电压时，HO 正常工作。
+注 2：VS1,2,3 为（COM-50V）
+
+
+
+
+REV_Preliminary                      2                                            www.fortiortech.com
+                                                                      FD6288
+
+3. 静态电气参数（除非特别注明，否则 TA =25C，VCC=VBS1,2,3=15V，VS=COM）
+
+            参数    符号                  测试条件          最小值 典型值 最大值 单位
+高电平输入阈值电压          VIH                              2.7    --         --      V
+低电平输入阈值电压          VIL                               --    --        0.8      V
+VCC 欠压保护跳闸电压      VCCUV+                            4.2   4.6        5.0      V
+VCC 欠压保护复位电压      VCCUV-                            3.9   4.3        4.7      V
+VCC 欠压保护迟滞电压      VCCUVH                            0.2   0.3         --      V
+VBS 欠压保护跳闸电压      VBSUV+                            4.2   4.6        5.0      V
+VBS 欠压保护复位电压      VBSUV-                            3.9   4.3        4.7      V
+VBS 欠压保护迟滞电压      VBSUVH                            0.2   0.3         --      V
+悬浮电源漏电流             ILK    VB1,2,3=VS1,2,3=250V      --   0.1        5.0     μA
+VBS 静态电流           IQBS    VIN=0V 或 5V               --   180        270     μA
+VBS 动态电流           IPBS    fHIN1,2,3=20kHz           --   180        270     μA
+VCC 静态电流           IQCC    VIN =0V 或 5V              --   330        500     uA
+VCC 动态电流           IPCC    fLIN1,2,3=20kHz           --   330        500     uA
+LIN 高电平输入偏置电流      ILIN+   VLIN=5V                   --   25          40     μA
+LIN 低电平输入偏置电流      ILIN-   VLIN=0V                   --    --         1      μA
+HIN 高电平输入偏置电流      IHIN+   VHIN=5V                   --   25          40     μA
+HIN 低电平输入偏置电流      IHIN-   VHIN=0V                   --    --         1      μA
+输入下拉电阻             RIN                              140   200        260     KΩ
+高电平输出电压            VOH     IO=100mA                  --   0.6        0.9      V
+低电平输出电压            VOL     IO=100mA                  --   0.3        0.45     V
+高电平输出短路脉冲电流        IOH     VO=0V，VIN=5V，PWD≤10μs    1.1   1.5        1.9      A
+低电平输出短路脉冲电流        IOL     VO=15V，VIN=0V，PWD≤10μs   1.3   1.8        2.3      A
+VS 静态负压            VSN                               --   -6.0        --      V
+
+
+
+
+4. 动态电气参数（除非特别注明，否则 TA =25C，VCC=VBS1,2,3=15V，VS=COM）
+
+            参数    符号                  测试条件          最小值 典型值 最大值 单位
+输出上升沿传输时间           ton                              --   300        450      ns
+输出下降沿传输时间           toff                             --   100        160      ns
+输出上升时间               tr    CL=1000pF                 --   12          25      ns
+输出下降时间               tf    CL=1000pF                 --   12          25      ns
+高低侧延时匹配             MT                               --    --         30      ns
+死区时间               DT                               100   200        300      ns
+
+
+
+
+REV_Preliminary                   3                              www.fortiortech.com
+                                                                             FD6288
+
+5. 电路框图
+
+
+                                                                              VB3
+                                                      欠压检测
+
+                                                         R
+                                                  脉冲     R                    HO3
+                                                             Q   高侧驱动
+                                                  滤波     S
+   HIN3            VREG/VCC               脉冲
+                   电平转换                   产生
+                                                                               VS3
+                              直通防止&
+                              死区时间                    VCC
+
+
+   LIN3            VREG/VCC                                                    LO3
+                                               低端延时              低侧驱动
+                   电平转换
+
+
+
+
+                                                                              VB2
+                                                      欠压检测
+
+                                                         R
+                                                  脉冲     R                    HO2
+                                                             Q   高侧驱动
+                                                  滤波     S
+   HIN2            VREG/VCC               脉冲
+                   电平转换                   产生
+                                                                              VS2
+                              直通防止&
+                              死区时间                    VCC
+
+
+   LIN2            VREG/VCC                                                   LO2
+                                               低端延时              低侧驱动
+                   电平转换
+
+
+
+
+                                                                              VB1
+                                                      欠压检测
+
+                                                        R
+                                                  脉冲    R                      HO1
+                                                             Q   高侧驱动
+                                                  滤波    S
+   HIN1           VREG/VCC                脉冲
+                  电平转换                    产生
+                                                                               VS1
+                              直通防止&
+                              死区时间                    VCC
+
+
+   LIN1           VREG/VCC                                                     LO1
+                                               低端延时              低侧驱动
+                  电平转换
+
+
+
+
+                                                                              COM
+   VCC
+                  欠压检测
+
+
+
+
+REV_Preliminary                       4                                 www.fortiortech.com
+                                                                       FD6288
+
+6. 芯片引脚配置
+
+
+6.1 TSSOP20
+
+
+
+
+                              HIN1 1                     20 VB1
+
+                              HIN2 2                     19 HO1
+
+                              HIN3 3                     18 VS1
+
+                               LIN1 4                    17 VB2
+
+                               LIN2 5                    16 HO2
+                                           FD6288
+                               LIN3 6                    15 VS2
+
+                              VCC 7                      14 VB3
+
+                              COM 8                      13 HO3
+
+                                 LO3 9                   12 VS3
+
+                                 LO2 10                  11 LO1
+
+
+                                          图 6-1 封装管脚图
+
+
+
+                                          表 6-1 管脚说明
+
+ 管脚号                 管脚名称                               管脚描述
+  1,2,3           HIN1,HIN2,HIN3    高侧输入
+  4,5,6           LIN1,LIN2,LIN3    低侧输入
+    7                  VCC          低侧供电电压
+    8                 COM           接地
+9,10,11            LO3,LO2,LO1      低侧输出
+12,15,18           VS3,VS2,VS1      高侧浮动偏移电压
+13,16,19          HO3,HO2,HO1       高侧输出
+14,17,20           VB3,VB2,VB1      高侧浮动绝对电压
+
+
+
+
+REV_Preliminary                            5                      www.fortiortech.com
+                                                                                          FD6288
+
+6.2 QFN24
+
+                                       HIN3 HIN2 HIN1 NC VB1 HO1
+                                         24   23    22     21   20   19
+
+                         LIN1      1                                      18   VS1
+                         LIN2      2                                      17   VB2
+                         LIN3      3                                      16   HO2
+                         VCC       4           FD6288                     15   VS2
+                          NC       5                                      14   VB3
+                         COM       6                                      13   HO3
+
+                                         7    8        9   10   11   12
+
+                                        NC NC LO3 LO2 LO1 VS3
+
+                                               图 6-2 封装管脚图
+
+
+
+
+                                                   表 6-2 管脚说明
+
+ 管脚号                 管脚名称                                             管脚描述
+22,23,24          HIN1,HIN2,HIN3        高侧输入
+  1,2,3           LIN1,LIN2,LIN3        低侧输入
+    4                  VCC              低侧供电电压
+    6                 COM               接地
+9,10,11            LO3,LO2,LO1          低侧输出
+12,15,18           VS3,VS2,VS1          高侧浮动偏移电压
+13,16,19          HO3,HO2,HO1           高侧输出
+14,17,20           VB3,VB2,VB1          高侧浮动绝对电压
+5,7,8，21               NC               空脚
+
+
+
+
+REV_Preliminary                                    6                                 www.fortiortech.com
+                                                                                   FD6288
+
+7. 开关时间测试标准
+
+
+                               50%                          50%
+                   HIN
+                   LIN
+
+                           ton        tr                    toff   tf
+
+                                           90%          90%
+
+                   HO
+                   LO    10%                                            10%
+
+
+
+
+8. 传输时间匹配测试标准
+
+
+                   HIN         50%                     50%
+                   LIN
+
+                                                              MT
+
+
+                                 LO        HO         90%
+
+
+                         10%
+
+                                 MT
+
+
+
+
+9. 直通防止功能
+
+     芯片内部设计专门用于防止功率管直通的保护电路，能有效地防止高侧和低侧输入信号受到干
+扰时造成的功率管直通损坏。下图表示了直通防止电路如何保护功率管。
+
+
+
+                  HIN
+
+
+
+                  LIN
+
+
+
+
+                  HO
+
+                          DT                 DT         DT
+
+                  LO                                 直通保护
+
+
+
+
+REV_Preliminary                                  7                            www.fortiortech.com
+                                                                                FD6288
+
+10. 死区功能
+
+     芯片内部设置了固定的死区时间保护电路。在死区时间内，高侧和低侧输出均被设置为低电平。
+所设置的死区时间必须确保一个功率管关断后，再开启另外一个功率管，有效防止产生上下功率管
+直通现象。如果逻辑输入设置的外部死区时间大于芯片内部设置的死区时间，则以逻辑输入设置的
+外部死区时间为芯片输出死区时间；如果逻辑输入设置的外部死区时间小于芯片内部设置的死区时
+间，则芯片输出的死区时间为芯片内部设置的死区时间。下图描述了死区时间、输入信号和驱动器
+输出信号的时序关系。
+
+                    HIN
+                                    50%                      50%
+
+                    LIN
+
+
+                    HO
+                                     50%                            50%
+
+
+
+
+                                      DT                       DT
+                                              50%      50%
+
+                    LO
+
+
+
+
+11. 瞬态负电压安全工作区
+
+     Fortior 采用瞬态负电压安全工作区(NTSOA)来表征栅极驱动器处理瞬态负电压的能力。在幅值和
+脉宽处于下图所示蓝色线上方区域内的任何负脉冲，栅极驱动器都可以正常工作。幅值过大的脉冲
+（位于蓝色线下方区域）可能导致栅极驱动器工作不正常。
+
+                                             脉冲宽度（ns）
+                     10   50   75     100 150 200 300 400 500 600 700 800 900
+              -10
+                                     NTSOA
+              -20
+          外
+          加 -30
+          电
+          压
+          （ -40
+          V
+
+
+
+
+          ） -50
+
+              -60
+
+              -70
+                                             VS动态负压
+
+
+
+
+REV_Preliminary                               8                           www.fortiortech.com
+                                                                                                                  FD6288
+
+12. 典型应用电路
+
+
+                                                                             DBS
+                                                                                                                  最大至250V
+
+
+
+
+        HIN1,HIN2,HIN3                        HIN1,HIN2,HIN3                            VB1,2,3
+                                                                                                         高压侧器件
+                                                                                                              R
+         LIN1,LIN2,LIN3                       LIN1,LIN2,LIN3                             HO1,2,3
+
+
+                                                         FD6288                                         CBS
+                                                                                                                            接负载
+                  VCC                         VCC                                        VS1,2,3
+
+                            C1                                                                           低压侧器件
+                                                                                                          R
+                                               COM                                       LO1,2,3
+
+
+
+
+C1：电源滤波电容，根据电路情况可选择 0.1μ F~10μ F。
+R：栅极驱动电阻，阻值根据被驱动器件及死区时间而定。
+                          、恢复时间尽量短的二极管。
+Dbs：自举二极管，应选择高反向击穿电压（>250V）
+Cbs：自举电容，应选择陶瓷电容或钽电容，最小容值可按以下式子计算：
+                                                                   I bs(static)        I bs(leak)
+                                       2  [2  Q g  Q period                                    ]
+                          Cbs  15                                      f                  f
+                                                      Vcc  V F  V ds(L)
+
+其中：Qg 为高侧功率器件的栅极电荷；
+       Qperiod 为每个周期中电平转换电路的电荷要求，约为 10nC；
+       Ibs(static)为高侧驱动电路的静态电流；
+       Ibs(leak)为自举电容的漏电流；
+       f 为电路工作频率；
+       VCC 为低侧供电电压；
+       VF 为自举二极管的正向导通压降；
+       Vds(L)为低侧功率器件的导通压降。
+注：以上线路及参数仅供参考，实际的应用电路根据实测结果设定参数。
+
+
+
+
+REV_Preliminary                                   9                                                      www.fortiortech.com
+                                             FD6288
+
+13. 封装尺寸
+
+
+13.1 TSSOP20
+
+
+
+
+                       MIN     NOM        MAX
+                   A   一        一         1.20
+                  A1   0.05     一         0.15
+                  A2   0.80    1.00       1.05
+                   b   0.19     一         0.30
+                  b1   0.19    0.22       0.25
+                   c   0.09     一         0.20
+                  c1   0.09     一         0.16
+                   D   6.40    6.50       6.60
+                   E   6.20    6.40       6.60
+                  E1   4.30    4.40       4.50
+                   e          0.65BSC
+                   L   0.45    0.60       0.75
+                  L1          1.00BSC
+
+
+
+REV_Preliminary   10                    www.fortiortech.com
+                                                                                     FD6288
+
+13.2 QFN24
+
+
+
+
+                    Dimensions In Millimeters                Dimensions In Inches
+    Symbol
+                     Min.                   Max.           Min.                  Max.
+       A          0.700/0.800             0.800/0.900   0.028/0.031         0.0031/0.0035
+      A1            0.000                   0.050         0.000                  0.002
+      A3                    0.203REF                              0.008REF
+       D            3.924                   4.076         0.154                  0.160
+       E            3.924                   4.076         0.154                  0.160
+      D1            2.600                   2.800         0.102                  0.110
+      E1            2.600                   2.800         0.102                  0.110
+       K                        0.200MN                               0.008MN
+       B            0.200                   0.300         0.008                  0.012
+       E                    0.500TYP                              0.020TYP
+       L            0.324                   0.476         0.013                  0.019
+
+
+
+
+REV_Preliminary                               11                                www.fortiortech.com
+                                             FD6288
+
+14. 顶层丝印形式图
+
+
+14.1 TSSOP20 封装
+
+
+
+
+                        FORTIOR    公司代号
+
+                         FD6288T   产品型号
+
+                  管脚1    XXXXXX    批号
+
+
+
+
+14.2 QFN24 封装
+
+
+
+
+                        FORTIOR    公司代号
+
+                         FD6288Q   产品型号
+
+                  管脚1    XXXXXX    批号
+
+
+
+
+REV_Preliminary          12             www.fortiortech.com
+                                                                                                  FD6288
+Copyright Notice
+Copyright by Fortior Technology (Shenzhen) Co., Ltd. All Rights Reserved.
+
+Right to make changes —Fortior Technology (Shenzhen) Co., Ltd reserves the right to make changes in the
+products - including circuits, standard cells, and/or software - described or contained herein in order to
+improve design and/or performance. The information contained in this manual is provided for the general
+use by our customers. Our customers should be aware that the personal computer field is the subject of
+many patents. Our customers should ensure that they take appropriate action so that their use of our
+products does not infringe upon any patents. It is the policy of Fortior Technology (Shenzhen) Co., Ltd. to
+respect the valid patent rights of third parties and not to infringe upon or assist others to infringe upon such
+rights.
+
+This manual is copyrighted by Fortior Technology (Shenzhen) Co., Ltd. You may not reproduce, transmit,
+transcribe, store in a retrieval system, or translate into any language, in any form or by any means,
+electronic, mechanical, magnetic, optical, chemical, manual, or otherwise, any part of this publication
+without the expressly written permission from Fortior Technology (Shenzhen) Co., Ltd.
+
+
+
+
+Fortior Technology(Shenzhen) Co.,Ltd.
+Room203,2/F, Building No.11,Keji Central Road2,
+SoftwarePark, High-Tech Industrial Park, Shenzhen, P.R. China 518057
+Tel: 0755-26867710
+Fax: 0755-26867715
+URL: http://www.fortiortech.com
+
+
+Contained herein
+Copyright by Fortior Technology (Shenzhen) Co.,Ltd all rights reserved.
+
+
+
+
+REV_Preliminary                                   13                                        www.fortiortech.com
+

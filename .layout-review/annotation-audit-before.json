@@ -1,0 +1,456 @@
+{
+  "sheets": {
+    "GD32F5_FOC.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b",
+    "MCU.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/023525dc-8b31-4272-8a5f-3c0381bf9655",
+    "power.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/49516b4f-d465-4b39-ae52-1de484ecc052",
+    "FOC_M1.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/62514c89-5113-48c1-b940-b634a05af696",
+    "HSLink.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/92cc594b-d885-4848-b864-91d378b546ef",
+    "FOC_M2.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/a357c705-b3d7-4582-8f88-03f6ea329848",
+    "Interface.kicad_sch": "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764"
+  },
+  "symbols": 870,
+  "issues": [
+    [
+      "duplicate",
+      "#PWR9301",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9301",
+          "unit": "1",
+          "lib": "StylePower:5V",
+          "uuid": "7685fd4d-fa46-4332-8477-5b142f6f31f2",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9301",
+          "unit": "1",
+          "lib": "StylePower:VCC",
+          "uuid": "fda35d88-9fb2-40c7-ac3e-5a0542e08654",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9041",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9041",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "030667ce-cfa8-4dc7-9efc-8a09568b67b6",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "MCU.kicad_sch",
+          "ref": "#PWR9041",
+          "unit": "1",
+          "lib": "StylePower:VCC",
+          "uuid": "df643ab8-d474-46b2-92ad-5dbc17b912ee",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9044",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9044",
+          "unit": "1",
+          "lib": "StylePower:5V",
+          "uuid": "2bf08379-606f-4685-b829-3ceb5932c6f9",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "MCU.kicad_sch",
+          "ref": "#PWR9044",
+          "unit": "1",
+          "lib": "StylePower:AGND",
+          "uuid": "abcd0e93-6fed-4759-8a09-11a8a07a292e",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9043",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9043",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "66ebf8c0-caf3-4633-972b-ceb002f7ce18",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "MCU.kicad_sch",
+          "ref": "#PWR9043",
+          "unit": "1",
+          "lib": "StylePower:MCU_VDDA",
+          "uuid": "f7def732-cfd4-4590-b8c6-fd91d77caa98",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9042",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9042",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "84775246-d8a1-4699-b60c-812dacb67848",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "MCU.kicad_sch",
+          "ref": "#PWR9042",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "cb8febf7-e527-4c0a-a3f8-6afdf8b84c1a",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9302",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9302",
+          "unit": "1",
+          "lib": "StylePower:VCC",
+          "uuid": "2d3c42ad-13c7-4a74-9b1f-ce98f6d40b0c",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9302",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "51e2ad40-b19a-4a8b-8c99-58af71290050",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9303",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9303",
+          "unit": "1",
+          "lib": "StylePower:VCC",
+          "uuid": "025b8a59-0b27-4c98-a5d3-a1db1a524e41",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9303",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "2105ebfa-346e-4c60-b2f4-e2db86841ce8",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9304",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9304",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "cea447d1-6002-4f9d-9d08-6fb698e9de21",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9304",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "2c64eb47-a7a4-4b50-8ab8-a703be75bd19",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9305",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9305",
+          "unit": "1",
+          "lib": "StylePower:VCC",
+          "uuid": "381a4302-c83a-419e-a2d1-ee17e792f6de",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9305",
+          "unit": "1",
+          "lib": "StylePower:VCC",
+          "uuid": "f78551a2-a604-4148-b5ae-83683a701b99",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9306",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9306",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "87525437-d2b5-4753-ae68-3d8278657985",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9306",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "cf337913-f502-4973-acb4-40fb8611322f",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9307",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9307",
+          "unit": "1",
+          "lib": "StylePower:VCC",
+          "uuid": "c371db9d-39ad-4613-924f-211d3f663b35",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9307",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "25a2939b-fcad-45a2-9e5a-10ee14d7282d",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9308",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9308",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "2482d959-af42-47c2-8675-667ba03e32ee",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9308",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "5d63abb8-bebe-467e-ae9a-8305a1fe68dc",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9309",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9309",
+          "unit": "1",
+          "lib": "StylePower:VCC",
+          "uuid": "97be4323-211e-4810-a5a2-8dae8c4e9ce5",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9309",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "d03aeecc-6487-42f9-a287-d595b4ffb53d",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9310",
+      [
+        {
+          "file": "FOC_M1.kicad_sch",
+          "ref": "#PWR9310",
+          "unit": "1",
+          "lib": "StylePower:5V",
+          "uuid": "213abdd0-4004-4368-b73e-5f7678b6b02e",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "Interface.kicad_sch",
+          "ref": "#PWR9310",
+          "unit": "1",
+          "lib": "StylePower:GND",
+          "uuid": "da70063c-e44a-4e4e-be7d-640a48637dfa",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9038",
+      [
+        {
+          "file": "MCU.kicad_sch",
+          "ref": "#PWR9038",
+          "unit": "1",
+          "lib": "power:GND",
+          "uuid": "1165cdbb-4319-46f5-8c4f-5c6cb0f08af4",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "power.kicad_sch",
+          "ref": "#PWR9038",
+          "unit": "1",
+          "lib": "StylePower:5V",
+          "uuid": "4bdbe2bd-1fc1-4343-b5c0-68d53b86b996",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9039",
+      [
+        {
+          "file": "MCU.kicad_sch",
+          "ref": "#PWR9039",
+          "unit": "1",
+          "lib": "power:GND",
+          "uuid": "aeab3836-9727-42c9-a88f-d8996190f350",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "power.kicad_sch",
+          "ref": "#PWR9039",
+          "unit": "1",
+          "lib": "StylePower:DCBUS",
+          "uuid": "d99e4f2c-c803-4cc1-a753-a470071f5bee",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ],
+    [
+      "duplicate",
+      "#PWR9040",
+      [
+        {
+          "file": "MCU.kicad_sch",
+          "ref": "#PWR9040",
+          "unit": "1",
+          "lib": "power:GND",
+          "uuid": "1dc15b3a-2b65-4202-a9c1-c3b24d32a975",
+          "available_units": [
+            1
+          ]
+        },
+        {
+          "file": "power.kicad_sch",
+          "ref": "#PWR9040",
+          "unit": "1",
+          "lib": "StylePower:12V",
+          "uuid": "be66f948-4a88-4629-b7a5-19780b156bab",
+          "available_units": [
+            1
+          ]
+        }
+      ]
+    ]
+  ]
+}

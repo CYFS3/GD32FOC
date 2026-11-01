@@ -1,0 +1,121 @@
+                                                                                                                  B16WS
+                                                                                                 SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER
+                                                                                                 Reverse Voltage - 60 Volts   Forward Current - 1.0 Ampere
+
+
+                                  SOD-323                                                                             FEATURES
+                                             1.35(0.053)
+                                             1.15(0.045)
+                                                                                                         Low forward voltage drop
+                                                                                                         Guard ring construction for transient protection
+                                                                                                         Foruse in low voltage,high frequency inverters
+                             2.75(0.108)                      1.80(0.071)                                High surge current capability
+                             2.30(0.091)                      1.60(0.063)
+
+
+
+
+                                                           0.4(0.016)
+                                                           .25(0.010)
+
+                .177(.007)
+                                                                            1.00(.040)
+                                                                                                                MECHANICAL DATA
+                .089(.003)
+                                                                            0.80(.031)
+                                                                                                      Case: JEDEC SOD-323 molded plastic body
+                                                                                                      Terminals: Solderable per MIL-STD-750,
+                                           .08(.003)
+                                             MIN
+                                                                                                      Method 2026
+                                                                                                      Approx : Weight:5.48mg/0.00019oz
+                   Dimensions in millimeters and (inches)                                             Mark: SM
+
+                                MAXIMUM RATINGS AND ELECTRICAL CHARACTERISTICS
+Ratings at 25 C ambient temperature unless otherwise specified.
+Single phase half-wave 60Hz,resistive or inductive load,for capacitive load current derate by 20%.
+                                                                                    SYMBOLS                       B16WS                              UNITS
+MDD Catalog Number
+Maximum repetitive peak reverse voltage                                                  VRRM                        60                              VOLTS
+Maximum RMS voltage                                                                      VRMS                        42                              VOLTS
+Maximum DC blocking voltage                                                              VDC                         60                              VOLTS
+Maximum average forward rectified current                                                I(AV)                      1.0                               Amp
+Peak forward surge current
+8.3ms single half sine-wave superimposed on                                              IFSM                      10.0                              Amps
+rated load (JEDEC Method)
+Maximum instantaneous forward voltage at 1.0A                                             VF                        0.7                               Volts
+Total powerdissipation                                                                   Ptot                      250                                 mW
+Thermal Resistance,Junction to AmbientAir                                                R θJA                     400                                 C/W
+Maximum DC reverse current                                                                                          0.1                                mA
+                                                                                          IR
+at rated DC blocking voltage at VR=60V
+Typical junction capacitance (NOTE 1)                                                     CJ                       120                                 pF
+Operating junction temperature range                                                      TJ                       125                                  C
+Storage temperature range                                                                TSTG                   -55 to +150                             C
+
+Note:1.Measured at 1MHz and applied reverse voltage of 4.0V D.C.
+                                                                 RATINGS AND CHARACTERISTIC CURVES B16WS
+
+
+                                                     Fig.1 Power Derating Curve                                                                           Fig.2 Typical Reverse Characteristics
+
+
+
+
+                                                                                                           Instaneous Reverse Current I R ( μA)
+                                              300                                                                                                 10000
+
+                                              250
+ Power dissipation (mW)
+
+
+
+
+                                                                                                                                                  1000
+                                                                                                                                                                                      T J =100°C
+                                              200
+
+                                              150                                                                                                  100
+
+                                              100                                                                                                                                     T J =25°C
+                                                                                                                                                    10
+                                              50
+                                                     Single phase half-wave 60 Hz
+                                                     resistive or inductive load
+                                               0                                                                                                     1
+                                                            25        50          75   100   125    150                                                   0               10          20           40        60   80
+                                                                 Ambient temperture Ta (°C)                                                           Percent of Rated Peak Reverse Voltage（%）
+
+
+
+
+                                                     Fig.3 TYPICAL FORWARD VOLTAGE                                                                        Fig.4 Typical Junction Capacitance
+         INSTANTANEOUS FORWARD CURRENT (mA)
+
+
+
+
+                                              1000
+                                                                                                                                                    150
+                                                                                                           Junction Capacitance ( pF)
+
+
+
+
+                                                                                                                                                   120
+                                                         T a =100°C   T a =25°C
+                                               100                                                                                                 110
+
+                                                                                                                                                   100
+
+                                                                                                                                                              T a =25°C
+                                                                                                                                                              f=1MHz
+                                                10                                                                                                   0
+                                                     0   0.1 0.2 0.3 0.4 0.5 0.6 0.7         0.8 0.9 1.0                                                  0.1                     1                     10        100
+                                                     INSTANTANEOUS FORWARD VOLTAGE ( V)                                                                                        Reverse Voltage (V)
+
+
+
+
+The cruve graph is for reference only, can't be the basis for judgment(曲线图仅供参考)!
+

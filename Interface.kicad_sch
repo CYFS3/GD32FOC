@@ -493,7 +493,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 2.54 0)
 					(length 5.08)
 					(name "1"
@@ -511,7 +511,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 5.08)
 					(name "2"
@@ -529,7 +529,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 5.08)
 					(name "3"
@@ -547,7 +547,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 5.08)
 					(name "4"
@@ -695,7 +695,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -713,7 +713,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -873,7 +873,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "K"
@@ -891,7 +891,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "A"
@@ -1038,7 +1038,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 19.05 0)
 					(length 5.08)
 					(name "1"
@@ -1056,7 +1056,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 16.51 0)
 					(length 5.08)
 					(name "2"
@@ -1074,7 +1074,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 13.97 0)
 					(length 5.08)
 					(name "3"
@@ -1092,7 +1092,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 11.43 0)
 					(length 5.08)
 					(name "4"
@@ -1110,7 +1110,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 8.89 0)
 					(length 5.08)
 					(name "5"
@@ -1128,7 +1128,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 6.35 0)
 					(length 5.08)
 					(name "6"
@@ -1146,7 +1146,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 3.81 0)
 					(length 5.08)
 					(name "7"
@@ -1164,7 +1164,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 1.27 0)
 					(length 5.08)
 					(name "8"
@@ -1182,7 +1182,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -1.27 0)
 					(length 5.08)
 					(name "9"
@@ -1200,7 +1200,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -3.81 0)
 					(length 5.08)
 					(name "10"
@@ -1218,7 +1218,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -6.35 0)
 					(length 5.08)
 					(name "11"
@@ -1236,7 +1236,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -8.89 0)
 					(length 5.08)
 					(name "12"
@@ -1254,7 +1254,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -11.43 0)
 					(length 5.08)
 					(name "13"
@@ -1272,7 +1272,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -13.97 0)
 					(length 5.08)
 					(name "14"
@@ -1290,7 +1290,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -16.51 0)
 					(length 5.08)
 					(name "15"
@@ -1308,7 +1308,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -19.05 0)
 					(length 5.08)
 					(name "16"
@@ -1326,7 +1326,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 24.13 0)
 					(length 5.08)
 					(name "17"
@@ -1344,7 +1344,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -24.13 0)
 					(length 5.08)
 					(name "18"
@@ -1529,7 +1529,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
@@ -1547,7 +1547,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
@@ -1898,65 +1898,65 @@
 (global_label "OLED_N6" (shape bidirectional) (at 77.470000 54.610000 180) (effects (font (size 1 1)) (justify right)) (uuid "0facd87e-a0d4-48e5-85de-c0dd884c58b1"))
 (global_label "OLED_N7" (shape bidirectional) (at 77.470000 57.150000 180) (effects (font (size 1 1)) (justify right)) (uuid "d6743aa1-816b-4641-a5f9-460b3982d8ae"))
 (wire (pts (xy 77.470000 59.690000) (xy 64.770000 59.690000)) (stroke (width 0) (type default)) (uuid "0a22a5d0-1977-45ea-a5be-9b05a50bdf4b"))
-(symbol (lib_id "StylePower:VCC") (at 64.770000 59.690000 90) (unit 1) (in_bom no) (on_board yes) (uuid "fda35d88-9fb2-40c7-ac3e-5a0542e08654")(property "Reference" "#PWR9301" (at 64.770000 59.690000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "VCC" (at 51.770000 59.690000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9301") (unit 1)))))
+(symbol (lib_id "StylePower:VCC") (at 64.770000 59.690000 90) (unit 1) (in_bom no) (on_board yes) (uuid "fda35d88-9fb2-40c7-ac3e-5a0542e08654")(property "Reference" "#PWR12000" (at 64.770000 59.690000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "VCC" (at 51.770000 59.690000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12000") (unit 1)))))
 (global_label "OLED_N8" (shape bidirectional) (at 77.470000 62.230000 180) (effects (font (size 1 1)) (justify right)) (uuid "1a444ba4-83de-42e9-ad56-3d2095228857"))
 (global_label "OLED_N9" (shape bidirectional) (at 77.470000 64.770000 180) (effects (font (size 1 1)) (justify right)) (uuid "12e8673a-5eca-4763-94ad-472c31b16ce0"))
 (global_label "OLED_N11" (shape bidirectional) (at 77.470000 67.310000 180) (effects (font (size 1 1)) (justify right)) (uuid "d37dfa37-0fd8-4f37-8b79-f3e0ccd87087"))
 (wire (pts (xy 77.470000 69.850000) (xy 64.770000 69.850000)) (stroke (width 0) (type default)) (uuid "23219e60-cde3-427c-a463-1b8223e6b747"))
-(symbol (lib_id "StylePower:GND") (at 64.770000 69.850000 90) (unit 1) (in_bom no) (on_board yes) (uuid "51e2ad40-b19a-4a8b-8c99-58af71290050")(property "Reference" "#PWR9302" (at 64.770000 69.850000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 51.770000 69.850000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9302") (unit 1)))))
+(symbol (lib_id "StylePower:GND") (at 64.770000 69.850000 90) (unit 1) (in_bom no) (on_board yes) (uuid "51e2ad40-b19a-4a8b-8c99-58af71290050")(property "Reference" "#PWR12005" (at 64.770000 69.850000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 51.770000 69.850000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12005") (unit 1)))))
 (global_label "OLED_N12" (shape bidirectional) (at 77.470000 72.390000 180) (effects (font (size 1 1)) (justify right)) (uuid "c607d509-0db6-4970-9e7a-3cb11b3fb114"))
 (wire (pts (xy 77.470000 74.930000) (xy 64.770000 74.930000)) (stroke (width 0) (type default)) (uuid "a4a238b4-f08f-46e8-844a-fb23540681bf"))
-(symbol (lib_id "StylePower:GND") (at 64.770000 74.930000 90) (unit 1) (in_bom no) (on_board yes) (uuid "2105ebfa-346e-4c60-b2f4-e2db86841ce8")(property "Reference" "#PWR9303" (at 64.770000 74.930000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 51.770000 74.930000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9303") (unit 1)))))
+(symbol (lib_id "StylePower:GND") (at 64.770000 74.930000 90) (unit 1) (in_bom no) (on_board yes) (uuid "2105ebfa-346e-4c60-b2f4-e2db86841ce8")(property "Reference" "#PWR12006" (at 64.770000 74.930000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 51.770000 74.930000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12006") (unit 1)))))
 (wire (pts (xy 77.470000 77.470000) (xy 57.150000 77.470000)) (stroke (width 0) (type default)) (uuid "be77d905-aaef-450e-8187-49cd1ec830dc"))
-(symbol (lib_id "StylePower:GND") (at 57.150000 77.470000 90) (unit 1) (in_bom no) (on_board yes) (uuid "2c64eb47-a7a4-4b50-8ab8-a703be75bd19")(property "Reference" "#PWR9304" (at 57.150000 77.470000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 44.150000 77.470000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9304") (unit 1)))))
+(symbol (lib_id "StylePower:GND") (at 57.150000 77.470000 90) (unit 1) (in_bom no) (on_board yes) (uuid "2c64eb47-a7a4-4b50-8ab8-a703be75bd19")(property "Reference" "#PWR12007" (at 57.150000 77.470000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 44.150000 77.470000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12007") (unit 1)))))
 (global_label "OLED_N10" (shape bidirectional) (at 77.470000 80.010000 180) (effects (font (size 1 1)) (justify right)) (uuid "cbeade24-3f09-4dd4-8eac-a15e47d74224"))
 (wire (pts (xy 77.470000 82.550000) (xy 64.770000 82.550000)) (stroke (width 0) (type default)) (uuid "a8a890b8-0928-4153-932f-a8fb55b999c9"))
-(symbol (lib_id "StylePower:VCC") (at 64.770000 82.550000 90) (unit 1) (in_bom no) (on_board yes) (uuid "f78551a2-a604-4148-b5ae-83683a701b99")(property "Reference" "#PWR9305" (at 64.770000 82.550000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "VCC" (at 51.770000 82.550000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9305") (unit 1)))))
+(symbol (lib_id "StylePower:VCC") (at 64.770000 82.550000 90) (unit 1) (in_bom no) (on_board yes) (uuid "f78551a2-a604-4148-b5ae-83683a701b99")(property "Reference" "#PWR12008" (at 64.770000 82.550000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "VCC" (at 51.770000 82.550000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12008") (unit 1)))))
 (global_label "OLED_SCL" (shape bidirectional) (at 77.470000 85.090000 180) (effects (font (size 1 1)) (justify right)) (uuid "138a82fd-da66-4de6-ad4a-bff1ec88bb67"))
 (global_label "OLED_SDA" (shape bidirectional) (at 77.470000 87.630000 180) (effects (font (size 1 1)) (justify right)) (uuid "268483a4-1db4-4b28-9572-3113588f902c"))
 (wire (pts (xy 77.470000 44.450000) (xy 64.770000 44.450000)) (stroke (width 0) (type default)) (uuid "cd3ad7ce-13bc-47e3-822f-267c98fa12b2"))
-(symbol (lib_id "StylePower:GND") (at 64.770000 44.450000 90) (unit 1) (in_bom no) (on_board yes) (uuid "cf337913-f502-4973-acb4-40fb8611322f")(property "Reference" "#PWR9306" (at 64.770000 44.450000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 51.770000 44.450000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9306") (unit 1)))))
+(symbol (lib_id "StylePower:GND") (at 64.770000 44.450000 90) (unit 1) (in_bom no) (on_board yes) (uuid "cf337913-f502-4973-acb4-40fb8611322f")(property "Reference" "#PWR12009" (at 64.770000 44.450000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 51.770000 44.450000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12009") (unit 1)))))
 (wire (pts (xy 77.470000 92.710000) (xy 64.770000 92.710000)) (stroke (width 0) (type default)) (uuid "30c6f004-7a82-4a2a-8c80-d5e882865ba0"))
-(symbol (lib_id "StylePower:GND") (at 64.770000 92.710000 90) (unit 1) (in_bom no) (on_board yes) (uuid "25a2939b-fcad-45a2-9e5a-10ee14d7282d")(property "Reference" "#PWR9307" (at 64.770000 92.710000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 51.770000 92.710000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9307") (unit 1)))))
-(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 145.000000 43.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "5c01f355-b1d9-45db-9730-03b8955117d3")(property "Reference" "C320" (at 139.000000 35.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "1uF" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05A105KA5NQNC/53938.html" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "\u5bb9\u503c:1uF;\u7cbe\u5ea6:\u00b110%;\u989d\u5b9a\u7535\u538b:25V;\u6e29\u5ea6\u7cfb\u6570:X5R;" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A105KA5NQNC" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C52923" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "1uF \u00b110% 25V" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "JLCPCB Part Class" "Basic Part" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Tolerance" "\u00b110%" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Voltage Rating" "25V" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C320") (unit 1)))))
+(symbol (lib_id "StylePower:GND") (at 64.770000 92.710000 90) (unit 1) (in_bom no) (on_board yes) (uuid "25a2939b-fcad-45a2-9e5a-10ee14d7282d")(property "Reference" "#PWR12010" (at 64.770000 92.710000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 51.770000 92.710000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12010") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 145.000000 43.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "5c01f355-b1d9-45db-9730-03b8955117d3")(property "Reference" "C320" (at 139.000000 35.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "1uF" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-无丝印-全尺寸_2" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05A105KA5NQNC/53938.html" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "\u5bb9\u503c:1uF;\u7cbe\u5ea6:\u00b110%;\u989d\u5b9a\u7535\u538b:25V;\u6e29\u5ea6\u7cfb\u6570:X5R;" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A105KA5NQNC" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C52923" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "1uF \u00b110% 25V" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "JLCPCB Part Class" "Basic Part" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Tolerance" "\u00b110%" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Voltage Rating" "25V" (at 139.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C320") (unit 1)))))
 (global_label "OLED_N4" (shape bidirectional) (at 141.190000 43.000000 180) (effects (font (size 1 1)) (justify right)) (uuid "91594289-6191-4c51-82d6-880391843fba"))
 (global_label "OLED_N5" (shape bidirectional) (at 148.810000 43.000000 0) (effects (font (size 1 1)) (justify left)) (uuid "a4c1ed34-acfd-4b4e-8002-24b15dfeeb75"))
-(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 205.000000 43.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "a0209cff-4828-496f-84d7-3ef02b232990")(property "Reference" "C321" (at 199.000000 35.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "1uF" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05A105KA5NQNC/53938.html" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "\u5bb9\u503c:1uF;\u7cbe\u5ea6:\u00b110%;\u989d\u5b9a\u7535\u538b:25V;\u6e29\u5ea6\u7cfb\u6570:X5R;" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A105KA5NQNC" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C52923" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "1uF \u00b110% 25V" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "JLCPCB Part Class" "Basic Part" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Tolerance" "\u00b110%" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Voltage Rating" "25V" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C321") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 205.000000 43.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "a0209cff-4828-496f-84d7-3ef02b232990")(property "Reference" "C321" (at 199.000000 35.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "1uF" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-无丝印-全尺寸_2" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05A105KA5NQNC/53938.html" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "\u5bb9\u503c:1uF;\u7cbe\u5ea6:\u00b110%;\u989d\u5b9a\u7535\u538b:25V;\u6e29\u5ea6\u7cfb\u6570:X5R;" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A105KA5NQNC" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C52923" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "1uF \u00b110% 25V" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "JLCPCB Part Class" "Basic Part" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Tolerance" "\u00b110%" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Voltage Rating" "25V" (at 199.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C321") (unit 1)))))
 (global_label "OLED_N6" (shape bidirectional) (at 201.190000 43.000000 180) (effects (font (size 1 1)) (justify right)) (uuid "db80ccda-9657-484e-8671-f2e274047e7b"))
 (global_label "OLED_N7" (shape bidirectional) (at 208.810000 43.000000 0) (effects (font (size 1 1)) (justify left)) (uuid "e660a157-044f-45a5-a481-f173ed4352a0"))
-(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 265.000000 43.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "4bd59fc1-b463-467e-b617-09d64422737a")(property "Reference" "C322" (at 259.000000 35.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7uF" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220823/2B02EE04F8F211D38A52DCB16EB6BEBA.pdf" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A106MQ5NUNC" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C15525" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10uF \u00b120% 6.3V" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C322") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 265.000000 43.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "4bd59fc1-b463-467e-b617-09d64422737a")(property "Reference" "C322" (at 259.000000 35.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7uF" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-无丝印-全尺寸_2" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220823/2B02EE04F8F211D38A52DCB16EB6BEBA.pdf" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A106MQ5NUNC" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C15525" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10uF \u00b120% 6.3V" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 259.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C322") (unit 1)))))
 (global_label "OLED_N8" (shape bidirectional) (at 261.190000 43.000000 180) (effects (font (size 1 1)) (justify right)) (uuid "832215cf-664b-4424-812e-4641d72945cb"))
 (wire (pts (xy 268.810000 43.000000) (xy 276.430000 43.000000)) (stroke (width 0) (type default)) (uuid "6b71bfa0-4d53-46dd-a2e6-5e6d528cf03f"))
-(symbol (lib_id "StylePower:GND") (at 276.430000 43.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "5d63abb8-bebe-467e-ae9a-8305a1fe68dc")(property "Reference" "#PWR9308" (at 276.430000 43.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 278.430000 46.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9308") (unit 1)))))
-(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 325.000000 43.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "456873b7-71fb-4334-ab3d-614f17f4987b")(property "Reference" "C323" (at 319.000000 35.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "100nF" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220823/2B02EE04F8F211D38A52DCB16EB6BEBA.pdf" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A106MQ5NUNC" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C15525" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10uF \u00b120% 6.3V" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C323") (unit 1)))))
+(symbol (lib_id "StylePower:GND") (at 276.430000 43.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "5d63abb8-bebe-467e-ae9a-8305a1fe68dc")(property "Reference" "#PWR12011" (at 276.430000 43.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 278.430000 46.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12011") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 325.000000 43.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "456873b7-71fb-4334-ab3d-614f17f4987b")(property "Reference" "C323" (at 319.000000 35.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "100nF" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-无丝印-全尺寸_2" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220823/2B02EE04F8F211D38A52DCB16EB6BEBA.pdf" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A106MQ5NUNC" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C15525" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10uF \u00b120% 6.3V" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 319.000000 38.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C323") (unit 1)))))
 (wire (pts (xy 321.190000 43.000000) (xy 313.570000 43.000000)) (stroke (width 0) (type default)) (uuid "4d04877e-b10b-45bf-bc29-5283c950dc79"))
-(symbol (lib_id "StylePower:GND") (at 313.570000 43.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "d03aeecc-6487-42f9-a287-d595b4ffb53d")(property "Reference" "#PWR9309" (at 313.570000 43.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 315.570000 46.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9309") (unit 1)))))
+(symbol (lib_id "StylePower:GND") (at 313.570000 43.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "d03aeecc-6487-42f9-a287-d595b4ffb53d")(property "Reference" "#PWR12012" (at 313.570000 43.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 315.570000 46.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12012") (unit 1)))))
 (global_label "OLED_N8" (shape bidirectional) (at 328.810000 43.000000 0) (effects (font (size 1 1)) (justify left)) (uuid "fe6d602d-9ed5-484e-8c29-72e33990f143"))
-(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 145.000000 83.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "9eff0d71-85d3-4f63-9db3-adb82d3374c2")(property "Reference" "C324" (at 139.000000 75.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "2.2uF" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220823/2B02EE04F8F211D38A52DCB16EB6BEBA.pdf" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A106MQ5NUNC" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C15525" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10uF \u00b120% 6.3V" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C324") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 145.000000 83.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "9eff0d71-85d3-4f63-9db3-adb82d3374c2")(property "Reference" "C324" (at 139.000000 75.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "2.2uF" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-无丝印-全尺寸_2" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220823/2B02EE04F8F211D38A52DCB16EB6BEBA.pdf" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A106MQ5NUNC" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C15525" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10uF \u00b120% 6.3V" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 139.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C324") (unit 1)))))
 (wire (pts (xy 141.190000 83.000000) (xy 133.570000 83.000000)) (stroke (width 0) (type default)) (uuid "01a2ea99-3317-4989-9c6c-09f5f7db0ee9"))
-(symbol (lib_id "StylePower:GND") (at 133.570000 83.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "da70063c-e44a-4e4e-be7d-640a48637dfa")(property "Reference" "#PWR9310" (at 133.570000 83.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 135.570000 86.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9310") (unit 1)))))
+(symbol (lib_id "StylePower:GND") (at 133.570000 83.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "da70063c-e44a-4e4e-be7d-640a48637dfa")(property "Reference" "#PWR12013" (at 133.570000 83.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 135.570000 86.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR12013") (unit 1)))))
 (global_label "OLED_N9" (shape bidirectional) (at 148.810000 83.000000 0) (effects (font (size 1 1)) (justify left)) (uuid "de4216c7-a777-4dde-87d2-0770b601e5a8"))
-(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 145.000000 121.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "20df1222-9b08-4fb5-894e-49b3ba703860")(property "Reference" "C325" (at 139.000000 113.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7uF" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_2" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220823/2B02EE04F8F211D38A52DCB16EB6BEBA.pdf" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A106MQ5NUNC" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C15525" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10uF \u00b120% 6.3V" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C325") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:CL05A106MQ5NUNC") (at 145.000000 121.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "20df1222-9b08-4fb5-894e-49b3ba703860")(property "Reference" "C325" (at 139.000000 113.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7uF" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:c0402-无丝印-全尺寸_2" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220823/2B02EE04F8F211D38A52DCB16EB6BEBA.pdf" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "CL05A106MQ5NUNC" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "SAMSUNG(\u4e09\u661f)" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C15525" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10uF \u00b120% 6.3V" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 139.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "C325") (unit 1)))))
 (wire (pts (xy 141.190000 121.000000) (xy 133.570000 121.000000)) (stroke (width 0) (type default)) (uuid "d437cf78-36ab-49ba-8df3-1234cccb08e8"))
 (symbol (lib_id "StylePower:GND") (at 133.570000 121.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "3c63c90b-0999-4c83-9f94-460bbd9c420e")(property "Reference" "#PWR9311" (at 133.570000 121.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 135.570000 124.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9311") (unit 1)))))
 (global_label "OLED_N10" (shape bidirectional) (at 148.810000 121.000000 0) (effects (font (size 1 1)) (justify left)) (uuid "586846fe-6aa2-42bd-a79e-f5b033901a34"))
-(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 205.000000 83.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "071edfdf-fc1a-4614-a9c0-14ec7c3fd4bd")(property "Reference" "R320" (at 199.000000 75.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "390K" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R320") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 205.000000 83.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "071edfdf-fc1a-4614-a9c0-14ec7c3fd4bd")(property "Reference" "R320" (at 199.000000 75.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "390K" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-无丝印-全尺寸_1" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 199.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R320") (unit 1)))))
 (wire (pts (xy 199.920000 83.000000) (xy 192.300000 83.000000)) (stroke (width 0) (type default)) (uuid "e71d10f0-6fb6-4046-b073-6626c9c8e4b6"))
 (symbol (lib_id "StylePower:GND") (at 192.300000 83.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "315910a4-ee25-4736-a75e-6d32a20bfc50")(property "Reference" "#PWR9312" (at 192.300000 83.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "GND" (at 194.300000 86.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9312") (unit 1)))))
 (global_label "OLED_N11" (shape bidirectional) (at 210.080000 83.000000 0) (effects (font (size 1 1)) (justify left)) (uuid "f5991d1a-1100-4463-8d2a-af10bfdbc80d"))
-(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 265.000000 83.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "12711657-fb7b-4b8a-94c9-81d5b2095fa3")(property "Reference" "R321" (at 259.000000 75.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7K" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R321") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 265.000000 83.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "12711657-fb7b-4b8a-94c9-81d5b2095fa3")(property "Reference" "R321" (at 259.000000 75.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7K" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-无丝印-全尺寸_1" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 259.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R321") (unit 1)))))
 (wire (pts (xy 259.920000 83.000000) (xy 252.300000 83.000000)) (stroke (width 0) (type default)) (uuid "82c97891-2d79-4eb3-9df7-926005308a18"))
 (symbol (lib_id "StylePower:VCC") (at 252.300000 83.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "0e17a363-925a-48f6-ae06-294e002cd7d8")(property "Reference" "#PWR9313" (at 252.300000 83.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "VCC" (at 254.300000 81.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9313") (unit 1)))))
 (global_label "OLED_N12" (shape bidirectional) (at 270.080000 83.000000 0) (effects (font (size 1 1)) (justify left)) (uuid "399bd528-6345-4223-8f17-5ada3489fe20"))
-(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 325.000000 83.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "0244b24c-97dd-4e5d-97c2-f481d1753c87")(property "Reference" "R322" (at 319.000000 75.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7K" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R322") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 325.000000 83.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "0244b24c-97dd-4e5d-97c2-f481d1753c87")(property "Reference" "R322" (at 319.000000 75.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7K" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-无丝印-全尺寸_1" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 319.000000 78.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R322") (unit 1)))))
 (global_label "OLED_N10" (shape bidirectional) (at 319.920000 83.000000 180) (effects (font (size 1 1)) (justify right)) (uuid "05adcc4d-bea8-44e0-9c85-99fe5920fb69"))
 (wire (pts (xy 330.080000 83.000000) (xy 337.700000 83.000000)) (stroke (width 0) (type default)) (uuid "77e0fabe-28a8-4c3a-a31d-aa01520a6476"))
 (symbol (lib_id "StylePower:VCC") (at 337.700000 83.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "7c6dc85b-f0cb-468a-a7f1-276cb6e45579")(property "Reference" "#PWR9314" (at 337.700000 83.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "VCC" (at 339.700000 81.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9314") (unit 1)))))
-(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 265.000000 121.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "d676cba1-a16a-4771-a59f-5e69d70c0d9a")(property "Reference" "R323" (at 259.000000 113.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7K" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R323") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 265.000000 121.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "d676cba1-a16a-4771-a59f-5e69d70c0d9a")(property "Reference" "R323" (at 259.000000 113.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7K" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-无丝印-全尺寸_1" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 259.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R323") (unit 1)))))
 (wire (pts (xy 259.920000 121.000000) (xy 252.300000 121.000000)) (stroke (width 0) (type default)) (uuid "747222ca-40a2-4c78-b192-0ff70ad378e2"))
 (symbol (lib_id "StylePower:VCC") (at 252.300000 121.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "0d8956d4-821b-433b-8f3f-88468321149f")(property "Reference" "#PWR9315" (at 252.300000 121.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "VCC" (at 254.300000 119.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9315") (unit 1)))))
 (global_label "OLED_SCL" (shape bidirectional) (at 270.080000 121.000000 0) (effects (font (size 1 1)) (justify left)) (uuid "0dba41cb-0152-4596-9475-29cfe3177197"))
-(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 325.000000 121.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "af52bfa9-a1ae-4f43-83e1-82ebfd0cdb8d")(property "Reference" "R324" (at 319.000000 113.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7K" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-\u65e0\u4e1d\u5370-\u5168\u5c3a\u5bf8_1" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R324") (unit 1)))))
+(symbol (lib_id "ProDoc_Boa-easyedapro:0402WGF1002TCE") (at 325.000000 121.000000 0) (unit 1) (in_bom yes) (on_board yes) (uuid "af52bfa9-a1ae-4f43-83e1-82ebfd0cdb8d")(property "Reference" "R324" (at 319.000000 113.000000 0) (effects (font (size 1 1)) (justify left)))(property "Value" "4.7K" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left)))(property "Footprint" "Interface:r0402-无丝印-全尺寸_1" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Description" "" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer Part" "0402WGF1002TCE" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Manufacturer" "UNI-ROYAL(\u539a\u58f0)" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier Part" "C25744" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Supplier" "LCSC" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "LCSC Part Name" "10k\u03a9 \u00b11% 62.5mW \u539a\u819c\u7535\u963b" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Add into BOM" "yes" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Convert to PCB" "yes" (at 319.000000 116.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "R324") (unit 1)))))
 (wire (pts (xy 319.920000 121.000000) (xy 312.300000 121.000000)) (stroke (width 0) (type default)) (uuid "3542ff0c-50e9-4724-a13a-08c479999499"))
 (symbol (lib_id "StylePower:VCC") (at 312.300000 121.000000 0) (unit 1) (in_bom no) (on_board yes) (uuid "175bbf93-fa57-4a1e-8e75-fd4e327fbae2")(property "Reference" "#PWR9316" (at 312.300000 121.000000 0) (effects (font (size 1 1)) (justify left) (hide yes)))(property "Value" "VCC" (at 314.300000 119.000000 0) (effects (font (size 1 1)) (justify left)))(instances (project "GD32F5_FOC" (path "/df410b35-b24b-4f8c-aaa2-f94e7558172b/b0b9e672-d7fc-4b99-999e-0258311f2764" (reference "#PWR9316") (unit 1)))))
 (global_label "OLED_SDA" (shape bidirectional) (at 330.080000 121.000000 0) (effects (font (size 1 1)) (justify left)) (uuid "ac561bb6-3a75-4db1-b59e-688ee3b41213"))

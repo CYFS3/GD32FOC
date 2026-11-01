@@ -1,0 +1,2430 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-31T16:36:32",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/09f14da5-696b-46d6-9635-e52d0595c078",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0006 引脚 1 [5V, Power input, Line]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.3175
+                            },
+                            "uuid": "88d4004a-2c38-4b57-9889-b845732cf84a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0001 引脚 1 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.3175
+                            },
+                            "uuid": "6f7628ae-8b25-4bab-baca-d2eafa3c0f65"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0002 引脚 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.3937
+                            },
+                            "uuid": "a0311837-4a3d-43ce-9541-1c6018c35a4d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0003 引脚 1 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.5461
+                            },
+                            "uuid": "2830bc16-cdfe-48c2-bca6-b1507a28c7d2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0005 引脚 1 [AGND, Power input, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.6223
+                            },
+                            "uuid": "2c429abc-3703-4de7-9175-8cf40692e5bb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9010 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.7559,
+                                "y": 1.4859
+                            },
+                            "uuid": "8a12e96f-36f9-4879-9301-0567511f149e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9029 [AGND]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 1.4478
+                            },
+                            "uuid": "83796b15-5c42-47ca-b43e-8cd84a1fa8c6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9031 [MCU_VDDA]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 1.4732
+                            },
+                            "uuid": "3ae2d580-96bd-41f8-b38c-182905ea00bf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9011 [VCC]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 1.5494
+                            },
+                            "uuid": "77bb80d1-9b80-461e-89c7-915a81ad1b2a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9024 [MCU_VDDA]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 1.7526
+                            },
+                            "uuid": "b8194e01-1fe9-488d-b1c1-2b16ff374229"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_IA'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.3048
+                            },
+                            "uuid": "efab3a14-df9f-4166-9b7f-a3536da80446"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_IB'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.3302
+                            },
+                            "uuid": "d29027d6-ad3b-49bc-a5a1-7702afd13e10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_IC'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.3556
+                            },
+                            "uuid": "4986f3c2-0648-4ac6-948d-1d34c29c84a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_IA'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.381
+                            },
+                            "uuid": "5423997c-84e3-483d-8e41-0e70d87beec5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_IB'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.4064
+                            },
+                            "uuid": "775a585f-e836-4508-a911-ba807634f180"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_IC'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.4318
+                            },
+                            "uuid": "7b8dbd2e-b3b2-45bd-a4b0-6b214b43d980"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_HIN1'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.5334
+                            },
+                            "uuid": "6381c542-a4fb-4d20-9eb7-67faa9a17620"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_HIN2'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.5588
+                            },
+                            "uuid": "fa64d61d-efff-4d44-8829-9f7f408e748a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_HIN3'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.5842
+                            },
+                            "uuid": "1d90bd74-949c-4601-8b04-d9397aa8ec70"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_HALL_C'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.762
+                            },
+                            "uuid": "40835574-516e-4b37-b0ca-53ead04fee70"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_HALL_A'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.8636
+                            },
+                            "uuid": "7e662c80-1c84-4c0d-b167-1e80c022f97b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_HALL_B'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.889
+                            },
+                            "uuid": "9a42541e-f096-4fb0-9161-24bc9fe4acf8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'OLED_SCL'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.9144
+                            },
+                            "uuid": "1bd52ab6-4829-4259-a459-1c1d3b6930a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'OLED_SDA'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.9398
+                            },
+                            "uuid": "179fc4e0-04a3-4a88-8b44-699cb26ef6b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_LIN1'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.1176
+                            },
+                            "uuid": "d527f50c-12ad-47a5-80ff-fb822fedc3a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_LIN2'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.143
+                            },
+                            "uuid": "488de55e-a4ef-4e82-9717-17ea94b6fa4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_LIN3'",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.1684
+                            },
+                            "uuid": "d92ff719-71c0-4162-b131-5514bb2f8e2a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'GD32F505xx'",
+                    "items": [
+                        {
+                            "description": "符号 U1 [GD32F505VxTx (Altium Display 1)]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 0.2794
+                            },
+                            "uuid": "bc7468a8-5ee3-4840-81a1-aad6b934f99c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_LIN1'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.3048
+                            },
+                            "uuid": "ae1e9a2b-adbb-4c9c-a464-c77ee83cd819"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_LIN2'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.3302
+                            },
+                            "uuid": "33ab2071-0b7a-4205-a5a0-b538a2b8db29"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_LIN3'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.3556
+                            },
+                            "uuid": "0ce48d77-c43a-4dde-a01f-9213d1ae541f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_IBUS'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.381
+                            },
+                            "uuid": "6f58caf6-73b2-4385-a3bc-099f94e846bc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_VBUS'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.4064
+                            },
+                            "uuid": "a3fdacf6-4653-40e4-b787-dc3168cff1a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_IBUS'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.4318
+                            },
+                            "uuid": "13ff4464-90b3-44e2-b30d-579398313145"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_HIN1'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.4572
+                            },
+                            "uuid": "6d3ed770-1b9d-4cc7-b35d-bf21114d98df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_HIN2'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.4826
+                            },
+                            "uuid": "10cab42c-7829-495e-a409-d65293c50d81"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_HIN3'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.5334
+                            },
+                            "uuid": "6a9fe5f9-5eb3-4f37-b50d-abc80265aad3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'SPI2_SCK'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.5842
+                            },
+                            "uuid": "33683af8-f8e9-474b-8064-b2ff272e3ecc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'SPI2_MISO'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.6096
+                            },
+                            "uuid": "6786edc4-4880-4d19-a17c-f43ef7617f46"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'SPI2_MOSI'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.635
+                            },
+                            "uuid": "30eb3a1b-d7de-4e23-a8a2-ea902cdb42b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'BTN_1_N'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.8128
+                            },
+                            "uuid": "ed43e221-7aa8-47af-9513-cdbff8c75536"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'BTN_2_N'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.8382
+                            },
+                            "uuid": "30c68ffa-2682-4a59-9260-22ddbf2f68b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'BTN_3_N'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.8636
+                            },
+                            "uuid": "c901e5f4-6321-4a32-ab1a-43a5d5446ad5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'HSL_TARGET_UART_TX'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.889
+                            },
+                            "uuid": "7cdc0b23-0f61-4b77-bcc3-53cfcd6291a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'HSL_TARGET_UART_RX'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.9144
+                            },
+                            "uuid": "2f37c680-e386-47ae-be55-359d2f27da46"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_HALL_A'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 1.0922
+                            },
+                            "uuid": "2b31eecd-2cdf-4418-b614-fbef64b06382"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_HALL_B'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 1.1176
+                            },
+                            "uuid": "bf9f0e8b-307e-48a6-905f-e1e4c2bedfa6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_HALL_C'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 1.143
+                            },
+                            "uuid": "1b0cdee4-fb69-4c36-9f22-7ef6718f0d77"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_SPI1_CS0'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 1.27
+                            },
+                            "uuid": "a9ad2aca-21af-4388-935a-d8f4c71c36ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_SPI1_CS0'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 1.2954
+                            },
+                            "uuid": "633423d7-63e2-4b78-84c1-c3e7fb21ae00"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M1_NTC'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 1.397
+                            },
+                            "uuid": "e523aa36-3307-4b83-86d2-cf43b8cd5b03"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'M2_NTC'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 1.4478
+                            },
+                            "uuid": "da6701a3-87f3-4e0b-a69c-1354f3995519"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9009 [AGND]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 1.8288
+                            },
+                            "uuid": "2ac1b257-391d-464b-ac38-053f4da9e6a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9006 [GND]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 1.778
+                            },
+                            "uuid": "b2964688-5b56-4269-b3fe-272108e88f98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9012 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.2619
+                            },
+                            "uuid": "3a8442b9-1ece-4af6-9117-3189666c904a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9012 [VCC]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.2619
+                            },
+                            "uuid": "3f87d6ad-274f-4d21-bf91-dda58cf66bc7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9018 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.3381
+                            },
+                            "uuid": "233e9ed6-9e5a-48d8-9ad8-ab97538254a3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C200 引脚 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.3381
+                            },
+                            "uuid": "7c515848-4254-4a86-a179-11a9d7840da1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9018 [GND]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.3381
+                            },
+                            "uuid": "533209ee-71ba-4a17-be1c-095c6b0917d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9027 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.4619
+                            },
+                            "uuid": "1a83ecd0-7180-43ed-bf7d-ef3bac66e0d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9027 [VCC]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.4619
+                            },
+                            "uuid": "5822f22d-bb9c-45a8-95f1-4358a0789d37"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9020 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.5381
+                            },
+                            "uuid": "53d66c30-10a4-4ed3-b4eb-10e7bc240af2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C205 引脚 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.5381
+                            },
+                            "uuid": "dfa6e36e-82d0-4094-9aed-b25e873873e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9020 [GND]",
+                            "pos": {
+                                "x": 1.55,
+                                "y": 1.5381
+                            },
+                            "uuid": "f8fde6d8-6431-425d-a060-054505f8841a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9002 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.6,
+                                "y": 1.7119
+                            },
+                            "uuid": "51793dd0-361d-4b0e-9fb5-908943b16c9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9002 [VCC]",
+                            "pos": {
+                                "x": 1.6,
+                                "y": 1.7119
+                            },
+                            "uuid": "98c99978-a852-4d04-9e39-81d1030ff674"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R200 引脚 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.6,
+                                "y": 1.7881
+                            },
+                            "uuid": "fc6f1f24-5d60-4144-a862-f961c1dac077"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "全局标签 'NRST'",
+                            "pos": {
+                                "x": 1.6,
+                                "y": 1.7881
+                            },
+                            "uuid": "76cfb817-133d-4ad6-b030-3334463cafc2"
+                        },
+                        {
+                            "description": "标签 'NRST'",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.9906
+                            },
+                            "uuid": "2c51839b-8fe9-47f4-9c7d-28347fabca20"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0006 [5-Voltage]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.3175
+                            },
+                            "uuid": "aee4ffa1-ef4d-4d58-819e-2565e311d879"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 C2 [CL05A106MQ5NUNC]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.3556
+                            },
+                            "uuid": "aab2be0d-3df1-4ea6-a910-ce6baf896205"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 C2 [CL05A106MQ5NUNC]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.3556
+                            },
+                            "uuid": "aab2be0d-3df1-4ea6-a910-ce6baf896205"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0008 [5-Voltage]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.5461
+                            },
+                            "uuid": "d4d8c6f4-c1fa-4e0f-b3ee-adc8ed518126"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 C5 [CL05A106MQ5NUNC]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.5842
+                            },
+                            "uuid": "6a86f0b7-85bd-486d-9aa8-12cfa9bbdd5e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 C5 [CL05A106MQ5NUNC]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.5842
+                            },
+                            "uuid": "6a86f0b7-85bd-486d-9aa8-12cfa9bbdd5e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9034 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.73,
+                                "y": 1.2619
+                            },
+                            "uuid": "734df8f2-8503-4e66-a988-8c7d5dd53f81"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9034 [VCC]",
+                            "pos": {
+                                "x": 1.73,
+                                "y": 1.2619
+                            },
+                            "uuid": "d543be29-b4da-4408-aedd-e15944404bd2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C201 引脚 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.73,
+                                "y": 1.3381
+                            },
+                            "uuid": "2515de22-9971-4c54-8567-4eaba72e6327"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9015 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.73,
+                                "y": 1.3381
+                            },
+                            "uuid": "93fd0401-47a2-437e-a919-f2e7c479262a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9015 [GND]",
+                            "pos": {
+                                "x": 1.73,
+                                "y": 1.3381
+                            },
+                            "uuid": "421ff62e-d300-4baf-8244-b81b1ae69e21"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0004 [Ground-GND]",
+                            "pos": {
+                                "x": 1.778,
+                                "y": 0.3937
+                            },
+                            "uuid": "647850ea-ca76-4e44-858e-ad422878f44a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0007 [Ground-GND]",
+                            "pos": {
+                                "x": 1.778,
+                                "y": 0.6223
+                            },
+                            "uuid": "c2a69d76-90be-4759-8709-37b9df7f2f55"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C206 引脚 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.78,
+                                "y": 1.4619
+                            },
+                            "uuid": "a409b663-f7dd-41a9-a160-d7295bed9e52"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9025 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.78,
+                                "y": 1.4619
+                            },
+                            "uuid": "e68fbb39-14ee-4104-b4b4-c013c4817875"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9025 [MCU_VDDA]",
+                            "pos": {
+                                "x": 1.78,
+                                "y": 1.4619
+                            },
+                            "uuid": "94a76cc9-a060-42a1-b731-2f1eb5f210d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9014 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.78,
+                                "y": 1.5381
+                            },
+                            "uuid": "5e8b0748-9001-426b-9d33-6b73a3cc5e87"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9014 [AGND]",
+                            "pos": {
+                                "x": 1.78,
+                                "y": 1.5381
+                            },
+                            "uuid": "c03570da-5430-4546-ae9a-d4590a613b12"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9008 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.85,
+                                "y": 1.7881
+                            },
+                            "uuid": "20a76b9a-a328-402c-981c-140b0e39934f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C209 引脚 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.85,
+                                "y": 1.7881
+                            },
+                            "uuid": "ac0ae9b9-84f3-4671-8e8d-39a310f92bac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9008 [GND]",
+                            "pos": {
+                                "x": 1.85,
+                                "y": 1.7881
+                            },
+                            "uuid": "d51d2d49-6677-491b-94d6-bba1e096be3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'HXTAL'",
+                    "items": [
+                        {
+                            "description": "符号 Y200 [ABM3B]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 2.2098
+                            },
+                            "uuid": "3b013cda-258e-4943-8f8d-38e2cf5b7127"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'HXTAL'",
+                    "items": [
+                        {
+                            "description": "符号 Y200 [ABM3B]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 2.2098
+                            },
+                            "uuid": "3b013cda-258e-4943-8f8d-38e2cf5b7127"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9028 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.91,
+                                "y": 1.2619
+                            },
+                            "uuid": "92842480-4bc4-4589-afab-dcecda8a4364"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9028 [VCC]",
+                            "pos": {
+                                "x": 1.91,
+                                "y": 1.2619
+                            },
+                            "uuid": "65d2535a-ed4f-4f65-bd66-b3c986bb5603"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9003 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.91,
+                                "y": 1.3381
+                            },
+                            "uuid": "7d9f7e62-bbc5-40d4-a69f-0a2911ab0d17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C202 引脚 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.91,
+                                "y": 1.3381
+                            },
+                            "uuid": "8483bffd-6647-4c60-ac63-b522592e20d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9003 [GND]",
+                            "pos": {
+                                "x": 1.91,
+                                "y": 1.3381
+                            },
+                            "uuid": "28a15849-e148-4363-990b-42c6888f7aa8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 U20 [XC6210B332MR]",
+                            "pos": {
+                                "x": 1.9177,
+                                "y": 0.3429
+                            },
+                            "uuid": "b7bbc019-9dfb-4d2c-8019-54d8e0504a14"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 U20 [XC6210B332MR]",
+                            "pos": {
+                                "x": 1.9177,
+                                "y": 0.3429
+                            },
+                            "uuid": "b7bbc019-9dfb-4d2c-8019-54d8e0504a14"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 U2 [LP5907QMFX-3.3Q1]",
+                            "pos": {
+                                "x": 1.9177,
+                                "y": 0.5969
+                            },
+                            "uuid": "60cf7234-72db-45da-9b73-196dfc505921"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 U2 [LP5907QMFX-3.3Q1]",
+                            "pos": {
+                                "x": 1.9177,
+                                "y": 0.5969
+                            },
+                            "uuid": "60cf7234-72db-45da-9b73-196dfc505921"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9016 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.01,
+                                "y": 1.4619
+                            },
+                            "uuid": "a276823a-7b0a-482b-86ff-43782f82d51c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9016 [MCU_VDDA]",
+                            "pos": {
+                                "x": 2.01,
+                                "y": 1.4619
+                            },
+                            "uuid": "58d560b7-8117-4a64-85bd-8fd4d5708e55"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9001 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.01,
+                                "y": 1.5381
+                            },
+                            "uuid": "067b6ecd-e3e7-406d-8572-9de53bfd6c7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C207 引脚 2 [Passive, Line]",
+                            "pos": {
+                                "x": 2.01,
+                                "y": 1.5381
+                            },
+                            "uuid": "a1ea5479-352d-45e6-bb8e-7dbcae97e3c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9001 [AGND]",
+                            "pos": {
+                                "x": 2.01,
+                                "y": 1.5381
+                            },
+                            "uuid": "92be93ed-05eb-4705-8cb2-edd0c42f8e30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 CN2 [5012]",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 0.254
+                            },
+                            "uuid": "059857fa-4f51-40c1-abd1-5ec6da7fe46a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 CN2 [5012]",
+                            "pos": {
+                                "x": 2.0447,
+                                "y": 0.254
+                            },
+                            "uuid": "059857fa-4f51-40c1-abd1-5ec6da7fe46a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 CN6 [5012]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.4826
+                            },
+                            "uuid": "5b132014-0978-44e2-a70b-9460dd9e0044"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 CN6 [5012]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.4826
+                            },
+                            "uuid": "5b132014-0978-44e2-a70b-9460dd9e0044"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9036 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.09,
+                                "y": 1.2619
+                            },
+                            "uuid": "23dfbc4d-802d-4be5-acde-5f436e2dbefa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C203 引脚 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.09,
+                                "y": 1.2619
+                            },
+                            "uuid": "ca454d58-1eda-41ad-be58-d799ba84f877"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9036 [VCC]",
+                            "pos": {
+                                "x": 2.09,
+                                "y": 1.2619
+                            },
+                            "uuid": "d07e5c30-c31e-411e-871b-71ffc9976630"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9035 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.09,
+                                "y": 1.3381
+                            },
+                            "uuid": "78ef5de6-d185-465a-9942-41ef1e0962f2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9035 [GND]",
+                            "pos": {
+                                "x": 2.09,
+                                "y": 1.3381
+                            },
+                            "uuid": "1047e2c4-3753-4732-b374-a17a1ba5e976"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R201 引脚 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.1,
+                                "y": 1.7119
+                            },
+                            "uuid": "056e8e71-f938-4796-9f2c-cb8c685a79c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9023 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.1,
+                                "y": 1.7881
+                            },
+                            "uuid": "5721ea17-9baa-43ab-b826-8206f4fdc2d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9023 [GND]",
+                            "pos": {
+                                "x": 2.1,
+                                "y": 1.7881
+                            },
+                            "uuid": "fda17531-f3b8-48e4-9028-8adabec03652"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0001 [Power-VCC]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.3175
+                            },
+                            "uuid": "0b20cd57-0093-416f-b85c-bafde77c950a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 C3 [CL05A106MQ5NUNC]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.3556
+                            },
+                            "uuid": "10d6194f-4919-4c43-9bde-5064dfd58221"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 C3 [CL05A106MQ5NUNC]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.3556
+                            },
+                            "uuid": "10d6194f-4919-4c43-9bde-5064dfd58221"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0002 [Ground-GND]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.3937
+                            },
+                            "uuid": "362e74d4-f4ff-456c-b3e7-e695a58e7796"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0003 [Power-VCC]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.5461
+                            },
+                            "uuid": "3c36c2d9-6ec4-44bd-8aec-40b69cecaa12"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 C6 [CL05A106MQ5NUNC]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.5842
+                            },
+                            "uuid": "68cc9901-39c9-4091-962e-35a7aa5fb2e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 C6 [CL05A106MQ5NUNC]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.5842
+                            },
+                            "uuid": "68cc9901-39c9-4091-962e-35a7aa5fb2e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0005 [Ground-AGND]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.6223
+                            },
+                            "uuid": "9494321c-89cf-42be-8a55-c1f7ec8f0e8c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0010 [Ground-GND]",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.6985
+                            },
+                            "uuid": "fb89cf0b-8762-4ffe-b7de-4ad828c7bc42"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 CN3 [5012]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.3937
+                            },
+                            "uuid": "10ccf461-8134-4e5b-afba-58ed2ea0b787"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 CN3 [5012]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.3937
+                            },
+                            "uuid": "10ccf461-8134-4e5b-afba-58ed2ea0b787"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'ProDoc_Board1v1_2026-10-26-import-fps'",
+                    "items": [
+                        {
+                            "description": "符号 R3 [0402WGF0000TCE]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.6985
+                            },
+                            "uuid": "4a73622d-b7f0-4b6f-b0e5-5448ce8dca25"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "在符号库中 '0402WGF0000TCE' 找不到符号 'Interface'",
+                    "items": [
+                        {
+                            "description": "符号 R3 [0402WGF0000TCE]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.6985
+                            },
+                            "uuid": "4a73622d-b7f0-4b6f-b0e5-5448ce8dca25"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'ProDoc_Boa-easyedapro'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR0009 [Ground-AGND]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 0.6985
+                            },
+                            "uuid": "e93d62fe-c284-457a-acd5-bcfcd22bcd6a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9022 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.24,
+                                "y": 1.4619
+                            },
+                            "uuid": "66615fee-f683-4d68-ae40-1f28ea7d4f16"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C208 引脚 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.24,
+                                "y": 1.4619
+                            },
+                            "uuid": "9746fae8-e48e-4316-bb22-d9c49e41ee61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9022 [MCU_VDDA]",
+                            "pos": {
+                                "x": 2.24,
+                                "y": 1.4619
+                            },
+                            "uuid": "81317a08-35c7-42c3-8852-40506e8fa88f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9033 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.24,
+                                "y": 1.5381
+                            },
+                            "uuid": "f0b0af77-2167-4c4a-89d8-c280124f695c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9033 [AGND]",
+                            "pos": {
+                                "x": 2.24,
+                                "y": 1.5381
+                            },
+                            "uuid": "6be537ca-9e62-4622-ada6-8b22e6ac89c6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9026 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.27,
+                                "y": 1.2619
+                            },
+                            "uuid": "9bbdc6ff-7695-49c7-af2e-37dfe04e47ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C204 引脚 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.27,
+                                "y": 1.2619
+                            },
+                            "uuid": "c705cfd7-6b09-4066-9e07-1e0fda0312c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9026 [VCC]",
+                            "pos": {
+                                "x": 2.27,
+                                "y": 1.2619
+                            },
+                            "uuid": "b35d9307-3548-4faf-8bbd-8641b31e65e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9019 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.27,
+                                "y": 1.3381
+                            },
+                            "uuid": "87bf00db-4f02-43fe-ab24-5ebc52c3fa8e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9019 [GND]",
+                            "pos": {
+                                "x": 2.27,
+                                "y": 1.3381
+                            },
+                            "uuid": "abdbe63d-4bc5-481a-b3a8-445f0c33cfa9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9004 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.35,
+                                "y": 1.7881
+                            },
+                            "uuid": "3fa8bfdf-f644-472e-9d59-b0b39fbdfb3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R202 引脚 2 [Passive, Line]",
+                            "pos": {
+                                "x": 2.35,
+                                "y": 1.7881
+                            },
+                            "uuid": "c76d473b-e9a4-4628-96f7-908b412713a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9004 [GND]",
+                            "pos": {
+                                "x": 2.35,
+                                "y": 1.7881
+                            },
+                            "uuid": "7c0b9a62-f25b-48c9-8e35-6bba47f896d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9005 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.3992,
+                                "y": 1.0246
+                            },
+                            "uuid": "a2fcc687-342f-46cf-b0cb-9bb9f1fb9596"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9005 [VCC]",
+                            "pos": {
+                                "x": 2.3992,
+                                "y": 1.0246
+                            },
+                            "uuid": "f3944e4a-d3ac-4b96-bee6-e2c4b5c39f80"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR9013 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.3992,
+                                "y": 1.05
+                            },
+                            "uuid": "d8dcf4b3-f3e1-4227-bc51-e68ff3f43fce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9013 [GND]",
+                            "pos": {
+                                "x": 2.3992,
+                                "y": 1.05
+                            },
+                            "uuid": "a9cad1f6-9a7a-4a71-bdb0-dc6013c8efad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J200 引脚 3 [Pin_3, Passive, Line]",
+                            "pos": {
+                                "x": 2.3992,
+                                "y": 1.0754
+                            },
+                            "uuid": "c55eb8d4-47da-4317-bb8c-f967fc0fbc84"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9041 [VCC]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.5969
+                            },
+                            "uuid": "a530eb12-936b-4685-9378-db1490fc8f5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9042 [GND]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.6731
+                            },
+                            "uuid": "1bcd9d33-e002-40e6-be5c-7ad7f09f8421"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9017 [VCC]",
+                            "pos": {
+                                "x": 2.7051,
+                                "y": 1.7653
+                            },
+                            "uuid": "5a88c72c-ee5c-4cfe-a27f-25becad1ee72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9021 [VCC]",
+                            "pos": {
+                                "x": 2.7559,
+                                "y": 1.4097
+                            },
+                            "uuid": "c5f21d82-91a2-4351-9143-5f0eb9f77aa6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9010 [MCU_VDDA]",
+                            "pos": {
+                                "x": 2.7559,
+                                "y": 1.4859
+                            },
+                            "uuid": "86ba0c80-476d-4b5a-b775-2632fca88c44"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9043 [MCU_VDDA]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 0.5969
+                            },
+                            "uuid": "5d66507d-20b0-4721-825e-06335b4113e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9044 [AGND]",
+                            "pos": {
+                                "x": 2.921,
+                                "y": 0.6731
+                            },
+                            "uuid": "c707ea3d-0490-4bb8-97ab-43ed673d253b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9032 [VCC]",
+                            "pos": {
+                                "x": 2.9464,
+                                "y": 1.0287
+                            },
+                            "uuid": "0ac50e39-4c2f-43b0-8405-75c596e646ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9007 [GND]",
+                            "pos": {
+                                "x": 2.9464,
+                                "y": 1.0541
+                            },
+                            "uuid": "7bdec2a7-8f0a-4631-9dff-8802c4fcc311"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'StylePower'",
+                    "items": [
+                        {
+                            "description": "符号 #PWR9030 [VCC]",
+                            "pos": {
+                                "x": 2.9972,
+                                "y": 1.7653
+                            },
+                            "uuid": "12a55254-0387-4cec-b296-dfee5c29e305"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "MCU.candidate.kicad_sch"
+}

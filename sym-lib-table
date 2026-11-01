@@ -1,4 +1,5 @@
 (sym_lib_table (version 7)
+(lib (name "LXTAL") (type "KiCad") (uri "${KIPRJMOD}/LXTAL.kicad_sym") (options "") (descr "HQ exact ABS07 low-speed crystal symbol"))
 (lib (name "MCU") (type "KiCad") (uri "${KIPRJMOD}/MCU.kicad_sym") (options "") (descr ""))
 (lib (name "ProDoc_Boa-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/ProDoc_Boa-easyedapro.kicad_sym") (options "") (descr ""))
 (lib (name "StylePower") (type "KiCad") (uri "${KIPRJMOD}/StylePower.kicad_sym") (options "") (descr "Exact-name power glyphs for visual-only schematic polish"))
@@ -6,4 +7,5 @@
 (lib (name "ProDoc_IPB-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/ProDoc_IPB-easyedapro.kicad_sym") (options "") (descr "HPM debugger reference"))
 
 (lib (name "Interface") (type "KiCad") (uri "${KIPRJMOD}/Interface.kicad_sym") (options "") (descr "Corrected catalog metadata preserving R3 symbol geometry"))
+(lib (name "HXTAL") (type "KiCad") (uri "${KIPRJMOD}/HXTAL.kicad_sym") (options "") (descr "HQ Abracon ABM3B crystal symbol"))
 )
